@@ -600,8 +600,8 @@ if($log_access || $block_continents || $block_countries || $block_cities || $blo
 
 if($log_access){
 	$preg_logs = [
-		__DIR__ . '/lisal-audit-allowed' . '-' . date('Y-m-d', strtotime('yesterday')) . '.log',
-		__DIR__ . '/lisal-audit-blocked' . '-' . date('Y-m-d', strtotime('yesterday')) . '.log',
+		__DIR__ . '/logs/lisal-audit-allowed' . '-' . date('Y-m-d', strtotime('yesterday')) . '.log',
+		__DIR__ . '/logs/lisal-audit-blocked' . '-' . date('Y-m-d', strtotime('yesterday')) . '.log',
 	];
 	foreach($preg_logs as $preg_log){
 		if(is_file($preg_log)){
@@ -619,7 +619,7 @@ if($log_access){
 			}
 		}
 	}
-	appendCsvRowsToAccessLog(__DIR__ . '/lisal-audit-' . ($end_blocked ? 'blocked' : 'allowed') . '-' . date('Y-m-d') . '.log', $access_rows);
+	appendCsvRowsToAccessLog(__DIR__ . '/logs/lisal-audit-' . ($end_blocked ? 'blocked' : 'allowed') . '-' . date('Y-m-d') . '.log', $access_rows);
 }
 if($end_blocked){
 	blockClient($blocked);

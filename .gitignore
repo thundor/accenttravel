@@ -1,4 +1,5 @@
 /google*.html
+/*.json
 /*.log
 /cookie-name
 /uploads/*
@@ -21,10 +22,9 @@
 /themes/newux/views/partials/module/backup/*
 !/themes/newux/views/partials/module/backup/.gitkeep
 
-/audit/system/*.gz
-/audit/system/*.log
-
-!/audit/system/geolite/*
+/audit/system/logs/*
+!/audit/system/logs/.gitkeep
+/audit/system/geolite/*
 !/audit/system/geolite/.gitkeep
 
 /app/logs/*
