@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="ro">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    	<!-- Orice continut in header trebuie inserat dupa aceasta linie -->
+        <meta name="description" content="Descriere hotel - 140 de caractere ± 10">
+        <meta name="author" content="Front-End Design by Lemar Artwork, built and powered by Lisal Expert">
+        <link rel="icon" href="images/favicon.ico">
+        <title>Confirmare rezervare City Break Barcelona, Spania</title>
+
+
+		<link type="text/css" rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/jquery-ui.css" />
+        <link type="text/css" rel="stylesheet" href="js/calendar/build/css/caleran.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/default.css" />
+        <link type="text/css" rel="stylesheet" href="css/responsive.css" />
+        
+    	
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    	<![endif]-->
+  
+</head>
+
+<body>
+		 <!--Zona Logo + Login + Servicii > TOP -->
+		<div class="topHeader">
+            
+  				<div class="container">
+    
+      			 <div class="row">
+                 
+                         <div class="col-sm-12 col-md-4 logoTop1">
+                                <a href="#"><img src="images/logo.png" alt="Accent Travel &amp; Events" id="logoAccent1" /></a>
+                         </div>
+                         
+                         <div class="col-sm-12 col-md-8 text-right">
+                            
+                                        
+                                         <div class="float-right">
+                                                <p id="contulMeu"><i class="fa fa-user"></i> CONTUL MEU </p>                                      
+                                                
+                                                	<div id="contOpt">
+                                                    <p id="login"><i class="fa fa-lock"></i> Log In</p>
+                                                    <p id="register"><i class="fa fa-key"></i> Inregistrare</p>
+                                                    <img src="images/arrowUp.png" alt="arrowUp" />
+                                                    </div>
+                                                    
+                                              <!--Login modal-->
+                                                    <div id="loginWindow">
+                                                        <h3>Intra in cont</h3>
+                                                        <span class="fa fa-2x fa-arrow-circle-o-down"></span>
+                                                        <p>Ai cont deja? Autentifica-te mai jos:</p>
+                                                            <form>
+                                                             <div class="form-group">
+                                                			<input type="email" class="form-control form-control-lg" id="userLogin" placeholder="Introduceti email">
+                                             				 </div>
+                                                             <div class="form-group">
+                                                			<input type="password" class="form-control form-control-lg" id="passLogin" placeholder="Introduceti parola">
+                                                            
+                                                            <label class="form-check-label"><input class="form-check-input" type="checkbox"> Tine-ma minte</label>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-lg btn-primary btn-md btn-block login-submit text-size-small">Intra in cont</button>
+                                                            <p><a href="#">Mi-am uitat parola</a><br />
+                                                            <a href="#"  id="register2">Nu ai cont? Inregistreaza-te</a></p>
+                                                            
+                                                            </form>
+                                                            <i id="loginClose" class="fa fa-close"></i>
+                                                            
+                                                            <p class="strikeMiddle">SAU</p>
+                                                            
+                                                            <button class="btn btn-info btn-block btn-lg facebook-login text-center" type="button"><i class="fa fa-facebook"></i> Conectare cu Facebook</button>
+                                                            
+                                                            
+                                                    </div>
+                                                    
+                                              <!--Inregistrare modal-->      
+                                                    <div id="regWindow"> 
+                                                        <h3>Creeaza un cont</h3>
+                                                        <span class="fa fa-2x fa-arrow-circle-o-down"></span>
+                                                        
+                                                            <form>
+                                                           
+                                                            <div class="row">
+                                                                 <div class="col-sm-12 col-md-4 col-lg-5">
+                                                                  <div class="form-group">
+                                                                 <select id="genUser" class="form-control form-control-lg">
+                                                                        <option value="1">Dl.</option>
+                                                                        <option value="2">Dna.</option>
+                                                                        <option value="3">Dra.</option>	
+                                                                  </select>
+                                                                  </div>
+                                                                 </div>	
+                                                                 <div class="col-sm-12 col-md-4 col-lg-7">
+                                                                 <div class="form-group">
+                                                                <input type="text" class="form-control form-control-lg" id="regPrenume" placeholder="Prenume">
+                                                                </div>
+                                                                 </div>
+                                                            </div>
+                                                  
+                                                            <div class="form-group">
+                                                            <input type="text" class="form-control form-control-lg" id="regNume" placeholder="Nume" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                            <input type="email" class="form-control form-control-lg" id="regEmail" placeholder="Adresa de email" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                            <input type="tel" class="form-control form-control-lg" id="regTelefon" placeholder="Numar de telefon" required>
+                                                            </div>
+                                                             <div class="form-group">
+                                                            <input type="password" class="form-control form-control-lg" id="parolaReg" placeholder="Introduceti parola" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                            <input type="password" class="form-control form-control-lg" id="parolaConf" placeholder="Confirmare parola" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                             <label class="form-check-label">
+                                                  <input type="checkbox" class="form-check-input" id="nwslReg" > Tine-ma la curent cu promotiile si ofertele Accent Travel &amp; Events</label>       												</div>
+                                                  			<div class="form-group">
+                                                            <label class="form-check-label">
+                                                  <input type="checkbox" class="form-check-input"  id="acordUser" >Sunt de acord cu <a href="#">Termenii si Conditiile</a> Accent Travel &amp; Events</label>
+                                                                    
+                                                            </div>
+                                                            <button type="submit" class="btn btn-lg btn-primary btn-md btn-block login-submit text-size-small">Inregistrare</button>
+                                                            </form>
+                                                        <i id="regClose" class="fa fa-close"></i>
+                                                    </div>
+                                                    
+                                                
+                                        			<p id="servUtile">INFO UTILE | BUSINESS TRAVEL</p>
+                                                     <!--servicii modal-->
+                                                            <div id="utileVacanta">
+                                                                    <ul class="list-unstyled">
+                                                                        <li>INFO UTILE</li>
+                                                                        <li><a href="#">Asigurari</a></li>
+                                                                        <li><a href="#">Termeni si Conditii</a></li>
+                                                                        <li><a href="#">Intrebari Frecvente</a></li>
+                                                                        <li><a href="#">Promisiunea Calitatii</a></li>
+                                                                    </ul>
+                                                                    
+                                                                    <ul class="list-unstyled">
+                                                                        <li>CORPORATE</li>
+                                                                        <li><a href="#">Business Travelers</a></li>
+                                                                        <li><a href="#">Travel Managers</a></li>
+                                                                        <li><a href="#">CFO &amp; Procurement</a></li>
+                                                                        <li><a href="#">Leisure Trips</a></li>
+                                                                    </ul>
+                                                                    <img src="images/arrowUp.png" alt="arrowUp" />
+                                                            </div>	
+                                        		
+                                        </div>
+                                       
+                                        <div class="socialTop1">
+                                                <p><i class="fa fa-phone"></i><span> 0374 462 265</span> </p>
+                                        </div>
+                                       
+                        </div>
+                        
+        		</div>
+        
+   				 </div>
+    
+			</div>
+		
+         <!--Meniu Principal-->
+		<div class="bg-primary">
+            <div class="container">
+                <div class="row">
+                
+                    <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary mainNav">
+                    
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navBarMain" aria-controls="navBarMain" aria-expanded="false" aria-label="Arata Meniu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
+    
+                     <div class="collapse navbar-collapse" id="navBarMain">
+            
+            <ul class="navbar-nav mr-auto">
+                   <li class="nav-item active">
+                                <a class="nav-link" href="#">Hoteluri</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Bilete avion</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="cityBreakMN" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">City Break</a>
+                                <div class="dropdown-menu" aria-labelledby="cityBreakMN">
+                                  <a class="dropdown-item" href="#">Amsterdam</a>
+                                  <a class="dropdown-item" href="#">Berlin</a>
+                                  <a class="dropdown-item" href="#">Copenhaga</a>
+                                  <a class="dropdown-item" href="#">Paris</a>
+                                  <a class="dropdown-item" href="#">Praga</a>
+                                </div>
+                              </li>
+                              
+                              <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="pacheteMN" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pachete</a>
+                              		<div class="dropdown-menu" aria-labelledby="cityBreakMN">
+                                  <a class="dropdown-item" href="#">Litoral Romania <span>(rezervare online)</span></a>
+                                  <a class="dropdown-item" href="#">Balneo/SPA Romania <span>(rezervare online)</span></a>
+                                  <a class="dropdown-item" href="#">Vacante Cipru</a>
+                                  <a class="dropdown-item" href="#">Vacante Croatia</a>
+                                  <a class="dropdown-item" href="#">Vacante Emiratele Arabe Unite</a>
+                                  <a class="dropdown-item" href="#">Vacante Grecia</a>
+                                  <a class="dropdown-item" href="#">Vacante Muntenegru</a>
+                                  <a class="dropdown-item" href="#">Vacante Portugalia</a>
+                                  <a class="dropdown-item" href="#">Vacante Spania</a>
+                                  <a class="dropdown-item" href="#">Vacante Turcia</a>
+                                </div>
+                              </li>
+                              <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="vacanteTem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vacante Tematice</a>
+                              		<div class="dropdown-menu" aria-labelledby="vacanteTem">
+                                  <a class="dropdown-item" href="#">Arta &amp; Cultura</a>
+                                  <a class="dropdown-item" href="#">Distractie</a>
+                                  <a class="dropdown-item" href="#">Familie</a>
+                                  <a class="dropdown-item" href="#">Romantice</a>
+                                  <a class="dropdown-item" href="#">Ski &amp; Snowboard</a>
+                                  <a class="dropdown-item" href="#">Shopping</a>
+                                  <a class="dropdown-item" href="#">Sporturi</a>
+                                </div>
+                              </li>
+                              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        </ul>
+                        <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Vreau sa calatoresc in…">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cauta</button>
+            </form>
+                    </div>
+                </nav>
+                
+                </div>
+            </div> 
+		</div>
+			
+		 <!--Continut pagina -->
+        	<div class="container">
+        		 <div class="row">
+                    	<div class="col-12 col-sm-6 mt-4">
+                    	
+                    	    		 <h3 class=" subTitleFilter pl-0">Detalii Rezervare</h3>
+                                        <ul class="list-unstyled">
+                                        	<li><i class="fa fa-building-o greenCTA"></i>  Hotel Ibis Barcelona Castelldefels, Barcelona, Spania </li>      
+                                        	<li><i class="fa fa-user-o greenCTA"></i> 1 Camera x 2 adulti</li>
+                                            <li><i class="fa fa-calendar-o greenCTA"></i> Perioada: 13.05.2018 - 20.05.2018</li>
+                                            <li><i class="fa fa-moon-o greenCTA"></i> Numar Nopti: 8</li>
+                                         </ul>   
+                           </div>       
+                         <div class="col-12 col-sm-6 mt-4">           
+                                 <h3 class=" subTitleFilter pl-0">Servicii Incluse</h3>
+                                            <ul class="list-unstyled">
+                                        	<li><i class="fa fa-hotel greenCTA"></i> Cazare</li>
+                                            <li><i class="fa fa-cutlery greenCTA"></i> Mic Dejun</li>
+                                            <li><i class="fa fa-plane greenCTA"></i> Bilet Avion Dus-Intors</li>
+                                         </ul>   
+                            	
+                    	</div>
+                        
+                         <div class="col-12 col-sm-6 mt-4 mb-4">           
+                                 <h3 class=" subTitleFilter pl-0">Calatori</h3>
+                                            <ul class="list-unstyled">
+                                        	<li><i class="fa fa-user-o greenCTA"></i> Popescu Ion, Str. Nemuririi nr. 4, Sector 6, Bucuresti, 20.04.1975, 0723 568 455</li>
+                                            <li><i class="fa fa-user-o greenCTA"></i> Popescu Maria, Str. Nemuririi nr. 4, Sector 6, Bucuresti, 12.08.1979</li>
+                                         </ul>   
+                            	
+                    	</div>
+                         <div class="col-12 col-sm-6 mt-4 mb-4">           
+                                 <h3 class=" subTitleFilter pl-0">Pret</h3>
+                                            <ul class="list-unstyled">
+                                        	         <li><i class="fa fa-calculator greenCTA"></i> Total de Plata: 3399 Lei</li>
+                                           	    	 <li><i class="fa fa-calendar-o greenCTA"></i> Data pana la care trebuie inregistrata plata pentru confirmarea rezervarii: 20.06.2018</li>
+                                         	</ul> 
+                    	</div>
+                        
+                        <div class="col-12 col-sm-6 mb-5">
+                        	<button class="btn btn-primary" id="printBook"><i class="fa fa-print"></i> Printeaza Detaliile Rezervarii</button>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 mb-5">
+                        	<button class="btn btn-primary"  id="emailBook"><i class="fa fa-envelope-o"></i> Trimite pe Email</button>
+                        </div>
+                        
+                    </div>
+            </div>
+                    
+        
+        <!--Footer-->
+        <div class="footer">
+        	<div class="container">
+        		<div class="row">
+                	<div class="col-sm-6 col-lg-3">
+                    	<img src="images/logo.png" alt="Logo Accent Travel and Events" id="logoFooter" /><br />
+                        <p class="socialGo">Citeste <a href="#" class=" rounded">BLOG-ul</a> Accent! Afla totul despre destinatiile tale favorite si descopera destinatii noi!</p>
+                        <a href="#"><img src="images/facebook.png" alt="Accent Facebook" class="socialFoot" /></a>
+                        <a href="#"><img src="images/linkedin.png" alt="Accent Linkedin" class="socialFoot" /></a>
+                        <a href="#"><img src="images/google.png" alt="Accent Google" class="socialFoot" /></a>
+                         <a href="#"><img src="images/youtube.png" alt="Accent Youtube" class="socialFoot" /></a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                    	<h5>Accent Travel &amp; Events</h5>
+                        <ul class="list-unstyled">
+                        	<li><a href="#">Despre noi</a></li>
+                            <li><a href="#">Presa</a></li>
+                            <li><a href="#">Termeni si Conditii</a></li>
+                            <li><a href="#">Politica de confidentialitate</a></li>
+                            <li><a href="#">Corporate Travel</a></li>
+                             <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-sm-6 col-lg-3">
+                    	<h5>Servicii turistice</h5>
+                        <ul class="list-unstyled">
+                        	<li><a href="#">Oferte hoteluri</a></li>
+                            <li><a href="#">Oferte bilete de avion</a></li>
+                            <li><a href="#">Oferte city break</a></li>
+                            <li><a href="#">Oferte pachete cazare</a></li>
+                            <li><a href="#">Oferte vacante Romania</a></li>
+                            <li><a href="#">Oferte ski</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-sm-6 col-lg-3">
+                    	<h5>Abonare Newsletter</h5>
+                        <div class="form-group">
+                        <p class="socialGo">Afla primul despre cele mai bune oferte!</p>
+                        <input type="email" class="form-control" name="numeNwsl" id="numeNwsl" placeholder="Adresa de e-mail" />
+                        </div>
+                        <button id="recNwsl" name="recNwsl" class="btn btn-secondary">INREGISTRARE</button>
+                    </div> 
+                    
+                                 	
+                </div>
+            </div>
+        </div>
+        
+        <!--Copyright + payment + licenta-->
+        <div class="container underFoot">
+        	<div class="row mb-3 mt-3">
+        			<div class="col-12 col-sm-12 col-md-5">
+                    	<p>&copy; 2017 Accent Travel &amp; Events SRL. Toate drepturile rezervate<br />
+                        <a href="http://www.anpc.gov.ro/">ANPC Romania</a> | <a href="http://ec.europa.eu/consumers/odr/">Solutionarea Litigiilor</a> <br /><a href="images/licenta-accent-travel-xs.pdf" target="_blank">Licenta turism: Nr. 1664/04.01.2011</a> | <a href="images/asigurare-accent-travel-xs.pdf" target="_blank">Polita de Asigurare nr. 45259</a>
+                        </p>
+                        </div>
+                    <div class="col-12 col-sm-12 col-md-3"><img src="images/certificates.png" alt="Certificari IATA" /></div>
+                    <div class="col-12 col-sm-12 col-md-4"><img src="images/cards.png" alt="Vacante cu plata online" /></div>
+                    </div>  
+             </div>
+             
+             
+        <!--Scroll to top-->
+         <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
+         <span class="fa fa-chevron-up"></span></a>
+         
+         <!-- Modal harta Hoteluri lista -->
+           				<div id="modalMapH">
+                                   <div class="row">
+                                         <div class="col-sm-12">
+                                                 <span class="btn btn-outline-danger float-right mb-3">Inchide</span>
+                                                          <h4 class="float-left">Harta Hotel Lami, Barcelona, Spania</h4>
+                                          </div>
+                                          <div class="col-sm-12">
+                                                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.3589151938504!2d28.629450015918646!3d44.22026847910596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40baf06f7feeed13%3A0x3df8e75b98a91ec1!2sHotel+Perla!5e0!3m2!1sen!2sro!4v1503488624252" height="450"   style="border:0; width:100%" allowfullscreen></iframe>
+                                           </div>
+                                  </div>
+                          </div>
+                                        
+                       
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/calendar/build/js/moment.min.js"></script>
+<script type="text/javascript" src="js/calendar/build/js/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="js/calendar/build/js/caleran.min.js"></script>
+<script type="text/javascript" src="js/calendar/js/jquery.hammer.js"></script>  
+<script type="text/javascript" src="js/custom-jquery.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+
+</body>
+
+</html>

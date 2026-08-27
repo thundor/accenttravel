@@ -1,0 +1,14 @@
+{
+    "name": "Afisare-articole-blog-lista",
+    "children": [
+        {
+            "children": [
+                {
+                    "mod_data": {
+                        "image": {}
+                    }
+                }
+            ]
+        }
+    ]
+}

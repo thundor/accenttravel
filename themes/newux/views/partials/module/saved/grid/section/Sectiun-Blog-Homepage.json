@@ -1,0 +1,52 @@
+{
+    "name": "Sectiun-Blog-Homepage",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "dashed-divider",
+                            "status": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "section-title",
+                            "status": true,
+                            "mod_data": {
+                                "title": "Inspiratia vine odata cu dorul de duca",
+                                "html": "<br>\nVezi noutatile de pe blogul nostru si inspira-te pentru urmatoarea ta evadare urbana"
+                            }
+                        }
+                    ],
+                    "default_mod_template": "section-title",
+                    "default_mod_data": {
+                        "title": "Section title",
+                        "html": "Vara incepe cu inspiratie"
+                    }
+                }
+            ],
+            "status": true
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "blog-items",
+                            "status": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "status": true
+}

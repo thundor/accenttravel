@@ -1,0 +1,596 @@
+{
+    "name": "vacante-chartere-grid_v2",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {},
+                                        "title": "Evadeaza in stil – destinatii fara griji",
+                                        "html": "<p>Tot ce ai nevoie pentru o vacanta perfecta – intr-un singur loc.</p>\n"
+                                    },
+                                    "mod_template": "section-title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Creta_Chania_vacanta_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "/vacante-creta-chania-grecia",
+                                            "tag": "a"
+                                        },
+                                        "title": "Creta - Chania"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Santorini_vacanta_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-santorini-grecia"
+                                        },
+                                        "title": "Santorini - Grecia"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Mauritius_vacante_charter_dominikruhl.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-mauritius"
+                                        },
+                                        "title": "Mauritius"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/tenerife.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-tenerife-spania"
+                                        },
+                                        "title": "Tenerife - Spania"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/vacante_costa_blanca_hotel_cazare_spania.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-costa-blanca-spania"
+                                        },
+                                        "title": "Costa Blanca"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/costa_brava_spania_cazare_hotel.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "/vacante-costa-brava-spania",
+                                            "tag": "a"
+                                        },
+                                        "title": "Costa Brava"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/pexels_jess_vide_4319752.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-gran-canaria-spania"
+                                        },
+                                        "title": "Gran Canaria"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Costa_del_sol_Spania.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-costa-del-sol-spania"
+                                        },
+                                        "title": "Costa del Sol"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Ibiza_vacante_charter_lloyd_james.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "/vacante-ibiza-spania",
+                                            "tag": "a"
+                                        },
+                                        "title": "Ibiza - Spania"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Bodrum_turcia_vacante_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-bodrum-turcia"
+                                        },
+                                        "title": "Bodrum - Turcia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Ischia_Italia_vacante_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-ischia-italia"
+                                        },
+                                        "title": "Ischia - Italia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Sicilia_Italia_vacante_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-sicilia-italia"
+                                        },
+                                        "title": "Sicilia - Italia"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": true
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/pexels_bradanton_15017454.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "/vacante-sardinia-italia",
+                                            "tag": "a"
+                                        },
+                                        "title": "Sardinia - Italia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Nisipurile_de_aur_bulgaria_vacante.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-nisipurile-de-aur-bulgaria"
+                                        },
+                                        "title": "Nisipurile de Aur"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Sunny_Beach_vacante_bulgaria.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Sunny Beach "
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/halkidiki_beach - Copy 1.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-halkidiki-macedonia"
+                                        },
+                                        "title": "Halkidiki - Grecia"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": true
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Sharm_el_Sheikh_vacante_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/sharm-el-sheikh-vacante-charter"
+                                        },
+                                        "title": "Sharm El Sheikh"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Mallorca_vacante_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/mallorca-vacante-charter"
+                                        },
+                                        "title": "Mallorca - Spania"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Hurghada_vacante_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hurghada-vacante-charter"
+                                        },
+                                        "title": "Hurghada"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Antalya_vacante_turcia.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/antalya-vacante-charter"
+                                        },
+                                        "title": "Antalya - Turcia"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": true
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Turcia_Antalya.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Rhodos, Grecia"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Dubai-vacante-charter.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Dubai, Emiratele Arabe Unite"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Italia_Coasta_Amalfitana.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Madeira - Portugalia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Thailanda.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Thassos, Grecia"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": false
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Turcia_Antalya.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Creta - Heraklion"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Tunisia.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Maldive"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Italia_Coasta_Amalfitana.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Madeira - Portugalia"
+                                    }
+                                }
+                            ],
+                            "status": false
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Thailanda.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Thassos, Grecia"
+                                    }
+                                }
+                            ],
+                            "status": false
+                        }
+                    ],
+                    "status": false
+                }
+            ],
+            "default_mod_template": "card-image-vertical",
+            "default_mod_data": {
+                "image": {
+                    "props": {
+                        "src": "/resources/images/balvanyos.jpg",
+                        "height": "250",
+                        "cover": true,
+                        "aspectRatio": "16/9",
+                        "rounded": "lg"
+                    }
+                },
+                "props": {
+                    "tag": "a",
+                    "href": "https://accenttravel.ro/hoteluri",
+                    "class": "text-decoration-none mx-auto",
+                    "maxWidth": "400",
+                    "rounded": "lg",
+                    "minWidth": "250"
+                },
+                "title": "Turcia - Antalya",
+                "subtitle": "",
+                "button_title": "Vezi ofertele",
+                "header_title": ""
+            },
+            "status": true,
+            "props": {
+                "class": "pt-10 pb-10"
+            }
+        }
+    ]
+}

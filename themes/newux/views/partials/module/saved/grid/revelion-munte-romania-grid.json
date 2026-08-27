@@ -1,0 +1,379 @@
+{
+    "name": "revelion-munte-romania-grid",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {},
+                                        "title": "Oferte la munte în România",
+                                        "html": "<p>Aer curat, peisaje spectaculoase și hoteluri care-ți dau toate motivele să revii de fiecare dată cu mai multă bucurie!</p>\n"
+                                    },
+                                    "mod_template": "section-title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/brasov_cazare_iarna_hotel_ro.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "/hoteluri-brasov",
+                                            "tag": "a"
+                                        },
+                                        "title": "Hoteluri Brasov"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/busteni_hotel_cazare_iarna_sejur.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-busteni"
+                                        },
+                                        "title": "Hoteluri Busteni"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/predeal_hotel_ro_cazare_sejur_iarna.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-predeal"
+                                        },
+                                        "title": "Hoteluri Predeal"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/peles_sinaia_hotel_iarna_cazare_sejur_ro.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-sinaia"
+                                        },
+                                        "title": "Hoteluri Sinaia"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/bran_moeciu_hotel_iarna_cazare_sejur_ro - Copy 1.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-bran-moeciu"
+                                        },
+                                        "title": "Bran Moeciu"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/poiana_brasov_cazare_munte_hotel_ro_iarna.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-poiana-brasov"
+                                        },
+                                        "title": "Poiana Brasov"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/duaru_vacanta_munte_cazare_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-durau"
+                                        },
+                                        "title": "Hoteluri Durau"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/campulung_moldovenesc_vacanta_munte_cazare_bucovina.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-campulung-moldovenesc\t"
+                                        },
+                                        "title": "Hoteluri Campulung Moldovenesc"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/paltinis_schi_iarna_sejur_hotel.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-vatra-dornei"
+                                        },
+                                        "title": "Vatra Dornei"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/BORSA_mocanita_maramures_cazare_hotel_1_.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-borsa"
+                                        },
+                                        "title": "Hoteluri Borsa"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/rasnov_iarna_sejur_hotel.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-rasnov"
+                                        },
+                                        "title": "Râșnov"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/tusnad_iarna_cazare_hotel_ro.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-baile-tusnad"
+                                        },
+                                        "title": "Tușnad"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": true
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/paltinis_ro_cazare_hotel.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-paltinis"
+                                        },
+                                        "title": "Păltiniș"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/gura_humorului_cazare_hotel_ro.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-gura-humorului"
+                                        },
+                                        "title": "Gura Humorului"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/stana_de_vale_ro_cazare_hotel.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-stana-de-vale"
+                                        },
+                                        "title": "Stâna de Vale"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/fundata_iarna_hotel_czare_ro.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-fundata"
+                                        },
+                                        "title": "Fundata"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "default_mod_template": "card-image-vertical",
+            "default_mod_data": {
+                "image": {
+                    "props": {
+                        "src": "/resources/images/balvanyos.jpg",
+                        "height": "250",
+                        "cover": true,
+                        "aspectRatio": "16/9",
+                        "rounded": "lg"
+                    }
+                },
+                "props": {
+                    "tag": "a",
+                    "href": "https://accenttravel.ro/hoteluri",
+                    "class": "text-decoration-none mx-auto",
+                    "maxWidth": "400",
+                    "rounded": "lg",
+                    "minWidth": "250"
+                },
+                "title": "Turcia - Antalya",
+                "subtitle": "",
+                "button_title": "Vezi ofertele",
+                "header_title": ""
+            },
+            "status": true,
+            "props": {
+                "class": "pt-10 pb-10"
+            }
+        }
+    ]
+}

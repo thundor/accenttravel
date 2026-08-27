@@ -1,0 +1,27 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+themeFunctions::debugFileLine('start');
+$L1['meta_title'] = 'Cupoane' . lang('append_title');
+$L1['page_title/html'] = '<span>Lista</span> <strong class="text-success">Cupoane</strong>';
+themeFunctions::loadLang('general/actions');
+themeFunctions::loadLang('general/options');
+$L1['action_add'] = 'Adaugare cupon';
+$L1['action_add/html'] = '<i class="fa fa-plus"></i> <span>' .$L1['action_add'] . '</span>';
+$L1['action_edit'] = 'Editare cupon';
+$L1['action_edit/html'] = '<i class="fa fa-pencil"></i> <span>' .$L1['action_edit'] . '</span>';
+$L1['coupons_list/html'] = 'Listă <strong>cupoane</strong>';
+$L1['coupons_permissions/html'] = '<i class="fa fa-check-square-o"></i> <span>Permisiuni în această zonă</span>';
+$L1['confirm_delete'] = 'Sunteți sigur că doriți ștergerea acestui cupon?';
+$L1['th_id'] = 'ID';
+$L1['th_code'] = 'Cod';
+$L1['th_status'] = 'Status';
+$L1['th_percentage'] = 'Procentaj';
+$L1['th_max_uses'] = 'Max. Utilizari';
+$L1['th_observation'] = 'Observatii';
+$L1['th_nr_uses'] = 'Nr. Utilizari';
+$L1['th_date_start'] = 'De la data';
+$L1['th_date_expire'] = 'Pana la data';
+themeFunctions::loadLang('general/list');
+themeFunctions::loadLang('general/filter');
+themeFunctions::loadLang('general/sort');
+themeFunctions::debugFileLine('end');

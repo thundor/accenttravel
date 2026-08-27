@@ -1,0 +1,22 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+themeFunctions::debugFileLine('start');
+$L1['meta_title'] = 'Șabloane pagini' . lang('append_title');
+$L1['page_title/html'] = '<span>Șabloane</span> <strong class="text-success">pagini</strong>';
+themeFunctions::loadLang('general/actions');
+themeFunctions::loadLang('general/options');
+$L1['action_add'] = 'Creare șablon';
+$L1['action_add/html'] = '<i class="fa fa-plus"></i> <span>' .$L1['action_add'] . '</span>';
+$L1['action_edit'] = 'Editare șablon';
+$L1['action_edit/html'] = '<i class="fa fa-pencil"></i> <span>' .$L1['action_edit'] . '</span>';
+$L1['layouts_list/html'] = 'Listă <strong>șabloane</strong>';
+$L1['cms_layouts_permissions/html'] = '<i class="fa fa-check-square-o"></i> <span>Permisiuni în această zonă</span>';
+$L1['confirm_delete'] = 'Sunteți sigur că doriți ștergerea acestui șablon?';
+$L1['th_layout_slug'] = 'Alias';
+$L1['th_layout_name'] = 'Nume';
+$L1['th_layout_version'] = 'Versiune';
+$L1['th_layout_author'] = 'Autor';
+themeFunctions::loadLang('general/list');
+themeFunctions::loadLang('general/filter');
+themeFunctions::loadLang('general/sort');
+themeFunctions::debugFileLine('end');

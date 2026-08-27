@@ -1,0 +1,923 @@
+{
+    "ItineraryCode": "95763d98e9777dfb93e143ea2b8e7e071fa7daaa:0",
+    "Price": 318.39,
+    "Currency": "EUR",
+    "Routes": [
+        {
+            "Index": "0",
+            "AirportChange": false,
+            "MultipleAirlines": false,
+            "NextDayLanding": false,
+            "Ref": null,
+            "Duration": "3:50",
+            "Hash": "75f134989d862fd75e317de5e7811a33",
+            "ItineraryCode": null,
+            "Segment": [
+                {
+                    "Flight": {
+                        "Number": "3001",
+                        "Class": "",
+                        "NumberOfSeats": null,
+                        "Meal": null,
+                        "StopTime": null,
+                        "Duration": "3:50",
+                        "CabinType": "Economy With Restrictions"
+                    },
+                    "Origin": {
+                        "Date": "2023-02-21",
+                        "Terminal": "",
+                        "Time": "06:30:00",
+                        "Airport": {
+                            "City": "Bucharest",
+                            "CityId": null,
+                            "_": "Henri Coanda Arpt",
+                            "Code": "OTP",
+                            "CityCode": "BUH"
+                        }
+                    },
+                    "Destination": {
+                        "Date": "2023-02-21",
+                        "Terminal": "",
+                        "Time": "08:20:00",
+                        "Airport": {
+                            "City": "London",
+                            "CityId": null,
+                            "_": "Luton Arpt",
+                            "Code": "LTN",
+                            "CityCode": "LON"
+                        }
+                    },
+                    "Carrier": {
+                        "Marketing": {
+                            "Code": "W6",
+                            "_": "Wizz Air"
+                        },
+                        "Operating": {
+                            "Code": "W6",
+                            "_": "Wizz Air"
+                        }
+                    },
+                    "Secured": false,
+                    "TechnicalStop": null,
+                    "BaggageAllowance": null
+                }
+            ]
+        },
+        {
+            "Index": "1",
+            "AirportChange": false,
+            "MultipleAirlines": false,
+            "NextDayLanding": true,
+            "Ref": null,
+            "Duration": "3:20",
+            "Hash": "5d87167d3b69241c0e0279724259ffdd",
+            "ItineraryCode": null,
+            "Segment": [
+                {
+                    "Flight": {
+                        "Number": "3004",
+                        "Class": "",
+                        "NumberOfSeats": null,
+                        "Meal": null,
+                        "StopTime": null,
+                        "Duration": "3:20",
+                        "CabinType": "Economy With Restrictions"
+                    },
+                    "Origin": {
+                        "Date": "2023-02-21",
+                        "Terminal": "",
+                        "Time": "18:55:00",
+                        "Airport": {
+                            "City": "London",
+                            "CityId": null,
+                            "_": "Luton Arpt",
+                            "Code": "LTN",
+                            "CityCode": "LON"
+                        }
+                    },
+                    "Destination": {
+                        "Date": "2023-02-22",
+                        "Terminal": "",
+                        "Time": "00:15:00",
+                        "Airport": {
+                            "City": "Bucharest",
+                            "CityId": null,
+                            "_": "Henri Coanda Arpt",
+                            "Code": "OTP",
+                            "CityCode": "BUH"
+                        }
+                    },
+                    "Carrier": {
+                        "Marketing": {
+                            "Code": "W6",
+                            "_": "Wizz Air"
+                        },
+                        "Operating": {
+                            "Code": "W6",
+                            "_": "Wizz Air"
+                        }
+                    },
+                    "Secured": false,
+                    "TechnicalStop": null,
+                    "BaggageAllowance": null
+                }
+            ]
+        }
+    ],
+    "NonRefundable": null,
+    "UpsellSupport": false,
+    "FlightsCode": "AIR-WS-b339789cf7310601857dcff665614a2d",
+    "FareRules": {
+        "ADT": [
+            {
+                "FareBasis": "W6-OTP-LTN",
+                "Origin": {
+                    "Code": "OTP",
+                    "City": "Bucharest",
+                    "CityCode": "BUH",
+                    "CityId": null
+                },
+                "Destination": {
+                    "Code": "LTN",
+                    "City": "London",
+                    "CityCode": "LON",
+                    "CityId": null
+                },
+                "Airline": {
+                    "Code": "W6",
+                    "_": "Wizz Air"
+                },
+                "Category": [
+                    {
+                        "Name": "Baggage",
+                        "Url": "https://wizzair.com/en-gb/information-and-services/travel-information/baggage",
+                        "_": "Click link to view Baggage"
+                    },
+                    {
+                        "Name": "General Conditions of Carriage for Passengers and Baggage",
+                        "Url": "https://wizzair.com/en-gb/legal/general-conditions-of-carriage-for-passengers-and-baggage",
+                        "_": "Click link to view General Conditions of Carriage for Passengers and Baggage"
+                    },
+                    {
+                        "Name": "Check-in And Boarding",
+                        "Url": "https://wizzair.com/en-gb/information-and-services/booking-information/check-in-and-boarding",
+                        "_": "Click link to view Check-in And Boarding"
+                    },
+                    {
+                        "Name": "Seat Allocation",
+                        "Url": "https://wizzair.com/en-gb/information-and-services/travel-information/seat-allocation",
+                        "_": "Click link to view Seat Allocation"
+                    },
+                    {
+                        "Name": "Fares Bundles",
+                        "Url": "https://wizzair.com/en-gb/information-and-services/prices-discounts/fares-bundles",
+                        "_": "Click link to view Fares Bundles"
+                    }
+                ]
+            },
+            {
+                "FareBasis": "W6-LTN-OTP",
+                "Origin": {
+                    "Code": "LTN",
+                    "City": "London",
+                    "CityCode": "LON",
+                    "CityId": null
+                },
+                "Destination": {
+                    "Code": "OTP",
+                    "City": "Bucharest",
+                    "CityCode": "BUH",
+                    "CityId": null
+                },
+                "Airline": {
+                    "Code": "W6",
+                    "_": "Wizz Air"
+                },
+                "Category": [
+                    {
+                        "Name": "Baggage",
+                        "Url": "https://wizzair.com/en-gb/information-and-services/travel-information/baggage",
+                        "_": "Click link to view Baggage"
+                    },
+                    {
+                        "Name": "General Conditions of Carriage for Passengers and Baggage",
+                        "Url": "https://wizzair.com/en-gb/legal/general-conditions-of-carriage-for-passengers-and-baggage",
+                        "_": "Click link to view General Conditions of Carriage for Passengers and Baggage"
+                    },
+                    {
+                        "Name": "Check-in And Boarding",
+                        "Url": "https://wizzair.com/en-gb/information-and-services/booking-information/check-in-and-boarding",
+                        "_": "Click link to view Check-in And Boarding"
+                    },
+                    {
+                        "Name": "Seat Allocation",
+                        "Url": "https://wizzair.com/en-gb/information-and-services/travel-information/seat-allocation",
+                        "_": "Click link to view Seat Allocation"
+                    },
+                    {
+                        "Name": "Fares Bundles",
+                        "Url": "https://wizzair.com/en-gb/information-and-services/prices-discounts/fares-bundles",
+                        "_": "Click link to view Fares Bundles"
+                    }
+                ]
+            }
+        ]
+    },
+    "FareDetails": {
+        "Currency": "EUR",
+        "BaseFare": "243.42",
+        "FullFare": "276.86",
+        "ServiceFee": "41.53",
+        "NonRefundable": null,
+        "PaxFare": [
+            {
+                "PTC": "ADT",
+                "Count": "1",
+                "Currency": "EUR",
+                "BaseFare": "243.42",
+                "FullFare": "276.86",
+                "ServiceFee": "41.53",
+                "FareBasis": "",
+                "BaggageAllowance": null
+            }
+        ],
+        "TimeLimit": {
+            "Date": "2023-02-16T15:00:00",
+            "_": "2023-02-16"
+        },
+        "ValidatingCarrier": {
+            "Code": "W6",
+            "_": "Wizz Air"
+        },
+        "IsAutoTicketable": "true",
+        "BrandedFare": {
+            "BrandDetails": [
+                {
+                    "Name": "Basic",
+                    "Code": "Basic",
+                    "From": "OTP",
+                    "To": "LTN",
+                    "Cabin": null,
+                    "FareType": null,
+                    "Description": "*Free carry-on bag",
+                    "Services": {
+                        "Service": [
+                            {
+                                "Name": "Free carry-on bag",
+                                "AtpcoGroup": "",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "N/A",
+                                "ChargeType": "included",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "Basic",
+                    "Code": "Basic",
+                    "From": "LTN",
+                    "To": "OTP",
+                    "Cabin": null,
+                    "FareType": null,
+                    "Description": "*Free carry-on bag",
+                    "Services": {
+                        "Service": [
+                            {
+                                "Name": "Free carry-on bag",
+                                "AtpcoGroup": "",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "N/A",
+                                "ChargeType": "included",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "CorporateFare": null
+    },
+    "OfferConfiguration": {
+        "ContactDetails": {
+            "Required": "false"
+        },
+        "IdentificationDocument": {
+            "Required": "false",
+            "IssueDate": {
+                "Required": "false"
+            }
+        },
+        "FrequentFlyerCard": {
+            "Required": "false",
+            "IssueDate": {
+                "Required": "false"
+            },
+            "ExpiryDate": {
+                "Required": "false"
+            }
+        },
+        "OSIRemarks": {
+            "Allowed": "false"
+        },
+        "Birthdate": {
+            "Required": "true",
+            "PTCList": {
+                "ADT": "true",
+                "YTH": "true",
+                "SEN": "true",
+                "CHD": "true",
+                "INF": "true",
+                "INS": "true"
+            }
+        }
+    },
+    "PaymentMethods": [
+        "credit"
+    ],
+    "PaymentBefore": 1,
+    "OptionalServices": {
+        "OptionalService": [
+            {
+                "BookingCode": "c917661e-7c32-51a8-bc58-078d13aabfd8",
+                "Included": null,
+                "Route": {
+                    "From": "OTP",
+                    "To": "OTP"
+                },
+                "Target": "ALL",
+                "PassengerIndex": null,
+                "Service": {
+                    "Name": "Please Select a Check-in Type",
+                    "AtpcoGroup": "TS",
+                    "AtpcoSubGroup": null,
+                    "AtpcoCode": null,
+                    "ChargeType": null,
+                    "CategoryCode": "TS",
+                    "CategoryName": "travel services"
+                },
+                "Options": {
+                    "Option": [
+                        {
+                            "Description": [
+                                "Airport(charge 132.00 RON per passenger in total exclude infant)."
+                            ],
+                            "Code": "Airport",
+                            "Selected": "false"
+                        }
+                    ]
+                }
+            },
+            {
+                "BookingCode": "baddbde9-5dbb-5aaf-b97b-6328f37ac509",
+                "Included": null,
+                "Route": {
+                    "From": "OTP",
+                    "To": "OTP"
+                },
+                "Target": "ADT",
+                "PassengerIndex": "0",
+                "Service": {
+                    "Name": "Request speedy boarding",
+                    "AtpcoGroup": "TS",
+                    "AtpcoSubGroup": null,
+                    "AtpcoCode": null,
+                    "ChargeType": null,
+                    "CategoryCode": "TS",
+                    "CategoryName": "travel services"
+                },
+                "Options": {
+                    "Option": [
+                        {
+                            "Description": [
+                                "Yes(106.52 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "106.52",
+                                "Currency": "EUR"
+                            },
+                            "Code": "y",
+                            "Selected": "false"
+                        }
+                    ]
+                }
+            },
+            {
+                "BookingCode": "5b559830-9fcf-515e-b49a-984b9eb2eb5b",
+                "Included": null,
+                "Route": {
+                    "From": "OTP",
+                    "To": "OTP"
+                },
+                "Target": "ADT",
+                "PassengerIndex": "0",
+                "Service": {
+                    "Name": "Please Select Advanced Ancillary Options",
+                    "AtpcoGroup": "TS",
+                    "AtpcoSubGroup": null,
+                    "AtpcoCode": null,
+                    "ChargeType": null,
+                    "CategoryCode": "TS",
+                    "CategoryName": "travel services"
+                },
+                "Options": {
+                    "Option": [
+                        {
+                            "Description": [
+                                "Hand luggage(0 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "0",
+                                "Currency": "EUR"
+                            },
+                            "Code": "1",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "Priority Boarding & 2 Cabin Bags(106.52 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "106.52",
+                                "Currency": "EUR"
+                            },
+                            "Code": "2",
+                            "Selected": "false"
+                        }
+                    ]
+                }
+            },
+            {
+                "BookingCode": "2499b21d-f978-580a-a6e3-693d4df8526a",
+                "Included": null,
+                "Route": {
+                    "From": "OTP",
+                    "To": "LTN"
+                },
+                "Target": "ADT",
+                "PassengerIndex": "0",
+                "Service": {
+                    "Name": "Please Select Outward Luggage Option",
+                    "AtpcoGroup": "BG",
+                    "AtpcoSubGroup": null,
+                    "AtpcoCode": null,
+                    "ChargeType": null,
+                    "CategoryCode": "BG",
+                    "CategoryName": "baggage"
+                },
+                "Options": {
+                    "Option": [
+                        {
+                            "Description": [
+                                "1 bags - 10Kg total(48.02 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "48.02",
+                                "Currency": "EUR"
+                            },
+                            "Code": "1",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "1 bags - 20Kg total(82.29 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "82.29",
+                                "Currency": "EUR"
+                            },
+                            "Code": "2",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "1 bags - 26Kg total(89.06 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "89.06",
+                                "Currency": "EUR"
+                            },
+                            "Code": "3",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "1 bags - 32Kg total(95.61 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "95.61",
+                                "Currency": "EUR"
+                            },
+                            "Code": "4",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "2 bags - 20Kg+20Kg(164.59 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "164.59",
+                                "Currency": "EUR"
+                            },
+                            "Code": "5",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "2 bags - 26Kg+26Kg(178.12 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "178.12",
+                                "Currency": "EUR"
+                            },
+                            "Code": "6",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "2 bags - 32Kg+32Kg(191.22 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "191.22",
+                                "Currency": "EUR"
+                            },
+                            "Code": "7",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "3 bags - 20Kg+20Kg+20Kg(246.88 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "246.88",
+                                "Currency": "EUR"
+                            },
+                            "Code": "8",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "3 bags - 26Kg+26Kg+26Kg(267.18 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "267.18",
+                                "Currency": "EUR"
+                            },
+                            "Code": "9",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "3 bags - 32Kg+32Kg+32Kg(286.83 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "286.83",
+                                "Currency": "EUR"
+                            },
+                            "Code": "10",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "4 bags - 20Kg+20Kg+20Kg+20Kg(329.17 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "329.17",
+                                "Currency": "EUR"
+                            },
+                            "Code": "11",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "4 bags - 26Kg+26Kg+26Kg+26Kg(356.24 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "356.24",
+                                "Currency": "EUR"
+                            },
+                            "Code": "12",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "5 bags - 20Kg+20Kg+20Kg+20Kg+20Kg(411.47 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "411.47",
+                                "Currency": "EUR"
+                            },
+                            "Code": "13",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "4 bags - 32Kg+32Kg+32Kg+32Kg(382.44 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "382.44",
+                                "Currency": "EUR"
+                            },
+                            "Code": "14",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "5 bags - 26Kg+26Kg+26Kg+26Kg+26Kg(445.3 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "445.3",
+                                "Currency": "EUR"
+                            },
+                            "Code": "15",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "6 bags - 20Kg+20Kg+20Kg+20Kg+20Kg+20Kg(493.76 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "493.76",
+                                "Currency": "EUR"
+                            },
+                            "Code": "16",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "5 bags - 32Kg+32Kg+32Kg+32Kg+32Kg(478.04 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "478.04",
+                                "Currency": "EUR"
+                            },
+                            "Code": "17",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "6 bags - 26Kg+26Kg+26Kg+26Kg+26Kg+26Kg(534.36 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "534.36",
+                                "Currency": "EUR"
+                            },
+                            "Code": "18",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "6 bags - 32Kg+32Kg+32Kg+32Kg+32Kg+32Kg(573.65 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "573.65",
+                                "Currency": "EUR"
+                            },
+                            "Code": "19",
+                            "Selected": "false"
+                        }
+                    ]
+                }
+            },
+            {
+                "BookingCode": "39a37291-98f8-57e1-a0c2-c9b2ec6ae518",
+                "Included": null,
+                "Route": {
+                    "From": "LTN",
+                    "To": "OTP"
+                },
+                "Target": "ADT",
+                "PassengerIndex": "0",
+                "Service": {
+                    "Name": "Please Select Return Luggage Option",
+                    "AtpcoGroup": "BG",
+                    "AtpcoSubGroup": null,
+                    "AtpcoCode": null,
+                    "ChargeType": null,
+                    "CategoryCode": "BG",
+                    "CategoryName": "baggage"
+                },
+                "Options": {
+                    "Option": [
+                        {
+                            "Description": [
+                                "1 bags - 10Kg total(48.02 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "48.02",
+                                "Currency": "EUR"
+                            },
+                            "Code": "1",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "1 bags - 20Kg total(88.19 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "88.19",
+                                "Currency": "EUR"
+                            },
+                            "Code": "2",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "1 bags - 26Kg total(97.79 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "97.79",
+                                "Currency": "EUR"
+                            },
+                            "Code": "3",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "1 bags - 32Kg total(104.56 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "104.56",
+                                "Currency": "EUR"
+                            },
+                            "Code": "4",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "2 bags - 20Kg+20Kg(176.37 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "176.37",
+                                "Currency": "EUR"
+                            },
+                            "Code": "5",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "2 bags - 26Kg+26Kg(195.58 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "195.58",
+                                "Currency": "EUR"
+                            },
+                            "Code": "6",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "2 bags - 32Kg+32Kg(209.12 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "209.12",
+                                "Currency": "EUR"
+                            },
+                            "Code": "7",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "3 bags - 20Kg+20Kg+20Kg(264.56 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "264.56",
+                                "Currency": "EUR"
+                            },
+                            "Code": "8",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "3 bags - 26Kg+26Kg+26Kg(293.38 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "293.38",
+                                "Currency": "EUR"
+                            },
+                            "Code": "9",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "3 bags - 32Kg+32Kg+32Kg(313.68 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "313.68",
+                                "Currency": "EUR"
+                            },
+                            "Code": "10",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "4 bags - 20Kg+20Kg+20Kg+20Kg(352.75 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "352.75",
+                                "Currency": "EUR"
+                            },
+                            "Code": "11",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "4 bags - 26Kg+26Kg+26Kg+26Kg(391.17 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "391.17",
+                                "Currency": "EUR"
+                            },
+                            "Code": "12",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "5 bags - 20Kg+20Kg+20Kg+20Kg+20Kg(440.94 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "440.94",
+                                "Currency": "EUR"
+                            },
+                            "Code": "13",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "4 bags - 32Kg+32Kg+32Kg+32Kg(418.23 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "418.23",
+                                "Currency": "EUR"
+                            },
+                            "Code": "14",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "5 bags - 26Kg+26Kg+26Kg+26Kg+26Kg(488.96 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "488.96",
+                                "Currency": "EUR"
+                            },
+                            "Code": "15",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "6 bags - 20Kg+20Kg+20Kg+20Kg+20Kg+20Kg(529.13 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "529.13",
+                                "Currency": "EUR"
+                            },
+                            "Code": "16",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "5 bags - 32Kg+32Kg+32Kg+32Kg+32Kg(522.8 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "522.8",
+                                "Currency": "EUR"
+                            },
+                            "Code": "17",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "6 bags - 26Kg+26Kg+26Kg+26Kg+26Kg+26Kg(586.75 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "586.75",
+                                "Currency": "EUR"
+                            },
+                            "Code": "18",
+                            "Selected": "false"
+                        },
+                        {
+                            "Description": [
+                                "6 bags - 32Kg+32Kg+32Kg+32Kg+32Kg+32Kg(627.35 EUR)"
+                            ],
+                            "Price": {
+                                "Amount": "627.35",
+                                "Currency": "EUR"
+                            },
+                            "Code": "19",
+                            "Selected": "false"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "https://89.47.228.69/rest/app/clients/online/public/api.php/v3/flights/AIR-WS-b339789cf7310601857dcff665614a2d/flight/95763d98e9777dfb93e143ea2b8e7e071fa7daaa:0"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "code",
+                            "status": true,
+                            "mod_data": {
+                                "code": "<div class=\"order-1\">\n\t\t\t\t  <v-btn rounded=\"pill\" target=\"_BLANK\"\n\t\t\t\t\tv-for=\"social in [\n  { icon: 'mdi-facebook', url: 'https://www.facebook.com/AccentTravelAndEvents/' },\n  { icon: 'mdi-twitter', url: 'https://twitter.com/Accent_Travel' },\n  { icon: 'mdi-instagram', url: 'https://www.instagram.com/accenttravelevents/' },\n  { icon: 'mdi-youtube', url: 'https://www.youtube.com/channel/UCbkMWCvIEIMiJ-2S8Oz5sYA' },\n  { icon: 'mdi-linkedin', url: 'https://www.linkedin.com/company/accent-travelevents/' },\n]\"\n\t\t\t\t\t:key=\"social.icon\"\n\t\t\t\t\t:icon=\"social.icon\"\n\t\t\t\t\t:href=\"social.url\"\n\t\t\t\t\tclass=\"mx-1 text-white\"\ncolor=\"#02A0FF\" density=\"compact\"\nstyle=\"font-size: 18px;--v-btn-height: 50px;\"\n\t\t\t\t  ></v-btn>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"pt-0 order-0 order-md-1\">\n\t\t\t\t  <p class=\"ma-0\">Vrei sa ne imprietenim? Ne gasesti intotdeauna pe reteaua sociala preferata!</p>\n\t\t\t\t</div>",
+                                "props": {
+                                    "class": "d-flex align-center flex-column flex-md-row ga-3 flex-wrap"
+                                }
+                            }
+                        }
+                    ],
+                    "props": {
+                        "cols": null,
+                        "class": "coloana-sociala"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "mod_template": "code",
+                            "mod_data": {
+                                "code": "<p>Ai intrebari? Contacteaza-ne!</p>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<v-btn variant=\"text\"\n\t\t\t\t\t\tv-for=\"social in [\n\t\t\t\t\t\t  { icon: 'mdi-phone', url: 'tel:+40213141980' },\n\t\t\t\t\t\t  { icon: 'mdi-comment-search-outline', url: 'javascript:feedbackPopup(\\'feedback\\')' },\n\t\t\t\t\t\t  { icon: 'mdi-email-fast-outline', url: 'mailto:office@accenttravel.ro', target:'_BLANK'},\n\t\t\t\t\t\t]\"\n\t\t\t\t\t\t:key=\"social.icon\"\n\t\t\t\t\t\t:href=\"social.url\"\n\t\t\t\t\t\t:target=\"social.target\"\n\t\t\t\t\t\t:icon=\"social.icon\" class=\"pa-2\"\nsize=\"large\" style=\"font-size: 24px;--v-btn-height: 40px;\"\n\t\t\t\t\t  ></v-btn>\n\t\t\t\t\t</div>",
+                                "props": {
+                                    "class": "w-100 text-center"
+                                }
+                            }
+                        }
+                    ],
+                    "props": {
+                        "class": "coloana-sociala",
+                        "cols": 3
+                    }
+                }
+            ],
+            "props": {
+                "class": "flex-column flex-md-row align-center pa-xs-0"
+            }
+        }
+    ],
+    "name": "footer-1",
+    "status": true,
+    "props": {
+        "class": "social-media"
+    }
+}

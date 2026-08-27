@@ -1,0 +1,47 @@
+{
+    "status": true,
+    "children": [
+        {
+            "status": true,
+            "children": [
+                {
+                    "status": true,
+                    "data": {
+                        "title": "asdfasdf",
+                        "image": "https://accenttravel.ro/themes/accent/assets/images/hphs/Banner_24pay_1140x480.jpg"
+                    },
+                    "template": "image"
+                }
+            ]
+        },
+        {
+            "status": true,
+            "children": [
+                {
+                    "status": true,
+                    "template": "image"
+                }
+            ]
+        },
+        {
+            "status": true,
+            "children": [
+                {
+                    "status": true,
+                    "template": "image"
+                }
+            ]
+        },
+        {
+            "status": true,
+            "children": [
+                {
+                    "status": true,
+                    "template": "image"
+                }
+            ]
+        }
+    ],
+    "default_mod_template": "image",
+    "name": "test"
+}

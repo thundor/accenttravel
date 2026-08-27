@@ -1,0 +1,22 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+themeFunctions::debugFileLine('start');
+$L1['meta_title'] = 'Travelfuse Tari' . lang('append_title');
+$L1['page_title/html'] = '<span>Lista</span> <strong class="text-success">Tari</strong>';
+themeFunctions::loadLang('general/actions');
+themeFunctions::loadLang('general/options');
+// $L1['action_add'] = 'Adaugare cupon';
+// $L1['action_add/html'] = '<i class="fa fa-plus"></i> <span>' .$L1['action_add'] . '</span>';
+$L1['action_edit'] = 'Editare tara';
+$L1['action_edit/html'] = '<i class="fa fa-pencil"></i> <span>' .$L1['action_edit'] . '</span>';
+$L1['countries_list/html'] = 'Listă <strong>tari</strong>';
+$L1['countries_permissions/html'] = '<i class="fa fa-check-square-o"></i> <span>Permisiuni în această zonă</span>';
+$L1['confirm_delete'] = 'Sunteți sigur că doriți ștergerea acestei tari?';
+$L1['th_id'] = 'ID';
+$L1['th_code'] = 'Cod';
+$L1['th_name'] = 'Name';
+$L1['th_status'] = 'Status';
+themeFunctions::loadLang('general/list');
+themeFunctions::loadLang('general/filter');
+themeFunctions::loadLang('general/sort');
+themeFunctions::debugFileLine('end');

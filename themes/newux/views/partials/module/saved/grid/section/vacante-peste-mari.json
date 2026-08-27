@@ -1,0 +1,141 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "grid",
+                            "mod_data": {
+                                "title": "VList Module title",
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "mod_data": {
+                                                                    "image": {}
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "default_mod_template": "card-image-vertical",
+                                        "default_mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/balvanyos.jpg",
+                                                    "height": "",
+                                                    "cover": true,
+                                                    "aspectRatio": "16/9",
+                                                    "rounded": "lg"
+                                                }
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "https://accenttravel.ro/hoteluri",
+                                                "class": "text-decoration-none",
+                                                "maxWidth": "",
+                                                "rounded": "lg",
+                                                "minWidth": "300"
+                                            },
+                                            "title": "Turcia - Antalya",
+                                            "subtitle": "",
+                                            "button_title": "Vezi ofertele"
+                                        },
+                                        "status": true,
+                                        "name": "",
+                                        "props": {
+                                            "class": "pa-0"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_template": "grid",
+                            "mod_data": {
+                                "title": "VList Module title",
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "mod_data": {
+                                                                    "image": {}
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "default_mod_template": "card-image-vertical",
+                                        "default_mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/balvanyos.jpg",
+                                                    "height": "",
+                                                    "cover": true,
+                                                    "aspectRatio": "16/9",
+                                                    "rounded": "lg"
+                                                }
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "https://accenttravel.ro/hoteluri",
+                                                "class": "text-decoration-none",
+                                                "maxWidth": "",
+                                                "rounded": "lg",
+                                                "minWidth": "300"
+                                            },
+                                            "title": "Turcia - Antalya",
+                                            "subtitle": "",
+                                            "button_title": "Vezi ofertele"
+                                        },
+                                        "status": true,
+                                        "name": "",
+                                        "props": {
+                                            "class": "pa-0"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {}
+                    ]
+                },
+                {
+                    "children": [
+                        {}
+                    ]
+                }
+            ],
+            "props": {
+                "noGutters": false
+            }
+        }
+    ],
+    "status": true,
+    "props": {
+        "class": "",
+        "fluid": false
+    },
+    "name": "vacante-peste-mari"
+}

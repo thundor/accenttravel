@@ -1,0 +1,423 @@
+{
+    "name": "citi-break-grid",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {},
+                                        "title": "Oferte City Break",
+                                        "html": "<p>Escapade de weekend de neuitat!</p>\n<style>\n.v-application #content-real .container {\n    display: none;\n}\n</style>"
+                                    },
+                                    "mod_template": "section-title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/citybreak_praga_cazari_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "/city-break-praga",
+                                            "tag": "a"
+                                        },
+                                        "subtitle": "",
+                                        "title": "City Break Praga"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/citybreak_paris_vacanta_cazari_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-paris"
+                                        },
+                                        "title": "City Break Paris"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/citybreak_londra_cazari_hotel_marea_britanie.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-londra"
+                                        },
+                                        "title": "City Break Londra"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Roma_city_break_2.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-roma"
+                                        },
+                                        "title": "City Break Roma"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/citybreak_zagreb_cazari_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-zagreb"
+                                        },
+                                        "title": "City Break Zagreb"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Bologna_City_Break_turista_turnuri.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-bologna"
+                                        },
+                                        "title": "City Break Bologna"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Amsterdam_city_break_canal.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-amsterdam"
+                                        },
+                                        "title": "City Break Amsterdam"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Viena_City_Break.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-viena"
+                                        },
+                                        "title": "City Break Viena"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Istanbul_City_Break.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-istanbul"
+                                        },
+                                        "title": "City Break Istanbul"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Berlin_city_break_abdel_rahman_abu_baker.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-berlin"
+                                        },
+                                        "title": "City Break Berlin"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Milano_TipTrip.ro_-1.jpg"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-milano"
+                                        },
+                                        "title": "City Break Milano"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Lisabona_City_Break.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-lisabona"
+                                        },
+                                        "title": "City Break Lisabona"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Varsovia_city_break.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-varsovia"
+                                        },
+                                        "title": "City Break Varsovia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Atena_City_Break.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-atena"
+                                        },
+                                        "title": "City Break Atena"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Budapesta.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-budapesta"
+                                        },
+                                        "title": "City Break Budapesta"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Copenhaga_city_break_steah_danemarca.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/city-break-copenhaga"
+                                        },
+                                        "title": "City Break Copenhaga"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        }
+                    ]
+                }
+            ],
+            "default_mod_template": "card-image-vertical",
+            "default_mod_data": {
+                "image": {
+                    "props": {
+                        "src": "/resources/images/balvanyos.jpg",
+                        "height": "250",
+                        "cover": true,
+                        "aspectRatio": "16/9",
+                        "rounded": "lg"
+                    }
+                },
+                "props": {
+                    "tag": "a",
+                    "href": "https://accenttravel.ro/hoteluri",
+                    "class": "text-decoration-none mx-auto",
+                    "maxWidth": "400",
+                    "rounded": "lg",
+                    "minWidth": "250"
+                },
+                "title": "Turcia - Antalya",
+                "subtitle": "",
+                "button_title": "Vezi ofertele",
+                "header_title": ""
+            },
+            "status": true,
+            "props": {
+                "class": "pt-10 pb-10"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_template": "html",
+                                    "mod_data": {
+                                        "html": "<h5 class=\"text-left\">&nbsp;</h5>\n\n<h5><strong><span style=\"color:#3498db;\">Când orașele îți fac cu ochiul și weekendul devine o aventură:</span> City Break-ul perfect începe aici.</strong></h5>\n",
+                                        "props": {}
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_template": "html",
+                                    "mod_data": {
+                                        "html": "<p>Fiecare oraș ascunde o poveste gata să fie descoperită. De la cafenele cu farmec local la panorame care-ți taie respirația, un City Break este doza ideală de escapism urban cu gust de vacanță și efervescență de explorator modern.</p>\n\n<p data-start=\"496\" data-end=\"716\">Când ai doar câteva zile la dispoziție, le transformăm în amintiri cât o carte poștală. Zboruri convenabile, locații centrale, itinerarii flexibile – totul gândit pentru călători care știu că timpul e o monedă prețioasă.</p>\n",
+                                        "props": {}
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_template": "html",
+                                    "mod_data": {
+                                        "html": "<p class=\"text-left\">Paris, Barcelona, Praga sau o destinație-surpriză? Noi știm unde pulsează vibe-ul orașului și ce n-ai voie să ratezi. Fiecare ofertă e selectată cu grijă, cu extra-uri ce-ți vor face inima să bată în ritmul pașilor pe caldarâm.</p>\n\n<p data-start=\"947\" data-end=\"1119\">La Accent Travel &amp; Events, city break-ul e mai mult decât o pauză. E o ocazie de a fi acolo unde se întâmplă lucrurile – live, în culori vii, cu bagaj ușor și planuri mari.</p>\n",
+                                        "props": {}
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "status": true
+        }
+    ]
+}

@@ -1,0 +1,575 @@
+{
+    "type": 1,
+    "minPrice": 1063.16,
+    "maxPrice": 1210.95,
+    "airlines": [
+        "Blue Air"
+    ],
+    "airports": [
+        {
+            "Code": "MAD",
+            "City": "Madrid",
+            "Name": "Adolfo Suarez Barajas Arpt",
+            "_data": {
+                "CityCode": "MAD",
+                "isDestinationAirport": true
+            }
+        }
+    ],
+    "stops": [
+        2,
+        0
+    ],
+    "departureTimes": [
+        "14"
+    ],
+    "returnTimes": [
+        "21"
+    ],
+    "code": "AIR:WS:ACCO:0da9a6d91ad3cc8809269589fd578a55",
+    "searchData": {
+        "Type": 1,
+        "FlexDates": false,
+        "Routes": [
+            {
+                "Origin": {
+                    "Code": null,
+                    "CityId": "450",
+                    "LocationId": "2046"
+                },
+                "Destination": {
+                    "Code": null,
+                    "CityId": "11743",
+                    "LocationId": "2077"
+                },
+                "Date": "2018-03-20",
+                "TimeWindow": {
+                    "Mode": null,
+                    "Start": null,
+                    "End": null
+                }
+            },
+            {
+                "Origin": {
+                    "Code": null,
+                    "CityId": "11743",
+                    "LocationId": "2077"
+                },
+                "Destination": {
+                    "Code": null,
+                    "CityId": "450",
+                    "LocationId": "2046"
+                },
+                "Date": "2018-03-25",
+                "TimeWindow": {
+                    "Mode": null,
+                    "Start": null,
+                    "End": null
+                }
+            }
+        ],
+        "ADT": 1,
+        "CHD": 0,
+        "SEN": 0,
+        "YTH": 0,
+        "INF": 0,
+        "INS": 0,
+        "Class": "Y",
+        "Direct": false
+    },
+    "_links": {
+        "self": {
+            "href": "http:\/\/81.196.106.73\/rest\/app\/clients\/online\/public\/api.php\/v3\/flights?code=AIR:WS:ACCO:0da9a6d91ad3cc8809269589fd578a55&page=1"
+        },
+        "first": {
+            "href": "http:\/\/81.196.106.73\/rest\/app\/clients\/online\/public\/api.php\/v3\/flights?code=AIR:WS:ACCO:0da9a6d91ad3cc8809269589fd578a55"
+        },
+        "last": {
+            "href": "http:\/\/81.196.106.73\/rest\/app\/clients\/online\/public\/api.php\/v3\/flights?code=AIR:WS:ACCO:0da9a6d91ad3cc8809269589fd578a55&page=1"
+        }
+    },
+    "_embedded": {
+        "flights": [
+            {
+                "Combinations": [
+                    "00|10"
+                ],
+                "Price": 1063.16,
+                "Currency": "RON",
+                "ItineraryCode": "e40da747786ede9b509b28c1cc0b789eb8ae28fe",
+                "Routes": [
+                    {
+                        "Route": [
+                            {
+                                "AirportChange": false,
+                                "MultipleAirlines": false,
+                                "NextDayLanding": false,
+                                "Ref": "0",
+                                "Duration": "04:10",
+                                "Hash": "832acedcc3b8b825222d1968ac39527d",
+                                "ItineraryCode": null,
+                                "Segment": [
+                                    {
+                                        "Aircraft": {
+                                            "Code": "734",
+                                            "_": "Boeing 737-400 pax"
+                                        },
+                                        "Flight": {
+                                            "Class": "X",
+                                            "Meal": null,
+                                            "Number": "103",
+                                            "NumberOfSeats": "9",
+                                            "StopTime": null,
+                                            "Duration": null,
+                                            "CabinType": "Economy"
+                                        },
+                                        "Origin": {
+                                            "Date": "2018-03-20",
+                                            "Terminal": null,
+                                            "Time": "14:30:00",
+                                            "Airport": {
+                                                "City": "Bucharest",
+                                                "CityId": "450",
+                                                "_": "Henri Coanda Arpt",
+                                                "Code": "OTP"
+                                            }
+                                        },
+                                        "Destination": {
+                                            "Date": "2018-03-20",
+                                            "Terminal": null,
+                                            "Time": "17:40:00",
+                                            "Airport": {
+                                                "City": "Madrid",
+                                                "CityId": "11743",
+                                                "_": "Adolfo Suarez Barajas Arpt",
+                                                "Code": "MAD"
+                                            }
+                                        },
+                                        "Carrier": {
+                                            "Marketing": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            },
+                                            "Operating": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            }
+                                        },
+                                        "Secured": false,
+                                        "TechnicalStop": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Route": [
+                            {
+                                "Ref": "0",
+                                "Duration": "43:20",
+                                "Hash": "0a321e630a46e6eb393767883c22a459",
+                                "ItineraryCode": null,
+                                "Segment": [
+                                    {
+                                        "Aircraft": {
+                                            "Code": "73H",
+                                            "_": "Boeing 737-800 (winglets) pax"
+                                        },
+                                        "Flight": {
+                                            "Class": "T",
+                                            "Meal": null,
+                                            "Number": "4014",
+                                            "NumberOfSeats": "8",
+                                            "StopTime": null,
+                                            "Duration": null,
+                                            "CabinType": "Economy"
+                                        },
+                                        "Origin": {
+                                            "Date": "2018-03-25",
+                                            "Terminal": null,
+                                            "Time": "21:45:00",
+                                            "Airport": {
+                                                "City": "Madrid",
+                                                "CityId": "11743",
+                                                "_": "Adolfo Suarez Barajas Arpt",
+                                                "Code": "MAD"
+                                            }
+                                        },
+                                        "Destination": {
+                                            "Date": "2018-03-25",
+                                            "Terminal": null,
+                                            "Time": "23:55:00",
+                                            "Airport": {
+                                                "City": "Torino",
+                                                "CityId": "7467",
+                                                "_": "Torino Caselle Arpt",
+                                                "Code": "TRN"
+                                            }
+                                        },
+                                        "Carrier": {
+                                            "Marketing": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            },
+                                            "Operating": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            }
+                                        },
+                                        "Secured": false,
+                                        "TechnicalStop": null
+                                    },
+                                    {
+                                        "Aircraft": {
+                                            "Code": "73H",
+                                            "_": "Boeing 737-800 (winglets) pax"
+                                        },
+                                        "Flight": {
+                                            "Class": "X",
+                                            "Meal": null,
+                                            "Number": "4123",
+                                            "NumberOfSeats": "9",
+                                            "StopTime": "18:05:00",
+                                            "Duration": null,
+                                            "CabinType": "Economy"
+                                        },
+                                        "Origin": {
+                                            "Date": "2018-03-26",
+                                            "Terminal": null,
+                                            "Time": "18:00:00",
+                                            "Airport": {
+                                                "City": "Torino",
+                                                "CityId": "7467",
+                                                "_": "Torino Caselle Arpt",
+                                                "Code": "TRN"
+                                            }
+                                        },
+                                        "Destination": {
+                                            "Date": "2018-03-26",
+                                            "Terminal": null,
+                                            "Time": "19:20:00",
+                                            "Airport": {
+                                                "City": "Napoli",
+                                                "CityId": "7455",
+                                                "_": "Capodichino Arpt",
+                                                "Code": "NAP"
+                                            }
+                                        },
+                                        "Carrier": {
+                                            "Marketing": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            },
+                                            "Operating": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            }
+                                        },
+                                        "Secured": false,
+                                        "TechnicalStop": null
+                                    },
+                                    {
+                                        "Aircraft": {
+                                            "Code": "73H",
+                                            "_": "Boeing 737-800 (winglets) pax"
+                                        },
+                                        "Flight": {
+                                            "Class": "K",
+                                            "Meal": null,
+                                            "Number": "144",
+                                            "NumberOfSeats": "9",
+                                            "StopTime": "19:50:00",
+                                            "Duration": null,
+                                            "CabinType": "Economy"
+                                        },
+                                        "Origin": {
+                                            "Date": "2018-03-27",
+                                            "Terminal": null,
+                                            "Time": "15:10:00",
+                                            "Airport": {
+                                                "City": "Napoli",
+                                                "CityId": "7455",
+                                                "_": "Capodichino Arpt",
+                                                "Code": "NAP"
+                                            }
+                                        },
+                                        "Destination": {
+                                            "Date": "2018-03-27",
+                                            "Terminal": null,
+                                            "Time": "18:05:00",
+                                            "Airport": {
+                                                "City": "Bucharest",
+                                                "CityId": "450",
+                                                "_": "Henri Coanda Arpt",
+                                                "Code": "OTP"
+                                            }
+                                        },
+                                        "Carrier": {
+                                            "Marketing": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            },
+                                            "Operating": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            }
+                                        },
+                                        "Secured": false,
+                                        "TechnicalStop": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "PriceDetail": {
+                    "Amount": 1063.16,
+                    "Currency": "RON"
+                },
+                "NonRefundable": true
+            },
+            {
+                "Combinations": [
+                    "00|10"
+                ],
+                "Price": 1210.95,
+                "Currency": "RON",
+                "ItineraryCode": "2554c8afb014d2c64f611850649da685792b54ea",
+                "Routes": [
+                    {
+                        "Route": [
+                            {
+                                "AirportChange": false,
+                                "MultipleAirlines": false,
+                                "NextDayLanding": false,
+                                "Ref": "0",
+                                "Duration": "04:10",
+                                "Hash": "832acedcc3b8b825222d1968ac39527d",
+                                "ItineraryCode": null,
+                                "Segment": [
+                                    {
+                                        "Aircraft": {
+                                            "Code": "734",
+                                            "_": "Boeing 737-400 pax"
+                                        },
+                                        "Flight": {
+                                            "Class": "X",
+                                            "Meal": null,
+                                            "Number": "103",
+                                            "NumberOfSeats": "9",
+                                            "StopTime": null,
+                                            "Duration": null,
+                                            "CabinType": "Economy"
+                                        },
+                                        "Origin": {
+                                            "Date": "2018-03-20",
+                                            "Terminal": null,
+                                            "Time": "14:30:00",
+                                            "Airport": {
+                                                "City": "Bucharest",
+                                                "CityId": "450",
+                                                "_": "Henri Coanda Arpt",
+                                                "Code": "OTP"
+                                            }
+                                        },
+                                        "Destination": {
+                                            "Date": "2018-03-20",
+                                            "Terminal": null,
+                                            "Time": "17:40:00",
+                                            "Airport": {
+                                                "City": "Madrid",
+                                                "CityId": "11743",
+                                                "_": "Adolfo Suarez Barajas Arpt",
+                                                "Code": "MAD"
+                                            }
+                                        },
+                                        "Carrier": {
+                                            "Marketing": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            },
+                                            "Operating": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            }
+                                        },
+                                        "Secured": false,
+                                        "TechnicalStop": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Route": [
+                            {
+                                "Ref": "0",
+                                "Duration": "20:30",
+                                "Hash": "14dd652cb73f0855db70f4a9ec334a9c",
+                                "ItineraryCode": null,
+                                "Segment": [
+                                    {
+                                        "Aircraft": {
+                                            "Code": "73H",
+                                            "_": "Boeing 737-800 (winglets) pax"
+                                        },
+                                        "Flight": {
+                                            "Class": "T",
+                                            "Meal": null,
+                                            "Number": "4014",
+                                            "NumberOfSeats": "8",
+                                            "StopTime": null,
+                                            "Duration": null,
+                                            "CabinType": "Economy"
+                                        },
+                                        "Origin": {
+                                            "Date": "2018-03-25",
+                                            "Terminal": null,
+                                            "Time": "21:45:00",
+                                            "Airport": {
+                                                "City": "Madrid",
+                                                "CityId": "11743",
+                                                "_": "Adolfo Suarez Barajas Arpt",
+                                                "Code": "MAD"
+                                            }
+                                        },
+                                        "Destination": {
+                                            "Date": "2018-03-25",
+                                            "Terminal": null,
+                                            "Time": "23:55:00",
+                                            "Airport": {
+                                                "City": "Torino",
+                                                "CityId": "7467",
+                                                "_": "Torino Caselle Arpt",
+                                                "Code": "TRN"
+                                            }
+                                        },
+                                        "Carrier": {
+                                            "Marketing": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            },
+                                            "Operating": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            }
+                                        },
+                                        "Secured": false,
+                                        "TechnicalStop": null
+                                    },
+                                    {
+                                        "Aircraft": {
+                                            "Code": "73H",
+                                            "_": "Boeing 737-800 (winglets) pax"
+                                        },
+                                        "Flight": {
+                                            "Class": "V",
+                                            "Meal": null,
+                                            "Number": "4001",
+                                            "NumberOfSeats": "9",
+                                            "StopTime": "08:10:00",
+                                            "Duration": null,
+                                            "CabinType": "Economy"
+                                        },
+                                        "Origin": {
+                                            "Date": "2018-03-26",
+                                            "Terminal": null,
+                                            "Time": "08:05:00",
+                                            "Airport": {
+                                                "City": "Torino",
+                                                "CityId": "7467",
+                                                "_": "Torino Caselle Arpt",
+                                                "Code": "TRN"
+                                            }
+                                        },
+                                        "Destination": {
+                                            "Date": "2018-03-26",
+                                            "Terminal": null,
+                                            "Time": "10:10:00",
+                                            "Airport": {
+                                                "City": "Catania",
+                                                "CityId": "82973",
+                                                "_": "Fontanarossa Arpt",
+                                                "Code": "CTA"
+                                            }
+                                        },
+                                        "Carrier": {
+                                            "Marketing": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            },
+                                            "Operating": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            }
+                                        },
+                                        "Secured": false,
+                                        "TechnicalStop": null
+                                    },
+                                    {
+                                        "Aircraft": {
+                                            "Code": "734",
+                                            "_": "Boeing 737-400 pax"
+                                        },
+                                        "Flight": {
+                                            "Class": "X",
+                                            "Meal": null,
+                                            "Number": "146",
+                                            "NumberOfSeats": "9",
+                                            "StopTime": "06:00:00",
+                                            "Duration": null,
+                                            "CabinType": "Economy"
+                                        },
+                                        "Origin": {
+                                            "Date": "2018-03-26",
+                                            "Terminal": null,
+                                            "Time": "16:10:00",
+                                            "Airport": {
+                                                "City": "Catania",
+                                                "CityId": "82973",
+                                                "_": "Fontanarossa Arpt",
+                                                "Code": "CTA"
+                                            }
+                                        },
+                                        "Destination": {
+                                            "Date": "2018-03-26",
+                                            "Terminal": null,
+                                            "Time": "19:15:00",
+                                            "Airport": {
+                                                "City": "Bucharest",
+                                                "CityId": "450",
+                                                "_": "Henri Coanda Arpt",
+                                                "Code": "OTP"
+                                            }
+                                        },
+                                        "Carrier": {
+                                            "Marketing": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            },
+                                            "Operating": {
+                                                "Code": "0B",
+                                                "_": "Blue Air"
+                                            }
+                                        },
+                                        "Secured": false,
+                                        "TechnicalStop": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "PriceDetail": {
+                    "Amount": 1210.95,
+                    "Currency": "RON"
+                },
+                "NonRefundable": true
+            }
+        ]
+    },
+    "page_count": 1,
+    "page_size": 3000,
+    "total_items": 2,
+    "page": 1
+}

@@ -1,0 +1,82 @@
+nav.side-navbar .sidenav-header{
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.sidenav-header-logo{
+  line-height: 18px;
+}
+
+/* Tooltip */
+.ui-tooltip, .arrow:after {
+  background: #132B4F;
+  border: 1px solid white;
+}
+.ui-tooltip {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  box-shadow: 0 0 3px #132B4F;
+  -moz-box-shadow: 0 0 3px #132B4F;
+  -webkit-box-shadow: 0 0 3px #132B4F;
+  text-align:center;
+}
+.ui-tooltip .arrow {
+  width: 70px;
+  height: 16px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  margin-left: -35px;
+  bottom: -16px;
+}
+.ui-tooltip .arrow.top {
+  top: -16px;
+  bottom: auto;
+}
+.ui-tooltip .arrow.left {
+  left: 20%;
+}
+.ui-tooltip .arrow:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: -20px;
+  width: 25px;
+  height: 25px;
+  box-shadow: 6px 5px 9px -9px black;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.ui-tooltip .arrow.top:after {
+  bottom: -20px;
+  top: auto;
+}
+.form-control{
+  border-radius:0 !important;
+}
+.select2_4.select2_4-container--bootstrap .select2_4-selection--single{
+  height: 2.35rem;
+  border-radius: 0 !important;
+}
+.btn{
+  border-radius:0 !important;
+}
+.input-group-addon{
+  border-radius:0 !important;
+}
+
+.bg-white{
+  background-color:#fff !important;
+}
+.nav-tabs > .nav-item > a.nav-link:not(.active){
+  color: inherit;
+}
+.adjust-addon-width{
+  min-width:43px;
+}
+.popover{
+  max-width:100%;
+}

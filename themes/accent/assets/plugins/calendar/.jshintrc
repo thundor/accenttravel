@@ -1,0 +1,6 @@
+{
+	"globals": {"moment": true, "Hammer": true},
+	"jquery": true,
+	"-W032": true,
+	"loopfunc": true
+}

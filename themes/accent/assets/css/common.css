@@ -1,0 +1,107 @@
+/* Table auto increment */
+.ac,
+.ac_res {
+  counter-reset: row-num;
+}
+.ac_inc {
+  counter-increment: row-num;
+}
+.ac .ac_dis:before {
+  content: counter(row-num);
+}
+.ac2,
+.ac_res2 {
+  counter-reset: row-num-2;
+}
+.ac_inc2 {
+  counter-increment: row-num-2;
+}
+.ac_dis2:before {
+  content: counter(row-num-2);
+}
+th.contains-form-control,
+td.contains-form-control{
+  padding:3px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -4px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.caleran-month-selector > .disabled,
+.caleran-year-selector > .disabled{
+  background-color: #ccc !important;
+  color: #fff !important;
+  cursor: default !important;
+}
+.alert-dismissible .close{
+  top: 0;
+  margin-top: -.75rem;
+}
+
+.select2_4-container--bootstrap .select2_4-selection--multiple .select2_4-results__option[aria-selected=true]{
+  display:none;
+}
+
+.has-danger .form-control + .select2_4-container--bootstrap:not(.select2_4-container--focus):not(.select2_4-container--open) .select2_4-selection {
+  border-color: #d9534f;
+}
+.ui-menu.ui-widget.ui-widget-content.ui-autocomplete.ui-front{
+  z-index:3;
+}
+button.close.custom-close{
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+}
+.pagination{
+	flex-wrap:wrap;
+}

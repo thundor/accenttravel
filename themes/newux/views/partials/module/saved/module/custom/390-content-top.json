@@ -1,0 +1,50 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "button",
+                                        "mod_data": {
+                                            "props": {
+                                                "variant": "outlined",
+                                                "text": "Înapoi la BLOG",
+                                                "class": "v-btn--size-large",
+                                                "prependIcon": "",
+                                                "href": "/blog"
+                                            },
+                                            "prepend": null,
+                                            "append": null
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "section-title",
+                                        "text": "",
+                                        "status": true,
+                                        "mod_data": {
+                                            "title": "<h1>City Break-uri ieftine în Europa</h1>",
+                                            "html": ""
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p style=\"text-align: center;\">Ia-ți notițe sau mai bine zis, pregătește-ți bagajul!, căci urmează o tură virtuală prin câteva orașe europene de neratat, dar care nu-ți lasă portofelul gol-goluț!</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            }
+        ]
+    },
+    "name": "390-content-top"
+}

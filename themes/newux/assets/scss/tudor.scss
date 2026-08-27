@@ -1,0 +1,122 @@
+#pos-stick-b-t{
+	position: sticky;
+    bottom: 0;
+    top: 96px;
+    z-index: 2;
+}
+#pos-stick-t-b{
+	position: sticky;
+    bottom: 0;
+    top: 96px;
+    z-index: 2;
+    background: #fff;
+}
+[class^="q-"],
+[class*=" q-"]{
+	.col,
+	.row{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+}
+
+html.route-index #search-wrapper-menu-container{
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    transition: background .5s ease-in-out;
+	background-image: url(https://accenttravel.ro/resources/images/Tema/turcia.webp);
+	background-position: center center;
+	padding-bottom: 0;
+}
+
+#search-wrapper-menu-container > .presearch-wrapper{
+	min-height: 152px;
+}
+
+.v-switch .v-selection-control{
+	min-height: auto;
+}
+#search-wrapper-step-1,
+#trip-avion-menu{
+	position: relative;
+}
+#after-trip-avion {
+	position: absolute;
+    width: 100%;
+}
+html.route-index #search-wrapper-menu-container{
+	background-image: none !important;
+}
+html.route-index #search-wrapper-menu-before{
+	display: none !important;
+}
+
+#search-wrapper-menu-container{
+	position:relative;
+}
+.hero-banner-bg{
+	position: absolute;
+	background: #fff;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+}
+.v-pagination__list{
+	flex-wrap: wrap;
+}
+
+.custom-layout{
+	display: table;
+	
+	>.v-navigation-drawer{
+		float:left;
+		position: sticky !important;
+		
+		.v-navigation-drawer__content{
+			> div {
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+		}
+	}
+	
+	>.v-main{
+		float:right;
+		padding-left: 0 !important;
+		width: 100%;
+		max-width: calc(100% - var(--v-layout-left));
+	}
+}
+
+.breakpoint-sm-and-down{
+	.custom-layout{
+		>.v-navigation-drawer{
+			top: 74px !important;
+			margin-left: -256px;
+			.v-navigation-drawer__content{
+				overflow:visible;
+				> div {
+					overflow: auto;
+                    max-height: calc(100vh - 76px);
+				}
+			}
+		}
+		.v-navigation-drawer__scrim{
+			position:fixed;
+		}
+	}
+}
+.breakpoint-md-and-up{
+	.custom-layout{
+		
+		>.v-navigation-drawer{
+			top: 100px !important;
+		}
+	}
+}

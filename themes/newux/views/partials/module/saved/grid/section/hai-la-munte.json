@@ -1,0 +1,50 @@
+{
+    "name": "hai-la-munte",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "status": true,
+    "default_mod_template": "card-image-vertical",
+    "default_mod_data": {
+        "image": {
+            "props": {
+                "src": "/resources/images/balvanyos.jpg",
+                "height": "250",
+                "cover": true,
+                "aspectRatio": "16/9",
+                "rounded": "lg"
+            }
+        },
+        "props": {
+            "tag": "a",
+            "href": "https://accenttravel.ro/hoteluri",
+            "class": "text-decoration-none mx-auto",
+            "maxWidth": "400",
+            "rounded": "lg",
+            "minWidth": "250"
+        },
+        "title": "Turcia - Antalya",
+        "subtitle": "",
+        "button_title": "Vezi ofertele",
+        "header_title": ""
+    },
+    "props": {
+        "fluid": true,
+        "style": "background: transparent linear-gradient(117deg, #FFE0E9 0%, #D8F0FF 100%) 0% 0% no-repeat padding-box;\nmargin-bottom:30px;",
+        "class": "euro-weekend"
+    },
+    "carousel": false,
+    "text": "Euro weekend"
+}

@@ -1,0 +1,1145 @@
+{
+    "code": "AIR:WS:ACCO:31887e28d377dc2718e76749489542b1",
+    "itinerary_code": "ee605e147a332f59c66509ea5e44220e5cd4c226:0",
+    "flight_details": {
+        "ItineraryCode": "ee605e147a332f59c66509ea5e44220e5cd4c226:0",
+        "Price": 17331.11,
+        "Currency": "RON",
+        "Routes": [
+            {
+                "Index": "0",
+                "AirportChange": false,
+                "MultipleAirlines": false,
+                "NextDayLanding": false,
+                "Ref": null,
+                "Duration": "34:30",
+                "Hash": "afd703159880736aec28a596e8fb7bd0",
+                "ItineraryCode": null,
+                "Segment": [
+                    {
+                        "Aircraft": {
+                            "Code": "738",
+                            "_": "Boeing 737-800 pax"
+                        },
+                        "Flight": {
+                            "Class": "Y",
+                            "Meal": "Food and Beverages for purchase",
+                            "Number": "7393",
+                            "NumberOfSeats": "4",
+                            "StopTime": null,
+                            "Duration": "02:15",
+                            "CabinType": ",Economy,"
+                        },
+                        "Origin": {
+                            "Date": "2018-01-25",
+                            "Terminal": null,
+                            "Time": "16:40:00",
+                            "Airport": {
+                                "City": "Bucharest",
+                                "CityId": "450",
+                                "_": "Henri Coanda Arpt",
+                                "Code": "OTP"
+                            }
+                        },
+                        "Destination": {
+                            "Date": "2018-01-25",
+                            "Terminal": null,
+                            "Time": "17:55:00",
+                            "Airport": {
+                                "City": "Roma",
+                                "CityId": "7500",
+                                "_": "Leonardo da Vinci",
+                                "Code": "FCO"
+                            }
+                        },
+                        "Carrier": {
+                            "Marketing": {
+                                "Code": "AZ",
+                                "_": "Alitalia"
+                            },
+                            "Operating": {
+                                "Code": "0B",
+                                "_": "Blue Air"
+                            }
+                        },
+                        "Secured": false,
+                        "TechnicalStop": null
+                    },
+                    {
+                        "Aircraft": {
+                            "Code": "330",
+                            "_": "Airbus A330 all models"
+                        },
+                        "Flight": {
+                            "Class": "Y",
+                            "Meal": "Meal",
+                            "Number": "852",
+                            "NumberOfSeats": "4",
+                            "StopTime": "16:45:00",
+                            "Duration": "05:50",
+                            "CabinType": ",Economy,"
+                        },
+                        "Origin": {
+                            "Date": "2018-01-26",
+                            "Terminal": "1",
+                            "Time": "10:40:00",
+                            "Airport": {
+                                "City": "Roma",
+                                "CityId": "7500",
+                                "_": "Leonardo da Vinci",
+                                "Code": "FCO"
+                            }
+                        },
+                        "Destination": {
+                            "Date": "2018-01-26",
+                            "Terminal": "1",
+                            "Time": "19:30:00",
+                            "Airport": {
+                                "City": "Abu Dhabi",
+                                "CityId": "13445",
+                                "_": "Dhabi Intl Arpt",
+                                "Code": "AUH"
+                            }
+                        },
+                        "Carrier": {
+                            "Marketing": {
+                                "Code": "AZ",
+                                "_": "Alitalia"
+                            },
+                            "Operating": {
+                                "Code": "AZ",
+                                "_": "Alitalia"
+                            }
+                        },
+                        "Secured": false,
+                        "TechnicalStop": null
+                    },
+                    {
+                        "Aircraft": {
+                            "Code": "332",
+                            "_": "Airbus A330-200"
+                        },
+                        "Flight": {
+                            "Class": "Y",
+                            "Meal": "Meal",
+                            "Number": "5776",
+                            "NumberOfSeats": "4",
+                            "StopTime": "02:20:00",
+                            "Duration": "07:20",
+                            "CabinType": ",Economy,"
+                        },
+                        "Origin": {
+                            "Date": "2018-01-26",
+                            "Terminal": "3",
+                            "Time": "21:50:00",
+                            "Airport": {
+                                "City": "Abu Dhabi",
+                                "CityId": "13445",
+                                "_": "Dhabi Intl Arpt",
+                                "Code": "AUH"
+                            }
+                        },
+                        "Destination": {
+                            "Date": "2018-01-27",
+                            "Terminal": "1",
+                            "Time": "09:10:00",
+                            "Airport": {
+                                "City": "Hong Kong",
+                                "CityId": "14527",
+                                "_": "Hong Kong Intl",
+                                "Code": "HKG"
+                            }
+                        },
+                        "Carrier": {
+                            "Marketing": {
+                                "Code": "AZ",
+                                "_": "Alitalia"
+                            },
+                            "Operating": {
+                                "Code": "EY",
+                                "_": "Etihad Airways"
+                            }
+                        },
+                        "Secured": false,
+                        "TechnicalStop": null
+                    }
+                ]
+            },
+            {
+                "Index": "1",
+                "Ref": null,
+                "Duration": "23:40",
+                "Hash": "73c4d08bdf0a660055fd4ee375a44e8f",
+                "ItineraryCode": null,
+                "Segment": [
+                    {
+                        "Aircraft": {
+                            "Code": "332",
+                            "_": "Airbus A330-200"
+                        },
+                        "Flight": {
+                            "Class": "Y",
+                            "Meal": "Meal",
+                            "Number": "5777",
+                            "NumberOfSeats": "4",
+                            "StopTime": null,
+                            "Duration": "09:35",
+                            "CabinType": ",Economy,"
+                        },
+                        "Origin": {
+                            "Date": "2018-02-01",
+                            "Terminal": "1",
+                            "Time": "18:30:00",
+                            "Airport": {
+                                "City": "Hong Kong",
+                                "CityId": "14527",
+                                "_": "Hong Kong Intl",
+                                "Code": "HKG"
+                            }
+                        },
+                        "Destination": {
+                            "Date": "2018-02-02",
+                            "Terminal": "3",
+                            "Time": "00:05:00",
+                            "Airport": {
+                                "City": "Abu Dhabi",
+                                "CityId": "13445",
+                                "_": "Dhabi Intl Arpt",
+                                "Code": "AUH"
+                            }
+                        },
+                        "Carrier": {
+                            "Marketing": {
+                                "Code": "AZ",
+                                "_": "Alitalia"
+                            },
+                            "Operating": {
+                                "Code": "EY",
+                                "_": "Etihad Airways"
+                            }
+                        },
+                        "Secured": false,
+                        "TechnicalStop": null
+                    },
+                    {
+                        "Aircraft": {
+                            "Code": "330",
+                            "_": "Airbus A330 all models"
+                        },
+                        "Flight": {
+                            "Class": "Y",
+                            "Meal": "Meal",
+                            "Number": "853",
+                            "NumberOfSeats": "4",
+                            "StopTime": "02:20:00",
+                            "Duration": "06:50",
+                            "CabinType": ",Economy,"
+                        },
+                        "Origin": {
+                            "Date": "2018-02-02",
+                            "Terminal": "1",
+                            "Time": "02:25:00",
+                            "Airport": {
+                                "City": "Abu Dhabi",
+                                "CityId": "13445",
+                                "_": "Dhabi Intl Arpt",
+                                "Code": "AUH"
+                            }
+                        },
+                        "Destination": {
+                            "Date": "2018-02-02",
+                            "Terminal": "3",
+                            "Time": "06:15:00",
+                            "Airport": {
+                                "City": "Roma",
+                                "CityId": "7500",
+                                "_": "Leonardo da Vinci",
+                                "Code": "FCO"
+                            }
+                        },
+                        "Carrier": {
+                            "Marketing": {
+                                "Code": "AZ",
+                                "_": "Alitalia"
+                            },
+                            "Operating": {
+                                "Code": "AZ",
+                                "_": "Alitalia"
+                            }
+                        },
+                        "Secured": false,
+                        "TechnicalStop": null
+                    },
+                    {
+                        "Aircraft": {
+                            "Code": "735",
+                            "_": "Boeing 737-500 pax"
+                        },
+                        "Flight": {
+                            "Class": "Y",
+                            "Meal": "Food and Beverages for purchase",
+                            "Number": "7394",
+                            "NumberOfSeats": "4",
+                            "StopTime": "02:40:00",
+                            "Duration": "02:15",
+                            "CabinType": ",Economy,"
+                        },
+                        "Origin": {
+                            "Date": "2018-02-02",
+                            "Terminal": null,
+                            "Time": "08:55:00",
+                            "Airport": {
+                                "City": "Roma",
+                                "CityId": "7500",
+                                "_": "Leonardo da Vinci",
+                                "Code": "FCO"
+                            }
+                        },
+                        "Destination": {
+                            "Date": "2018-02-02",
+                            "Terminal": null,
+                            "Time": "12:10:00",
+                            "Airport": {
+                                "City": "Bucharest",
+                                "CityId": "450",
+                                "_": "Henri Coanda Arpt",
+                                "Code": "OTP"
+                            }
+                        },
+                        "Carrier": {
+                            "Marketing": {
+                                "Code": "AZ",
+                                "_": "Alitalia"
+                            },
+                            "Operating": {
+                                "Code": "0B",
+                                "_": "Blue Air"
+                            }
+                        },
+                        "Secured": false,
+                        "TechnicalStop": null
+                    }
+                ]
+            }
+        ],
+        "NonRefundable": null,
+        "FlightsCode": "AIR:WS:ACCO:31887e28d377dc2718e76749489542b1",
+        "FareRules": {
+            "ADT": [
+                {
+                    "FareBasis": "YRTCE",
+                    "Origin": {
+                        "Code": "BUH",
+                        "City": "Bucharest",
+                        "CityCode": "BUH",
+                        "CityId": "450"
+                    },
+                    "Destination": {
+                        "Code": "HKG",
+                        "City": "Hong Kong",
+                        "CityCode": "HKG",
+                        "CityId": "14527"
+                    },
+                    "Airline": {
+                        "Code": "AZ",
+                        "_": "Alitalia"
+                    },
+                    "Category": [
+                        {
+                            "Name": "RULE APPLICATION",
+                            "_": "ALITALIA ECONOMY CLASS UNRESTRICTED FARES BETWEEN EUROPE AND\nASIA\n APPLICATION\n   AREA\n     THESE FARES APPLY\n     BETWEEN EUROPE AND AREA 3.\n   CLASS OF SERVICE\n     THESE FARES APPLY FOR ECONOMY CLASS SERVICE.\n   TYPES OF TRANSPORTATION\n     FARES GOVERNED BY THIS RULE CAN BE USED TO CREATE\n     ROUND-TRIP\/CIRCLE-TRIP\/OPEN-JAW JOURNEYS.\n CAPACITY LIMITATIONS\n   THE CARRIER SHALL LIMIT THE NUMBER OF PASSENGERS CARRIED\n   ON ANY ONE FLIGHT AT FARES GOVERNED BY THIS RULE AND SUCH\n   FARES WILL NOT NECESSARILY BE AVAILABLE ON ALL FLIGHTS.\n   THE NUMBER OF SEATS WHICH THE CARRIER SHALL MAKE\n   AVAILABLE ON A GIVEN FLIGHT WILL BE DETERMINED BY THE\n   CARRIERS BEST JUDGMENT\n RULES NOT APPLICABLE\n   PASSENGER EXPENSES NOT PERMITTED\n OTHER CONDITIONS\n   FULL AND SEQUENTIAL USE OF FLIGHT COUPONS -\n   THE TICKET\/ OR ELECTRONIC TICKET\/ IS NOT VALID IF\n   THE FIRST COUPON HAS NOT BEEN USED AND WILL NOT\n   BE HONORED IF ALL THE COUPONS ARE NOT USED IN THE\n   SEQUENCE PROVIDED IN THE TICKET\/ OR ELECTRONIC\n   TICKET\/.\n"
+                        },
+                        {
+                            "Name": "MINIMUM STAY",
+                            "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                        },
+                        {
+                            "Name": "MAXIMUM STAY",
+                            "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                        },
+                        {
+                            "Name": "SALES RESTRICTIONS",
+                            "_": " \n  TICKETS MUST BE ISSUED ON AZ  OR AF.\n  TICKETS MAY NOT BE ISSUED BY PTA. EXTENSION OF TICKET\n  VALIDITY IS NOT PERMITTED.\n  OR - TICKETS MUST BE ISSUED ON AZ  OR DL.\n       TICKETS MAY NOT BE ISSUED BY PTA. EXTENSION OF TICKET\n       VALIDITY IS NOT PERMITTED.\n  OR - TICKETS MUST BE ISSUED ON AZ  OR KL.\n       TICKETS MAY NOT BE ISSUED BY PTA. EXTENSION OF TICKET\n       VALIDITY IS NOT PERMITTED.\n  OR - TICKETS MUST BE ISSUED ON AZ  OR UX AND MAY ONLY BE\n       SOLD IN MAD\/BIO\/PMI\/IBZ\/BCN\n       TICKETS MAY NOT BE ISSUED BY PTA. EXTENSION OF TICKET\n       VALIDITY IS NOT PERMITTED.\n"
+                        },
+                        {
+                            "Name": "ADVANCE PURCHASE",
+                            "_": " \n  RESERVATIONS ARE REQUIRED FOR ALL SECTORS.\n         NOTE -\n          THE CARRIER GUARANTEES FARE AND RULE CONDITIONS IF\n          THE TICKETING IS COMPLETED WITHIN 72 HOURS AFTER\n          RESERVATIONS ARE MADE.\n          -TKT MUST BE ISSUED WITHIN TICKET TIME LIMITE\n          AS PER AUTOMATIC REMARK.\n"
+                        },
+                        {
+                            "Name": "FLIGHT APPLICATIONS",
+                            "_": " \n  THE FARE COMPONENT MUST BE ON\n      ONE OR MORE OF THE FOLLOWING\n        ANY AZ FLIGHT.\n"
+                        },
+                        {
+                            "Name": "CHILDREN DISCOUNT",
+                            "_": "BETWEEN AREA 2 AND AREA 3 FOR ROUND TRIP FARES\n \n  ACCOMPANIED CHILD 2-11. ID REQUIRED - CHARGE 67 PERCENT OF\n    THE FARE.\n        TICKETING CODE - BASE FARE CODE PLUS CH.\n    MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME COMPARTMENT\n      BY ADULT 18 OR OLDER\n  OR - INFANT UNDER 2 WITHOUT A SEAT - CHARGE 10 PERCENT OF\n         THE FARE.\n             TICKETING CODE - BASE FARE CODE PLUS IN.\n         MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME\n           COMPARTMENT AT THIS RULE BY ADULT 18 OR OLDER\n  OR - INFANT UNDER 2 WITH A SEAT - CHARGE 67 PERCENT OF THE\n         FARE.\n             TICKETING CODE - BASE FARE CODE PLUS CH.\n         MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME\n           COMPARTMENT BY ADULT 18 OR OLDER.\n         NOTE -\n          FOR INFANT UNDER 2 WITH A SEAT CHARGE 67 PERCENT\n          OF THE FARE.\n          VALID ON AZ OPERATING AIRCRAFTS\n          FOR RESERVATION\/TICKETING PLEASE CONTACT THE\n          ALITALIA CALL CENTRE.\n  OR - UNACCOMPANIED CHILD 5-11. ID REQUIRED - CHARGE 67\n         PERCENT OF THE FARE PLUS EUR 150.00.\n             TICKET DESIGNATOR - UM\n  OR - UNACCOMPANIED CHILD 12-14. ID REQUIRED - CHARGE 100\n         PERCENT OF THE FARE PLUS EUR 150.00.\n             TICKET DESIGNATOR - UM.\n"
+                        },
+                        {
+                            "Name": "TOUR CONDUCTOR DISCOUNT",
+                            "_": "FOR YRTCE FARES\n \n         NOTE -\n          TOUR CONDUCTOR DISCOUNTS - PERMITTED.\n"
+                        },
+                        {
+                            "Name": "AGENT DISCOUNT",
+                            "_": "FOR YRTCE FARES\n \n         NOTE -\n          AGENT DISCOUNT PERMITTED.\n"
+                        },
+                        {
+                            "Name": "ALL OTHER DISCOUNTS",
+                            "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                        },
+                        {
+                            "Name": "STOPOVERS",
+                            "_": " \n  UNLIMITED STOPOVERS PERMITTED.\n"
+                        },
+                        {
+                            "Name": "TRANSFER",
+                            "_": " \n  TRANSFERS PERMITTED\n    FARE BREAK SURFACE SECTORS NOT PERMITTED AND EMBEDDED\n     SURFACE SECTORS PERMITTED ON THE FARE COMPONENT.\n         NOTE -\n          AS PER ROUTING\n          -----\n          SURFACE TRANSPORTATION\n          A THROUGH FARE MUST NOT BE CHARGED OVER A\n          SURFACE SECTOR AT THE POINT OF ORIGIN\/DESTINATION\n          OF AN ITINERARY.\n"
+                        },
+                        {
+                            "Name": "SURCHARGE",
+                            "_": "BETWEEN AREA 2 AND HKG\n \n  OUTBOUND -\n    A SURCHARGE OF EUR 25.00 PER FARE COMPONENT WILL BE\n    ADDED TO THE APPLICABLE FARE PER ADULT\/CHILD\/INFANT FOR\n    PEAK TRAVEL ON FRI\/SAT.\n \n  AND - INBOUND -\n    A SURCHARGE OF EUR 25.00 PER FARE COMPONENT WILL BE\n    ADDED TO THE APPLICABLE FARE FOR PEAK TRAVEL FROM 26AUG\n    THROUGH 07SEP.\n    AND - A SURCHARGE OF EUR 25.00 PER FARE COMPONENT WILL\n          BE ADDED TO THE APPLICABLE FARE FOR PEAK TRAVEL\n          FROM 01JAN THROUGH 08JAN.\n \n  AND - OUTBOUND -\n    A SURCHARGE OF EUR 50.00 PER FARE COMPONENT WILL BE\n    ADDED TO THE APPLICABLE FARE FOR PEAK TRAVEL FROM 19DEC\n    THROUGH 30DEC.\n \n  AND - A SURCHARGE OF USD 1.50 PER DIRECTION WILL BE ADDED\n        TO THE APPLICABLE FARE FOR TRAVEL.\n"
+                        },
+                        {
+                            "Name": "PENALTIES",
+                            "_": " \n  CHANGES\n \n    ANY TIME\n      CHANGES PERMITTED.\n         NOTE -\n          --------------------------------------------------\n          --------------------------------------------------\n          PROVISIONS VALID FROM BRAZIL ONLY -\n          CHANGE CAN BE DONE IN A LOWER SAME OR HIGHER\n          BOOKING CLASS.\n          THE FARE MAY BE LOWER-EQUAL OR HIGHER THAN\n          PREVIOUS FARE. WHEN CHANGE RESULTS IN A LOWER\n          FARE CREDIT\/REFUND OF RESIDUAL AMOUNT WILL BE\n          MADE. ALL RULE PROVISIONS OF THE NEWLY TICKETED\n          FARE MUST BE MET.\n          --------------------------------------------------\n          --------------------------------------------------\n          GENERAL PROVISIONS -\n          WAIVED FOR ILLNESS OR DEATH OF PASSENGER OR FAMILY\n           MEMBER.ILLNESS\/DEATH WAIVER MUST BE SUBSTANTIATED\n           BY A VALID HOSPITAL\/DEATH CERTIFICATE\n          --------------------------------------------------\n          CHANGE RULES APPLY PER FARE COMPONENT.\n          CHARGE APPLIES BY TRANSACTION - PER PERSON\n          FOR ADULT \/ CHILD AND INFANT. WHEN MORE THAN\n          ONE FARE COMPONENT IS CHANGED AT THE SAME TIME THE\n           HIGHEST PENALTY OF ALL CHANGED FARE\n           COMPONENTS APPLIES.\n          -------------------------------------------------\n          BEFORE DEPARTURE OF THE OUTBOUND JOURNEY\n          -------------------------------------------------\n          A CHANGE IS A DATE \/ OR FLIGHT \/ OR\n          ROUTING MODIFICATION. IN THE EVENT OF\n          REROUTING THE FARE MUST BE RECALCULATED\n          USING THE APPLICABLE FARE FOR THE NEW\n           ORIGIN\/DESTINATION OR THE NEW ROUTING.\n          --------------------------------------------------\n          NEW RESERVATION AND REISSUE\/REVALIDATION MUST\n          BE MADE AT THE SAME TIME. THE NEW BASE FARE AMOUNT\n           MUST BE RECALCULATED USING FARES IN\n          EFFECT ON THE PREVIOUS TICKETING DATE IF\n          CHANGE DOES NOT OCCUR ON THE FIRST FARE\n          COMPONENT OF THE JOURNEY.\n          WHEN CHANGE OCCURS ON THE FIRST FARE COMPONENT\n          OF THE JOURNEY ONLY OR ON THE FIRST FARE COMPONENT\n           AND OTHER FARE COMPONENTS OF THE JOURNEY NEW FARE\n           WILL BE RECALCULATED USING\n          FARES IN EFFECT ON DATE OF REISSUE.\n          FOLLOWING CONDITIONS APPLY\n          CHANGE CAN BE DONE IN SAME OR HIGHER\n          BOOKING CLASS.\n          THE FARE MAY BE LOWER - EQUAL OR HIGHER THAN\n          PREVIOUS FARE. WHEN CHANGE RESULTS IN A LOWER FARE\n           NO CREDIT\/REFUND OF RESIDUAL AMOUNT WILL\n          BE MADE.ALL RULE PROVISIONS OF THE NEWLY\n          TICKETED FARE MUST BE MET.\n          --------------------------------------------------\n          AFTER DEPARTURE OF THE OUTBOUND JOURNEY\n          --------------------------------------------------\n          A CHANGE IS A DATE \/ OR FLIGHT \/ OR ROUTING\n           MODIFICATION. IN THE EVENT OF REROUTING THE\n          FARE MUST BE RECALCULATED USING THE APPLICABLE\n           FARE FOR THE NEW ORIGIN\/DESTINATION OR THE NEW\n           ROUTING.\n          --------------------------------------------------\n          NEW RESERVATION AND REISSUE\/REVALIDATION MUST\n          BE MADE AT THE SAME TIME. THE NEW BASE FARE AMOUNT\n           MUST BE RECALCULATED USING FARES IN\n          EFFECT ON THE PREVIOUS TICKETING DATE IF CHANGE\n           DOES NOT OCCUR ON THE FIRST FARE COMPONENT OF\n          THE JOURNEY.\n          WHEN CHANGE OCCURS ON THE FIRST FARE COMPONENT\n          OF THE JOURNEY ONLY OR ON THE FIRST FARE COMPONENT\n           AND OTHER FARE COMPONENTS OF THE JOURNEY NEW FARE\n           WILL BE RECALCULATED USING\n          FARES IN EFFECT ON DATE OF REISSUE.\n          FOLLOWING CONDITIONS APPLY\n          CHANGE CAN BE DONE IN SAME OR HIGHER\n          BOOKING CLASS.\n          THE FARE MAY BE LOWER- EQUAL OR HIGHER THAN\n          PREVIOUS FARE. WHEN CHANGE RESULTS IN A LOWER FARE\n           NO CREDIT\/REFUND OF RESIDUAL AMOUNT WILL\n          BE MADE. ALL RULE PROVISIONS OF THE NEWLY TICKETED\n           FARE MUST BE MET.\n \n  CANCELLATIONS\n \n    ANY TIME\n      CANCELLATIONS PERMITTED FOR CANCEL\/NO-SHOW.\n         NOTE -\n          CANCELLATIONS RULES APPLY PER FARE COMPONENT.\n          FOR PARTIALLY USED TICKETS REFUND THE\n          DIFFERENCE BETWEEN THE ORIGINAL FARE PAID\n          AND THE NEW APPLICABLE FARE IN SAME OR\n          HIGHER BOOKING CLASS FROM POINT OF ORIGIN\n          FOR THE NEW ROUTING.\n          THE FIRST APPLICABLE ONE WAY FARE IN\n          SAME OR HIGHER BOOKING CLASS APPLIES IF\n          THE NEW ROUTING RESULTS IN A ONE WAY ITINERARY.\n          --------------------------------------------------\n          IN CASE OF REFUND REQUESTED ON ENTIRE\n          JOURNEY FOR A TICKET THAT HAS BEEN\n          REISSUED THE ORIGINAL FARE PAID WILL\n          FOLLOW THE REFUND CONDITIONS\n          OF THE ORIGINAL FARE PAID\n          --------------------------------------------------\n          YR-SURCHARGE AMOUNT FOLLOWS\n          THE SAME CONDITIONS OF THE PENALTY\n          PROVISIONS IN CASE OF CANCELLATION\n          AND NO SHOW.\n"
+                        },
+                        {
+                            "Name": "COMBINATIONS",
+                            "_": "   END-ON-END NOT PERMITTED. SIDE TRIPS NOT PERMITTED\n   APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN\n   MISCELLANEOUS PROVISIONS - CATEGORY 23.\n  OPEN JAWS\/ROUND TRIPS\/CIRCLE TRIPS\n    FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS\n    -TO FORM SINGLE OR DOUBLE OPEN JAWS.\n     A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS\n     PERMITTED.\n     MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL\/LESS THAN\n     MILEAGE OF THE LONGEST FLOWN FARE COMPONENT.\n    -TO FORM ROUND TRIPS\n    -TO FORM CIRCLE TRIPS\n     A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS\n     PERMITTED.\n   PROVIDED -\n     COMBINATIONS ARE WITH ANY FARE FOR CARRIER AZ\/AF\/KL\/DL\n     IN ANY RULE IN ANY TARIFF.\n"
+                        },
+                        {
+                            "Name": "HIGHER INTERMEDIATE POINT",
+                            "_": " \n  THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY FOR\n  CONNECTIONS.\n  AND - THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY\n        FOR STOPOVERS.\n  AND -\n         NOTE -\n          EXCESS MILEAGE AND MPM SURCHARGE\n          MAY BE DISREGARDED.\n"
+                        },
+                        {
+                            "Name": "MISCELLANEOUS PROVISIONS",
+                            "_": " \n  THIS FARE MUST NOT BE USED AS THE HIGH OR THE LOW FARE\n  WHEN CALCULATING A DIFFERENTIAL. THIS FARE MUST NOT BE\n  USED AS THE THROUGH FARE WHEN PRICING A FARE COMPONENT\n  WITH A DIFFERENTIAL.\n"
+                        },
+                        {
+                            "Name": "REISSUE (VOLUNTARY CHANGES)",
+                            "_": " \n  IN THE EVENT OF CHANGES TO TICKETED FLIGHTS\n   ANYTIME WITHIN TKT VALIDITY\n     NO CHARGE OR HIGHEST FEE OF ALL CHANGED FARE\n     COMPONENTS- CATEGORY 19 DISCOUNTS APPLY AND\n      REPRICE USING FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. NO CHANGE TO FARE BREAKS\n       2. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       3. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       4. AZ  FARES ARE USED\n       5. PUBLIC FARES ARE USED IF TICKETED FARE IS IN\n       PUBLIC TARIFF. PRIVATE FARES ARE USED IF TICKETED\n       FARE IS IN PRIVATE TARIFF\n       6. NEW FARE IS EQUAL OR HIGHER THAN PREVIOUS FARE\n       7. NEW TKT HAS EQUAL OR HIGHER VALUE THAN PREVIOUS\n       TKT\n       8. ADV RES IS MEASURED FROM ORIGINAL TKT DATE TO\n       DEPARTURE OF PRICING UNIT\n   WHEN CHANGE RESULTS IN LOWER FARE IGNORE RESIDUAL THEN\n   ADD-COLLECT\n   ENDORSEMENT BOX- NEW ENDORSEMENTS.\n  OR -\n   ANYTIME WITHIN TKT VALIDITY\n     NO CHARGE OR HIGHEST FEE OF ALL CHANGED FARE\n     COMPONENTS- CATEGORY 19 DISCOUNTS APPLY AND\n      REPRICE USING FARES IN EFFECT WHEN TKT WAS ISSUED\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       2. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       3. AZ  NORMAL FARES ARE USED\n       4. PUBLIC FARES ARE USED IF TICKETED FARE IS IN\n       PUBLIC TARIFF. PRIVATE FARES ARE USED IF TICKETED\n       FARE IS IN PRIVATE TARIFF\n       5. ALL RULE AND BOOKING CODE PROVISIONS ARE MET\n       6. ADV RES IS MEASURED FROM ORIGINAL TKT DATE TO\n       DEPARTURE OF PRICING UNIT\n      OR -\n      REPRICE USING FARES IN EFFECT WHEN TKT WAS ISSUED\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       2. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       3. AZ  SPECIAL FARES ARE USED\n       4. PUBLIC FARES ARE USED IF TICKETED FARE IS IN\n       PUBLIC TARIFF. PRIVATE FARES ARE USED IF TICKETED\n       FARE IS IN PRIVATE TARIFF\n       5. ALL RULE AND BOOKING CODE PROVISIONS ARE MET\n       6. ADV RES IS MEASURED FROM REISSUE DATE TO DEPARTURE\n       OF PRICING UNIT\n      OR -\n      REPRICE USING FARES IN EFFECT WHEN TKT WAS ISSUED\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       2. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       3. AZ  SAME FARE CLASS IS USED\n       4. PUBLIC FARES ARE USED IF TICKETED FARE IS IN\n       PUBLIC TARIFF. PRIVATE FARES ARE USED IF TICKETED\n       FARE IS IN PRIVATE TARIFF\n       5. ALL RULE AND BOOKING CODE PROVISIONS ARE MET\n       6. ADV RES IS MEASURED FROM REISSUE DATE TO DEPARTURE\n       OF PRICING UNIT\n   WHEN CHANGE RESULTS IN LOWER FARE IGNORE RESIDUAL THEN\n   ADD-COLLECT\n   ENDORSEMENT BOX- NEW ENDORSEMENTS.\n"
+                        }
+                    ]
+                }
+            ],
+            "CHD": [
+                {
+                    "FareBasis": "YRTCE",
+                    "Origin": {
+                        "Code": "BUH",
+                        "City": "Bucharest",
+                        "CityCode": "BUH",
+                        "CityId": "450"
+                    },
+                    "Destination": {
+                        "Code": "HKG",
+                        "City": "Hong Kong",
+                        "CityCode": "HKG",
+                        "CityId": "14527"
+                    },
+                    "Airline": {
+                        "Code": "AZ",
+                        "_": "Alitalia"
+                    },
+                    "Category": [
+                        {
+                            "Name": "RULE APPLICATION",
+                            "_": "ALITALIA ECONOMY CLASS UNRESTRICTED FARES BETWEEN EUROPE AND\nASIA\n APPLICATION\n   AREA\n     THESE FARES APPLY\n     BETWEEN EUROPE AND AREA 3.\n   CLASS OF SERVICE\n     THESE FARES APPLY FOR ECONOMY CLASS SERVICE.\n   TYPES OF TRANSPORTATION\n     FARES GOVERNED BY THIS RULE CAN BE USED TO CREATE\n     ROUND-TRIP\/CIRCLE-TRIP\/OPEN-JAW JOURNEYS.\n CAPACITY LIMITATIONS\n   THE CARRIER SHALL LIMIT THE NUMBER OF PASSENGERS CARRIED\n   ON ANY ONE FLIGHT AT FARES GOVERNED BY THIS RULE AND SUCH\n   FARES WILL NOT NECESSARILY BE AVAILABLE ON ALL FLIGHTS.\n   THE NUMBER OF SEATS WHICH THE CARRIER SHALL MAKE\n   AVAILABLE ON A GIVEN FLIGHT WILL BE DETERMINED BY THE\n   CARRIERS BEST JUDGMENT\n RULES NOT APPLICABLE\n   PASSENGER EXPENSES NOT PERMITTED\n OTHER CONDITIONS\n   FULL AND SEQUENTIAL USE OF FLIGHT COUPONS -\n   THE TICKET\/ OR ELECTRONIC TICKET\/ IS NOT VALID IF\n   THE FIRST COUPON HAS NOT BEEN USED AND WILL NOT\n   BE HONORED IF ALL THE COUPONS ARE NOT USED IN THE\n   SEQUENCE PROVIDED IN THE TICKET\/ OR ELECTRONIC\n   TICKET\/.\n"
+                        },
+                        {
+                            "Name": "MINIMUM STAY",
+                            "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                        },
+                        {
+                            "Name": "MAXIMUM STAY",
+                            "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                        },
+                        {
+                            "Name": "SALES RESTRICTIONS",
+                            "_": " \n  TICKETS MUST BE ISSUED ON AZ  OR AF.\n  TICKETS MAY NOT BE ISSUED BY PTA. EXTENSION OF TICKET\n  VALIDITY IS NOT PERMITTED.\n  OR - TICKETS MUST BE ISSUED ON AZ  OR DL.\n       TICKETS MAY NOT BE ISSUED BY PTA. EXTENSION OF TICKET\n       VALIDITY IS NOT PERMITTED.\n  OR - TICKETS MUST BE ISSUED ON AZ  OR KL.\n       TICKETS MAY NOT BE ISSUED BY PTA. EXTENSION OF TICKET\n       VALIDITY IS NOT PERMITTED.\n  OR - TICKETS MUST BE ISSUED ON AZ  OR UX AND MAY ONLY BE\n       SOLD IN MAD\/BIO\/PMI\/IBZ\/BCN\n       TICKETS MAY NOT BE ISSUED BY PTA. EXTENSION OF TICKET\n       VALIDITY IS NOT PERMITTED.\n"
+                        },
+                        {
+                            "Name": "ADVANCE PURCHASE",
+                            "_": " \n  RESERVATIONS ARE REQUIRED FOR ALL SECTORS.\n         NOTE -\n          THE CARRIER GUARANTEES FARE AND RULE CONDITIONS IF\n          THE TICKETING IS COMPLETED WITHIN 72 HOURS AFTER\n          RESERVATIONS ARE MADE.\n          -TKT MUST BE ISSUED WITHIN TICKET TIME LIMITE\n          AS PER AUTOMATIC REMARK.\n"
+                        },
+                        {
+                            "Name": "FLIGHT APPLICATIONS",
+                            "_": " \n  THE FARE COMPONENT MUST BE ON\n      ONE OR MORE OF THE FOLLOWING\n        ANY AZ FLIGHT.\n"
+                        },
+                        {
+                            "Name": "CHILDREN DISCOUNT",
+                            "_": "BETWEEN AREA 2 AND AREA 3 FOR ROUND TRIP FARES\n \n  ACCOMPANIED CHILD 2-11. ID REQUIRED - CHARGE 67 PERCENT OF\n    THE FARE.\n        TICKETING CODE - BASE FARE CODE PLUS CH.\n    MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME COMPARTMENT\n      BY ADULT 18 OR OLDER\n  OR - INFANT UNDER 2 WITHOUT A SEAT - CHARGE 10 PERCENT OF\n         THE FARE.\n             TICKETING CODE - BASE FARE CODE PLUS IN.\n         MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME\n           COMPARTMENT AT THIS RULE BY ADULT 18 OR OLDER\n  OR - INFANT UNDER 2 WITH A SEAT - CHARGE 67 PERCENT OF THE\n         FARE.\n             TICKETING CODE - BASE FARE CODE PLUS CH.\n         MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME\n           COMPARTMENT BY ADULT 18 OR OLDER.\n         NOTE -\n          FOR INFANT UNDER 2 WITH A SEAT CHARGE 67 PERCENT\n          OF THE FARE.\n          VALID ON AZ OPERATING AIRCRAFTS\n          FOR RESERVATION\/TICKETING PLEASE CONTACT THE\n          ALITALIA CALL CENTRE.\n  OR - UNACCOMPANIED CHILD 5-11. ID REQUIRED - CHARGE 67\n         PERCENT OF THE FARE PLUS EUR 150.00.\n             TICKET DESIGNATOR - UM\n  OR - UNACCOMPANIED CHILD 12-14. ID REQUIRED - CHARGE 100\n         PERCENT OF THE FARE PLUS EUR 150.00.\n             TICKET DESIGNATOR - UM.\n"
+                        },
+                        {
+                            "Name": "TOUR CONDUCTOR DISCOUNT",
+                            "_": "FOR YRTCE FARES\n \n         NOTE -\n          TOUR CONDUCTOR DISCOUNTS - PERMITTED.\n"
+                        },
+                        {
+                            "Name": "AGENT DISCOUNT",
+                            "_": "FOR YRTCE FARES\n \n         NOTE -\n          AGENT DISCOUNT PERMITTED.\n"
+                        },
+                        {
+                            "Name": "ALL OTHER DISCOUNTS",
+                            "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                        },
+                        {
+                            "Name": "STOPOVERS",
+                            "_": " \n  UNLIMITED STOPOVERS PERMITTED.\n"
+                        },
+                        {
+                            "Name": "TRANSFER",
+                            "_": " \n  TRANSFERS PERMITTED\n    FARE BREAK SURFACE SECTORS NOT PERMITTED AND EMBEDDED\n     SURFACE SECTORS PERMITTED ON THE FARE COMPONENT.\n         NOTE -\n          AS PER ROUTING\n          -----\n          SURFACE TRANSPORTATION\n          A THROUGH FARE MUST NOT BE CHARGED OVER A\n          SURFACE SECTOR AT THE POINT OF ORIGIN\/DESTINATION\n          OF AN ITINERARY.\n"
+                        },
+                        {
+                            "Name": "SURCHARGE",
+                            "_": "BETWEEN AREA 2 AND HKG\n \n  OUTBOUND -\n    A SURCHARGE OF EUR 25.00 PER FARE COMPONENT WILL BE\n    ADDED TO THE APPLICABLE FARE PER ADULT\/CHILD\/INFANT FOR\n    PEAK TRAVEL ON FRI\/SAT.\n \n  AND - INBOUND -\n    A SURCHARGE OF EUR 25.00 PER FARE COMPONENT WILL BE\n    ADDED TO THE APPLICABLE FARE FOR PEAK TRAVEL FROM 26AUG\n    THROUGH 07SEP.\n    AND - A SURCHARGE OF EUR 25.00 PER FARE COMPONENT WILL\n          BE ADDED TO THE APPLICABLE FARE FOR PEAK TRAVEL\n          FROM 01JAN THROUGH 08JAN.\n \n  AND - OUTBOUND -\n    A SURCHARGE OF EUR 50.00 PER FARE COMPONENT WILL BE\n    ADDED TO THE APPLICABLE FARE FOR PEAK TRAVEL FROM 19DEC\n    THROUGH 30DEC.\n \n  AND - A SURCHARGE OF USD 1.50 PER DIRECTION WILL BE ADDED\n        TO THE APPLICABLE FARE FOR TRAVEL.\n"
+                        },
+                        {
+                            "Name": "PENALTIES",
+                            "_": " \n  CHANGES\n \n    ANY TIME\n      CHANGES PERMITTED.\n         NOTE -\n          --------------------------------------------------\n          --------------------------------------------------\n          PROVISIONS VALID FROM BRAZIL ONLY -\n          CHANGE CAN BE DONE IN A LOWER SAME OR HIGHER\n          BOOKING CLASS.\n          THE FARE MAY BE LOWER-EQUAL OR HIGHER THAN\n          PREVIOUS FARE. WHEN CHANGE RESULTS IN A LOWER\n          FARE CREDIT\/REFUND OF RESIDUAL AMOUNT WILL BE\n          MADE. ALL RULE PROVISIONS OF THE NEWLY TICKETED\n          FARE MUST BE MET.\n          --------------------------------------------------\n          --------------------------------------------------\n          GENERAL PROVISIONS -\n          WAIVED FOR ILLNESS OR DEATH OF PASSENGER OR FAMILY\n           MEMBER.ILLNESS\/DEATH WAIVER MUST BE SUBSTANTIATED\n           BY A VALID HOSPITAL\/DEATH CERTIFICATE\n          --------------------------------------------------\n          CHANGE RULES APPLY PER FARE COMPONENT.\n          CHARGE APPLIES BY TRANSACTION - PER PERSON\n          FOR ADULT \/ CHILD AND INFANT. WHEN MORE THAN\n          ONE FARE COMPONENT IS CHANGED AT THE SAME TIME THE\n           HIGHEST PENALTY OF ALL CHANGED FARE\n           COMPONENTS APPLIES.\n          -------------------------------------------------\n          BEFORE DEPARTURE OF THE OUTBOUND JOURNEY\n          -------------------------------------------------\n          A CHANGE IS A DATE \/ OR FLIGHT \/ OR\n          ROUTING MODIFICATION. IN THE EVENT OF\n          REROUTING THE FARE MUST BE RECALCULATED\n          USING THE APPLICABLE FARE FOR THE NEW\n           ORIGIN\/DESTINATION OR THE NEW ROUTING.\n          --------------------------------------------------\n          NEW RESERVATION AND REISSUE\/REVALIDATION MUST\n          BE MADE AT THE SAME TIME. THE NEW BASE FARE AMOUNT\n           MUST BE RECALCULATED USING FARES IN\n          EFFECT ON THE PREVIOUS TICKETING DATE IF\n          CHANGE DOES NOT OCCUR ON THE FIRST FARE\n          COMPONENT OF THE JOURNEY.\n          WHEN CHANGE OCCURS ON THE FIRST FARE COMPONENT\n          OF THE JOURNEY ONLY OR ON THE FIRST FARE COMPONENT\n           AND OTHER FARE COMPONENTS OF THE JOURNEY NEW FARE\n           WILL BE RECALCULATED USING\n          FARES IN EFFECT ON DATE OF REISSUE.\n          FOLLOWING CONDITIONS APPLY\n          CHANGE CAN BE DONE IN SAME OR HIGHER\n          BOOKING CLASS.\n          THE FARE MAY BE LOWER - EQUAL OR HIGHER THAN\n          PREVIOUS FARE. WHEN CHANGE RESULTS IN A LOWER FARE\n           NO CREDIT\/REFUND OF RESIDUAL AMOUNT WILL\n          BE MADE.ALL RULE PROVISIONS OF THE NEWLY\n          TICKETED FARE MUST BE MET.\n          --------------------------------------------------\n          AFTER DEPARTURE OF THE OUTBOUND JOURNEY\n          --------------------------------------------------\n          A CHANGE IS A DATE \/ OR FLIGHT \/ OR ROUTING\n           MODIFICATION. IN THE EVENT OF REROUTING THE\n          FARE MUST BE RECALCULATED USING THE APPLICABLE\n           FARE FOR THE NEW ORIGIN\/DESTINATION OR THE NEW\n           ROUTING.\n          --------------------------------------------------\n          NEW RESERVATION AND REISSUE\/REVALIDATION MUST\n          BE MADE AT THE SAME TIME. THE NEW BASE FARE AMOUNT\n           MUST BE RECALCULATED USING FARES IN\n          EFFECT ON THE PREVIOUS TICKETING DATE IF CHANGE\n           DOES NOT OCCUR ON THE FIRST FARE COMPONENT OF\n          THE JOURNEY.\n          WHEN CHANGE OCCURS ON THE FIRST FARE COMPONENT\n          OF THE JOURNEY ONLY OR ON THE FIRST FARE COMPONENT\n           AND OTHER FARE COMPONENTS OF THE JOURNEY NEW FARE\n           WILL BE RECALCULATED USING\n          FARES IN EFFECT ON DATE OF REISSUE.\n          FOLLOWING CONDITIONS APPLY\n          CHANGE CAN BE DONE IN SAME OR HIGHER\n          BOOKING CLASS.\n          THE FARE MAY BE LOWER- EQUAL OR HIGHER THAN\n          PREVIOUS FARE. WHEN CHANGE RESULTS IN A LOWER FARE\n           NO CREDIT\/REFUND OF RESIDUAL AMOUNT WILL\n          BE MADE. ALL RULE PROVISIONS OF THE NEWLY TICKETED\n           FARE MUST BE MET.\n \n  CANCELLATIONS\n \n    ANY TIME\n      CANCELLATIONS PERMITTED FOR CANCEL\/NO-SHOW.\n         NOTE -\n          CANCELLATIONS RULES APPLY PER FARE COMPONENT.\n          FOR PARTIALLY USED TICKETS REFUND THE\n          DIFFERENCE BETWEEN THE ORIGINAL FARE PAID\n          AND THE NEW APPLICABLE FARE IN SAME OR\n          HIGHER BOOKING CLASS FROM POINT OF ORIGIN\n          FOR THE NEW ROUTING.\n          THE FIRST APPLICABLE ONE WAY FARE IN\n          SAME OR HIGHER BOOKING CLASS APPLIES IF\n          THE NEW ROUTING RESULTS IN A ONE WAY ITINERARY.\n          --------------------------------------------------\n          IN CASE OF REFUND REQUESTED ON ENTIRE\n          JOURNEY FOR A TICKET THAT HAS BEEN\n          REISSUED THE ORIGINAL FARE PAID WILL\n          FOLLOW THE REFUND CONDITIONS\n          OF THE ORIGINAL FARE PAID\n          --------------------------------------------------\n          YR-SURCHARGE AMOUNT FOLLOWS\n          THE SAME CONDITIONS OF THE PENALTY\n          PROVISIONS IN CASE OF CANCELLATION\n          AND NO SHOW.\n"
+                        },
+                        {
+                            "Name": "COMBINATIONS",
+                            "_": "   END-ON-END NOT PERMITTED. SIDE TRIPS NOT PERMITTED\n   APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN\n   MISCELLANEOUS PROVISIONS - CATEGORY 23.\n  OPEN JAWS\/ROUND TRIPS\/CIRCLE TRIPS\n    FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS\n    -TO FORM SINGLE OR DOUBLE OPEN JAWS.\n     A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS\n     PERMITTED.\n     MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL\/LESS THAN\n     MILEAGE OF THE LONGEST FLOWN FARE COMPONENT.\n    -TO FORM ROUND TRIPS\n    -TO FORM CIRCLE TRIPS\n     A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS\n     PERMITTED.\n   PROVIDED -\n     COMBINATIONS ARE WITH ANY FARE FOR CARRIER AZ\/AF\/KL\/DL\n     IN ANY RULE IN ANY TARIFF.\n"
+                        },
+                        {
+                            "Name": "HIGHER INTERMEDIATE POINT",
+                            "_": " \n  THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY FOR\n  CONNECTIONS.\n  AND - THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY\n        FOR STOPOVERS.\n  AND -\n         NOTE -\n          EXCESS MILEAGE AND MPM SURCHARGE\n          MAY BE DISREGARDED.\n"
+                        },
+                        {
+                            "Name": "MISCELLANEOUS PROVISIONS",
+                            "_": " \n  THIS FARE MUST NOT BE USED AS THE HIGH OR THE LOW FARE\n  WHEN CALCULATING A DIFFERENTIAL. THIS FARE MUST NOT BE\n  USED AS THE THROUGH FARE WHEN PRICING A FARE COMPONENT\n  WITH A DIFFERENTIAL.\n"
+                        },
+                        {
+                            "Name": "REISSUE (VOLUNTARY CHANGES)",
+                            "_": " \n  IN THE EVENT OF CHANGES TO TICKETED FLIGHTS\n   ANYTIME WITHIN TKT VALIDITY\n     NO CHARGE OR HIGHEST FEE OF ALL CHANGED FARE\n     COMPONENTS- CATEGORY 19 DISCOUNTS APPLY AND\n      REPRICE USING FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. NO CHANGE TO FARE BREAKS\n       2. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       3. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       4. AZ  FARES ARE USED\n       5. PUBLIC FARES ARE USED IF TICKETED FARE IS IN\n       PUBLIC TARIFF. PRIVATE FARES ARE USED IF TICKETED\n       FARE IS IN PRIVATE TARIFF\n       6. NEW FARE IS EQUAL OR HIGHER THAN PREVIOUS FARE\n       7. NEW TKT HAS EQUAL OR HIGHER VALUE THAN PREVIOUS\n       TKT\n       8. ADV RES IS MEASURED FROM ORIGINAL TKT DATE TO\n       DEPARTURE OF PRICING UNIT\n   WHEN CHANGE RESULTS IN LOWER FARE IGNORE RESIDUAL THEN\n   ADD-COLLECT\n   ENDORSEMENT BOX- NEW ENDORSEMENTS.\n  OR -\n   ANYTIME WITHIN TKT VALIDITY\n     NO CHARGE OR HIGHEST FEE OF ALL CHANGED FARE\n     COMPONENTS- CATEGORY 19 DISCOUNTS APPLY AND\n      REPRICE USING FARES IN EFFECT WHEN TKT WAS ISSUED\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       2. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       3. AZ  NORMAL FARES ARE USED\n       4. PUBLIC FARES ARE USED IF TICKETED FARE IS IN\n       PUBLIC TARIFF. PRIVATE FARES ARE USED IF TICKETED\n       FARE IS IN PRIVATE TARIFF\n       5. ALL RULE AND BOOKING CODE PROVISIONS ARE MET\n       6. ADV RES IS MEASURED FROM ORIGINAL TKT DATE TO\n       DEPARTURE OF PRICING UNIT\n      OR -\n      REPRICE USING FARES IN EFFECT WHEN TKT WAS ISSUED\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       2. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       3. AZ  SPECIAL FARES ARE USED\n       4. PUBLIC FARES ARE USED IF TICKETED FARE IS IN\n       PUBLIC TARIFF. PRIVATE FARES ARE USED IF TICKETED\n       FARE IS IN PRIVATE TARIFF\n       5. ALL RULE AND BOOKING CODE PROVISIONS ARE MET\n       6. ADV RES IS MEASURED FROM REISSUE DATE TO DEPARTURE\n       OF PRICING UNIT\n      OR -\n      REPRICE USING FARES IN EFFECT WHEN TKT WAS ISSUED\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       2. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       3. AZ  SAME FARE CLASS IS USED\n       4. PUBLIC FARES ARE USED IF TICKETED FARE IS IN\n       PUBLIC TARIFF. PRIVATE FARES ARE USED IF TICKETED\n       FARE IS IN PRIVATE TARIFF\n       5. ALL RULE AND BOOKING CODE PROVISIONS ARE MET\n       6. ADV RES IS MEASURED FROM REISSUE DATE TO DEPARTURE\n       OF PRICING UNIT\n   WHEN CHANGE RESULTS IN LOWER FARE IGNORE RESIDUAL THEN\n   ADD-COLLECT\n   ENDORSEMENT BOX- NEW ENDORSEMENTS.\n"
+                        }
+                    ]
+                }
+            ]
+        },
+        "FareDetails": {
+            "Currency": "RON",
+            "BaseFare": "12837.14",
+            "FullFare": "16664.53",
+            "ServiceFee": "666.58",
+            "NonRefundable": null,
+            "PaxFare": [
+                {
+                    "PTC": "ADT",
+                    "Count": "1",
+                    "Currency": "RON",
+                    "BaseFare": "7684.72",
+                    "FullFare": "9647.22",
+                    "ServiceFee": "333.29",
+                    "FareBasis": "YRTCE,YRTCE,YRTCE,YRTCE,YRTCE,YRTCE",
+                    "BaggageAllowance": [
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-01-25",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Bucharest",
+                                        "CityId": "450",
+                                        "_": "Henri Coanda Arpt",
+                                        "Code": "OTP"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-01-25",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Roma",
+                                        "CityId": "7500",
+                                        "_": "Leonardo da Vinci",
+                                        "Code": "FCO"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "7393",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        },
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-01-26",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Roma",
+                                        "CityId": "7500",
+                                        "_": "Leonardo da Vinci",
+                                        "Code": "FCO"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-01-26",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Abu Dhabi",
+                                        "CityId": "13445",
+                                        "_": "Dhabi Intl Arpt",
+                                        "Code": "AUH"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "852",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        },
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-01-26",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Abu Dhabi",
+                                        "CityId": "13445",
+                                        "_": "Dhabi Intl Arpt",
+                                        "Code": "AUH"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-01-26",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Hong Kong",
+                                        "CityId": "14527",
+                                        "_": "Hong Kong Intl",
+                                        "Code": "HKG"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "5776",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        },
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-02-01",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Hong Kong",
+                                        "CityId": "14527",
+                                        "_": "Hong Kong Intl",
+                                        "Code": "HKG"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-02-01",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Abu Dhabi",
+                                        "CityId": "13445",
+                                        "_": "Dhabi Intl Arpt",
+                                        "Code": "AUH"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "5777",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        },
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-02-02",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Abu Dhabi",
+                                        "CityId": "13445",
+                                        "_": "Dhabi Intl Arpt",
+                                        "Code": "AUH"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-02-02",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Roma",
+                                        "CityId": "7500",
+                                        "_": "Leonardo da Vinci",
+                                        "Code": "FCO"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "853",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        },
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-02-02",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Roma",
+                                        "CityId": "7500",
+                                        "_": "Leonardo da Vinci",
+                                        "Code": "FCO"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-02-02",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Bucharest",
+                                        "CityId": "450",
+                                        "_": "Henri Coanda Arpt",
+                                        "Code": "OTP"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "7394",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "PTC": "CHD",
+                    "Count": "1",
+                    "Currency": "RON",
+                    "BaseFare": "5152.42",
+                    "FullFare": "7017.31",
+                    "ServiceFee": "333.29",
+                    "FareBasis": "YRTCECH,YRTCECH,YRTCECH,YRTCECH,YRTCECH,YRTCECH",
+                    "BaggageAllowance": [
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-01-25",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Bucharest",
+                                        "CityId": "450",
+                                        "_": "Henri Coanda Arpt",
+                                        "Code": "OTP"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-01-25",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Roma",
+                                        "CityId": "7500",
+                                        "_": "Leonardo da Vinci",
+                                        "Code": "FCO"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "7393",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        },
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-01-26",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Roma",
+                                        "CityId": "7500",
+                                        "_": "Leonardo da Vinci",
+                                        "Code": "FCO"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-01-26",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Abu Dhabi",
+                                        "CityId": "13445",
+                                        "_": "Dhabi Intl Arpt",
+                                        "Code": "AUH"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "852",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        },
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-01-26",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Abu Dhabi",
+                                        "CityId": "13445",
+                                        "_": "Dhabi Intl Arpt",
+                                        "Code": "AUH"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-01-26",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Hong Kong",
+                                        "CityId": "14527",
+                                        "_": "Hong Kong Intl",
+                                        "Code": "HKG"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "5776",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        },
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-02-01",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Hong Kong",
+                                        "CityId": "14527",
+                                        "_": "Hong Kong Intl",
+                                        "Code": "HKG"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-02-01",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Abu Dhabi",
+                                        "CityId": "13445",
+                                        "_": "Dhabi Intl Arpt",
+                                        "Code": "AUH"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "5777",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        },
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-02-02",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Abu Dhabi",
+                                        "CityId": "13445",
+                                        "_": "Dhabi Intl Arpt",
+                                        "Code": "AUH"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-02-02",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Roma",
+                                        "CityId": "7500",
+                                        "_": "Leonardo da Vinci",
+                                        "Code": "FCO"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "853",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        },
+                        {
+                            "Baggage": {
+                                "Allowed": "2 PC"
+                            },
+                            "Segment": {
+                                "Origin": {
+                                    "Date": "2018-02-02",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Roma",
+                                        "CityId": "7500",
+                                        "_": "Leonardo da Vinci",
+                                        "Code": "FCO"
+                                    }
+                                },
+                                "Destination": {
+                                    "Date": "2018-02-02",
+                                    "Time": null,
+                                    "Terminal": null,
+                                    "Airport": {
+                                        "City": "Bucharest",
+                                        "CityId": "450",
+                                        "_": "Henri Coanda Arpt",
+                                        "Code": "OTP"
+                                    }
+                                },
+                                "Carrier": {
+                                    "Marketing": {
+                                        "Code": "AZ",
+                                        "_": "Alitalia"
+                                    },
+                                    "Operating": null
+                                },
+                                "Flight": {
+                                    "Number": "7394",
+                                    "Class": null,
+                                    "NumberOfSeats": null,
+                                    "Meal": null,
+                                    "StopTime": null,
+                                    "Duration": null,
+                                    "CabinType": null
+                                },
+                                "Aircraft": null,
+                                "Secured": "false",
+                                "TechnicalStop": null
+                            }
+                        }
+                    ]
+                }
+            ],
+            "TimeLimit": {
+                "Date": "2017-12-20T23:59:00",
+                "_": "2018-01-25"
+            },
+            "ValidatingCarrier": {
+                "Code": "AZ",
+                "_": "Alitalia"
+            },
+            "IsAutoTicketable": "false"
+        },
+        "PaymentMethods": [
+            "credit"
+        ],
+        "PaymentBefore": 0,
+        "_links": {
+            "self": {
+                "href": "http:\/\/81.196.106.73\/rest\/app\/clients\/online\/public\/api.php\/v3\/flights\/AIR:WS:ACCO:31887e28d377dc2718e76749489542b1\/flight\/ee605e147a332f59c66509ea5e44220e5cd4c226:0"
+            }
+        }
+    }
+}

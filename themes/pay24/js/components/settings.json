@@ -1,0 +1,7 @@
+{
+    "showHeaderFooter": "yes",
+    "endpoint": "https:\/\/188.214.142.117\/rest\/app\/clients\/online\/public\/",
+    "app_id": "accent_rest",
+    "secret_key": "3302dfdd-d875-4033-8d43-b63f2e0dde40",
+    "headerTitle": "Hotels"
+}

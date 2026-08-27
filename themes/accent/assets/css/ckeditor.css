@@ -1,0 +1,12 @@
+.collapse:not(.show){
+  display:block !important;
+  opacity:0.5;
+}
+module{
+	border:1px solid red;
+}
+module:before{
+	content:'Modul (' attr(id) ')';
+	display: inline-block;
+	color:red;
+}

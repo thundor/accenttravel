@@ -1,0 +1,153 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "code",
+                            "mod_data": {
+                                "code": "<div class=\" ps-4\">\n\t\t\t\t\t  <v-img\n\t\t\t\t\t\t  :width=\"176\"\n\t\t\t\t\t\t  :height=\"60\"\n\t\t\t\t\t\t  contain\n\t\t\t\t\t\t  src=\"https://accenttravel.ro/themes/newux/assets/images/logo.svg\"\n\t\t\t\t\t\t></v-img>\n\t\t\t\t\t\t<p class=\"pt-4\">Afla totul despre destinatiile tale favorite si descopera destinatii noi!</p>\n\t\t\t\t\t</div>",
+                                "props": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_template": "vertical-list",
+                            "mod_data": {
+                                "title": "ACCENT TRAVEL & EVENTS",
+                                "items": [
+                                    {
+                                        "text": "Politica de confidentialitate",
+                                        "href": "/politica-de-confidentialitate"
+                                    },
+                                    {
+                                        "text": "Politica de Securitate",
+                                        "href": "/politica-de-securitate-a-prelucrarii-datelor-cu-caracter-personal"
+                                    },
+                                    {
+                                        "text": "Protectia Datelor cu Caracter Personal",
+                                        "href": "/protectia-datelor-cu-caracter-personal"
+                                    },
+                                    {
+                                        "text": "Declaratia de accesibilitate",
+                                        "href": "/declaratia-de-accesibilitate"
+                                    },
+                                    {
+                                        "href": "javascript:feedbackPopup('feedback')",
+                                        "text": "Formular de feedback"
+                                    },
+                                    {
+                                        "text": "Drepturile Calatorului",
+                                        "href": "/drepturile-calatorului"
+                                    },
+                                    {
+                                        "text": "Contractul cu Turistul",
+                                        "href": "/contractul-cu-turistul"
+                                    },
+                                    {
+                                        "text": "Ordonanta nr. 2",
+                                        "href": "/resources/files/Ordonanta-nr-2-word.pdf"
+                                    },
+                                    {
+                                        "text": "Cum poti plati vacanta",
+                                        "href": "/avantajele-accent"
+                                    },
+                                    {
+                                        "text": "Plata cu Vouchere de Vacanta",
+                                        "href": "/vouchere"
+                                    },
+                                    {
+                                        "text": "Gift Card Accent Travel",
+                                        "href": "/giftcard"
+                                    },
+                                    {
+                                        "text": "Parteneri Accent Travel",
+                                        "href": "/parteneri-accent-travel"
+                                    },
+                                    {
+                                        "text": "Presa",
+                                        "href": "/presa"
+                                    },
+                                    {
+                                        "text": "Contact",
+                                        "href": "/contact"
+                                    },
+                                    {
+                                        "text": "Termeni Si Conditii ",
+                                        "href": "/termeni-si-conditii"
+                                    }
+                                ],
+                                "props": {
+                                    "class": "bg-transparent"
+                                },
+                                "item_props": {
+                                    "class": "py-0"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_template": "vertical-list",
+                            "mod_data": {
+                                "title": "SERVICII TURISTICE",
+                                "items": [
+                                    {
+                                        "text": "Oferte vacante Romania",
+                                        "href": "/oferte-vacante-romania"
+                                    },
+                                    {
+                                        "text": "Oferte hoteluri",
+                                        "href": "/oferte-hoteluri"
+                                    },
+                                    {
+                                        "text": "Oferte bilete de avion",
+                                        "href": "/oferte-bilete-de-avion"
+                                    },
+                                    {
+                                        "text": "Oferte city break",
+                                        "href": "/oferte-city-break"
+                                    },
+                                    {
+                                        "text": "Asigurari de calatorie",
+                                        "href": "/asigurari"
+                                    },
+                                    {
+                                        "text": "Corporate Travel",
+                                        "href": "/corporate-travel"
+                                    },
+                                    {
+                                        "text": "Testimoniale",
+                                        "href": "/testimoniale"
+                                    }
+                                ],
+                                "props": {
+                                    "class": "bg-transparent"
+                                },
+                                "item_props": {
+                                    "class": "py-0"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_template": "newsletter",
+                            "mod_data": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "footer-2",
+    "status": true
+}

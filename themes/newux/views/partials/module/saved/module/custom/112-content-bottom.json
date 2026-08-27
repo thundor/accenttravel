@@ -1,0 +1,242 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "title": "Shopping în Europa",
+                                            "html": "Fă-ți bagajul pentru o escapadă cu stil într-unul dintre templele shopping-ului european sau chiar mai departe!\n<style type=\"text/css\">.v-application #content-real .container {\n    display: none;\n}\n</style>\n"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "title": "Vacante pentru shopping",
+                                            "html": "<p><big><span style=\"font-size:24px;\"><strong><span style=\"color:#3498db;\">M</span></strong></span></big><strong><span style=\"color:#3498db;\">o</span><span style=\"background-color:null;\"><span style=\"color:#3498db;\">d</span><span style=\"color:#3498db;\"></span><span style=\"color:#3498db;\">a care se poartă cu atitudine</span></span></strong><span style=\"background-color:null;\"> </span>– direct din Roma, Milano sau Napoli, vitrine pariziene sclipitoare, vibe londonez sau&nbsp;catwalk spontan&nbsp;pe Gran Vía din Madrid — orașele Europei devin colecții vii de experiențe și reduceri.&nbsp;Accent Travel &amp; Events te aduce aproape de cele mai căutate străzi de shopping din Europa. Alege destinația, găsești hoteluri selectate aproape de brandurile tale preferate, piețe alternative și outlet-uri de designer. Totul gândit pentru ca fiecare pas să fie o oportunitate, iar fiecare colț de stradă să-ți ofere inspirație. Locațiile noastre sunt gândite ca o extensie a experienței tale de shopping — central, confortabil, conectat la tot ce contează. Un boutique hotel pe o străduță boemă din Paris sau un skybar cu vedere spre inima Berlinului? Alege decorul care te inspiră. City break-ul tău începe aici, cu oferte create pentru gusturi rafinate și planuri spontane. Pe&nbsp;<a rel=\"noopener\" href=\"http://www.accenttravel.ro/\" data-start=\"1031\" data-end=\"1050\">www.accenttravel.ro</a>, rezervi rapid, sigur și cu avantajele unei agenții care face diferența de peste 25 de ani. Lasă străzile orașelor să-ți spună povestea sezonului. Tu alege orașul. Accent Travel &amp; Events se ocupă de restul.</p>\n\n<p data-start=\"1260\" data-end=\"1341\">&nbsp;</p>\n",
+                                            "props": {}
+                                        },
+                                        "mod_template": "html"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "default_mod_template": "section-title",
+                "default_mod_data": null,
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/paris_shopping_citybreak_cazare_hotel.png"
+                                                },
+                                                "a_props": {}
+                                            },
+                                            "props": {
+                                                "href": "/shopping-in-paris\t",
+                                                "tag": "a"
+                                            },
+                                            "title": "Shopping in Paris"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/londra_shopping_citybreak_vacanta_hotel.png"
+                                                },
+                                                "a_props": {}
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "/shopping-in-londra"
+                                            },
+                                            "title": "Shopping in Londra"
+                                        },
+                                        "status": true
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/dubai_vacanta_shopping_citybreak_hotel_cazare.png"
+                                                },
+                                                "a_props": {}
+                                            },
+                                            "props": {
+                                                "href": "/shopping-in-dubai",
+                                                "tag": "a"
+                                            },
+                                            "title": "Shopping in Dubai"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/barcelona_citybreak_shopping_cazare_hotel.png"
+                                                },
+                                                "a_props": {}
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "/shopping-in-barcelona"
+                                            },
+                                            "title": "Shopping in Barcelona"
+                                        },
+                                        "status": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/milano_shopping_vacanta_citybreak_hotel_cazare.png"
+                                                },
+                                                "a_props": {}
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "/shopping-in-milano"
+                                            },
+                                            "title": "Shopping in Milano"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/viena_shopping_citybreak_vacanta_hotel.png"
+                                                },
+                                                "a_props": {}
+                                            },
+                                            "props": {
+                                                "href": "/shopping-in-viena",
+                                                "tag": "a"
+                                            },
+                                            "title": "Shopping in Viena"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/berlin_shopping_citybreak_cazare_hotel_vacanta.png"
+                                                },
+                                                "a_props": {}
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "shopping-in-berlin"
+                                            },
+                                            "title": "Shopping in Berlin"
+                                        }
+                                    }
+                                ],
+                                "status": true
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/amsterdam_shopping_vacanta_citybreak_cazare_hotel.png"
+                                                },
+                                                "a_props": {}
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "/shopping-in-amsterdam"
+                                            },
+                                            "title": "Shopping in Amsterdam"
+                                        }
+                                    }
+                                ],
+                                "status": true
+                            }
+                        ]
+                    }
+                ],
+                "default_mod_template": "card-image-vertical",
+                "default_mod_data": {
+                    "image": {
+                        "props": {
+                            "src": "/resources/images/balvanyos.jpg",
+                            "height": "250",
+                            "cover": true,
+                            "aspectRatio": "16/9",
+                            "rounded": "lg"
+                        }
+                    },
+                    "props": {
+                        "tag": "a",
+                        "href": "https://accenttravel.ro/hoteluri",
+                        "class": "text-decoration-none mx-auto",
+                        "maxWidth": "400",
+                        "rounded": "lg",
+                        "minWidth": "250"
+                    },
+                    "title": "Turcia - Antalya",
+                    "subtitle": "",
+                    "button_title": "Vezi ofertele",
+                    "header_title": ""
+                },
+                "status": true,
+                "name": "",
+                "props": {
+                    "class": "pt-10 pb-10"
+                }
+            }
+        ]
+    },
+    "name": "112-content-bottom"
+}

@@ -1,0 +1,64 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "mod_data": {
+                        "image": {
+                            "props": {
+                                "src": "/resources/images/Tema/Turcia_Antalya.png"
+                            }
+                        },
+                        "props": {}
+                    }
+                }
+            ]
+        },
+        {
+            "children": [
+                {
+                    "mod_data": {
+                        "image": {
+                            "props": {
+                                "src": "/resources/images/Tema/Egipt_Hurghada.png"
+                            }
+                        },
+                        "props": {},
+                        "title": "Egipt - Hurghada "
+                    }
+                }
+            ]
+        },
+        {
+            "children": [
+                {
+                    "mod_data": {
+                        "image": {
+                            "props": {
+                                "src": "/resources/images/Tema/Grecia.png"
+                            }
+                        },
+                        "props": {},
+                        "title": "Grecia"
+                    }
+                }
+            ]
+        },
+        {
+            "children": [
+                {
+                    "mod_data": {
+                        "image": {
+                            "props": {
+                                "src": "/resources/images/Tema/Dubai.png"
+                            }
+                        },
+                        "props": {},
+                        "title": "Dubai"
+                    }
+                }
+            ]
+        }
+    ],
+    "name": "Rand1_destinatii"
+}

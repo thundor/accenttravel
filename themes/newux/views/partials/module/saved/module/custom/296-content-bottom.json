@@ -1,0 +1,260 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h2><strong>O c</strong><strong>ălă</strong><strong>torie rapid</strong><strong>ă în timp: De la Odiseu la petreceri veneț</strong><strong>iene</strong></h2>\n\n<p>Corfu nu-i doar o față frumoasă, are și o poveste faină! Se zice că însuși Odiseu a naufragiat pe-aici, pe plajele de azi din Scheria. Primii locatari mai \"oficiali\" au fost dorienii din Corint, prin secolul al VIII-lea înainte de Hristos, apoi a venit rândul Imperiului Roman de Răsărit să-și lase amprenta. După ce s-a spart Imperiul Bizantin, insula a tot trecut din mână în mână: genovezi, venețieni (ei chiar au lăsat o moștenire serioasă, cu fortărețe mișto și o groază de măslini plantați!) și mulți romi au venit și au rămas aici. Otomani, ruși, francezi... toți au trecut pe-aici, până când, în 1815, Corfu a zis \"gata, vreau autonomie!\", iar în 1864 s-a alăturat Regatului Greciei. O istorie bogată, nu glumă!</p>\n\n<h2><strong>Când să-ți faci bagajele pentru Corfu?</strong></h2>\n\n<p>Veste bună! Datorită climei mediteraneene, în Corfu e fain chiar și iarna. Dacă vrei să prinzi prețuri mai bune și să eviți cea mai mare aglomerație, țintește spre aprilie, mai, septembrie sau noiembrie. Dar dacă ajungi între ianuarie și februarie, bagă de seamă! E vremea Carnavalului, o nebunie colorată și plină de dans, unde sigur o să te prinzi în horă cu localnicii!</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Corfu/Corfu_unde_distractia_se_intalneste_cu_istoria_3_.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "xl"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h2><strong>Cum ajungi în Raiul ă</strong><strong>sta?</strong></h2>\n\n<p>Ai două variante principale:</p>\n\n<ul>\n\t<li><strong>Cu feribotul:</strong>&nbsp;Deși insulele Ionice nu stau ele cel mai bine la capitolul transport pe apă (au 4 aeroporturi, deci se zboară mult!), poți ajunge cu feribotul din Igoumenitsa destul de des, cam din oră în oră, iar călătoria durează în jur de o oră și jumătate.&nbsp;<sup>1&nbsp;</sup>Sau, dacă ești mai aventuros și vii dinspre Italia, poți lua feribotul din Patra spre Italia, care oprește și în Corfu Town.</li>\n\t<li><strong>Cu avionul:</strong>&nbsp;Corfu are propriul aeroport internațional, super aproape de capitală, Corfu Town. Simplu și rapid!</li>\n</ul>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {},
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/Blog/Corfu/Corfu_unde_distractia_se_intalneste_cu_istoria_7_.jpeg",
+                                                "rounded": "xl",
+                                                "maxHeight": "400",
+                                                "cover": true
+                                            }
+                                        },
+                                        "mod_template": "image"
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ],
+                        "default_mod_template": "card-image-horizontal"
+                    }
+                ],
+                "carousel": false,
+                "default_mod_template": "image",
+                "props": {
+                    "fluid": false
+                },
+                "default_mod_data": null,
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h2><strong>Ce să pui pe lista \"must see\" î</strong><strong>n Corfu?</strong></h2>\n\n<p>Pregătește-te să explorezi! Corfu e una dintre cele mai verzi insule grecești, plină de măslini și scăldată de o briză numai bună. Capitala, Corfu Town (sau Kerkyra), e un amestec de culturi lăsate în urmă de romani, venețieni și francezi. Inclusă în Patrimoniul Unesco, o să te cucerească cu arhitectura venețiană și terasele colorate și pline de viață la orice oră.</p>\n\n<p>Nu rata:</p>\n\n<ul>\n\t<li><strong>Palatul Achillion:</strong>&nbsp;Construit la finalul secolului al XIX-lea ca reședință de vară pentru împărăteasa Elisabeta a Austriei (Sisi, știi tu!), care iubea la nebunie Grecia. E cel mai popular loc turistic de pe insulă și, fun fact, aici s-au filmat scene din James Bond \"For Your Eyes Only\"! Și grădinile din jur? O oază de relaxare perfectă pentru poze de pus în ramă, cu vegetație tropicală și priveliște spre mare!</li>\n\t<li><strong>Liston:</strong>&nbsp;O bucățică de Paris în Grecia! Clădirile și străduțele de aici au fost copiate după Rue de Rivoli din Paris și mulți spun că e cea mai frumoasă zonă din tot Corfu Town.</li>\n\t<li><strong>Kassiopi &amp; Paleokastritsa:</strong>&nbsp;Kassiopi e un orășel vechi plin de ruine grecești și romane. Paleokastritsa, pe coastă, e un loc liniștit cu plaje de vis, peșteri bune de explorat și o faleză cu restaurante unde mănânci fructe de mare proaspete de te lingi pe degete.</li>\n</ul>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {},
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/Blog/Corfu/Corfu_unde_distractia_se_intalneste_cu_istoria_6_.jpeg",
+                                                "rounded": "xl",
+                                                "maxHeight": "400",
+                                                "cover": true
+                                            }
+                                        },
+                                        "mod_template": "image"
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h2><strong>Plaje pentru toate gusturile: de la nisip fin la snorkeling de senzație</strong></h2>\n\n<p>Corfu are plaje pentru toți! Partea de vest a insulei te așteaptă cu o fâșie imensă de nisip fin și plaje amenajate, iar partea de est e mai chill, cu plaje retrase și apă calmă. Scriitorul Lawrence Durrell a zis că Myrtiotissa e cea mai adorabilă plajă din lume. Fără șezlonguri și umbrele de închiriat, e perfectă pentru relaxare și are un restaurant rustic cochet la o aruncătură de băț. E locul ideal pentru snorkeling (dacă te pricepi) sau pur și simplu pentru bălăceală în apa aia limpede și turcoaz! Dacă vrei să lenevești la soare fără prea multă agitație, mergi pe Plaja Lakkeiss sau în Messonghi – s-ar putea să vezi și peștișori înotând aproape de mal!</p>\n\n<h2><strong>Activități care te scot din rutina de lenevit la soare</strong></h2>\n\n<p>Pe lângă plimbările prin capitală, Corfu îți oferă o tonă de alte chestii de făcut: parcuri acvatice, centre de scufundări, castele vechi, sate uitate de lume și trasee numai bune de luat la picior. Vinul local e renumit, așa că o degustare (sau mai multe!) e musai. Dacă ai chef de mișcare, ia bicicleta până la Plaja Chalikounas, o limbă de nisip între Lacul Chalikiopoulos și Marea Adriatică. Pe lângă înot, aici poți încerca kitesurfing sau te poți plimba cu caiacul la prețuri bune. Și pentru că Corfu e cunoscută pentru uleiul de măsline, o vizită la Teotoki pentru o degustare e o idee delicioasă!</p>\n\n<p>Nu rata nici:</p>\n\n<ul>\n\t<li><strong>Peș</strong><strong>terile Kassiopi:</strong>&nbsp;Parcă desprinse din cărțile poștale, cu priveliști spre munții Albaniei. Coasta e stâncoasă și plină de peșteri ascunse, plaje și locuri perfecte pentru snorkeling. E o zonă liniștită, cu o tradiție a pescuitului.</li>\n\t<li><strong>Satul de pescari Peroulades:</strong>&nbsp;O excursie seara aici e perfectă pentru a încheia ziua. După ce te îndopi cu fructe de mare proaspete la o tavernă de lângă Sunset Beach, oprește-te pentru un cocktail la 7th Heaven Cafe, un bar cu o panoramă superbă, apoi coboară la balconul de sticlă de unde apusul e de-a dreptul uluitor!</li>\n</ul>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ],
+                        "default_mod_template": "card-image-horizontal"
+                    }
+                ],
+                "carousel": false,
+                "default_mod_template": null,
+                "props": {
+                    "fluid": false
+                },
+                "default_mod_data": null,
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {},
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/Blog/Corfu/Corfu_unde_distractia_se_intalneste_cu_istoria_4_.jpeg",
+                                                "rounded": "xl",
+                                                "maxHeight": "400",
+                                                "cover": true
+                                            }
+                                        },
+                                        "mod_template": "image"
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h2><strong>Mâncare și băutură:&nbsp;un festin pentru papilele gustative</strong></h2>\n\n<p>Bucătăria din Corfu e un mix fain de influențe grecești și italiene (gândește-te la risotto și pizza!). Trebuie să încerci sofrito (vițel gătit în vin cu usturoi și pătrunjel) și bourdeto (o supă picantă cu pește scorpion). Stifado, cu carne de iepure și sos picant, e preferatul localnicilor. Și cum ești în Grecia, souvlaki-ul de la rulotele stradale e salvator după o noapte de distracție!</p>\n\n<p>Câteva locuri unde să mănânci și să bei bine:</p>\n\n<ul>\n\t<li><strong>Jimmy's:</strong>&nbsp;O tavernă de familie cu mâncare tradițională, preparată cu ingrediente proaspete și ulei de măsline extravirgin. Încearcă tsigarelli (legume verzi cu condimente) sau pastele cu sosuri surpriză!</li>\n\t<li><strong>Dolce:</strong>&nbsp;Cică cea mai bună cofetărie din Corfu! Înghețata lor e faimoasă pe toată Așează-te pe terasa de pe acoperiș, admiră priveliștea spre Paleokastritsa și coasta de vest și savurează deserturile!</li>\n\t<li><strong>Cafea grecească:</strong>&nbsp;După masă, o cafea grecească aromată e perfectă. Poți cere pikros (fără zahăr), metrio (puțin dulce) sau gliko (foarte dulce).</li>\n\t<li><strong>Kum Quat &amp; Tsitsibira:</strong>&nbsp;Nu pleca fără să încerci lichiorul de Kum Quat (un fel de mandarină care crește și în Sicilia) sau Tsitsibira, o băutură răcoritoare cu lămâie și ghimbir.</li>\n\t<li><strong>Vin local:</strong>&nbsp;Deși venețienii au plantat mai mulți măslini decât viță-de-vie, Corfu produce vinuri bune, mai ales în Valea Ropa. Caută soiurile Moschato, Katigiorgis, Cabernet Sauvignon (roșii) sau Kakotrygis, Martzavi, Afioni, Robola (albe).</li>\n</ul>\n\n<h2><strong>Via</strong><strong>ța de noapte: Corfu nu doarme niciodată</strong><strong>!</strong></h2>\n\n<p>Corfu e un amestec cultural din Grecia, Veneția, Rusia și Anglia, iar asta se vede și în viața socială. Ziua te plimbi pe străduțele din centrul istoric ascultând filarmonica, iar seara... e altă poveste! În Corfu Town, unde sunt o grămadă de studenți, petrecerea ține tot anul.</p>\n\n<p>Zone populare pentru ieșit în oraș:</p>\n\n<ul>\n\t<li><strong>Portul Nou:</strong>&nbsp;Găsești o mulțime de cluburi pe-aici.</li>\n\t<li><strong>Platia Vrahlioti:</strong>&nbsp;Plină de baruri primitoare.</li>\n\t<li><strong>Lucciola Garden:</strong>&nbsp;Pentru muzică</li>\n\t<li><strong>54 Dreamy Nights:</strong>&nbsp;Dacă îți place muzica electronică, rap și dansul până dimineața.</li>\n\t<li><strong>Cluburi pe plajă:</strong>&nbsp;Găsești destule care servesc cocktailuri delicioase, cum ar fi Edem Beach Club sau DiZi Bar.</li>\n</ul>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ],
+                        "default_mod_template": "card-image-horizontal"
+                    }
+                ],
+                "carousel": false,
+                "default_mod_template": null,
+                "props": {
+                    "fluid": false
+                },
+                "default_mod_data": null,
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {},
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/Blog/Corfu/Corfu_unde_distractia_se_intalneste_cu_istoria_1_.jpeg",
+                                                "rounded": "xl",
+                                                "maxHeight": "400",
+                                                "cover": true
+                                            }
+                                        },
+                                        "mod_template": "image"
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h2><strong>Festivaluri și evenimente culturale:&nbsp;pentru că arta ș</strong><strong>i distrac</strong><strong>ția merg mână în mână</strong></h2>\n\n<p>Corfu e locul unde se întâlnesc culturi și asta a dat naștere la o grămadă de festivaluri și sărbători faine! Indiferent când ajungi, e o șansă mare să nimerești la un eveniment și să te distrezi alături de localnici.</p>\n\n<p>Câteva dintre ele:</p>\n\n<ul>\n\t<li><strong>Carnavalul:</strong>&nbsp;Seamănă mult cu cel din Veneția și are loc între ianuarie și februarie, cu parade și costume tradiț</li>\n\t<li><strong>Seven Arts Festival:</strong>&nbsp;În satul Viros, cu concerte, spectacole de dans și expoziții. Vin artiști cunoscuți și atrage o grămadă de tineri.</li>\n\t<li><strong>Be There! Corfu Animation Festival:</strong>&nbsp;Un festival internațional de animație, super apreciat în Europa. Vezi scurtmetraje și lungmetraje, participi la workshopuri și cunoști artiș</li>\n\t<li><strong>Corfu Beer Festival:</strong>&nbsp;A început în 2013 și promovează tradiția și gastronomia locală. Timp de cinci zile, te bucuri de mâncăruri locale și internaționale, însoțite de zeci de sortimente de bere.</li>\n</ul>\n\n<h2><strong>Experienț</strong><strong>e autentice:&nbsp;descoper</strong><strong>ă fața mai puțin cunoscută a insulei</strong></h2>\n\n<p>Vrei să explorezi dincolo de locurile bătute de turiști?</p>\n\n<ul>\n\t<li><strong>Insulele Diapontice:</strong>&nbsp;La nord-vest de Corfu, sunt câteva insulițe mai mici și mai puțin cunoscute. Othoni, Erikoussa și Mahtraki sunt locuite, dar sunt și insulițe cu doar faună sălbatică și peisaje incredibile. Perfecte pentru excursii relaxante și plajă departe de agitație!</li>\n\t<li><strong>Ruta Corfu:</strong>&nbsp;Un traseu prestabilit care străbate insula de la nord la sud. Ideal pentru cei activi care iubesc plimbările și drumețiile. Pleacă din Kavos și ajunge în Agios Spiridonas, trecând prin munți, văi pline de flori, sate pitorești și locuri cu panorame superbe.</li>\n\t<li><strong>Lumea subacvatică:</strong>&nbsp;Plajele retrase cu apă limpede și stânci sunt perfecte pentru scufundări și snorkeling. Nu ai scuză să nu încerci! Poți face scufundări cam peste tot, dar sunt și locuri speciale (peșteri, recifuri, epave).</li>\n\t<li><strong>Pescuit:</strong>&nbsp;Corfu e unul dintre cele mai bune locuri de pescuit din Grecia. Chiar dacă nu prinzi pești uriași, ce prinzi e sigur gustos! Cele trei lagune ale insulei sunt pline de peș Poți închiria o bărcuță și să te relaxezi la pescuit sub soarele grecesc.</li>\n</ul>\n\n<h2><strong>Transport local:&nbsp;cum te miști pe insulă</strong></h2>\n\n<p>Știu, o să vrei să explorezi cât mai mult! Ai variante:</p>\n\n<ul>\n\t<li><strong>Autobuz:</strong>&nbsp;Există autobuze care leagă capitala de alte zone. Cumpără bilet de la automate sau de la șofer (dar e mai scump).</li>\n\t<li><strong>Închiriere:</strong>&nbsp;Poți închiria o bicicletă, un scuter, o motocicletă (la prețuri bune) sau o mașină, dacă preferi confortul.</li>\n</ul>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ],
+                        "default_mod_template": "card-image-horizontal"
+                    }
+                ],
+                "carousel": false,
+                "default_mod_template": null,
+                "props": {
+                    "fluid": false
+                },
+                "default_mod_data": null,
+                "status": true
+            }
+        ]
+    },
+    "name": "296-content-bottom"
+}

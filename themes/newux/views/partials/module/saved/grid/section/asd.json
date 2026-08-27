@@ -1,0 +1,71 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "html",
+                            "mod_data": {
+                                "html": "<h5 class=\"text-center\">asd HTML content 1234 zxcv- 123123</h5>\n"
+                            }
+                        }
+                    ],
+                    "props": {
+                        "cols": 6,
+                        "class": ""
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "title": "Oferte litoral",
+                                "image": "/themes/accent/assets/images/BANNER_LITORAL.png",
+                                "img_props": {
+                                    "src": "/resources/images/club-dubai.jpg",
+                                    "rounded": "xs",
+                                    "cover": true
+                                },
+                                "subtitle": "asdasd"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "title": "Image title",
+                                "image": "/resources/images/baile-tusnad.jpg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "title": "Image title",
+                                "image": "/resources/images/balvanyos.jpg"
+                            }
+                        }
+                    ],
+                    "default_mod_template": "image"
+                }
+            ],
+            "props": {
+                "noGutters": false
+            }
+        }
+    ],
+    "status": true,
+    "text": "asdasd",
+    "default_mod_template": "image",
+    "props": {
+        "fluid": true,
+        "class": "",
+        "style": ""
+    },
+    "name": "asd"
+}

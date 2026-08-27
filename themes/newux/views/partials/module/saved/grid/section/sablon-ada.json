@@ -1,0 +1,77 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "status": true,
+    "default_mod_template": "card-image-horizontal",
+    "default_mod_data": {
+        "image": {
+            "props": {
+                "src": "/resources/images/baile-olanesti.jpg",
+                "cover": true,
+                "minWidth": "",
+                "aspectRatio": "1.52",
+                "rounded": "lg"
+            }
+        },
+        "props": {
+            "tag": "a",
+            "href": "https://google.ro",
+            "rounded": "lg"
+        },
+        "title": "vacante asdasd",
+        "subtitle": "lorem",
+        "button_title": "vezi ofe",
+        "header_title": "destinatii de plaja",
+        "header_color": "cyan"
+    },
+    "name": "sablon-ada"
+}

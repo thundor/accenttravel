@@ -1,0 +1,89 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "card-image-vertical",
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/city-break-praga_2.jpg"
+                                                }
+                                            },
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "card-image-vertical",
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/city-break-roma.jpg"
+                                                }
+                                            },
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "card-image-vertical",
+                                        "mod_data": {
+                                            "html": "<h5 class=\"text-center\">DAWvrvFSa</h5>\n",
+                                            "props": {},
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/city-break-zagreb.jpg",
+                                                    "aspectRatio": "16/9",
+                                                    "cover": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "card-image-vertical",
+                                        "mod_data": {
+                                            "image": {
+                                                "props": {
+                                                    "src": "/resources/images/city-break-istanbul.jpg"
+                                                }
+                                            },
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {}
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": false,
+                "carousel": true
+            }
+        ]
+    },
+    "name": "289-content-above"
+}

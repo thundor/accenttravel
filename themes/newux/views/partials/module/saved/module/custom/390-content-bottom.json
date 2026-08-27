@@ -1,0 +1,610 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p style=\"text-align: center;\">Recunoaște! Și ție îți place la nebunie să hoinărești, să descoperi locuri noi și să te pierzi printre culturi și tradiții diferite. Și știi ce e cel mai tare? Nu trebuie să spargi pușculița pentru asta! Europa e plină de orașe super accesibile, perfecte pentru o escapadă rapidă. Un city break e soluția ideală când vrei să evadezi din rutina zilnică, să vezi lucruri faine și să petreci timp de calitate cu cine vrei tu, fără să cheltui o avere. Cu un pic de organizare, bilete luate din timp și bagajul făcut (evident, cât mai ușor ca să eviți taxele extra!), ești gata de plecare!</p>\n\n<p style=\"text-align: center;\">Uite câteva idei de orașe care merită bifate pentru un city break cu buget redus:</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "class": "v-col-md-9 mx-auto",
+                                    "cols": 12
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Kaunas, Lituania: unde arta și istoria se îmbrățișează prietenește</h2>",
+                                            "html": ""
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "Kaunas e al doilea oraș ca mărime din Lituania și e plin de surprize plăcute! Pregătește-te pentru o doză serioasă de cultură, pentru că orașul ăsta are o groază de muzee și galerii de artă, plus o arhitectură care te lasă cu gura căscată. A fost capitala Lituaniei &icirc;ntre 1920 și 1940, iar din perioada aia de &quot;epocă de aur&quot; au rămas o mulțime de clădiri moderniste, printre care și impunătoarea Biserică a &Icirc;nvierii lui Hristos.",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p>Dar nu te limita doar la modernism! La confluența râurilor Nemunas și Neris, în Parcul Santaka, te așteaptă un castel vechi din secolul al XIV-lea și o clădire a primăriei din secolul al XVI-lea, cunoscută drăgălaș ca \"Lebăda Albă\". Vrei ceva cu adevărat neobișnuit? Atunci Muzeul Diavolului e pentru tine, cu o colecție de 3.000 de personaje \"satanice\" din 70 de țări. Dacă ești fan artă abstractă, Muzeul Național de Artă Mikalojus Konstantinas Čiurlionis e dedicat artistului lituanian care a pus bazele acestui curent.</p>\n\n<p>Și ca să vezi orașul dintr-o altă perspectivă, fă o plimbare cu funicularele Žaliakalnis și Aleksotas, cele mai vechi din țară (din anii '30!), care îți oferă panorame superbe. Inima orașului vechi e strada Vilniaus, pietruită și plină de restaurante și baruri unde poți să te relaxezi. Pentru shopping, mergi pe bulevardul Laisves din orașul nou.</p>\n\n<p>Ce să mănânci? Neapărat supa de sfeclă (saltibarsciai), e o preferată locală! Poți încerca și alte preparate tradiționale la Medziotoju Uzeiga, sau dacă vrei ceva modern, mergi la Uoksas. O bere locală merge de minune la Hop Doc. Și dacă se întâmplă să fii acolo joi, până în septembrie, vizitează piața Open Kitchen de pe insula Nemunas.</p>\n\n<p>Vrei să te relaxezi un pic în natură? Parcul Lagoon Kaunas, de la marginea orașului, e perfect pentru o plimbare sau o tură cu barca.</p>\n\n<p>Cazare găsești la prețuri ok. <a href=\"https://accenttravel.ro/trip/hotel/1691004\">Hotel Hof </a>e o variantă mică, centrală, lângă bulevardul Laisves, cu camere duble în jur de 200 de lei.</p>\n\n<p>Cum ajungi? Companiile low-cost au zboruri spre Kaunas dacă îți iei bilete din timp.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Idei-de-city-break/Kaunas_city_break.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "xl"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "grid",
+                                        "mod_data": {
+                                            "title": "VList Module title",
+                                            "children": [
+                                                {
+                                                    "text": "Demo section",
+                                                    "status": 1,
+                                                    "children": [
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [
+                                                                        {}
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {}
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "mod_template": "button",
+                                                                            "mod_data": {
+                                                                                "props": {
+                                                                                    "class": "v-btn--size-large",
+                                                                                    "href": "/trip/citybreaksasync?destination=KAUNAS-LT&origin=BUCHAREST-RO&sdate=friday&edate=2days&o[0][ADT]=2&n=1",
+                                                                                    "text": "Vezi ofertele",
+                                                                                    "variant": "outlined"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "props": {
+                                                                        "style": "    justify-content: flex-end;\n    display: flex;"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "props": {
+                                                        "fluid": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "style": "",
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ],
+                        "props": {
+                            "style": "    justify-content: center;\n    align-items: center;"
+                        }
+                    }
+                ],
+                "status": true,
+                "text": "lituania"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Grenoble, Franța: poarta alpilor unde studenții dau tonul</h2>",
+                                            "html": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p>Grenoble e adesea văzut ca un simplu punct de trecere spre aventurile din Alpi (drumeții vara, schi iarna), dar crede-ne pe cuvânt, merită să-i acorzi mai multă atenție! Ai aici Musée de Grenoble cu o colecție impresionantă de artă (cu nume ca Bonnard, Modigliani, Miró) și Magasin, un spațiu de expoziție contemporană construit de nimeni altul decât Gustave Eiffel.</p>\n\n<p>Fiind un oraș universitar, Grenoble e plin de viață și are o mulțime de cafenele, baruri și restaurante bune. Toamna, când vremea e încă plăcută, poți să cinezi afară și să admiri peisajul montan. Încearcă Lo Zafferano pentru o combinație delicioasă de bucătărie franceză și italiană. Pentru o seară animată, un bar de studenți ca Le Tord Boyaud e o alegere bună. Dacă vrei să simți un pic de istorie, Café de la Table Ronde, cea mai veche cafenea din Franța (din 1739!), e perfectă pentru o cafea pe terasă.</p>\n\n<p>O experiență inedită e plimbarea cu telecabinele sferice din anii '70 (poreclite \"bulele\") care te duc până la fortăreața La Bastille din secolul al XVIII-lea. Priveliștea de sus asupra orașului și a munților e superbă!</p>\n\n<p>Unde te cazezi? Hotelul Splendid e central, are un stil retro și o cameră dublă e cam 350 lei.</p>\n\n<p>Cum ajungi? Poți căuta oferte la companii de turism sau zboruri, dar verifică mereu opțiunile low-cost pentru prețuri mai bune.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Idei-de-city-break/Grenoble_city_break.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "xl"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "grid",
+                                        "mod_data": {
+                                            "title": "VList Module title",
+                                            "children": [
+                                                {
+                                                    "text": "Demo section",
+                                                    "status": 1,
+                                                    "children": [
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [
+                                                                        {}
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {}
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "mod_template": "button",
+                                                                            "mod_data": {
+                                                                                "props": {
+                                                                                    "class": "v-btn--size-large",
+                                                                                    "href": "/trip/citybreaksasync?destination=GRENOBLE-FR&origin=BUCHAREST-RO&sdate=friday&edate=2days&o[0][ADT]=2&n=1",
+                                                                                    "text": "Vezi ofertele",
+                                                                                    "variant": "outlined"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "props": {
+                                                                        "style": "    justify-content: flex-end;\n    display: flex;"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "props": {
+                                                        "fluid": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "style": "",
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ],
+                        "props": {
+                            "style": "    justify-content: center;\n    align-items: center;"
+                        }
+                    }
+                ],
+                "status": true,
+                "text": "Grenoble"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Varșovia, Polonia: prașul phoenix care te surprinde la fiecare pas (2024 Edition!)</h2>",
+                                            "html": ""
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p>Gata să descoperi un oraș care s-a ridicat din propria cenușă și arată azi mai bine ca niciodată? Atunci Varșovia e destinația ta pentru un city break în 2024! Capitala Poloniei e un mix fascinant de istorie dramatică și energie modernă. Deși a fost distrusă aproape complet în Al Doilea Război Mondial, Varșovia și-a reconstruit cu grijă bijuteriile arhitecturale.</p>\n\n<p>Centrul Vechi, inclus în Patrimoniul Mondial UNESCO, e o splendoare! Plimbă-te pe străduțele pietruite și admiră clădirile colorate, Piața Centrală cu statuia Sirenei și impunătorul Castel Regal. Poți vizita Castelul (e închis lunea, dar miercurea intrarea la expozițiile permanente e gratuită!). Nu rata nici Biserica Sfânta Ana cu turnul de observație care îți oferă o panoramă superbă asupra orașului vechi.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p>Plimbă-te pe Drumul Regal, pe strada Krakowskie Przedmieście, pe lângă Palatul Prezidențial, Hotel Bristol și Biserica Sfintei Cruci, unde se află inima lui Fryderyk Chopin. Apropo de Chopin, dacă ești pasionat de muzică, caută concertele Chopin care au loc frecvent în oraș. Vara, duminica, poți asculta concerte gratuite în Parcul Łazienki, cel mai mare parc din Varșovia, un loc superb pentru relaxare.</p>\n\n<p>Alte locuri interesante de vizitat sunt Palatul Wilanów, Muzeul Revoltei din Varșovia și Palatul Culturii și Științei, o clădire emblematică din perioada comunistă (poți urca pe platforma de observație de la etajul 30 pentru o altă priveliște faină). Explorează și cartierul Praga de pe malul drept al Vistulei, o zonă mai boemă și plină de artă.</p>\n\n<p>Ce mănânci în Varșovia? Trebuie neapărat să încerci tradiționalele pierogi (un fel de găluște umplute), bigos (tocăniță vânătorească) și żurek (o supă acrișoară de secară, adesea servită într-o pâine scobită). Găsești restaurante tradiționale, dar și opțiuni moderne pentru toate gusturile. Seara, Varșovia e plină de viață, cu o mulțime de baruri și cluburi.</p>\n\n<p>Cum te miști prin oraș? Transportul public (autobuze, tramvaie, metrou) e bine pus la punct și te ajută să ajungi ușor dintr-un loc în altul. Uber e de asemenea disponibil și e o opțiune mai ieftină decât taxiurile obișnuite în centrul orașului.</p>\n\n<p>Pentru cazare, găsești variante pentru toate buzunarele, de la hosteluri primitoare la hoteluri mai dichisite.</p>\n\n<p>Ajungi ușor în Varșovia cu companiile low-cost.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Idei-de-city-break/Varsovia_city_break.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "xl"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "grid",
+                                        "mod_data": {
+                                            "title": "VList Module title",
+                                            "children": [
+                                                {
+                                                    "text": "Demo section",
+                                                    "status": 1,
+                                                    "children": [
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [
+                                                                        {}
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {}
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "mod_template": "button",
+                                                                            "mod_data": {
+                                                                                "props": {
+                                                                                    "class": "v-btn--size-large",
+                                                                                    "href": "trip/citybreaksasync?destination=WARSAW-PL&origin=BUCHAREST-RO&sdate=friday&edate=2days&o[0][ADT]=2&n=1",
+                                                                                    "text": "Vezi ofertele",
+                                                                                    "variant": "outlined"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "props": {
+                                                                        "style": "    justify-content: flex-end;\n    display: flex;"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "props": {
+                                                        "fluid": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "style": "",
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ],
+                        "props": {
+                            "style": "    justify-content: center;\n    align-items: center;"
+                        }
+                    }
+                ],
+                "status": true,
+                "text": "Varșovia"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Krakow, Polonia: Orașul cu Suflet Medieval și Vibe Tineresc</h2>",
+                                            "html": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p>Un alt oraș polonez care merită un city break ieftin în 2024 este Cracovia! Considerat de mulți cel mai frumos oraș al Poloniei, Cracovia are o istorie bogată și o atmosferă medievală păstrată incredibil de bine. Centrul istoric e o încântare, cu Piața Principală, una dintre cele mai mari piețe medievale din Europa, dominată de Biserica Sfânta Maria și Hala de Postav.</p>\n\n<p>Nu rata Castelul Wawel și Catedrala, simboluri ale Poloniei, pline de legende și povești cu regi și dragoni. Plimbă-te prin cartierul evreiesc Kazimierz, un loc plin de istorie și cu un vibe boem, cu sinagogi vechi, cafenele cochete și street art.</p>\n\n<p>Cracovia e și un oraș studențesc, așa că viața de noapte e super activă și găsești o mulțime de baruri și cluburi unde distracția ține până dimineața. Prețurile sunt prietenoase, atât la cazare, cât și la mâncare și băutură. Încearcă specialități locale ca oscypek (brânză afumată de oaie) sau zapiekanka (o baghetă coaptă cu diverse toppinguri).</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Idei-de-city-break/Cracovia_city_break.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "xl"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "grid",
+                                        "mod_data": {
+                                            "title": "VList Module title",
+                                            "children": [
+                                                {
+                                                    "text": "Demo section",
+                                                    "status": 1,
+                                                    "children": [
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [
+                                                                        {}
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {}
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "mod_template": "button",
+                                                                            "mod_data": {
+                                                                                "props": {
+                                                                                    "class": "v-btn--size-large",
+                                                                                    "href": "/trip/citybreaksasync?destination=KRAKOW-PL&origin=BUCHAREST-RO&sdate=fridays&edate=2days&o[0][ADT]=2&n=1",
+                                                                                    "text": "Vezi ofertele",
+                                                                                    "variant": "outlined"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "props": {
+                                                                        "style": "    justify-content: flex-end;\n    display: flex;"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "props": {
+                                                        "fluid": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "style": "",
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ],
+                        "props": {
+                            "style": "    justify-content: center;\n    align-items: center;"
+                        }
+                    }
+                ],
+                "status": true,
+                "text": "Krakow"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Budapesta, Ungaria: regina Dunării cu băi termale și Ruin Bars</h2>",
+                                            "html": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p>Budapesta, capitala Ungariei, e o destinație de city break care le are pe toate: arhitectură uimitoare, istorie, băi termale celebre și o viață de noapte vibrantă. Orașul e împărțit de Dunăre în două părți distincte: Buda, pe partea deluroasă, cu Castelul Buda și Bastionul Pescarilor, și Pesta, partea mai plată, cu Parlamentul impozant și bulevardele largi.</p>\n\n<p>O experiență de neratat în Budapesta e relaxarea într-una dintre celebrele băi termale, cum ar fi Széchenyi sau Gellért. E modul perfect de a-ți reîncărca bateriile după o zi de explorat.</p>\n\n<p>Seara, Budapesta se transformă! Orașul e faimos pentru \"ruin bars\", localuri amenajate în clădiri vechi și abandonate, cu un decor eclectic și o atmosferă unică. E locul ideal pentru a savura o bere locală (Ungaria are o tradiție a berii!) și a te distra alături de prieteni.</p>\n\n<p>Prețurile în Budapesta sunt considerate printre cele mai accesibile din Europa pentru un city break.</p>\n\n<p>Indiferent ce destinație alegi, un city break e prilejul perfect să te simți în vacanță, chiar și pentru câteva zile, fără să-ți faci griji pentru buget. Locuri noi, experiențe noi și timp liber de calitate – exact ce ai nevoie ca să-ți încarci bateriile!</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/pexels_trezellia_2600763.jpg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "xl"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "grid",
+                                        "mod_data": {
+                                            "title": "VList Module title",
+                                            "children": [
+                                                {
+                                                    "text": "Demo section",
+                                                    "status": 1,
+                                                    "children": [
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [
+                                                                        {}
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {}
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "mod_template": "button",
+                                                                            "mod_data": {
+                                                                                "props": {
+                                                                                    "class": "v-btn--size-large",
+                                                                                    "href": "/trip/citybreaksasync?destination=BUDAPEST-HU&origin=BUCHAREST-RO&sdate=friday&edate=2days&o[0][ADT]=2&n=1",
+                                                                                    "text": "Vezi ofertele",
+                                                                                    "variant": "outlined"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "props": {
+                                                                        "style": "    justify-content: flex-end;\n    display: flex;"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "props": {
+                                                        "fluid": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "style": "",
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ],
+                        "props": {
+                            "style": "    justify-content: center;\n    align-items: center;"
+                        }
+                    }
+                ],
+                "status": true,
+                "text": "Budapesta"
+            }
+        ]
+    },
+    "name": "390-content-bottom"
+}

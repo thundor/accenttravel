@@ -1,0 +1,615 @@
+{
+    "name": "circuite-grid",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {},
+                                        "title": "Descopera lumea pas cu pas",
+                                        "html": "<p>Fiecare oprire – o poveste. Fiecare zi – o experienta.</p>\n"
+                                    },
+                                    "mod_template": "section-title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Romania.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-romania"
+                                        },
+                                        "title": "Romania"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Bulgaria.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-bulgaria"
+                                        },
+                                        "title": "Bulgaria"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Croatia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-croatia"
+                                        },
+                                        "title": "Croatia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/turcia_2_.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-turcia"
+                                        },
+                                        "title": "Turcia"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/china.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-china"
+                                        },
+                                        "title": "China"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/japonia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-japonia"
+                                        },
+                                        "title": "Japonia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/thailanda.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-thailanda"
+                                        },
+                                        "title": "Thailanda"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/vietnam.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-vietnam"
+                                        },
+                                        "title": "Vietnam"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/italia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "/circuite-italia",
+                                            "tag": "a"
+                                        },
+                                        "title": "Italia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/elvetia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-elvetia"
+                                        },
+                                        "title": "Elvetia"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/brazilia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "/circuite-brazilia",
+                                            "tag": "a"
+                                        },
+                                        "title": "Brazilia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/india.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-india"
+                                        },
+                                        "title": "India"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/tunisia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-tunisia"
+                                        },
+                                        "title": "Tunisia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/SriLaka.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-sri-lanka"
+                                        },
+                                        "title": "Sri Lanka"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Costa_Rica.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-costa-rica"
+                                        },
+                                        "title": "Costa Rica"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/egipt.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-egipt"
+                                        },
+                                        "title": "Egipt"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/austria.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-austria"
+                                        },
+                                        "title": "Austria"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/cehia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-cehia"
+                                        },
+                                        "title": "Cehia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/grecia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-grecia"
+                                        },
+                                        "title": "Grecia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/ungaria.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-ungaria"
+                                        },
+                                        "title": "Ungaria"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Columbia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-columbia"
+                                        },
+                                        "title": "Columbia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Coreea_de_sud.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-coreea-de-sud"
+                                        },
+                                        "title": "Coorea de Sud"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Argentina.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-argentina"
+                                        },
+                                        "title": "Argentina"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Malaezia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-malaezia"
+                                        },
+                                        "title": "Malaezia"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Australia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-australia"
+                                        },
+                                        "title": "Australia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Nepal.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-nepal"
+                                        },
+                                        "title": "Nepal"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Mongolia.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-mongolia"
+                                        },
+                                        "title": "Mongolia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Cuba.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/circuite-cuba"
+                                        },
+                                        "title": "Cuba"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "default_mod_template": "card-image-vertical",
+            "default_mod_data": {
+                "image": {
+                    "props": {
+                        "src": "/resources/images/balvanyos.jpg",
+                        "height": "250",
+                        "cover": true,
+                        "aspectRatio": "16/9",
+                        "rounded": "lg"
+                    }
+                },
+                "props": {
+                    "tag": "a",
+                    "href": "https://accenttravel.ro/hoteluri",
+                    "class": "text-decoration-none mx-auto",
+                    "maxWidth": "400",
+                    "rounded": "lg",
+                    "minWidth": "250"
+                },
+                "title": "Turcia - Antalya",
+                "subtitle": "",
+                "button_title": "Vezi ofertele",
+                "header_title": ""
+            },
+            "status": true,
+            "props": {
+                "class": "pt-10 pb-10"
+            }
+        }
+    ]
+}

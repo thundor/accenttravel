@@ -1,0 +1,30 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "grid",
+                            "mod_data": {
+                                "title": "VList Module title",
+                                "children": [
+                                    {
+                                        "name": "euroweekend-interior"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "status": true,
+    "text": "Euro weekend ",
+    "props": {
+        "fluid": true,
+        "style": "background-color: #E2E6E6;"
+    },
+    "name": "euroweekend"
+}

@@ -1,0 +1,1 @@
+<?php include __DIR__ . "/../" . str_replace('circuite', 'chartere', basename(dirname(__FILE__))) . '/' . basename(__FILE__); ?>

@@ -1,0 +1,293 @@
+{
+    "name": "Delta-Dunarii-Romania",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {},
+                                        "title": "Delta Dunării, vacanțe în ritmul naturii",
+                                        "html": "<p>Planifică o escapadă printre canale, lacuri, păsări și sate pescărești</p>\n"
+                                    },
+                                    "mod_template": "section-title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/crisan_delta_dunarii_cazare_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-crisan"
+                                        },
+                                        "title": "Crișan"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/uzlina_delta_dunarii_cazare_hotel_apus_vacanta.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-murighiol"
+                                        },
+                                        "title": "Murighiol"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/jurilovca_delta_dunarii_cazare_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-jurilovca"
+                                        },
+                                        "title": "Jurilovca"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/sulina_delta_dunarii_cazare_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-sulina-oferte-delta-dunarii"
+                                        },
+                                        "title": "Sulina"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/tulcea_delta_dunarii_cazare_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-tulcea-oferte-cazare"
+                                        },
+                                        "title": "Tulcea"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/sfantu_gheorghe_delta_dunarii_cazare_hotel_1_.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-sfantu-gheorghe-delta-dunarii"
+                                        },
+                                        "title": "Sfântu Gheorghe"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/mila_23_delta_dunarii_cazare_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-mila-23-delta-dunarii"
+                                        },
+                                        "title": "Mila 23"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/gura_portitei_delta_dunarii_cazare_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-gura-portitei"
+                                        },
+                                        "title": "Gura Portiței"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/mahmudia_delta_dunarii_cazare_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-mahmudia-delta-dunarii"
+                                        },
+                                        "title": "Mahmudia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/dunavatu_de_jos_delta_dunarii_cazare_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-dunavatu-de-jos"
+                                        },
+                                        "title": "Dunavățul de Jos"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/murighiol_delta_dunarii_cazare_hotel.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-uzlina"
+                                        },
+                                        "title": "Uzlina"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/baltenii_de_jos_cazare_hotel_delta_.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-dunavatu-de-jos"
+                                        },
+                                        "title": "Băltenii de Sus"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "default_mod_template": "card-image-vertical",
+            "default_mod_data": {
+                "image": {
+                    "props": {
+                        "src": "/resources/images/balvanyos.jpg",
+                        "height": "250",
+                        "cover": true,
+                        "aspectRatio": "16/9",
+                        "rounded": "lg"
+                    }
+                },
+                "props": {
+                    "tag": "a",
+                    "href": "https://accenttravel.ro/hoteluri",
+                    "class": "text-decoration-none mx-auto",
+                    "maxWidth": "400",
+                    "rounded": "lg",
+                    "minWidth": "250"
+                },
+                "title": "Turcia - Antalya",
+                "subtitle": "",
+                "button_title": "Vezi ofertele",
+                "header_title": ""
+            },
+            "status": true,
+            "props": {
+                "class": "pt-10 pb-10"
+            }
+        }
+    ]
+}

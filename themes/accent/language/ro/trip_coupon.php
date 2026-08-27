@@ -1,0 +1,24 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+themeFunctions::debugFileLine('start');
+themeFunctions::loadLang('general/actions');
+themeFunctions::loadLang('general/options');
+themeFunctions::loadLang('trip_coupons');
+$L1['meta_title'] = 'Cupon' . lang('append_title');
+$L1['page_title/html'] = '<span>Informatii</span> <strong class="text-success">cupon</strong>';
+$L1['coupon_info_section_title/html'] = 'Informatii <strong>Cupon</strong>';
+$L1['code_field_label/html'] = 'Cod cupon';
+$L1['code_field_placeholder'] = 'Cod cupon';
+$L1['percentage_field_label/html'] = 'Discount';
+$L1['percentage_field_placeholder'] = 'Discount';
+$L1['nr_uses_field_label/html'] = 'Numar utilizari curente';
+$L1['max_uses_field_label/html'] = 'Numar maxim utilizari';
+$L1['max_uses_field_placeholder'] = '0 sau gol pentru nelimitat';
+$L1['observation_field_label/html'] = 'Observatii';
+$L1['observation_field_placeholder'] = 'Informatii suplimentare despre cupon';
+$L1['date_start_field_label/html'] = 'Data start disponibilitate';
+$L1['date_start_field_placeholder'] = 'Campul poate fi gol';
+$L1['date_expire_field_label/html'] = 'Data expirare';
+$L1['date_expire_field_placeholder'] = 'Campul poate fi gol (nelimitat)';
+$L1['status_field_label/html'] = 'Status';
+themeFunctions::debugFileLine('end');

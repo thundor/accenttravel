@@ -1,0 +1,1172 @@
+<!doctype html>
+<html lang="ro">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    	<!-- Orice continut in header trebuie inserat dupa aceasta linie -->
+        <meta name="description" content="Descriere site - 155 de caractere ± 10">
+        <meta name="author" content="Front-End Design by Lemar Artwork, built and powered by Lisal Expert">
+        <link rel="icon" href="images/favicon.ico">
+        <title>Oferte Vacanta Sovata | Accent Travel &amp; Events</title>
+
+
+		<link type="text/css" rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/jquery-ui.css" />
+        <link type="text/css" rel="stylesheet" href="js/calendar/build/css/caleran.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/default.css" />
+        <link type="text/css" rel="stylesheet" href="css/responsive.css" />
+        
+    	<!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    	<![endif]-->
+</head>
+
+<body>
+		 <!--Zona Logo + Login + Servicii > TOP -->
+		<div class="topHeader">
+            
+  				<div class="container">
+    
+      			 <div class="row">
+                 
+                         <div class="col-sm-12 col-md-4 logoTop1">
+                                <a href="#"><img src="images/logo.png" alt="Accent Travel &amp; Events" id="logoAccent1" /></a>
+                         </div>
+                         
+                         <div class="col-sm-12 col-md-8 text-right">
+                            
+                                        
+                                         <div class="float-right">
+                                                <p id="contulMeu"><i class="fa fa-user"></i> CONTUL MEU </p>                                      
+                                                
+                                                	<div id="contOpt">
+                                                    <p id="login"><i class="fa fa-lock"></i> Log In</p>
+                                                    <p id="register"><i class="fa fa-key"></i> Inregistrare</p>
+                                                    <img src="images/arrowUp.png" alt="arrowUp" />
+                                                    </div>
+                                                    
+                                              <!--Login modal-->
+                                                    <div id="loginWindow">
+                                                        <h3>Intra in cont</h3>
+                                                        <span class="fa fa-2x fa-arrow-circle-o-down"></span>
+                                                        <p>Ai cont deja? Autentifica-te mai jos:</p>
+                                                            <form>
+                                                             <div class="form-group">
+                                                			<input type="email" class="form-control form-control-lg" id="userLogin" placeholder="Introduceti email">
+                                             				 </div>
+                                                             <div class="form-group">
+                                                			<input type="password" class="form-control form-control-lg" id="passLogin" placeholder="Introduceti parola">
+                                                            
+                                                            <label class="form-check-label"><input class="form-check-input" type="checkbox"> Tine-ma minte</label>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-lg btn-primary btn-md btn-block login-submit text-size-small">Intra in cont</button>
+                                                            <p><a href="#">Mi-am uitat parola</a><br />
+                                                            <a href="#"  id="register2">Nu ai cont? Inregistreaza-te</a></p>
+                                                            
+                                                            </form>
+                                                            <i id="loginClose" class="fa fa-close"></i>
+                                                            
+                                                            <p class="strikeMiddle">SAU</p>
+                                                            
+                                                            <button class="btn btn-info btn-block btn-lg facebook-login text-center" type="button"><i class="fa fa-facebook"></i> Conectare cu Facebook</button>
+                                                            
+                                                            
+                                                    </div>
+                                                    
+                                              <!--Inregistrare modal-->      
+                                                    <div id="regWindow"> 
+                                                        <h3>Creeaza un cont</h3>
+                                                        <span class="fa fa-2x fa-arrow-circle-o-down"></span>
+                                                        
+                                                            <form>
+                                                           
+                                                            <div class="row">
+                                                                 <div class="col-sm-12 col-md-4 col-lg-5">
+                                                                  <div class="form-group">
+                                                                 <select id="genUser" class="form-control form-control-lg">
+                                                                        <option value="1">Dl.</option>
+                                                                        <option value="2">Dna.</option>
+                                                                        <option value="3">Dra.</option>	
+                                                                  </select>
+                                                                  </div>
+                                                                 </div>	
+                                                                 <div class="col-sm-12 col-md-4 col-lg-7">
+                                                                 <div class="form-group">
+                                                                <input type="text" class="form-control form-control-lg" id="regPrenume" placeholder="Prenume">
+                                                                </div>
+                                                                 </div>
+                                                            </div>
+                                                  
+                                                            <div class="form-group">
+                                                            <input type="text" class="form-control form-control-lg" id="regNume" placeholder="Nume" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                            <input type="email" class="form-control form-control-lg" id="regEmail" placeholder="Adresa de email" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                            <input type="tel" class="form-control form-control-lg" id="regTelefon" placeholder="Numar de telefon" required>
+                                                            </div>
+                                                             <div class="form-group">
+                                                            <input type="password" class="form-control form-control-lg" id="parolaReg" placeholder="Introduceti parola" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                            <input type="password" class="form-control form-control-lg" id="parolaConf" placeholder="Confirmare parola" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                             <label class="form-check-label">
+                                                  <input type="checkbox" class="form-check-input" id="nwslReg" > Tine-ma la curent cu promotiile si ofertele Accent Travel &amp; Events</label>       												</div>
+                                                  			<div class="form-group">
+                                                            <label class="form-check-label">
+                                                  <input type="checkbox" class="form-check-input"  id="acordUser" >Sunt de acord cu <a href="#">Termenii si Conditiile</a> Accent Travel &amp; Events</label>
+                                                                    
+                                                            </div>
+                                                            <button type="submit" class="btn btn-lg btn-primary btn-md btn-block login-submit text-size-small">Inregistrare</button>
+                                                            </form>
+                                                        <i id="regClose" class="fa fa-close"></i>
+                                                    </div>
+                                                    
+                                                
+                                        			<p id="servUtile">INFO UTILE | BUSINESS TRAVEL</p>
+                                                     <!--servicii modal-->
+                                                            <div id="utileVacanta">
+                                                                    <ul class="list-unstyled">
+                                                                        <li>INFO UTILE</li>
+                                                                        <li><a href="#">Asigurari</a></li>
+                                                                        <li><a href="#">Termeni si Conditii</a></li>
+                                                                        <li><a href="#">Intrebari Frecvente</a></li>
+                                                                        <li><a href="#">Promisiunea Calitatii</a></li>
+                                                                    </ul>
+                                                                    
+                                                                    <ul class="list-unstyled">
+                                                                        <li>CORPORATE</li>
+                                                                        <li><a href="#">Business Travelers</a></li>
+                                                                        <li><a href="#">Travel Managers</a></li>
+                                                                        <li><a href="#">CFO &amp; Procurement</a></li>
+                                                                        <li><a href="#">Leisure Trips</a></li>
+                                                                    </ul>
+                                                                    <img src="images/arrowUp.png" alt="arrowUp" />
+                                                            </div>	
+                                        		
+                                        </div>
+                                       
+                                        <div class="socialTop1">
+                                                <p><i class="fa fa-phone"></i><span> 0374 462 265</span> </p>
+                                        </div>
+                                       
+                        </div>
+                        
+        		</div>
+        
+   				 </div>
+    
+			</div>
+		
+         <!--Meniu Principal-->
+		<div class="bg-primary">
+            <div class="container">
+                <div class="row">
+                
+                    <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary mainNav">
+                    
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navBarMain" aria-controls="navBarMain" aria-expanded="false" aria-label="Arata Meniu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
+    
+                     <div class="collapse navbar-collapse" id="navBarMain">
+            
+            <ul class="navbar-nav mr-auto">
+                   <li class="nav-item active">
+                                <a class="nav-link" href="#">Hoteluri</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Bilete avion</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="cityBreakMN" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">City Break</a>
+                                <div class="dropdown-menu" aria-labelledby="cityBreakMN">
+                                  <a class="dropdown-item" href="#">Amsterdam</a>
+                                  <a class="dropdown-item" href="#">Berlin</a>
+                                  <a class="dropdown-item" href="#">Copenhaga</a>
+                                  <a class="dropdown-item" href="#">Paris</a>
+                                  <a class="dropdown-item" href="#">Praga</a>
+                                </div>
+                              </li>
+                              
+                              <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="pacheteMN" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pachete</a>
+                              		<div class="dropdown-menu" aria-labelledby="cityBreakMN">
+                                  <a class="dropdown-item" href="#">Litoral Romania <span>(rezervare online)</span></a>
+                                  <a class="dropdown-item" href="#">Balneo/SPA Romania <span>(rezervare online)</span></a>
+                                  <a class="dropdown-item" href="#">Vacante Cipru</a>
+                                  <a class="dropdown-item" href="#">Vacante Croatia</a>
+                                  <a class="dropdown-item" href="#">Vacante Emiratele Arabe Unite</a>
+                                  <a class="dropdown-item" href="#">Vacante Grecia</a>
+                                  <a class="dropdown-item" href="#">Vacante Muntenegru</a>
+                                  <a class="dropdown-item" href="#">Vacante Portugalia</a>
+                                  <a class="dropdown-item" href="#">Vacante Spania</a>
+                                  <a class="dropdown-item" href="#">Vacante Turcia</a>
+                                </div>
+                              </li>
+                              <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="vacanteTem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vacante Tematice</a>
+                              		<div class="dropdown-menu" aria-labelledby="vacanteTem">
+                                  <a class="dropdown-item" href="#">Arta &amp; Cultura</a>
+                                  <a class="dropdown-item" href="#">Distractie</a>
+                                  <a class="dropdown-item" href="#">Familie</a>
+                                  <a class="dropdown-item" href="#">Romantice</a>
+                                  <a class="dropdown-item" href="#">Ski &amp; Snowboard</a>
+                                  <a class="dropdown-item" href="#">Shopping</a>
+                                  <a class="dropdown-item" href="#">Sporturi</a>
+                                </div>
+                              </li>
+                              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        </ul>
+                        <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Vreau sa calatoresc in…">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cauta</button>
+            </form>
+                    </div>
+                </nav>
+                
+                </div>
+            </div> 
+		</div>
+			
+		<div class="fullWidth">
+			<div class="container">
+            
+            	 <!--MOTOR CAUTARE -->
+			 	<div class="searchMenuHotel">
+                       <div class="tab-content">
+                                 <!--CAUTA HOTEL -->
+                                       <div class="tab-pane active" id="hotel" role="tabpanel">
+                                        
+                                            <form action="#" method="post">
+                                            
+                                                     <div class="row">
+                                              
+                                                     	<div class="form-group col-sm-12 col-md-3">
+                                                        	<input type="text" class="form-control form-control-lg" id="destinatie" placeholder="Destinatie / Oras" required>
+                                                        </div>
+                                                
+                                                     	<div class="form-group col-sm-12 col-md-3"> 
+                                                        	<input type="text" class="form-control form-control-lg" id="numeHotel" placeholder="Nume hotel (optional)">
+                                                      	</div>
+                                                
+                                                     	<div class="form-group col-sm-12 col-md-3">
+                                                            <input type="text" class="form-control form-control-lg" id="dateHotel" placeholder="Durata" required>
+                                                     	</div>
+                                               
+                                                     	<div class="form-group col-sm-12 col-md-3">
+                                                            <select class="form-control form-control-lg" id="categHotel">
+                                                                    <option value="0">Categorie (optional)</option>
+                                                                    <option value="1">minim 2 stele</option>
+                                                                    <option value="2">minim 3 stele</option>
+                                                                    <option value="3">minim 4 stele</option>
+                                                                    <option value="4">minim 5 stele</option>
+                                                           </select>
+                                                     	</div>
+                                                     
+                                                     <div class="col-sm-12 col-md-12" id="cam1Hotel">
+                                                        <div class="row">
+                                            
+                                                                 <div class="col-sm-12 col-md-1"><p class="roomHotel">Camera 1</p></div>
+                                                                 
+                                                                 <div class="form-group col-sm-12 col-md-2">
+                                                                
+                                                                        <select class="form-control form-control-lg" id="adultiCam1">
+                                                                            <option value="1">1 Adult</option>
+                                                                            <option value="2" selected>2 Adulti</option>
+                                                                            <option value="3">3 Adulti</option>
+                                                                            <option value="4">4 Adulti</option>
+                                                                            <option value="5">5 Adulti</option>
+                                                                            <option value="6">6 Adulti</option>
+                                                                        </select>
+                                                                
+                                                                </div>
+                                                                
+                                                                 <div class="form-group col-sm-12 col-md-2">
+                                                                        <select class="form-control form-control-lg" id="copiiCam1">
+                                                                            <option value="1">0 Copii</option>
+                                                                            <option value="2">1 Copil</option>
+                                                                            <option value="3">2 Copii</option>
+                                                                        </select>
+                                                                        
+                                                                </div>
+                                                                
+                                                                 <div class="form-group col-sm-12 col-md-7 varsteCopii">
+                                                                                <div class="form-group float-left">
+                                                                                <p id="v1">Varsta Copil 1</p>
+                                                                                <select class="form-control form-control-lg" id="varstaCop1Cam1">
+                                                                                     <option value="1">&lt; 1 an</option>
+                                                                                    <option value="2">1 an</option>
+                                                                                    <option value="3">2 ani</option>
+                                                                                    <option value="4">3 ani</option>
+                                                                                    <option value="5">4 ani</option>
+                                                                                    <option value="6">5 ani</option>
+                                                                                    <option value="7">6 ani</option>
+                                                                                    <option value="8">7 ani</option>
+                                                                                    <option value="9">8 ani</option>
+                                                                                    <option value="10">9 ani</option>
+                                                                                    <option value="11">10 ani</option>
+                                                                                    <option value="12">11 ani</option>
+                                                                                    <option value="13">12 ani</option>
+                                                                                    <option value="14">13 ani</option>
+                                                                                    <option value="15">14 ani</option>
+                                                                                    <option value="16">15 ani</option>
+                                                                                    <option value="17">16 ani</option>
+                                                                                    <option value="18">17 ani</option>
+                                                                                </select>
+                                                                                </div>
+                                                                                <div class="form-group float-left">
+                                                                                <p id="v2">Varsta Copil 2</p>
+                                                                                <select class="form-control form-control-lg" id="varstaCop2Cam1">
+                                                                                    <option value="1">&lt; 1 an</option>
+                                                                                    <option value="2">1 an</option>
+                                                                                    <option value="3">2 ani</option>
+                                                                                    <option value="4">3 ani</option>
+                                                                                    <option value="5">4 ani</option>
+                                                                                    <option value="6">5 ani</option>
+                                                                                    <option value="7">6 ani</option>
+                                                                                    <option value="8">7 ani</option>
+                                                                                    <option value="9">8 ani</option>
+                                                                                    <option value="10">9 ani</option>
+                                                                                    <option value="11">10 ani</option>
+                                                                                    <option value="12">11 ani</option>
+                                                                                    <option value="13">12 ani</option>
+                                                                                    <option value="14">13 ani</option>
+                                                                                    <option value="15">14 ani</option>
+                                                                                    <option value="16">15 ani</option>
+                                                                                    <option value="17">16 ani</option>
+                                                                                    <option value="18">17 ani</option>
+                                                                                </select>
+                                                                                </div>
+                                                                 </div>
+                                                         
+                                                                 <div class="form-group col-sm-2">
+                                                                    <p id="addCam2"><i class="fa fa-plus"></i> Adauga camera</p>
+                                                                 </div>
+                                                                 
+                                                        </div>
+                                                    </div>
+                                                     <div class="col-sm-12 col-md-12"  id="cam2Hotel">
+                                                        <div class="row">
+                                            
+                                                                 <div class="col-sm-12 col-md-1"><p class="roomHotel">Camera 2</p></div>
+                                                                
+                                                                 <div class="form-group col-sm-12 col-md-2">
+                                                                
+                                                                        <select class="form-control  form-control-lg" id="adultiCam2">
+                                                                            <option value="1">1 Adult</option>
+                                                                            <option value="2" selected>2 Adulti</option>
+                                                                            <option value="3">3 Adulti</option>
+                                                                            <option value="4">4 Adulti</option>
+                                                                            <option value="5">5 Adulti</option>
+                                                                            <option value="6">6 Adulti</option>
+                                                                        </select>
+                                                                
+                                                                </div>
+                                                                
+                                                                 <div class="form-group col-sm-12 col-md-2">
+                                                                        <select class="form-control form-control-lg" id="copiiCam2">
+                                                                            <option value="1">0 Copii</option>
+                                                                            <option value="2">1 Copil</option>
+                                                                            <option value="3">2 Copii</option>
+                                                                        </select>
+                                                                         
+                                                                </div>
+                                                                <div class="form-group col-sm-12 col-md-7 varsteCopii">
+                                                                                <div class="form-group float-left">
+                                                                                <p id="v1C2">Varsta Copil 1</p>
+                                                                                <select class="form-control form-control-lg" id="varstaCop1Cam2">
+                                                                                     <option value="1">&lt; 1 an</option>
+                                                                                    <option value="2">1 an</option>
+                                                                                    <option value="3">2 ani</option>
+                                                                                    <option value="4">3 ani</option>
+                                                                                    <option value="5">4 ani</option>
+                                                                                    <option value="6">5 ani</option>
+                                                                                    <option value="7">6 ani</option>
+                                                                                    <option value="8">7 ani</option>
+                                                                                    <option value="9">8 ani</option>
+                                                                                    <option value="10">9 ani</option>
+                                                                                    <option value="11">10 ani</option>
+                                                                                    <option value="12">11 ani</option>
+                                                                                    <option value="13">12 ani</option>
+                                                                                    <option value="14">13 ani</option>
+                                                                                    <option value="15">14 ani</option>
+                                                                                    <option value="16">15 ani</option>
+                                                                                    <option value="17">16 ani</option>
+                                                                                    <option value="18">17 ani</option>
+                                                                                </select>
+                                                                                </div>
+                                                                                <div class="form-group float-left">
+                                                                                <p id="v2C2">Varsta Copil 2</p>
+                                                                                <select class="form-control form-control-lg" id="varstaCop2Cam2">
+                                                                                    <option value="1">&lt; 1 an</option>
+                                                                                    <option value="2">1 an</option>
+                                                                                    <option value="3">2 ani</option>
+                                                                                    <option value="4">3 ani</option>
+                                                                                    <option value="5">4 ani</option>
+                                                                                    <option value="6">5 ani</option>
+                                                                                    <option value="7">6 ani</option>
+                                                                                    <option value="8">7 ani</option>
+                                                                                    <option value="9">8 ani</option>
+                                                                                    <option value="10">9 ani</option>
+                                                                                    <option value="11">10 ani</option>
+                                                                                    <option value="12">11 ani</option>
+                                                                                    <option value="13">12 ani</option>
+                                                                                    <option value="14">13 ani</option>
+                                                                                    <option value="15">14 ani</option>
+                                                                                    <option value="16">15 ani</option>
+                                                                                    <option value="17">16 ani</option>
+                                                                                    <option value="18">17 ani</option>
+                                                                                </select>
+                                                                                </div>
+                                                                </div>
+                                                         
+                                                                 <div class="form-group col-sm-12 col-md-3 col-lg-2"><p id="addCam3"><i class="fa fa-plus"></i> Adauga camera</p> </div>
+                                                                 <div class="form-group col-sm-12 col-md-3 col-lg-2"><p id="remCam2"><i class="fa fa-minus"></i> Sterge camera</p></div>
+                                                                 
+                                                    </div>
+                                                    </div>
+                                                     <div class="col-sm-12 col-md-12"  id="cam3Hotel">
+                                                        <div class="row">
+                                            
+                                                                 <div class="col-sm-12 col-md-1"><p class="roomHotel">Camera 3</p></div>
+                                                                
+                                                                 <div class="form-group col-sm-12 col-md-2">
+                                                                
+                                                                        <select class="form-control form-control-lg" id="adultiCam3">
+                                                                            <option value="1">1 Adult</option>
+                                                                            <option value="2" selected>2 Adulti</option>
+                                                                            <option value="3">3 Adulti</option>
+                                                                            <option value="4">4 Adulti</option>
+                                                                            <option value="5">5 Adulti</option>
+                                                                            <option value="6">6 Adulti</option>
+                                                                        </select>
+                                                                
+                                                                </div>
+                                                                
+                                                                 <div class="form-group col-sm-12 col-md-2">
+                                                                        <select class="form-control form-control-lg" id="copiiCam3">
+                                                                            <option value="1">0 Copii</option>
+                                                                            <option value="2">1 Copil</option>
+                                                                            <option value="3">2 Copii</option>
+                                                                        </select>
+                                                                         
+                                                                </div>
+                                                                <div class="form-group col-sm-12 col-md-7 varsteCopii">
+                                                                                <div class="form-group float-left">
+                                                                                <p id="v1C3">Varsta Copil 1</p>
+                                                                                <select class="form-control form-control-lg" id="varstaCop1Cam3">
+                                                                                     <option value="1">&lt; 1 an</option>
+                                                                                    <option value="2">1 an</option>
+                                                                                    <option value="3">2 ani</option>
+                                                                                    <option value="4">3 ani</option>
+                                                                                    <option value="5">4 ani</option>
+                                                                                    <option value="6">5 ani</option>
+                                                                                    <option value="7">6 ani</option>
+                                                                                    <option value="8">7 ani</option>
+                                                                                    <option value="9">8 ani</option>
+                                                                                    <option value="10">9 ani</option>
+                                                                                    <option value="11">10 ani</option>
+                                                                                    <option value="12">11 ani</option>
+                                                                                    <option value="13">12 ani</option>
+                                                                                    <option value="14">13 ani</option>
+                                                                                    <option value="15">14 ani</option>
+                                                                                    <option value="16">15 ani</option>
+                                                                                    <option value="17">16 ani</option>
+                                                                                    <option value="18">17 ani</option>
+                                                                                </select>
+                                                                                </div>
+                                                                                <div class="form-group float-left">
+                                                                                <p id="v2C3">Varsta Copil 2</p>
+                                                                                <select class="form-control form-control-lg" id="varstaCop2Cam3">
+                                                                                    <option value="1">&lt; 1 an</option>
+                                                                                    <option value="2">1 an</option>
+                                                                                    <option value="3">2 ani</option>
+                                                                                    <option value="4">3 ani</option>
+                                                                                    <option value="5">4 ani</option>
+                                                                                    <option value="6">5 ani</option>
+                                                                                    <option value="7">6 ani</option>
+                                                                                    <option value="8">7 ani</option>
+                                                                                    <option value="9">8 ani</option>
+                                                                                    <option value="10">9 ani</option>
+                                                                                    <option value="11">10 ani</option>
+                                                                                    <option value="12">11 ani</option>
+                                                                                    <option value="13">12 ani</option>
+                                                                                    <option value="14">13 ani</option>
+                                                                                    <option value="15">14 ani</option>
+                                                                                    <option value="16">15 ani</option>
+                                                                                    <option value="17">16 ani</option>
+                                                                                    <option value="18">17 ani</option>
+                                                                                </select>
+                                                                                </div>
+                                                                        </div>
+                                                         
+                                                                 <div class="form-group col-sm-12 col-md-12 col-lg-6"><p id="remCam3"><i class="fa fa-minus"></i> Sterge camera</p></div>
+                                                    </div>
+                                                    </div>
+                                                    
+                                                     <div class="col-sm-12 col-md-3"><input type="checkbox" class="float-left" id="weekendSearch" name="weekendSearch" /><p>Cautare de weekend</p></div>
+                                                     
+                                                     <div class="col-sm-12 col-md-2"><input type="checkbox" class="float-left" id="addAvionHotel" name="addAvionHotel" /><p>Adauga Zbor</p></div>
+                                                     
+                                                     <div class="form-group col-sm-12 col-md-4 extraZbor">
+                                                     		<input type="text" class="form-control form-control-lg" id="inpZborHot" name="inpZborHot" placeholder="Oras plecare" /> 
+                                                     </div>
+                                                    
+                                                    <div class="col-12 col-sm-12 col-md-3">
+                                                        <button class="btn  btn-block btn-lg bg-primary" style="width:100%;" id="cautaHotel" name="cautaHotel"><i class="fa fa-search"></i> Cauta hotel</button>
+                                                    </div>
+                                                
+                                                </div>
+                                                
+                                            </form>
+                                            
+                                      </div>
+                            </div>
+       			</div>
+                                
+             </div>   
+		</div>
+        
+         <!--Rezultate cautare-->
+        <div class="container">
+        		<div class="row">
+                	<!--Filtre cautare-->
+                	<div class="col-sm-12 col-md-3 mb-4">
+                    	 							
+                            <h4 class="filterTitle pl-0"><i class="fa fa-filter"></i> Filtre cautare <i class="fa fa-plus-square-o"></i></h4>
+                         	
+                                <div class="clearfix"></div>
+                                
+                                <div id="allFilters" class="hiddenFilt">
+                                
+                                
+                                <div class="mb-5"> 
+                            	 <h5 class="subTitleFilter"><i class="fa fa-money"></i> Pret</h5>
+                            	<input type="text" id="amount" class="border-0 mb-1" readonly><div id="slider-range"></div>
+  								</div>
+
+                                           <h5 class="subTitleFilter"><i class="fa fa-star-o"></i> Numar de stele</h5>
+                                           
+                                           <div class="checkWrapper">          
+                                            <input type="checkbox" id="hotelStars1">
+                                                    <label for="hotelStars1">
+                                                        <i class="fa fa-star yellowCol noFloat"></i> 
+                                                        <i class="fa fa-star noFloat"></i>
+                                                        <i class="fa fa-star noFloat"></i>
+                                                        <i class="fa fa-star noFloat"></i>
+                                                        <i class="fa fa-star noFloat"></i>                                                
+                                                    </label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">          
+                                            <input type="checkbox" id="hotelStars2">
+                                                    <label for="hotelStars2">
+                                                        <i class="fa fa-star yellowCol noFloat"></i> 
+                                                        <i class="fa fa-star yellowCol noFloat"></i>
+                                                        <i class="fa fa-star noFloat"></i>
+                                                        <i class="fa fa-star noFloat"></i>
+                                                        <i class="fa fa-star noFloat"></i>                                                
+                                                    </label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">          
+                                            <input type="checkbox" id="hotelStars3">
+                                                    <label for="hotelStars3">
+                                                        <i class="fa fa-star yellowCol noFloat"></i> 
+                                                        <i class="fa fa-star yellowCol noFloat"></i>
+                                                        <i class="fa fa-star yellowCol noFloat"></i>
+                                                        <i class="fa fa-star noFloat"></i>
+                                                        <i class="fa fa-star noFloat"></i>                                                
+                                                    </label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">          
+                                            <input type="checkbox" id="hotelStars4">
+                                                    <label for="hotelStars4">
+                                                        <i class="fa fa-star yellowCol noFloat"></i> 
+                                                        <i class="fa fa-star yellowCol noFloat"></i>
+                                                        <i class="fa fa-star yellowCol noFloat"></i>
+                                                        <i class="fa fa-star yellowCol noFloat"></i>
+                                                        <i class="fa fa-star noFloat"></i>                                                
+                                                    </label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">          
+                                            <input type="checkbox" id="hotelStars5">
+                                                    <label for="hotelStars5">
+                                                        <i class="fa fa-star yellowCol noFloat"></i> 
+                                                        <i class="fa fa-star yellowCol noFloat"></i>
+                                                        <i class="fa fa-star yellowCol noFloat"></i>
+                                                        <i class="fa fa-star yellowCol noFloat"></i>
+                                                        <i class="fa fa-star yellowCol noFloat"></i>                                                
+                                                    </label>
+                                            </div>
+                    
+                                            
+                                            <h5 class="subTitleFilter"><i class="fa fa-map-marker"></i>  Puncte de interes</h5>
+                                            
+                                            <div class="radioWrapper">
+                                                <input type="radio" id="1" name="interest" />
+                                                <label for="1">Podul Scheletic (17)</label>
+                                            </div>
+                                            
+                                            <div class="radioWrapper">
+                                                <input type="radio" id="2" name="interest" />
+                                                <label for="2">Piata Rembrandt (17)</label>
+                                            </div>
+                                            
+                                            <div class="radioWrapper">
+                                                <input type="radio" id="3" name="interest" />
+                                                <label for="3">Piata Leidse (13)</label>
+                                            </div>
+                                            
+                                            <div class="radioWrapper">
+                                                <input type="radio" id="4" name="interest" />
+                                                <label for="4">Districtul Felinarelor Rosii (31)</label>
+                                            </div>
+                                            
+                                            <div class="radioWrapper">
+                                                <input type="radio" id="5" name="interest" />
+                                                <label for="5">Piata Albert Cuyp (23)</label>
+                                            </div>
+                                            
+                                            <div class="radioWrapper pb-0">
+                                                       			 <h5 class="subTitleFilter"><i class="fa fa-sliders"></i> Activitati</h5>
+                                                       			 <div class="clearFX"></div>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="arta" name="art" />
+                                                <label for="art"><i class="fa fa-bank"></i> Arta &amp; Cultura</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="family" name="family" />
+                                                <label for="family"><i class="fa fa-users"></i> Familie</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="shopping" name="shopping" />
+                                                <label for="shopping"><i class="fa fa-shopping-bag"></i> Shopping</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="sports" name="sports" />
+                                                <label for="sports"><i class="fa fa-soccer-ball-o"></i> Sporturi</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="romantice" name="romantice" />
+                                                <label for="romantice"><i class="fa fa-heart"></i> Romantice</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="smokers" name="leaf" />
+                                                <label for="leaf"><i class="fa fa-binoculars"></i> Natura</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="party" name="party" />
+                                                <label for="party"><i class="fa fa-glass"></i> Distractie &amp; Party</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="smokers" name="smokers" />
+                                                <label for="smokers"><i class="fa fa-trophy"></i> Ski & Snowboard</label>
+                                            </div>
+                                            
+                                            <div class="radioWrapper pb-0">
+                                                       			 <h5 class="subTitleFilter"><i class="fa fa-tasks"></i> Facilitati</h5>
+                                                       			 <div class="clearFX"></div>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="clima" name="clima" />
+                                                <label for="clima"><i class="fa fa-snowflake-o"></i> Aer Conditionat</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="bar" name="bar" />
+                                                <label for="bar"><i class="fa fa-beer"></i> Bar</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="conferinte" name="conferinte" />
+                                                <label for="conferinte"><i class="fa fa-pie-chart"></i> Sala conferinte</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="breakfast" name="breakfast" />
+                                                <label for="breakfast"><i class="fa fa-cutlery"></i> Mic Dejun</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="smokers" name="smokers" />
+                                                <label for="smokers"><i class="fa fa-fire"></i> Camere fumatori</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="piscinaInt" name="piscinaInt" />
+                                                <label for="piscinaInt"><i class="fa fa-history"></i>  Piscina interioara</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="nonStop" name="nonStop" />
+                                                <label for="nonStop"><i class="fa fa-history"></i>  Receptie non-stop</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="exchange" name="exchange" />
+                                                <label for="exchange"><i class="fa fa-money"></i> Schimb valutar</label>
+                                            </div>
+                                            
+                                             <div class="checkWrapper">
+                                                <input type="checkbox" id="conferinte" name="conferinte" />
+                                                <label for="conferinte"><i class="fa fa-shield"></i> Sala conferinte</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="volt" name="volt" />
+                                                <label for="volt"><i class="fa fa-shield"></i> Seif</label>
+                                            </div>
+
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="spa" name="spa" />
+                                                <label for="spa"><i class="fa fa-leaf"></i> Spa &amp; wellness</label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="fitness" name="fitness" />
+                                                <label for="fitness"><img src="images/fitness.png" alt="sala fitness" />Sala fitness </label>
+                                            </div>
+                                            
+                                            <div class="checkWrapper">
+                                                <input type="checkbox" id="wifi" name="wifi" />
+                                                <label for="wifi"><i class="fa fa-wifi"></i> Wi-Fi / Internet</label>
+                                            </div>
+                                            
+                                             <button name="applyFilters" id="applyFilters" class="btn btn-block btn-primary" type="submit">Aplica Filtre</button>
+                                              <button name="resetFilters" id="resetFilters" class="btn btn-block btn-warning" type="submit">Sterge Filtre</button>
+                                             
+                                             </div>
+                    </div>
+                    
+                    <!--Lista hoteluri-->
+                    <div class="col-sm-12 col-md-9">
+                    
+                    		<div class="rezCount">
+                        	<a class="float-right mb-2 mt-2 mapInfo" href="#"><i class="fa fa-info-circle"></i> INFO BARCELONA</a>
+                        	<h1 class="filterTitle pl-0">Am gasit 104 hoteluri in Barcelona</h1>
+                            <p><i class="fa fa-calendar"></i> Vineri, 29 Septembrie 2018 <i class="fa fa-angle-right"></i> Miercuri, 04 Octombrie 2018 (5 nopti) <i class="fa fa-hotel"></i> 1 camera <i class="fa fa-users"></i> 2 calatori </p>
+                            
+                             </div>
+                            
+                            <div class="sortHotel mb-3"> 
+                                <form action="#">
+                                <div class="row">
+                                	<div class="col-12 col-sm-12 col-md-3"><p>SORTEAZA DUPA:</p></div>
+                                    <div class="form-group col-12 col-sm-12 col-md-3">
+                                    <i class="fa fa-sort-amount-asc"></i>
+                                	<select name="sortPret" class="form-control" id="sortPret">
+										<option value="0">Tarif</option>
+                                        <option value="1">Mic > Mare</option>
+                                        <option value="2">Mare > Mic</option>
+                                    </select>       
+                                    </div>
+                                    <div class="form-group col-12 col-sm-12 col-md-3">
+                                    <i class="fa fa-sort-alpha-asc"></i>
+                                    <select name="sortNumeH" class="form-control" id="sortNumeH">
+										<option value="0">Nume</option>
+                                        <option value="1">A > Z</option>
+                                        <option value="2">Z > A</option>
+                                    </select> 
+                                    </div>
+                                    <div class="form-group col-12 col-sm-12 col-md-3">
+                                    <i class="fa fa-star"></i>
+                                    <select name="sortSteleH" class="form-control" id="sortSteleH">
+										<option value="0">Nr. Stele</option>
+                                        <option value="1">1 > 5</option>
+                                        <option value="2">5 > 1</option>
+                                    </select> 
+                                   </div>
+                                   </div>
+                                </form>
+                            </div>
+                            
+                            <div class="boxHotel">
+                            	<div class="row">
+                                	<div class="col-sm-12 col-lg-4">
+                                    	<a href="#"><img src="images/hoteluri/hotel-4.jpg" alt="Nume Hotel" /></a>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-6">
+                                    	<h2><a href="#">Hotel Transit </a><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                                        <p><i class="fa fa-map-marker"></i> Alaba 94-96 | <a href="#" class="hartaHotel"> Arata harta <i class="fa fa-map-o"></i></a></p>
+                                        <p>The rooms are comfortable and fully equipped with air conditioning, heating, television, WIFI and hairdryer. Pets are welcome and guests can enjoy free parking. Choose the ibis Castelldefels... <a href="#">vezi descriere</a></p>
+                                        <p class="greyCol"><i class="fa fa-user-o"></i><i class="fa fa-user-o"></i> 2 adulti / 5 nopti / Camera standard / <i class="fa fa-bed"></i> Fara masa</p>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-2  pt-5">
+                                    	<p>
+                                        <span class="bigPrice">Tarif initial<br /> 
+                                        <strong>199 &euro;</strong>
+                                        </span><br />
+                                        <span class="pretSrcH">156 &euro;</span> </p>
+                                        <a class="btn btn-block bg-primary rounded-0">REZERVA</a>
+                                    </div>
+                                    
+                                </div>
+                                 <i class="fa fa-close inchideH"></i>
+                            </div>
+                        
+                       		<div class="boxHotel">
+                            	<div class="row">
+                                	<div class="col-sm-12 col-lg-4">
+                                    	<a href="#"><img src="images/hoteluri/hotel-1.jpg" alt="Nume Hotel" /></a>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-6">
+                                    	<h2><a href="#">Hotel Lami </a><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                                        <p><i class="fa fa-map-marker"></i> Laurea Miro 278, Esplugues de Llobregat | <a href="#" class="hartaHotel"> Arata harta <i class="fa fa-map-o"></i></a></p>
+                                        <p>The rooms are comfortable and fully equipped with air conditioning, heating, television, WIFI and hairdryer. Pets are welcome and guests can enjoy free parking. Choose the ibis Castelldefels... <a href="#">vezi descriere</a></p>
+                                        <p class="greyCol"><i class="fa fa-user-o"></i><i class="fa fa-user-o"></i> 2 adulti / 5 nopti / Camera standard / <i class="fa fa-bed"></i> Fara masa </p>
+                                        
+                                    </div>
+                                    <div class="col-sm-4 col-lg-2 pt-5">
+                                    	<p><span class="pretSrcH">256 &euro;</span></p>
+                                        <a class="btn btn-block bg-primary rounded-0">REZERVA</a>
+                                    </div>                                    
+                                </div>
+                                <i class="fa fa-close inchideH"></i>
+                            </div>
+                            
+                            <div class="boxHotel">
+                            	<div class="row">
+                                	<div class="col-sm-12 col-lg-4">
+                                    	<a href="#"><img src="images/hoteluri/hotel-2.jpg" alt="Nume Hotel" /></a>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-6">
+                                    	<h2><a href="#">Hotel Ibis Barcelona Castelldefels</a> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                                        <p><i class="fa fa-map-marker"></i> Passeo del Ferrocarril, 342 | <a href="#" class="shopMapH"> Arata harta <i class="fa fa-map-o"></i></a></p>
+                                        <p>The rooms are comfortable and fully equipped with air conditioning, heating, television, WIFI and hairdryer. Pets are welcome and guests can enjoy free parking. Choose the ibis Castelldefels... <a href="#">vezi descriere</a></p>
+                                        <p class="greyCol"><i class="fa fa-user-o"></i><i class="fa fa-user-o"></i> 2 adulti / 5 nopti / Camera standard / <i class="fa fa-cutlery"></i> Mic Dejun</p>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-2 pt-5">
+                                    	<p><span class="pretSrcH">324 &euro;</span> </p>
+                                        <a class="btn btn-block bg-primary rounded-0">REZERVA</a>
+                                    </div>
+                                    
+                                </div>
+                                 <i class="fa fa-close inchideH"></i>
+                            </div>
+                            
+                            <div class="boxHotel">
+                            	<div class="row">
+                                	<div class="col-sm-12 col-lg-4">
+                                    	<a href="#"><img src="images/hoteluri/hotel-3.jpg" alt="Nume Hotel" /></a>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-6">
+                                    	<h2><a href="#">Hotel Citypark Sant Just </a><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                                        <p><i class="fa fa-map-marker"></i> Avenida Generalitat De Catalunya, 2-6 | <a href="#" class="hartaHotel"> Arata harta <i class="fa fa-map-o"></i></a></p>
+                                        <p>The rooms are comfortable and fully equipped with air conditioning, heating, television, WIFI and hairdryer. Pets are welcome and guests can enjoy free parking. Choose the ibis Castelldefels... <a href="#">vezi descriere</a></p>
+                                        <p class="greyCol"><i class="fa fa-user-o"></i><i class="fa fa-user-o"></i> 2 adulti / 5 nopti / Camera standard / <i class="fa fa-cutlery"></i> Mic Dejun</p>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-2  pt-5">
+                                        <p><span class="pretSrcH">652 &euro;</span></p>
+                                        <a class="btn btn-block bg-primary rounded-0">REZERVA</a>
+                                    </div>
+                                    
+                                </div>
+                                 <i class="fa fa-close inchideH"></i>
+                            </div>                            
+                            
+                            <div class="boxHotel">
+                            	<div class="row">
+                                	<div class="col-sm-12 col-lg-4">
+                                    	<a href="#"><img src="images/hoteluri/hotel-5.jpg" alt="Nume Hotel" /></a>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-6">
+                                    	<h2><a href="#">Nh Diagonal Center  </a><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                                        <p><i class="fa fa-map-marker"></i> Laurea Miro 278, Esplugues de Llobregat | <a href="#" class="hartaHotel"> Arata harta <i class="fa fa-map-o"></i></a></p>
+                                        <p>The rooms are comfortable and fully equipped with air conditioning, heating, television, WIFI and hairdryer. Pets are welcome and guests can enjoy free parking. Choose the ibis Castelldefels... <a href="#">vezi descriere</a></p>
+                                        <p class="greyCol"><i class="fa fa-user-o"></i><i class="fa fa-user-o"></i> 2 adulti / 5 nopti / Camera standard / <i class="fa fa-bed"></i> Fara masa </p>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-2 pt-5">
+                                    	<p><span class="pretSrcH">256 &euro;</span></p>
+                                        <a class="btn btn-block bg-primary rounded-0">REZERVA</a>
+                                    </div>
+                                    
+                                </div>
+                                 <i class="fa fa-close inchideH"></i>
+                            </div>
+                            
+                            <div class="boxHotel">
+                            	<div class="row">
+                                	<div class="col-sm-12 col-lg-4">
+                                    	<a href="#"><img src="images/hoteluri/hotel-4.jpg" alt="Nume Hotel" /></a>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-6">
+                                    	<h2><a href="#">Hotel Transit </a><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                                        <p><i class="fa fa-map-marker"></i> Alaba 94-96 | <a href="#" class="hartaHotel"> Arata harta <i class="fa fa-map-o"></i></a></p>
+                                        <p>The rooms are comfortable and fully equipped with air conditioning, heating, television, WIFI and hairdryer. Pets are welcome and guests can enjoy free parking. Choose the ibis Castelldefels... <a href="#">vezi descriere</a></p>
+                                        <p class="greyCol"><i class="fa fa-user-o"></i><i class="fa fa-user-o"></i> 2 adulti / 5 nopti / Camera standard / <i class="fa fa-bed"></i> Fara masa </p>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-2  pt-5">
+                                    	<p>
+                                        <span class="bigPrice">Tarif initial<br /> 
+                                        <strong>199 &euro;</strong>
+                                        </span><br />
+                                        <span class="pretSrcH">156 &euro;</span></p>
+                                        <a class="btn btn-block bg-primary rounded-0">REZERVA</a>
+                                    </div>
+                                    
+                                </div>
+                                 <i class="fa fa-close inchideH"></i>
+                            </div>
+                        
+                       		<div class="boxHotel">
+                            	<div class="row">
+                                	<div class="col-sm-12 col-lg-4">
+                                    	<a href="#"><img src="images/hoteluri/hotel-1.jpg" alt="Nume Hotel" /></a>
+                                    </div>
+                                    <div class="col-sm-8  col-lg-6">
+                                    	<h2><a href="#">Hotel Lami </a><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                                        <p><i class="fa fa-map-marker"></i> Laurea Miro 278, Esplugues de Llobregat | <a href="#" class="hartaHotel"> Arata harta <i class="fa fa-map-o"></i></a></p>
+                                        <p>The rooms are comfortable and fully equipped with air conditioning, heating, television, WIFI and hairdryer. Pets are welcome and guests can enjoy free parking. Choose the ibis Castelldefels... <a href="#">vezi descriere</a></p>
+                                        <p class="greyCol"><i class="fa fa-user-o"></i><i class="fa fa-user-o"></i> 2 adulti / 5 nopti / Camera standard / <i class="fa fa-bed"></i> Fara masa </p>
+                                        
+                                    </div>
+                                    <div class="col-sm-4 col-lg-2 pt-5">
+                                    	<p><span class="pretSrcH">256 &euro;</span></p>
+                                        <a class="btn btn-block bg-primary rounded-0">REZERVA</a>
+                                    </div>                                    
+                                </div>
+                                <i class="fa fa-close inchideH"></i>
+                            </div>
+                            
+                            <div class="boxHotel">
+                            	<div class="row">
+                                	<div class="col-sm-12 col-lg-4">
+                                    	<a href="#"><img src="images/hoteluri/hotel-2.jpg" alt="Nume Hotel" /></a>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-6">
+                                    	<h2><a href="#">Hotel Ibis Barcelona Castelldefels</a> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                                        <p><i class="fa fa-map-marker"></i> Passeo del Ferrocarril, 342 | <a href="#" class="shopMapH"> Arata harta <i class="fa fa-map-o"></i></a></p>
+                                        <p>The rooms are comfortable and fully equipped with air conditioning, heating, television, WIFI and hairdryer. Pets are welcome and guests can enjoy free parking. Choose the ibis Castelldefels... <a href="#">vezi descriere</a></p>
+                                        <p class="greyCol"><i class="fa fa-user-o"></i><i class="fa fa-user-o"></i> 2 adulti / 5 nopti / Camera standard / <i class="fa fa-bed"></i> Fara masa </p>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-2 pt-5">
+                                    	<p><span class="pretSrcH">324 &euro;</span></p>
+                                        <a class="btn btn-block bg-primary rounded-0">REZERVA</a>
+                                    </div>
+                                    
+                                </div>
+                                 <i class="fa fa-close inchideH"></i>
+                            </div>
+                            
+                            <div class="boxHotel">
+                            	<div class="row">
+                                	<div class="col-sm-12 col-lg-4">
+                                    	<a href="#"><img src="images/hoteluri/hotel-3.jpg" alt="Nume Hotel" /></a>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-6">
+                                    	<h2><a href="#">Hotel Citypark Sant Just </a><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                                        <p><i class="fa fa-map-marker"></i> Avenida Generalitat De Catalunya, 2-6 | <a href="#" class="hartaHotel"> Arata harta <i class="fa fa-map-o"></i></a></p>
+                                        <p>The rooms are comfortable and fully equipped with air conditioning, heating, television, WIFI and hairdryer. Pets are welcome and guests can enjoy free parking. Choose the ibis Castelldefels... <a href="#">vezi descriere</a></p>
+                                        <p class="greyCol"><i class="fa fa-user-o"></i><i class="fa fa-user-o"></i> 2 adulti / 5 nopti / Camera standard / <i class="fa fa-bed"></i> Fara masa </p>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-2  pt-5">
+                                        <p><span class="pretSrcH">652 &euro;</span></p>
+                                        <a class="btn btn-block bg-primary rounded-0">REZERVA</a>
+                                    </div>
+                                    
+                                </div>
+                                 <i class="fa fa-close inchideH"></i>
+                            </div>                            
+                            
+                            <div class="boxHotel">
+                            	<div class="row">
+                                	<div class="col-sm-12 col-lg-4">
+                                    	<a href="#"><img src="images/hoteluri/hotel-5.jpg" alt="Nume Hotel" /></a>
+                                    </div>
+                                    <div class="col-sm-8 col-lg-6">
+                                    	<h2><a href="#">Nh Diagonal Center  </a><i class="fa fa-star"></i><i class="fa fa-star"></i></h2>
+                                        <p><i class="fa fa-map-marker"></i> Laurea Miro 278, Esplugues de Llobregat | <a href="#" class="hartaHotel"> Arata harta <i class="fa fa-map-o"></i></a></p>
+                                        <p>The rooms are comfortable and fully equipped with air conditioning, heating, television, WIFI and hairdryer. Pets are welcome and guests can enjoy free parking. Choose the ibis Castelldefels... <a href="#">vezi descriere</a></p>
+                                        <p class="greyCol"><i class="fa fa-user-o"></i><i class="fa fa-user-o"></i> 2 adulti / 5 nopti / Camera standard / <i class="fa fa-bed"></i> Fara masa </p>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-2 pt-5">
+                                    	<p><span class="pretSrcH">256 &euro;</span></p>
+                                        <a class="btn btn-block bg-primary rounded-0">REZERVA</a>
+                                    </div>
+                                    
+                                </div>
+                                 <i class="fa fa-close inchideH"></i>
+                            </div>
+                        
+                         	<div class="text-center">
+                            <nav aria-label="Navigare pagini">
+ 								 <ul class="pagination">
+                                <li class="page-item">
+                                  <a class="page-link" href="#" aria-label="Inapoi">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Inapoi</span>
+                                  </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item">
+                                  <a class="page-link" href="#" aria-label="Inainte">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Inainte</span>
+                                  </a>
+                                </li>
+                              </ul>
+							</nav>
+                            </div>
+                    </div>
+                   
+        		</div>
+         		
+                
+        </div>
+      
+        
+        
+        <!--Footer-->
+        <div class="footer">
+        	<div class="container">
+        		<div class="row">
+                	<div class="col-sm-6 col-lg-3">
+                    	<img src="images/logo.png" alt="Logo Accent Travel and Events" id="logoFooter" /><br />
+                        <p class="socialGo">Citeste <a href="#" class=" rounded">BLOG-ul</a> Accent! Afla totul despre destinatiile tale favorite si descopera destinatii noi!</p>
+                        <a href="#"><img src="images/facebook.png" alt="Accent Facebook" class="socialFoot" /></a>
+                        <a href="#"><img src="images/linkedin.png" alt="Accent Linkedin" class="socialFoot" /></a>
+                        <a href="#"><img src="images/google.png" alt="Accent Google" class="socialFoot" /></a>
+                         <a href="#"><img src="images/youtube.png" alt="Accent Youtube" class="socialFoot" /></a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                    	<h5>Accent Travel &amp; Events</h5>
+                        <ul class="list-unstyled">
+                        	<li><a href="#">Despre noi</a></li>
+                            <li><a href="#">Presa</a></li>
+                            <li><a href="#">Termeni si Conditii</a></li>
+                            <li><a href="#">Politica de confidentialitate</a></li>
+                            <li><a href="#">Corporate Travel</a></li>
+                             <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-sm-6 col-lg-3">
+                    	<h5>Servicii turistice</h5>
+                        <ul class="list-unstyled">
+                        	<li><a href="#">Oferte hoteluri</a></li>
+                            <li><a href="#">Oferte bilete de avion</a></li>
+                            <li><a href="#">Oferte city break</a></li>
+                            <li><a href="#">Oferte pachete cazare</a></li>
+                            <li><a href="#">Oferte vacante Romania</a></li>
+                            <li><a href="#">Oferte ski</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-sm-6 col-lg-3">
+                    	<h5>Abonare Newsletter</h5>
+                        <div class="form-group">
+                        <p class="socialGo">Afla primul despre cele mai bune oferte!</p>
+                        <input type="email" class="form-control" name="numeNwsl" id="numeNwsl" placeholder="Adresa de e-mail" />
+                        </div>
+                        <button id="recNwsl" name="recNwsl" class="btn btn-secondary">INREGISTRARE</button>
+                    </div> 
+                    
+                                 	
+                </div>
+            </div>
+        </div>
+        
+        <!--Copyright + payment + licenta-->
+        <div class="container underFoot">
+        	<div class="row mb-3 mt-3">
+        			<div class="col-12 col-sm-12 col-md-5">
+                    	<p>&copy; 2017 Accent Travel &amp; Events SRL. Toate drepturile rezervate<br />
+                        <a href="http://www.anpc.gov.ro/">ANPC Romania</a> | <a href="http://ec.europa.eu/consumers/odr/">Solutionarea Litigiilor</a> <br /><a href="images/licenta-accent-travel-xs.pdf" target="_blank">Licenta turism: Nr. 1664/04.01.2011</a> | <a href="images/asigurare-accent-travel-xs.pdf" target="_blank">Polita de Asigurare nr. 45259</a>
+                        </p>
+                        </div>
+                    <div class="col-12 col-sm-12 col-md-3"><img src="images/certificates.png" alt="Certificari IATA" /></div>
+                    <div class="col-12 col-sm-12 col-md-4"><img src="images/cards.png" alt="Vacante cu plata online" /></div>
+                    </div>  
+             </div>
+             
+             
+        <!--Scroll to top-->
+         <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
+         <span class="fa fa-chevron-up"></span></a>
+         
+         <!-- Modal harta Hoteluri lista -->
+                         <div id="modalMapH">
+                                                          
+                                                          <div class="row">
+                                                          <div class="col-sm-12">
+                                                          <span class="btn btn-outline-danger float-right mb-3">Inchide</span>
+                                                          <h4 class="float-left">Harta Hotel Lami, Barcelona, Spania</h4>
+                                                          </div>
+                                                          <div class="col-sm-12">
+                                                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.3589151938504!2d28.629450015918646!3d44.22026847910596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40baf06f7feeed13%3A0x3df8e75b98a91ec1!2sHotel+Perla!5e0!3m2!1sen!2sro!4v1503488624252" height="450"   style="border:0; width:100%" allowfullscreen></iframe>
+                                                          </div>
+                                                          </div>
+                          </div>
+                                        
+         <!-- Modal harta oras destinatie -->
+                         <div id="modalMapCity">
+                                                              <div class="row">
+                                                              <div class="col-sm-12">
+                                                          		<span class="btn btn-outline-danger float-right mb-3">Inchide</span>
+                                                         		 <h4 class="float-left">Barcelona, Spania</h4>
+                                                          		</div>
+                                                              <div class="col-sm-12 col-lg-3 mb-3">
+                                                               	<img src="images/barcelona.jpg"  alt="Barcelona, Spania" style="width:100%;" />
+                                                               </div>
+                                                              <div class="col-sm-12 col-lg-6  mb-3">
+                                                              <p>Barcelona is the capital of Catalonia and the second largest city in Spain, after Madrid, with a population of 1,621,537, being the sixth-most populous urban area in the European Union after Paris, London, the Ruhr, Madrid and Milan. It is located on the Mediterranean coast between the mouths of the rivers Llobregat and Besòs and is bounded to the west by the Serra de Collserola ridge.</p>
+                                                              <p>Barcelona is the capital of Catalonia and the second largest city in Spain, after Madrid, with a population of 1,621,537, being the sixth-most populous urban area in the European Union after Paris, London, the Ruhr, Madrid and Milan. It is located on the Mediterranean coast between the mouths of the rivers Llobregat and Besòs and is bounded to the west by the Serra de Collserola ridge.</p>
+                                                              </div>
+                                                              
+                                                              <div class="col-sm-12 col-lg-3  mb-3">
+                                                              	<h4>Număr hoteluri: 2416</h4>
+                                                                <h4>Atractii in Barcelona</h4>
+                                                                <ul class="list-unstyled">
+                                                                	<li>Atractia 1 </li>
+                                                                    <li>Atractia 2 </li>
+                                                                    <li>Atractia 3 </li>
+                                                                    <li>Atractia 4 </li>
+                                                                    <li>Atractia 5</li>
+                                                                </ul>
+                                                              </div>
+                                                               
+                                                              
+                                                              <div class="col-sm-12">
+                                                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.3589151938504!2d28.629450015918646!3d44.22026847910596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40baf06f7feeed13%3A0x3df8e75b98a91ec1!2sHotel+Perla!5e0!3m2!1sen!2sro!4v1503488624252" height="450" style="border:0; width:100%;" allowfullscreen></iframe>
+                                                              </div>
+                                                              </div>
+                         </div>                               
+
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/calendar/build/js/moment.min.js"></script>
+<script type="text/javascript" src="js/calendar/build/js/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="js/calendar/build/js/caleran.min.js"></script>
+<script type="text/javascript" src="js/calendar/js/jquery.hammer.js"></script>     
+<script type="text/javascript" src="js/custom-jquery.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+ 
+</body>
+
+</html>

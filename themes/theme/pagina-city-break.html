@@ -1,0 +1,1355 @@
+<!doctype html>
+<html lang="ro">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    	<!-- Orice continut in header trebuie inserat dupa aceasta linie -->
+        <meta name="description" content="Descriere hotel - 140 de caractere ± 10">
+        <meta name="author" content="Front-End Design by Lemar Artwork, built and powered by Lisal Expert">
+        <link rel="icon" href="images/favicon.ico">
+        <title>Oferta City Break Hotel Ibis Barcelona Castelldefels, Barcelona</title>
+
+
+		<link type="text/css" rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/jquery-ui.css" />
+        <link type="text/css" rel="stylesheet" href="js/calendar/build/css/caleran.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/default.css" />
+        <link type="text/css" rel="stylesheet" href="css/responsive.css" />
+        
+    	
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    	<![endif]-->
+  
+</head>
+
+<body>
+		 <!--Zona Logo + Login + Servicii > TOP -->
+		<div class="topHeader">
+            
+  				<div class="container">
+    
+      			 <div class="row">
+                 
+                         <div class="col-sm-12 col-md-4 logoTop1">
+                                <a href="#"><img src="images/logo.png" alt="Accent Travel &amp; Events" id="logoAccent1" /></a>
+                         </div>
+                         
+                         <div class="col-sm-12 col-md-8 text-right">
+                            
+                                        
+                                         <div class="float-right">
+                                                <p id="contulMeu"><i class="fa fa-user"></i> CONTUL MEU </p>                                      
+                                                
+                                                	<div id="contOpt">
+                                                    <p id="login"><i class="fa fa-lock"></i> Log In</p>
+                                                    <p id="register"><i class="fa fa-key"></i> Inregistrare</p>
+                                                    <img src="images/arrowUp.png" alt="arrowUp" />
+                                                    </div>
+                                                    
+                                              <!--Login modal-->
+                                                    <div id="loginWindow">
+                                                        <h3>Intra in cont</h3>
+                                                        <span class="fa fa-2x fa-arrow-circle-o-down"></span>
+                                                        <p>Ai cont deja? Autentifica-te mai jos:</p>
+                                                            <form>
+                                                             <div class="form-group">
+                                                			<input type="email" class="form-control form-control-lg" id="userLogin" placeholder="Introduceti email">
+                                             				 </div>
+                                                             <div class="form-group">
+                                                			<input type="password" class="form-control form-control-lg" id="passLogin" placeholder="Introduceti parola">
+                                                            
+                                                            <label class="form-check-label"><input class="form-check-input" type="checkbox"> Tine-ma minte</label>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-lg btn-primary btn-md btn-block login-submit text-size-small">Intra in cont</button>
+                                                            <p><a href="#">Mi-am uitat parola</a><br />
+                                                            <a href="#"  id="register2">Nu ai cont? Inregistreaza-te</a></p>
+                                                            
+                                                            </form>
+                                                            <i id="loginClose" class="fa fa-close"></i>
+                                                            
+                                                            <p class="strikeMiddle">SAU</p>
+                                                            
+                                                            <button class="btn btn-info btn-block btn-lg facebook-login text-center" type="button"><i class="fa fa-facebook"></i> Conectare cu Facebook</button>
+                                                            
+                                                            
+                                                    </div>
+                                                    
+                                              <!--Inregistrare modal-->      
+                                                    <div id="regWindow"> 
+                                                        <h3>Creeaza un cont</h3>
+                                                        <span class="fa fa-2x fa-arrow-circle-o-down"></span>
+                                                        
+                                                            <form>
+                                                           
+                                                            <div class="row">
+                                                                 <div class="col-sm-12 col-md-4 col-lg-5">
+                                                                  <div class="form-group">
+                                                                 <select id="genUser" class="form-control form-control-lg">
+                                                                        <option value="1">Dl.</option>
+                                                                        <option value="2">Dna.</option>
+                                                                        <option value="3">Dra.</option>	
+                                                                  </select>
+                                                                  </div>
+                                                                 </div>	
+                                                                 <div class="col-sm-12 col-md-4 col-lg-7">
+                                                                 <div class="form-group">
+                                                                <input type="text" class="form-control form-control-lg" id="regPrenume" placeholder="Prenume">
+                                                                </div>
+                                                                 </div>
+                                                            </div>
+                                                  
+                                                            <div class="form-group">
+                                                            <input type="text" class="form-control form-control-lg" id="regNume" placeholder="Nume" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                            <input type="email" class="form-control form-control-lg" id="regEmail" placeholder="Adresa de email" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                            <input type="tel" class="form-control form-control-lg" id="regTelefon" placeholder="Numar de telefon" required>
+                                                            </div>
+                                                             <div class="form-group">
+                                                            <input type="password" class="form-control form-control-lg" id="parolaReg" placeholder="Introduceti parola" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                            <input type="password" class="form-control form-control-lg" id="parolaConf" placeholder="Confirmare parola" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                             <label class="form-check-label">
+                                                  <input type="checkbox" class="form-check-input" id="nwslReg" > Tine-ma la curent cu promotiile si ofertele Accent Travel &amp; Events</label>       												</div>
+                                                  			<div class="form-group">
+                                                            <label class="form-check-label">
+                                                  <input type="checkbox" class="form-check-input"  id="acordUser" >Sunt de acord cu <a href="#">Termenii si Conditiile</a> Accent Travel &amp; Events</label>
+                                                                    
+                                                            </div>
+                                                            <button type="submit" class="btn btn-lg btn-primary btn-md btn-block login-submit text-size-small">Inregistrare</button>
+                                                            </form>
+                                                        <i id="regClose" class="fa fa-close"></i>
+                                                    </div>
+                                                    
+                                                
+                                        			<p id="servUtile">INFO UTILE | BUSINESS TRAVEL</p>
+                                                     <!--servicii modal-->
+                                                            <div id="utileVacanta">
+                                                                    <ul class="list-unstyled">
+                                                                        <li>INFO UTILE</li>
+                                                                        <li><a href="#">Asigurari</a></li>
+                                                                        <li><a href="#">Termeni si Conditii</a></li>
+                                                                        <li><a href="#">Intrebari Frecvente</a></li>
+                                                                        <li><a href="#">Promisiunea Calitatii</a></li>
+                                                                    </ul>
+                                                                    
+                                                                    <ul class="list-unstyled">
+                                                                        <li>CORPORATE</li>
+                                                                        <li><a href="#">Business Travelers</a></li>
+                                                                        <li><a href="#">Travel Managers</a></li>
+                                                                        <li><a href="#">CFO &amp; Procurement</a></li>
+                                                                        <li><a href="#">Leisure Trips</a></li>
+                                                                    </ul>
+                                                                    <img src="images/arrowUp.png" alt="arrowUp" />
+                                                            </div>	
+                                        		
+                                        </div>
+                                       
+                                        <div class="socialTop1">
+                                                <p><i class="fa fa-phone"></i><span> 0374 462 265</span> </p>
+                                        </div>
+                                       
+                        </div>
+                        
+        		</div>
+        
+   				 </div>
+    
+			</div>
+		
+         <!--Meniu Principal-->
+		<div class="bg-primary">
+            <div class="container">
+                <div class="row">
+                
+                    <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary mainNav">
+                    
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navBarMain" aria-controls="navBarMain" aria-expanded="false" aria-label="Arata Meniu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
+    
+                     <div class="collapse navbar-collapse" id="navBarMain">
+            
+            <ul class="navbar-nav mr-auto">
+                   <li class="nav-item active">
+                                <a class="nav-link" href="#">Hoteluri</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Bilete avion</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="cityBreakMN" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">City Break</a>
+                                <div class="dropdown-menu" aria-labelledby="cityBreakMN">
+                                  <a class="dropdown-item" href="#">Amsterdam</a>
+                                  <a class="dropdown-item" href="#">Berlin</a>
+                                  <a class="dropdown-item" href="#">Copenhaga</a>
+                                  <a class="dropdown-item" href="#">Paris</a>
+                                  <a class="dropdown-item" href="#">Praga</a>
+                                </div>
+                              </li>
+                              
+                              <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="pacheteMN" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pachete</a>
+                              		<div class="dropdown-menu" aria-labelledby="cityBreakMN">
+                                  <a class="dropdown-item" href="#">Litoral Romania <span>(rezervare online)</span></a>
+                                  <a class="dropdown-item" href="#">Balneo/SPA Romania <span>(rezervare online)</span></a>
+                                  <a class="dropdown-item" href="#">Vacante Cipru</a>
+                                  <a class="dropdown-item" href="#">Vacante Croatia</a>
+                                  <a class="dropdown-item" href="#">Vacante Emiratele Arabe Unite</a>
+                                  <a class="dropdown-item" href="#">Vacante Grecia</a>
+                                  <a class="dropdown-item" href="#">Vacante Muntenegru</a>
+                                  <a class="dropdown-item" href="#">Vacante Portugalia</a>
+                                  <a class="dropdown-item" href="#">Vacante Spania</a>
+                                  <a class="dropdown-item" href="#">Vacante Turcia</a>
+                                </div>
+                              </li>
+                              <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="vacanteTem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vacante Tematice</a>
+                              		<div class="dropdown-menu" aria-labelledby="vacanteTem">
+                                  <a class="dropdown-item" href="#">Arta &amp; Cultura</a>
+                                  <a class="dropdown-item" href="#">Distractie</a>
+                                  <a class="dropdown-item" href="#">Familie</a>
+                                  <a class="dropdown-item" href="#">Romantice</a>
+                                  <a class="dropdown-item" href="#">Ski &amp; Snowboard</a>
+                                  <a class="dropdown-item" href="#">Shopping</a>
+                                  <a class="dropdown-item" href="#">Sporturi</a>
+                                </div>
+                              </li>
+                              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        </ul>
+                        <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Vreau sa calatoresc in…">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cauta</button>
+            </form>
+                    </div>
+                </nav>
+                
+                </div>
+            </div> 
+		</div>
+			
+		 <!--Continut pagina -->
+        	<div class="container">
+        		
+                <div class="row blockBack">
+                	<div class="col-sm-4  mt-3 pr-0"><a href="#" class="backToCat"><i class="fa fa-caret-left mt-1"></i> Inapoi la hoteluri Barcelona</a></div>
+                    <div class="col-sm-4  mt-3 pr-0 pl-0 text-center">
+                    		 <a href="#descriereHotel"  class="backToCat">Descriere Hotel</a> 
+                             <i class=" fa fa-chevron-down"></i> 
+                             <a href="#facilitatiHotel"  class="backToCat">Facilitati Hotel</a>
+                             <i class=" fa fa-chevron-down"></i> 
+                             <a href="#infoZbor"  class="backToCat">Info Zbor</a>
+                             </div>
+                    <div class="col-sm-4  mt-3 pl-0 text-right"><p>Finalizare rezervare <i class="fa fa-caret-right mt-1"></i></p></div>
+                </div>
+                
+                 <!--Slider si info dreapta -->
+         		 <div class="row">
+                	
+                    	<div class="col-12 col-sm-6 col-md-7 mt-4">
+                    	
+                    		<h1 class="hotelTitle">Hotel Ibis Barcelona Castelldefels</h1>
+                            <p>
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> | 
+                                    Passeo Del Ferrocarril, 342, Barcelona, Spania 
+                            </p>
+                            
+                        	<div id="myCarousel" class="carousel slide hotelCarousel" data-ride="carousel">
+                                          <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                                            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                                          </ol>
+                                          <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                              <img class="first-slide" src="images/hoteluri/hotel-1-bg.jpg" alt="First slide">
+                                              
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img class="second-slide" src="images/hoteluri/hotel-2-bg.jpg" alt="Second slide">
+                                              
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img class="third-slide" src="images/hoteluri/hotel-3-bg.jpg" alt="Third slide">
+                                            </div>
+                                          </div>
+                                          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                          </a>
+                                          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                          </a>
+    						</div>
+                    	</div>
+                    
+                    	<div class="col-12 col-sm-6 col-md-5 mt-4">
+                    	
+                    	    	<div class="row">
+                                	<div class="col-sm-12 col-md-6">
+                                        <h3 class="colBlueDark familyBold"><i class="fa fa-smile-o"></i> Foarte bun!</h3>
+                                        <h5><strong>92%</strong> dintre vizitatori recomanda <br /><strong>3.456</strong> recenzii </h5>
+                                        <hr />
+                                        <h4 class="colBlueDark">Scor: <strong>4.3</strong> din 5</h4>
+                                        <hr />
+                                        <p class="pretHotPag">
+                                        <strong>199 &euro;</strong>
+                                        <span class="pretFullHotPag"  title="Devino membru si beneficiaza de reduceri permanente! Inregistreaza-te acum!">156 &euro;</span><a class="btn bg-success">REZERVA</a></p>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 mb-2">
+                            	<a href="#" class="hartaHotel"> <i class="fa fa-expand"></i> Mareste harta</a>
+                                
+                                        <div id="smallMapH mt-3">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.3589151938504!2d28.629450015918646!3d44.22026847910596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40baf06f7feeed13%3A0x3df8e75b98a91ec1!2sHotel+Perla!5e0!3m2!1sen!2sro!4v1503488624252" style="border:0; width:100%; height:150px;" allowfullscreen></iframe>
+                                       </div>
+                               		</div>
+                                 </div>   
+                                 <hr />
+                                           <form action="#">
+                                            
+                                                  <div class="row">
+                                                      		<h5 class="pl-3 mt- mb-4 greyCol text-uppercase familyBold">Actualizeaza date cautare</h5>
+                                                            <div class="form-group col-sm-12">
+                                                                    <input type="text" class="form-control form-control-lg" id="dateHotel" placeholder="Schimba perioada" required>
+                                                             </div>
+                                                       
+                                                             <div class="col-sm-12 col-md-12" id="cam1Hotel">
+                                                                <div class="row">
+                                                    
+                                                                         <div class="col-sm-12 col-md-4"><p class="roomHotel">Camera 1</p></div>
+                                                                         
+                                                                         <div class="form-group col-sm-6 col-md-4">
+                                                                        
+                                                                                <select class="form-control form-control-lg" id="adultiCam1">
+                                                                                    <option value="1">1 Adult</option>
+                                                                                    <option value="2" selected>2 Adulti</option>
+                                                                                    <option value="3">3 Adulti</option>
+                                                                                    <option value="4">4 Adulti</option>
+                                                                                    <option value="5">5 Adulti</option>
+                                                                                    <option value="6">6 Adulti</option>
+                                                                                </select>
+                                                                        
+                                                                        </div>
+                                                                        
+                                                                         <div class="form-group col-sm-6 col-md-4">
+                                                                                <select class="form-control form-control-lg" id="copiiCam1">
+                                                                                    <option value="1">0 Copii</option>
+                                                                                    <option value="2">1 Copil</option>
+                                                                                    <option value="3">2 Copii</option>
+                                                                                </select>
+                                                                                
+                                                                        </div>
+                                                                        
+                                                                         <div class="form-group col-sm-12 varsteCopii">
+                                                                                        <div class="form-group float-left">
+                                                                                        <p id="v1">Varsta Copil 1</p>
+                                                                                        <select class="form-control form-control-lg" id="varstaCop1Cam1">
+                                                                                             <option value="1">&lt; 1 an</option>
+                                                                                            <option value="2">1 an</option>
+                                                                                            <option value="3">2 ani</option>
+                                                                                            <option value="4">3 ani</option>
+                                                                                            <option value="5">4 ani</option>
+                                                                                            <option value="6">5 ani</option>
+                                                                                            <option value="7">6 ani</option>
+                                                                                            <option value="8">7 ani</option>
+                                                                                            <option value="9">8 ani</option>
+                                                                                            <option value="10">9 ani</option>
+                                                                                            <option value="11">10 ani</option>
+                                                                                            <option value="12">11 ani</option>
+                                                                                            <option value="13">12 ani</option>
+                                                                                            <option value="14">13 ani</option>
+                                                                                            <option value="15">14 ani</option>
+                                                                                            <option value="16">15 ani</option>
+                                                                                            <option value="17">16 ani</option>
+                                                                                            <option value="18">17 ani</option>
+                                                                                        </select>
+                                                                                        </div>
+                                                                                        <div class="form-group float-left">
+                                                                                        <p id="v2">Varsta Copil 2</p>
+                                                                                        <select class="form-control form-control-lg" id="varstaCop2Cam1">
+                                                                                            <option value="1">&lt; 1 an</option>
+                                                                                            <option value="2">1 an</option>
+                                                                                            <option value="3">2 ani</option>
+                                                                                            <option value="4">3 ani</option>
+                                                                                            <option value="5">4 ani</option>
+                                                                                            <option value="6">5 ani</option>
+                                                                                            <option value="7">6 ani</option>
+                                                                                            <option value="8">7 ani</option>
+                                                                                            <option value="9">8 ani</option>
+                                                                                            <option value="10">9 ani</option>
+                                                                                            <option value="11">10 ani</option>
+                                                                                            <option value="12">11 ani</option>
+                                                                                            <option value="13">12 ani</option>
+                                                                                            <option value="14">13 ani</option>
+                                                                                            <option value="15">14 ani</option>
+                                                                                            <option value="16">15 ani</option>
+                                                                                            <option value="17">16 ani</option>
+                                                                                            <option value="18">17 ani</option>
+                                                                                        </select>
+                                                                                        </div>
+                                                                         </div>
+                                                                 
+                                                                         <div class="form-group col-sm-12">
+                                                                            <p id="addCam2"><i class="fa fa-plus"></i> Adauga camera</p>
+                                                                         </div>
+                                                                         
+                                                                </div>
+                                                            </div>
+                                                             <div class="col-sm-12 col-md-12"  id="cam2Hotel">
+                                                                <div class="row">
+                                                    
+                                                                         <div class="col-sm-12 col-md-4"><p class="roomHotel">Camera 2</p></div>
+                                                                        
+                                                                         <div class="form-group col-sm-6 col-md-4">
+                                                                        
+                                                                                <select class="form-control  form-control-lg" id="adultiCam2">
+                                                                                    <option value="1">1 Adult</option>
+                                                                                    <option value="2" selected>2 Adulti</option>
+                                                                                    <option value="3">3 Adulti</option>
+                                                                                    <option value="4">4 Adulti</option>
+                                                                                    <option value="5">5 Adulti</option>
+                                                                                    <option value="6">6 Adulti</option>
+                                                                                </select>
+                                                                        
+                                                                        </div>
+                                                                        
+                                                                         <div class="form-group col-sm-6 col-md-4">
+                                                                                <select class="form-control form-control-lg" id="copiiCam2">
+                                                                                    <option value="1">0 Copii</option>
+                                                                                    <option value="2">1 Copil</option>
+                                                                                    <option value="3">2 Copii</option>
+                                                                                </select>
+                                                                                 
+                                                                        </div>
+                                                                        <div class="form-group col-sm-12 varsteCopii">
+                                                                                        <div class="form-group float-left">
+                                                                                        <p id="v1C2">Varsta Copil 1</p>
+                                                                                        <select class="form-control form-control-lg" id="varstaCop1Cam2">
+                                                                                             <option value="1">&lt; 1 an</option>
+                                                                                            <option value="2">1 an</option>
+                                                                                            <option value="3">2 ani</option>
+                                                                                            <option value="4">3 ani</option>
+                                                                                            <option value="5">4 ani</option>
+                                                                                            <option value="6">5 ani</option>
+                                                                                            <option value="7">6 ani</option>
+                                                                                            <option value="8">7 ani</option>
+                                                                                            <option value="9">8 ani</option>
+                                                                                            <option value="10">9 ani</option>
+                                                                                            <option value="11">10 ani</option>
+                                                                                            <option value="12">11 ani</option>
+                                                                                            <option value="13">12 ani</option>
+                                                                                            <option value="14">13 ani</option>
+                                                                                            <option value="15">14 ani</option>
+                                                                                            <option value="16">15 ani</option>
+                                                                                            <option value="17">16 ani</option>
+                                                                                            <option value="18">17 ani</option>
+                                                                                        </select>
+                                                                                        </div>
+                                                                                        <div class="form-group float-left">
+                                                                                        <p id="v2C2">Varsta Copil 2</p>
+                                                                                        <select class="form-control form-control-lg" id="varstaCop2Cam2">
+                                                                                            <option value="1">&lt; 1 an</option>
+                                                                                            <option value="2">1 an</option>
+                                                                                            <option value="3">2 ani</option>
+                                                                                            <option value="4">3 ani</option>
+                                                                                            <option value="5">4 ani</option>
+                                                                                            <option value="6">5 ani</option>
+                                                                                            <option value="7">6 ani</option>
+                                                                                            <option value="8">7 ani</option>
+                                                                                            <option value="9">8 ani</option>
+                                                                                            <option value="10">9 ani</option>
+                                                                                            <option value="11">10 ani</option>
+                                                                                            <option value="12">11 ani</option>
+                                                                                            <option value="13">12 ani</option>
+                                                                                            <option value="14">13 ani</option>
+                                                                                            <option value="15">14 ani</option>
+                                                                                            <option value="16">15 ani</option>
+                                                                                            <option value="17">16 ani</option>
+                                                                                            <option value="18">17 ani</option>
+                                                                                        </select>
+                                                                                        </div>
+                                                                        </div>
+                                                                 
+                                                                         <div class="form-group col-sm-4"><p id="addCam3"><i class="fa fa-plus"></i> Adauga camera</p> </div>
+                                                                         <div class="form-group col-sm-4"><p id="remCam2"><i class="fa fa-minus"></i> Sterge camera</p></div>
+                                                                         
+                                                            </div>
+                                                            </div>
+                                                             <div class="col-sm-12 col-md-12"  id="cam3Hotel">
+                                                                <div class="row">
+                                                    
+                                                                         <div class="col-sm-12 col-md-4"><p class="roomHotel">Camera 3</p></div>
+                                                                        
+                                                                         <div class="form-group col-sm-6 col-md-4">
+                                                                        
+                                                                                <select class="form-control form-control-lg" id="adultiCam3">
+                                                                                    <option value="1">1 Adult</option>
+                                                                                    <option value="2" selected>2 Adulti</option>
+                                                                                    <option value="3">3 Adulti</option>
+                                                                                    <option value="4">4 Adulti</option>
+                                                                                    <option value="5">5 Adulti</option>
+                                                                                    <option value="6">6 Adulti</option>
+                                                                                </select>
+                                                                        
+                                                                        </div>
+                                                                        
+                                                                         <div class="form-group col-sm-6 col-md-4">
+                                                                                <select class="form-control form-control-lg" id="copiiCam3">
+                                                                                    <option value="1">0 Copii</option>
+                                                                                    <option value="2">1 Copil</option>
+                                                                                    <option value="3">2 Copii</option>
+                                                                                </select>
+                                                                                 
+                                                                        </div>
+                                                                        <div class="form-group col-sm-12 varsteCopii">
+                                                                                        <div class="form-group float-left">
+                                                                                        <p id="v1C3">Varsta Copil 1</p>
+                                                                                        <select class="form-control form-control-lg" id="varstaCop1Cam3">
+                                                                                             <option value="1">&lt; 1 an</option>
+                                                                                            <option value="2">1 an</option>
+                                                                                            <option value="3">2 ani</option>
+                                                                                            <option value="4">3 ani</option>
+                                                                                            <option value="5">4 ani</option>
+                                                                                            <option value="6">5 ani</option>
+                                                                                            <option value="7">6 ani</option>
+                                                                                            <option value="8">7 ani</option>
+                                                                                            <option value="9">8 ani</option>
+                                                                                            <option value="10">9 ani</option>
+                                                                                            <option value="11">10 ani</option>
+                                                                                            <option value="12">11 ani</option>
+                                                                                            <option value="13">12 ani</option>
+                                                                                            <option value="14">13 ani</option>
+                                                                                            <option value="15">14 ani</option>
+                                                                                            <option value="16">15 ani</option>
+                                                                                            <option value="17">16 ani</option>
+                                                                                            <option value="18">17 ani</option>
+                                                                                        </select>
+                                                                                        </div>
+                                                                                        <div class="form-group float-left">
+                                                                                        <p id="v2C3">Varsta Copil 2</p>
+                                                                                        <select class="form-control form-control-lg" id="varstaCop2Cam3">
+                                                                                            <option value="1">&lt; 1 an</option>
+                                                                                            <option value="2">1 an</option>
+                                                                                            <option value="3">2 ani</option>
+                                                                                            <option value="4">3 ani</option>
+                                                                                            <option value="5">4 ani</option>
+                                                                                            <option value="6">5 ani</option>
+                                                                                            <option value="7">6 ani</option>
+                                                                                            <option value="8">7 ani</option>
+                                                                                            <option value="9">8 ani</option>
+                                                                                            <option value="10">9 ani</option>
+                                                                                            <option value="11">10 ani</option>
+                                                                                            <option value="12">11 ani</option>
+                                                                                            <option value="13">12 ani</option>
+                                                                                            <option value="14">13 ani</option>
+                                                                                            <option value="15">14 ani</option>
+                                                                                            <option value="16">15 ani</option>
+                                                                                            <option value="17">16 ani</option>
+                    
+                                                                                            <option value="18">17 ani</option>
+                                                                                        </select>
+                                                                                        </div>
+                                                                                </div>
+                                                                 
+                                                                         <div class="form-group col-sm-12"><p id="remCam3"><i class="fa fa-minus"></i> Sterge camera</p></div>
+                                                            </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-12 col-md-6"></div>
+                                                            <div class="col-12 col-md-6 btnCaut text-center">
+                                                                <a class="btn btn-block btn-lg bg-primary fontSize12" id="cautaHotel" name="cautaHotel" role="button"><i class="fa fa-refresh"></i> Actualizeaza date</a>
+                                                            </div>
+                                                            
+                                                            
+                                                        
+                                                        </div>
+                                                
+                                            </form>
+                    	</div>
+                        
+                        
+                    </div>
+                    
+                
+                <!--Camere si descriere -->
+         		
+                    	<div class="row chooseHead">
+                        	<div class="col-12 col-sm-4"><h2>Alege camera <i class="fa fa-angle-down"></i></h2></div>
+                            <p class="col-12 col-sm-4 text-center"><!--Acest hotel a fost ales de 34 de turisti din Romania--></p>
+                            <div class="col-12 col-sm-4 text-right"><a href="#" role="button" class="addFav">Adauga la Favorite <i class="fa fa-heart-o"></i></a></div>
+                    	</div>
+                        
+                        <div class="row roomShow">
+                        
+                        	
+                            <div class="thUp col-12 col-sm-6 col-lg-6 pr-0 pl-0">
+                            	<h3>Tip camera</h3>
+                                <p>Room for One or Two Persons Equipped with the new Bedding <br />
+                                	<span><i class="fa fa-coffee"></i> Mic dejun inclus</span>
+                                 	
+                               </p>
+                            </div>
+                            
+                           
+                            
+                            <div class="thUp col-12 col-sm-6 col-lg-2 pl-0 pr-0">
+                             <h3>Puncte fidelitate</h3>
+                             <p>26 puncte</p>
+                            </div>
+                            
+                            <div class="thUp col-12 col-sm-6 col-lg-2 pl-0 pr-0">
+                             <h3>Pret / noapte</h3>
+                             <p>1.327,04 lei</p>
+                            </div>
+                           
+                            <div class="thUp col-12 col-sm-12 col-lg-2 pr-0 pl-0">
+                             <h3>&nbsp;</h3>
+                            	 <p><a href="#" role="button" class="btn btn-success rounded-0">Rezerva acum</a><br />
+                                 Dureaza maxim 2 minute<br />
+                                 <i class="fa fa-clock-o"></i>
+                             	</p> 
+                            </div>
+                        
+                        </div>
+                    
+                    	<div class="row roomShow">
+                        
+                        	
+                            <div class="thUp col-12 col-sm-6 col-lg-6 pr-0 pl-0">
+                            	<h3>Tip camera</h3>
+                                <p>Room for One or Two Persons Equipped with the new Bedding <br /> <span><i class="fa fa-bed"></i> Doar cazare</span></p>
+                            </div>
+                            
+                            <div class="thUp col-12 col-sm-6 col-lg-2 pl-0 pr-0">
+                             <h3>Puncte fidelitate</h3>
+                             <p>26 puncte</p>
+                            </div>
+                            
+                            <div class="thUp col-12 col-sm-6 col-lg-2 pl-0 pr-0">
+                             <h3>Pret / noapte</h3>
+                             <p>1.327,04 lei</p>
+                            </div>
+                           
+                            <div class="thUp col-12 col-sm-12 col-lg-2 pr-0 pl-0">
+                             <h3>&nbsp;</h3>
+                            	 <p><a href="#" role="button" class="btn btn-success rounded-0">Rezerva acum</a><br />
+                                Dureaza maxim 2 minute<br />
+                                 <i class="fa fa-clock-o"></i>
+                             	</p> 
+                            </div>
+                        
+                        </div>
+                        
+                        <div class="row roomShow">
+                        
+                        	
+                            <div class="thUp col-12 col-sm-6 col-lg-6 pr-0 pl-0">
+                            	<h3>Tip camera</h3>
+                                <p>Room for One or Two Persons Equipped with the new Bedding</p>
+                            </div>
+                            
+                            
+                            <div class="thUp col-12 col-sm-6 col-lg-2 pl-0 pr-0">
+                             <h3>Puncte fidelitate</h3>
+                             <p>26 puncte</p>
+                            </div>
+                            
+                            <div class="thUp col-12 col-sm-6 col-lg-2 pl-0 pr-0">
+                             <h3>Pret / noapte</h3>
+                             <p>1.327,04 lei</p>
+                            </div>
+                           
+                            <div class="thUp col-12 col-sm-12 col-lg-2 pr-0 pl-0">
+                             <h3>&nbsp;</h3>
+                            	 <p><a href="#" role="button" class="btn btn-success rounded-0">Rezerva acum</a><br />
+                                 Dureaza maxim 2 minute<br />
+                                 <i class="fa fa-clock-o"></i>
+                             	</p> 
+                            </div>
+                        
+                        </div>
+                        
+                        <div class="row roomShow">
+                        
+                        	
+                            <div class="thUp col-12 col-sm-6 col-lg-6 pr-0 pl-0">
+                            	<h3>Tip camera</h3>
+                                <p>Room for One or Two Persons Equipped with the new Bedding</p>
+                            </div>
+                            
+                            
+                            <div class="thUp col-12 col-sm-6 col-lg-2 pl-0 pr-0">
+                             <h3>Puncte fidelitate</h3>
+                             <p>26 puncte</p>
+                            </div>
+                            
+                            <div class="thUp col-12 col-sm-6 col-lg-2 pl-0 pr-0">
+                             <h3>Pret / noapte</h3>
+                             <p>1.327,04 lei</p>
+                            </div>
+                           
+                            <div class="thUp col-12 col-sm-12 col-lg-2 pr-0 pl-0">
+                             <h3>&nbsp;</h3>
+                            	 <p><a href="#" role="button" class="btn btn-success rounded-0">Rezerva acum</a><br />
+                            	Dureaza maxim 2 minute<br />
+                                 <i class="fa fa-clock-o"></i>
+                             	</p> 
+                            </div>
+                        
+                        </div>
+                    
+                    
+                    	<div class="row mt-4">
+                   		 	 <div class="col-12 col-sm-6 col-lg-7">
+                    <h2 class="chooseRoom" id="descriereHotel">Descriere Hotel  Ibis Barcelona Castelldefels <i class="fa fa-angle-down"></i></h2>
+                                        <p class="pb-4 pt-4">The ibis hotel in Castelldefels is located 1093 yds. (1000 m) from the beach, 9.3 miles (15 km) from the center of Barcelona, 6.2 miles (10 km) from Barcelona-el Prat Airport and 55.9 miles (90 km) from Port Aventura amusement park. 10 kms to city centre; 14 kms to the airport (barcelona airport); </p> 
+                    <p>
+                    </div>
+                    
+                    		
+                    
+                   		 	 <div class="col-12 col-sm-6 col-lg-5">
+                      <h2 class="chooseRoom" id="facilitatiHotel">Facilitati hotel <i class="fa fa-angle-down"></i></h2>
+                      <p id="facilitatiHotelDesc" class="pb-4 pt-4">Coach parking, Earliest check-in at 12:00, Car parking (Payable to hotel, if applicable), Room service, 1 lift, 4 floors, free Wi-Fi, Business Center</p>
+                      </div>
+                      
+                     		 <div class="col-12 col-sm-6 col-lg-5">
+                      <h2 class="chooseRoom" id="facilitatiCamere">Facilitati camere <i class="fa fa-angle-down"></i></h2>
+                      <p id="facilitatiCamereDesc"></p>
+					  <p id="facilitatiCamereDesc1">
+					  <script>
+									
+					var roomF = document.getElementById('facilitatiCamereDesc').innerHTML.toUpperCase();
+					var hotelF = document.getElementById('facilitatiHotelDesc').innerHTML.toUpperCase();
+					
+					function checkText() {
+					
+					
+						if(roomF < 1) {
+							return hotelF;
+						}
+						else if(hotelF < 1) {
+						 return roomF;
+						}	
+						else if(hotelF == '' && roomF == '') {
+						document.write('Nu exista lista de facilitati disponibila');
+						}	
+						else {document.write('Nu exista lista de facilitati disponibila');}
+						
+					}
+					
+    			var facilities = checkText();
+				
+				
+				var internet = facilities.indexOf("WI-FI"),
+        			 tv = facilities.indexOf("TV"),
+        			 air = facilities.indexOf("AIR"),
+        			 room = facilities.indexOf("ROOM SERV"),
+        			 hairDry = facilities.indexOf("HAIRDRY");
+									
+		
+	function wiFi () {
+      if(internet > -1) {
+                      document.writeln('<i class="fa fa-wifi"></i> '  + "Wi-Fi" + "<br />");
+              } else {return ""; } 
+    }
+    
+    function tele() {
+      if(tv > -1) {
+         document.writeln('<i class="fa fa-tv"></i> ' + "TV" + "<br />");
+     } 
+      else {return ""; } 
+    }
+    
+    function aer() {
+      if(air > -1) {
+        document.writeln('<i class="fa fa-snowflake-o"></i> ' + 'Aer Conditionat' + "<br />");
+     } 
+      else {return ""; } 
+    }
+    
+   
+    function roomServ() {
+      if(room > -1) {
+         document.writeln('<i class="fa fa-bell-o"></i> ' + "Room Service" + "<br />");
+     } 
+      else {return ""; }
+	}
+	
+ wiFi();
+ tele();
+ aer();
+ roomServ();
+
+</script></p>
+                      </div>
+                     	</div>
+                        
+                        <div class="boxTicket mb-0 border-0">
+                            
+                            	<div class="row">
+                                	
+                                    <div class="col-12 col-sm-12">
+                                    	<div id="infoZbor" class="mb-3 chooseRoom"><h4>Info zbor</h4></div>
+                                    
+                                            <div class="row tur">
+                                            	
+                                                <div class="col-11 col-sm-3 dataPL">
+                                                    <div class="iconsFlight">
+                                                        <img src="images/plecare.png" alt="Data plecare" />  
+                                                        <img src="images/icons/klm-icon.jpg" alt="KLM" />
+                                                    </div>
+                                                    <p>
+                                                        <span>PLECARE</span><br />
+                                                        Sambata<br />
+                                                        <strong>28 Oct</strong>, 2017
+                                                     </p>
+                                                </div>
+                                                
+                                                <div class="col-4 col-sm-2 oraPL ">
+                                                    <p>
+                                                        <span><strong>07:05</strong></span><br />
+                                                        Henri Coanda<br />
+                                                        Bucuresti                                            
+                                                    </p>
+                                                </div>
+                                                
+                                                <div class="col-4 col-sm-2 escale">
+                                                     <span class="text-center"> 2 Escale</span>
+                                                    <a class="warning detEscale" name="detEscale"><i class="fa fa-info-circle"></i> Detalii</a> 
+                                                    		
+                                                </div>
+                                                
+                                                <div class="col-4 col-sm-3 oraPL">
+                                                    <p>
+                                                    <span><strong>21:55 / 29 Oct</strong>, 2017</span><br />
+                                                    Buenos Aires,<br />
+                                                     Jorge Newbery
+                                                     </p>
+                                                </div>
+                                                
+                                                <div class="col-12 col-sm-2 alegeBT">
+                                                    <p class="text-center">Alege<br />
+                                                    <input type="radio" name="plecare1" id="plecare1" /></p>
+                                                </div>
+                                                
+                                                <div class="infoEscale col-12">
+                                        
+                                       							 <div class="infoPE">
+                                            <img src="images/plecareW.png" alt="plecare" /> 
+                                            
+                                            <span>
+                                           <strong> 07:05</strong><br />
+                                           Henri Coanda<br />
+                                           Bucuresti
+                                            </span>
+                                           
+                                           	 	<div class="durataZbor">
+                                                	<img src="images/conector.png" class="conector" /><br />
+                                                   
+                                                    <span>  <img src="images/icons/tarom-icon.jpg" title="TAROM" alt="TAROM" /><br /> Durata zbor <i class="fa fa-clock-o"></i> 1h:55min</span>
+                                            	</div>
+                                        </div>
+                                
+                               					 <div class="timeEsc1">  
+                                        		<div class="row">
+                                						
+                                                        <div class="col-3">
+                                                        <img src="images/sosire.png" alt="sosire" /><br />
+                                                        <span>09:00</span><br />
+                                                        <span>Sosire in</span>
+                                                        </div>
+                                        
+                                                        <div class="col-6">
+                                                        <img src="images/waiting.png" alt="asteptare" /><br />
+                                                        <span>1h:10min</span><br />
+                                                        <span><strong>Amsterdam, Schiphol</strong></span>
+                                                        </div>
+                                        
+                                                        <div class="col-3">
+                                                        <img src="images/plecare.png" alt="sosire" /><br />
+                                                        <span>10:10</span>
+                                                        <span>Plecare din</span>
+                                                        </div>
+                                                </div>
+                                                <div class="durataZbor">
+                                                		<img src="images/conector.png" class="conector" alt="Conector" /><br />
+                                                        
+                                                        <span><img src="images/icons/british-icon.jpg" title="British Airways" alt="British Airways" /><br />Durata zbor <i class="fa fa-clock-o"></i> 7h:15min</span>
+                                            	</div>
+                                		</div>
+                                        
+                                       			 <div class="timeEsc1">  
+                                        	<div class="row">
+                                				 <div class="col-3">
+                                                        <img src="images/sosire.png" alt="sosire" /><br />
+                                                        <span>10:10</span><br />
+                                                        <span>Sosire in</span>
+                                                        </div>
+                                        
+                                                        <div class="col-6">
+                                                        <img src="images/waiting.png" alt="asteptare" /><br />
+                                                        <span>6h:15min</span><br />
+                                                        <span><strong>Sao Paulo, Guarulhos Arpt</strong></span>
+                                                        </div>
+                                        
+                                                        <div class="col-3">
+                                                        <img src="images/plecare.png" alt="sosire" /><br />
+                                                        <span>18:10</span>
+                                                        <span>Plecare din</span>
+                                                        </div>
+                                                </div>
+                                                
+                                                <div class="durataZbor">
+                                                	<img src="images/conector.png" class="conector"  alt="Conector" /><br />
+                                                     
+                                                    <span><img src="images/icons/british-icon.jpg" title="British Airways" alt="British" /><br />Durata zbor <i class="fa fa-clock-o"></i> 3h:24min</span>
+                                            	</div>
+                                		</div>   
+                                        
+                                   				 <div class="infoSE">
+                                        	 <img src="images/sosireW.png" alt="sosire" /> 
+                                            
+                                            <span> <strong> 02:15</strong><br /> Buenos Aires,<br /> Jorge Newbery </span>
+                                        
+                                        </div>                	
+                                                    
+                          						</div>
+                                            </div>
+                                            
+                                            <hr />
+                                            
+                                            <div class="row tur">
+                                                <div class="col-12 col-sm-3 dataPL">
+                                                    <div class="iconsFlight">
+                                                        <img src="images/plecare.png" alt="Data plecare" />  
+                                                        <img src="images/icons/klm-icon.jpg" alt="KLM" />
+                                                    </div>
+                                                    <p>
+                                                        <span>PLECARE</span><br />
+                                                        Sambata<br />
+                                                        <strong>28 Oct</strong>, 2017
+                                                     </p>
+                                                </div>
+                                                
+                                                <div class="col-4 col-sm-2 oraPL ">
+                                                    <p>
+                                                        <span><strong>07:05</strong></span><br />
+                                                        Henri Coanda<br />
+                                                        Bucuresti                                            
+                                                    </p>
+                                                </div>
+                                                
+                                                <div class="col-4 col-sm-2 escale">
+                                                     <span class="text-center"> 2 Escale</span>
+                                                    <a class="warning detEscale" name="detEscale"><i class="fa fa-info-circle"></i> Detalii</a> 
+                                                </div>
+                                                
+                                                <div class="col-4 col-sm-3 oraPL">
+                                                    <p>
+                                                    <span><strong>21:55 / 29 Oct</strong>, 2017</span><br />
+                                                    Buenos Aires,<br />
+                                                     Jorge Newbery
+                                                     </p>
+                                                </div>
+                                                
+                                                <div class="col-12 col-sm-2 alegeBT">
+                                                    <p class="text-center">Alege<br />
+                                                    <input type="radio" name="plecare1" id="plecare1" /></p>
+                                                </div>
+                                                
+                                                <div class="infoEscale col-12">
+                                        
+                                       		<div class="infoPE">
+                                            <img src="images/plecareW.png" alt="plecare" /> 
+                                            
+                                            <span> <strong> 07:05</strong><br /> Henri Coanda<br /> Bucuresti </span>
+                                           
+                                           	 	<div class="durataZbor">
+                                                	<img src="images/conector.png" class="conector" /><br />
+                                                   
+                                                    <span>  <img src="images/icons/tarom-icon.jpg" title="TAROM" alt="TAROM" /><br /> Durata zbor <i class="fa fa-clock-o"></i> 1h:55min</span>
+                                            	</div>
+                                        </div>
+                                
+                               				<div class="timeEsc1">  
+                                        		<div class="row">
+                                						
+                                                        <div class="col-3">
+                                                        <img src="images/sosire.png" alt="sosire" /><br />
+                                                        <span>09:00</span><br />
+                                                        <span>Sosire in</span>
+                                                        </div>
+                                        
+                                                        <div class="col-6">
+                                                        <img src="images/waiting.png" alt="asteptare" /><br />
+                                                        <span>1h:10min</span><br />
+                                                        <span><strong>Amsterdam, Schiphol</strong></span>
+                                                        </div>
+                                        
+                                                        <div class="col-3">
+                                                        <img src="images/plecare.png" alt="sosire" /><br />
+                                                        <span>10:10</span>
+                                                        <span>Plecare din</span>
+                                                        </div>
+                                                </div>
+                                                <div class="durataZbor">
+                                                		<img src="images/conector.png" class="conector" alt="Conector" /><br />
+                                                        
+                                                        <span><img src="images/icons/british-icon.jpg" title="British Airways" alt="British Airways" /><br />Durata zbor <i class="fa fa-clock-o"></i> 7h:15min</span>
+                                            	</div>
+                                		</div>
+                                        
+                                     		  <div class="timeEsc1">  
+                                        	<div class="row">
+                                				 <div class="col-3">
+                                                        <img src="images/sosire.png" alt="sosire" /><br />
+                                                        <span>10:10</span><br />
+                                                        <span>Sosire in</span>
+                                                        </div>
+                                        
+                                                        <div class="col-6">
+                                                        <img src="images/waiting.png" alt="asteptare" /><br />
+                                                        <span>6h:15min</span><br />
+                                                        <span><strong>Sao Paulo, Guarulhos Arpt</strong></span>
+                                                        </div>
+                                        
+                                                        <div class="col-3">
+                                                        <img src="images/plecare.png" alt="sosire" /><br />
+                                                        <span>18:10</span>
+                                                        <span>Plecare din</span>
+                                                        </div>
+                                                </div>
+                                                
+                                                <div class="durataZbor">
+                                                	<img src="images/conector.png" class="conector"  alt="Conector" /><br />
+                                                     
+                                                    <span><img src="images/icons/british-icon.jpg" title="British Airways" alt="British" /><br />Durata zbor <i class="fa fa-clock-o"></i> 3h:24min</span>
+                                            	</div>
+                                		</div>   
+                                        
+                                   			 <div class="infoSE">
+                                        	 <img src="images/sosireW.png" alt="sosire" /> 
+                                            
+                                            <span> <strong> 02:15</strong><br /> Buenos Aires,<br /> Jorge Newbery</span>
+                                        
+                                        	</div>                	
+                                                    
+                          					</div>
+                                            </div>
+                                            <hr />
+                                            
+                                            <div class="row mt-4 retur">
+                                                <div class="col-12 col-sm-3 dataPL">
+                                                    <div class="iconsFlight">
+                                                        <img src="images/sosire.png" alt="Data retur" />  
+                                                        <img src="images/icons/british-icon.jpg" title="British Airways" alt="KLM" />
+                                                    </div>
+                                                    <p>
+                                                        <span>RETUR</span><br />
+                                                        Joi<br />
+                                                        <strong>10 Noi</strong>, 2017
+                                                     </p>
+                                                </div>
+                                                
+                                                <div class="col-4 col-sm-2 oraPL ">
+                                                    <p>
+                                                        <span><strong>07:05</strong></span><br />
+                                                        Henri Coanda<br />
+                                                        Bucuresti                                            
+                                                    </p>
+                                                </div>
+                                                
+                                                <div class="col-4 col-sm-2 escale">
+                                                     <span class="text-center"> 2 Escale</span>
+                                                    <a class="warning detEscale" name="detEscale"><i class="fa fa-info-circle"></i> Detalii</a> 
+                                                    <div class="infoEscale">
+                                        
+                                       						 <div class="infoPE">
+                                            <img src="images/plecareW.png" alt="plecare" /> 
+                                            
+                                            <span>
+                                           <strong> 07:05</strong><br />
+                                           Henri Coanda<br />
+                                           Bucuresti
+                                            </span>
+                                           
+                                           	 	<div class="durataZbor">
+                                                	<img src="images/conector.png" class="conector" /><br />
+                                                   
+                                                    <span>  <img src="images/icons/tarom-icon.jpg" title="TAROM" alt="TAROM" /><br /> Durata zbor <i class="fa fa-clock-o"></i> 1h:55min</span>
+                                            	</div>
+                                        </div>
+                                		
+                               								 <div class="timeEsc1">  
+                                        							<div class="row">
+                                						
+                                                       			<div class="col-3">
+                                                                <img src="images/sosire.png" alt="sosire" /><br />
+                                                                <span>09:00</span><br />
+                                                                <span>Sosire in</span>
+                                                                </div>
+                                                
+                                                                <div class="col-6">
+                                                                <img src="images/waiting.png" alt="asteptare" /><br />
+                                                                <span>1h:10min</span><br />
+                                                                <span><strong>Amsterdam, Schiphol</strong></span>
+                                                                </div>
+                                                
+                                                                <div class="col-3">
+                                                                <img src="images/plecare.png" alt="sosire" /><br />
+                                                                <span>10:10</span>
+                                                                <span>Plecare din</span>
+                                                                </div>
+                                                					</div>
+                                           						    <div class="durataZbor">
+                                                						<img src="images/conector.png" class="conector" alt="Conector" /><br />
+                                                        
+                                                        				<span><img src="images/icons/british-icon.jpg" title="British Airways" alt="British Airways" /><br />Durata zbor <i class="fa fa-clock-o"></i> 7h:15min</span>
+                                            						</div>
+                                							</div>
+                                        
+                                                       		 <div class="timeEsc1">  
+                                                          		  <div class="row">
+                                                                       <div class="col-3">
+                                                                        <img src="images/sosire.png" alt="sosire" /><br />
+                                                                        <span>10:10</span><br />
+                                                                        <span>Sosire in</span>
+                                                                        </div>
+                                                        
+                                                                        <div class="col-6">
+                                                                        <img src="images/waiting.png" alt="asteptare" /><br />
+                                                                        <span>6h:15min</span><br />
+                                                                        <span><strong>Sao Paulo, Guarulhos Arpt</strong></span>
+                                                                        </div>
+                                                        
+                                                                        <div class="col-3">
+                                                                        <img src="images/plecare.png" alt="sosire" /><br />
+                                                                        <span>18:10</span>
+                                                                        <span>Plecare din</span>
+                                                                        </div>
+                                                                </div>
+                                                                
+                                                                  <div class="durataZbor">
+                                                                    <img src="images/conector.png" class="conector"  alt="Conector" /><br />
+                                                                     
+                                                                    <span><img src="images/icons/british-icon.jpg" title="British Airways" alt="British" /><br />Durata zbor <i class="fa fa-clock-o"></i> 3h:24min</span>
+                                                                </div>
+                                                             </div>   
+                                        
+                                      					     <div class="infoSE">
+                                                 					<img src="images/sosireW.png" alt="sosire" /> 
+                                                					<span><strong> 02:15</strong><br />Buenos Aires,<br /> Jorge Newbery</span>
+                                            				</div>                	
+                                                    
+                          								 </div>
+                                                </div>
+                                                
+                                                <div class="col-4 col-sm-3 oraPL">
+                                                    <p><span><strong>21:55 / 11 Noi</strong>, 2017</span><br />Buenos Aires,<br />Jorge Newbery</p>
+                                                </div>
+                                                
+                                                <div class="col-12 col-sm-2 alegeBT">
+                                                    <p class="text-center">Alege<br />
+                                                    <input type="radio" name="retur1" id="retur1" checked /></p>
+                                                </div>
+                                                
+                                                <div class="infoEscale col-12">
+                                        
+                                       				<div class="infoPE">
+                                           								 <img src="images/plecareW.png" alt="plecare" /> 
+                                            
+                                            							<span><strong> 07:05</strong><br />Henri Coanda<br />Bucuresti</span>
+                                           
+                                           	 						<div class="durataZbor">
+                                                	<img src="images/conector.png" class="conector" /><br />
+                                                   
+                                                    <span>  <img src="images/icons/tarom-icon.jpg" title="TAROM" alt="TAROM" /><br /> Durata zbor <i class="fa fa-clock-o"></i> 1h:55min</span>
+                                            	</div>
+                                        						</div>
+                                
+                               						<div class="timeEsc1">  
+                                        		<div class="row">
+                                						
+                                                        <div class="col-3">
+                                                        <img src="images/sosire.png" alt="sosire" /><br />
+                                                        <span>09:00</span><br />
+                                                        <span>Sosire in</span>
+                                                        </div>
+                                        
+                                                        <div class="col-6">
+                                                        <img src="images/waiting.png" alt="asteptare" /><br />
+                                                        <span>1h:10min</span><br />
+                                                        <span><strong>Amsterdam, Schiphol</strong></span>
+                                                        </div>
+                                        
+                                                        <div class="col-3">
+                                                        <img src="images/plecare.png" alt="sosire" /><br />
+                                                        <span>10:10</span>
+                                                        <span>Plecare din</span>
+                                                        </div>
+                                                </div>
+                                                <div class="durataZbor">
+                                                		<img src="images/conector.png" class="conector" alt="Conector" /><br />
+                                                        
+                                                        <span><img src="images/icons/british-icon.jpg" title="British Airways" alt="British Airways" /><br />Durata zbor <i class="fa fa-clock-o"></i> 7h:15min</span>
+                                            	</div>
+                                		</div>
+                                        
+                                                    <div class="timeEsc1">  
+                                                            <div class="row">
+                                                                     <div class="col-3">
+                                                                    <img src="images/sosire.png" alt="sosire" /><br />
+                                                                    <span>10:10</span><br />
+                                                                    <span>Sosire in</span>
+                                                                    </div>
+                                                    
+                                                                    <div class="col-6">
+                                                                    <img src="images/waiting.png" alt="asteptare" /><br />
+                                                                    <span>6h:15min</span><br />
+                                                                    <span><strong>Sao Paulo, Guarulhos Arpt</strong></span>
+                                                                    </div>
+                                                    
+                                                                    <div class="col-3">
+                                                                    <img src="images/plecare.png" alt="sosire" /><br />
+                                                                    <span>18:10</span>
+                                                                    <span>Plecare din</span>
+                                                                    </div>
+                                                            </div>
+                                                            
+                                                            <div class="durataZbor">
+                                                                <img src="images/conector.png" class="conector"  alt="Conector" /><br />
+                                                                 
+                                                                <span><img src="images/icons/british-icon.jpg" title="British Airways" alt="British" /><br />Durata zbor <i class="fa fa-clock-o"></i> 3h:24min</span>
+                                                            </div>
+                                                    </div>   
+                                                    
+                                                    <div class="infoSE">
+                                                         <img src="images/sosireW.png" alt="sosire" /> 
+                                                        <span><strong> 02:15</strong><br />Buenos Aires,<br /> Jorge Newbery</span>
+                                                    </div>                	
+                                                    
+                          						</div>
+                                            </div>
+                                            
+                                    </div>
+                                    
+                                    
+                                
+                                </div>
+                            </div>
+                   
+                      </div>
+                    
+                </div>
+                
+       
+      
+        </div>
+        
+        <!--Footer-->
+        <div class="footer">
+        	<div class="container">
+        		<div class="row">
+                	<div class="col-sm-6 col-lg-3">
+                    	<img src="images/logo.png" alt="Logo Accent Travel and Events" id="logoFooter" /><br />
+                        <p class="socialGo">Citeste <a href="#" class=" rounded">BLOG-ul</a> Accent! Afla totul despre destinatiile tale favorite si descopera destinatii noi!</p>
+                        <a href="#"><img src="images/facebook.png" alt="Accent Facebook" class="socialFoot" /></a>
+                        <a href="#"><img src="images/linkedin.png" alt="Accent Linkedin" class="socialFoot" /></a>
+                        <a href="#"><img src="images/google.png" alt="Accent Google" class="socialFoot" /></a>
+                         <a href="#"><img src="images/youtube.png" alt="Accent Youtube" class="socialFoot" /></a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                    	<h5>Accent Travel &amp; Events</h5>
+                        <ul class="list-unstyled">
+                        	<li><a href="#">Despre noi</a></li>
+                            <li><a href="#">Presa</a></li>
+                            <li><a href="#">Termeni si Conditii</a></li>
+                            <li><a href="#">Politica de confidentialitate</a></li>
+                            <li><a href="#">Corporate Travel</a></li>
+                             <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-sm-6 col-lg-3">
+                    	<h5>Servicii turistice</h5>
+                        <ul class="list-unstyled">
+                        	<li><a href="#">Oferte hoteluri</a></li>
+                            <li><a href="#">Oferte bilete de avion</a></li>
+                            <li><a href="#">Oferte city break</a></li>
+                            <li><a href="#">Oferte pachete cazare</a></li>
+                            <li><a href="#">Oferte vacante Romania</a></li>
+                            <li><a href="#">Oferte ski</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-sm-6 col-lg-3">
+                    	<h5>Abonare Newsletter</h5>
+                        <div class="form-group">
+                        <p class="socialGo">Afla primul despre cele mai bune oferte!</p>
+                        <input type="email" class="form-control" name="numeNwsl" id="numeNwsl" placeholder="Adresa de e-mail" />
+                        </div>
+                        <button id="recNwsl" name="recNwsl" class="btn btn-secondary">INREGISTRARE</button>
+                    </div> 
+                    
+                                 	
+                </div>
+            </div>
+        </div>
+        
+        <!--Copyright + payment + licenta-->
+        <div class="container underFoot">
+        	<div class="row mb-3 mt-3">
+        			<div class="col-12 col-sm-12 col-md-5">
+                    	<p>&copy; 2017 Accent Travel &amp; Events SRL. Toate drepturile rezervate<br />
+                        <a href="http://www.anpc.gov.ro/">ANPC Romania</a> | <a href="http://ec.europa.eu/consumers/odr/">Solutionarea Litigiilor</a> <br /><a href="images/licenta-accent-travel-xs.pdf" target="_blank">Licenta turism: Nr. 1664/04.01.2011</a> | <a href="images/asigurare-accent-travel-xs.pdf" target="_blank">Polita de Asigurare nr. 45259</a>
+                        </p>
+                        </div>
+                    <div class="col-12 col-sm-12 col-md-3"><img src="images/certificates.png" alt="Certificari IATA" /></div>
+                    <div class="col-12 col-sm-12 col-md-4"><img src="images/cards.png" alt="Vacante cu plata online" /></div>
+                    </div>  
+             </div>
+             
+             
+        <!--Scroll to top-->
+         <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
+         <span class="fa fa-chevron-up"></span></a>
+         
+         <!-- Modal harta Hoteluri lista -->
+           				<div id="modalMapH">
+                                   <div class="row">
+                                         <div class="col-sm-12">
+                                                 <span class="btn btn-outline-danger float-right mb-3">Inchide</span>
+                                                          <h4 class="float-left">Harta Hotel Lami, Barcelona, Spania</h4>
+                                          </div>
+                                          <div class="col-sm-12">
+                                                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.3589151938504!2d28.629450015918646!3d44.22026847910596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40baf06f7feeed13%3A0x3df8e75b98a91ec1!2sHotel+Perla!5e0!3m2!1sen!2sro!4v1503488624252" height="450"   style="border:0; width:100%" allowfullscreen></iframe>
+                                           </div>
+                                  </div>
+                          </div>
+                                        
+                       
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/calendar/build/js/moment.min.js"></script>
+<script type="text/javascript" src="js/calendar/build/js/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="js/calendar/build/js/caleran.min.js"></script>
+<script type="text/javascript" src="js/calendar/js/jquery.hammer.js"></script>  
+<script type="text/javascript" src="js/custom-jquery.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+
+</body>
+
+</html>

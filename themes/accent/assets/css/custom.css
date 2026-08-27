@@ -1,0 +1,143 @@
+.checkWrapper label span {
+  float: right;
+	max-width:25px;
+}
+table.with_return .toolTipPrice div.priceTool{
+  padding: 113px 10px 113px 10px;
+}
+#calendarFlights{
+  z-index:2;
+}
+#calendarFlights td a{
+  cursor: pointer;
+}
+td.lowestPrice.active,
+td.active{
+  background-color: #0275d8;
+  color: #fff;
+}
+th.active{
+  background-color: #0C0;
+}
+#flightsInfoDepartureDate,
+#flightsInfoReturnDate{
+  text-transform:capitalize;
+}
+.chooseHead + .package-rooms > .roomShow:first-child .thUp h3 {display:block;}	
+
+.hotel-package.card{
+  border-width: 0;
+}
+.hotel-package.card .card-block{
+  padding:0;
+}
+#googleMap *,
+#googleMap1 * {
+    overflow:visible;
+}
+.searchMenu1 .nav-tabs .nav-link.active:hover{
+  color: #0275d8;
+}
+.pretINS{
+  min-width: 200px;
+}
+#contOpt{
+  z-index:10;
+	max-width: initial;
+}
+#regWindow{
+  z-index: 15;
+}
+
+div input[type=password], 
+div input[type=email], 
+div input[type=tel], 
+div input[type=number]{
+  font-size:1rem !important; 
+}
+
+input[name="passenger[birth_date][]"],
+input[name="birth_date"],
+input[name="fellow_birth_date"]{
+  background:url(../images/calendar.png)  right no-repeat; 
+  background-position: 98% 2px;
+}
+.infoTEL:before,
+.infoTELC:before,
+.table3Days .hoverBGT,
+.table3Days .hoverBGL,
+.toolTipPrice:before{
+  background-image: none;
+}
+#system_messages > .alert:first-child{
+  margin-top:10px;
+}
+.backstretch {
+  max-height: 100%;
+  min-height: 100%;
+	max-width: 100%;
+}
+#loginWindow > i, #regWindow > i { 
+  z-index:3;
+}
+.toolTipPrice,
+#showMapBalcescu, #showMapBravu, #showMapPh,
+.infoTEL, .infoTELC,
+#contOpt,
+#loginWindow, #regWindow,
+#utileVacanta {
+  z-index:2;
+}
+.boxHotel i.fa-close, .boxTicket i.fa-close,
+.searchMenu1 {
+  z-index:1;
+}
+.bg-home-slider{
+  z-index:initial !important;
+}
+.checkWrapper label img {
+  margin-top: -4px;
+}
+#companiiAir .nav-link img {
+  max-width: 100%;
+  height: 30px;
+}
+.bilete .boxTicket{
+  z-index: 1 !important;
+}
+.durataZbor span > span{
+  max-width: 165px;
+}
+#cms_page_content{
+  margin-top: 30px;
+}
+
+.package-rooms > .roomShow:first-of-type .thUp h3{
+  display: block;
+}
+#search_progress_bar{
+	position:relative;
+	background: #0275d8;
+}
+#search_progress_bar .progress-bar{
+	position:relative;
+	height: 50px;
+	background: linear-gradient(to right, orange , yellow);
+	transition: width 1s ease-in-out;
+}
+div#search_progress_bar::after {
+	content: "";
+	background-image: url(/resources/buildings_loader_blue.png);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.alert-success.custom{
+	background-color: #339900;
+	color: #fff;
+}
+#myHeroCarousel{
+	width:100%;
+}

@@ -1,0 +1,1318 @@
+{
+    "ItineraryCode": "4fda6aad87f7bb3aca7a876e779de985ca311d77:0",
+    "Price": 310.76,
+    "Currency": "EUR",
+    "Routes": [
+        {
+            "Index": "0",
+            "AirportChange": false,
+            "MultipleAirlines": false,
+            "NextDayLanding": true,
+            "Ref": null,
+            "Duration": "06:37",
+            "Hash": "a8fab9f294a44d2b4185d43e7e7350f2",
+            "ItineraryCode": null,
+            "Segment": [
+                {
+                    "Aircraft": {
+                        "Code": "E7W",
+                        "_": "E7W"
+                    },
+                    "Flight": {
+                        "Number": "3896",
+                        "Class": "E",
+                        "NumberOfSeats": "9",
+                        "Meal": "",
+                        "StopTime": null,
+                        "Duration": "02:36",
+                        "CabinType": "Economy"
+                    },
+                    "Origin": {
+                        "Date": "2023-11-16",
+                        "Terminal": null,
+                        "Time": "18:25:00",
+                        "Airport": {
+                            "City": "Omaha",
+                            "CityId": null,
+                            "_": "Eppley Airfield",
+                            "Code": "OMA",
+                            "CityCode": "OMA"
+                        }
+                    },
+                    "Destination": {
+                        "Date": "2023-11-16",
+                        "Terminal": null,
+                        "Time": "20:01:00",
+                        "Airport": {
+                            "City": "Salt Lake City",
+                            "CityId": null,
+                            "_": "Salt Lake City Intl Arpt",
+                            "Code": "SLC",
+                            "CityCode": "SLC"
+                        }
+                    },
+                    "Carrier": {
+                        "Marketing": {
+                            "Code": "DL",
+                            "_": "Delta Air Lines"
+                        }
+                    },
+                    "Secured": true,
+                    "TechnicalStop": null,
+                    "BaggageAllowance": [
+                        {
+                            "Allowed": "0 PC",
+                            "CarryOn": null
+                        }
+                    ]
+                },
+                {
+                    "Aircraft": {
+                        "Code": "223",
+                        "_": "223"
+                    },
+                    "Flight": {
+                        "Number": "1533",
+                        "Class": "E",
+                        "NumberOfSeats": "9",
+                        "Meal": "Refreshments for purchase",
+                        "StopTime": "00:59:00",
+                        "Duration": "03:02",
+                        "CabinType": "Economy"
+                    },
+                    "Origin": {
+                        "Date": "2023-11-16",
+                        "Terminal": null,
+                        "Time": "21:00:00",
+                        "Airport": {
+                            "City": "Salt Lake City",
+                            "CityId": null,
+                            "_": "Salt Lake City Intl Arpt",
+                            "Code": "SLC",
+                            "CityCode": "SLC"
+                        }
+                    },
+                    "Destination": {
+                        "Date": "2023-11-17",
+                        "Terminal": null,
+                        "Time": "01:02:00",
+                        "Airport": {
+                            "City": "Houston",
+                            "CityId": null,
+                            "_": "Houston George Bush Intercont Arpt",
+                            "Code": "IAH",
+                            "CityCode": "HOU"
+                        }
+                    },
+                    "Carrier": {
+                        "Marketing": {
+                            "Code": "DL",
+                            "_": "Delta Air Lines"
+                        },
+                        "Operating": {
+                            "Code": "DL",
+                            "_": "Delta Air Lines"
+                        }
+                    },
+                    "Secured": true,
+                    "TechnicalStop": null,
+                    "BaggageAllowance": [
+                        {
+                            "Allowed": "0 PC",
+                            "CarryOn": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Index": "1",
+            "AirportChange": false,
+            "MultipleAirlines": false,
+            "NextDayLanding": false,
+            "Ref": null,
+            "Duration": "05:57",
+            "Hash": "b3c07932370ae1705fce9fed8f847267",
+            "ItineraryCode": null,
+            "Segment": [
+                {
+                    "Aircraft": {
+                        "Code": "320",
+                        "_": "Airbus A320-100/200"
+                    },
+                    "Flight": {
+                        "Number": "1050",
+                        "Class": "E",
+                        "NumberOfSeats": "9",
+                        "Meal": "Refreshments for purchase",
+                        "StopTime": null,
+                        "Duration": "02:39",
+                        "CabinType": "Economy"
+                    },
+                    "Origin": {
+                        "Date": "2023-11-18",
+                        "Terminal": "A",
+                        "Time": "06:31:00",
+                        "Airport": {
+                            "City": "Houston",
+                            "CityId": null,
+                            "_": "Houston George Bush Intercont Arpt",
+                            "Code": "IAH",
+                            "CityCode": "HOU"
+                        }
+                    },
+                    "Destination": {
+                        "Date": "2023-11-18",
+                        "Terminal": "1",
+                        "Time": "09:10:00",
+                        "Airport": {
+                            "City": "Minneapolis",
+                            "CityId": null,
+                            "_": "Minneapolis St Paul International Arpt",
+                            "Code": "MSP",
+                            "CityCode": "MSP"
+                        }
+                    },
+                    "Carrier": {
+                        "Marketing": {
+                            "Code": "DL",
+                            "_": "Delta Air Lines"
+                        },
+                        "Operating": {
+                            "Code": "DL",
+                            "_": "Delta Air Lines"
+                        }
+                    },
+                    "Secured": true,
+                    "TechnicalStop": null,
+                    "BaggageAllowance": [
+                        {
+                            "Allowed": "0 PC",
+                            "CarryOn": null
+                        }
+                    ]
+                },
+                {
+                    "Aircraft": {
+                        "Code": "E7W",
+                        "_": "E7W"
+                    },
+                    "Flight": {
+                        "Number": "3838",
+                        "Class": "E",
+                        "NumberOfSeats": "9",
+                        "Meal": "",
+                        "StopTime": "01:50:00",
+                        "Duration": "01:28",
+                        "CabinType": "Economy"
+                    },
+                    "Origin": {
+                        "Date": "2023-11-18",
+                        "Terminal": "1",
+                        "Time": "11:00:00",
+                        "Airport": {
+                            "City": "Minneapolis",
+                            "CityId": null,
+                            "_": "Minneapolis St Paul International Arpt",
+                            "Code": "MSP",
+                            "CityCode": "MSP"
+                        }
+                    },
+                    "Destination": {
+                        "Date": "2023-11-18",
+                        "Terminal": null,
+                        "Time": "12:28:00",
+                        "Airport": {
+                            "City": "Omaha",
+                            "CityId": null,
+                            "_": "Eppley Airfield",
+                            "Code": "OMA",
+                            "CityCode": "OMA"
+                        }
+                    },
+                    "Carrier": {
+                        "Marketing": {
+                            "Code": "DL",
+                            "_": "Delta Air Lines"
+                        }
+                    },
+                    "Secured": true,
+                    "TechnicalStop": null,
+                    "BaggageAllowance": [
+                        {
+                            "Allowed": "0 PC",
+                            "CarryOn": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "NonRefundable": null,
+    "UpsellSupport": true,
+    "FlightsCode": "AIR-WS-49594b982e0d57e3c15e990238fee93b",
+    "FareRules": {
+        "ADT": [
+            {
+                "FareBasis": "XAWNA0BC",
+                "Origin": {
+                    "Code": "OMA",
+                    "City": "Omaha",
+                    "CityCode": "OMA",
+                    "CityId": null
+                },
+                "Destination": {
+                    "Code": "HOU",
+                    "City": "Houston",
+                    "CityCode": "HOU",
+                    "CityId": null
+                },
+                "Airline": {
+                    "Code": "DL",
+                    "_": "Delta Air Lines"
+                },
+                "Category": [
+                    {
+                        "Name": "RULE APPLICATION",
+                        "Url": null,
+                        "_": "FOR ECONOMY OW UNBUNDLED FARES\nBASIC ECONOMY FARES\n APPLICATION\n   CLASS OF SERVICE\n     THESE FARES APPLY FOR ECONOMY CLASS SERVICE.\n CAPACITY LIMITATIONS\n   SEATS ARE LIMITED\n OTHER CONDITIONS\n   NON REFUNDABLE FARES\n   CHANGES ALLOWED FOR TICKETING ON/BEFORE 31MAY20\n   NO PRERESERVED SEATS\n   UNUSED COUPONS HAVE NO RESIDUAL VALUE\n"
+                    },
+                    {
+                        "Name": "MINIMUM STAY",
+                        "Url": null,
+                        "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                    },
+                    {
+                        "Name": "MAXIMUM STAY",
+                        "Url": null,
+                        "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                    },
+                    {
+                        "Name": "SALES RESTRICTIONS",
+                        "Url": null,
+                        "_": " \n  TICKETS MAY NOT BE SOLD IN VENEZUELA/ZIMBABWE/ANGOLA/\n  GABON/CAMEROON/CHAD/CONGO (BRAZZAVILLE)/NIGERIA/MALAWI/\n  MOZAMBIQUE/RUSSIA (EAST OF THE URALS)/RUSSIA.\n  TICKETS MAY ONLY BE SOLD IN AREA 1/AREA 2/AREA 3.\n"
+                    },
+                    {
+                        "Name": "TRAVEL RESTRICTIONS",
+                        "Url": null,
+                        "_": " \n  VALID FOR TRAVEL COMMENCING ON EACH TRIP ON/AFTER\n  09SEP 21.\n"
+                    },
+                    {
+                        "Name": "ADVANCE PURCHASE",
+                        "Url": null,
+                        "_": "FOR XAWNA0BC TYPE FARES\n \n  RESERVATIONS FOR ALL SECTORS ARE REQUIRED AT LEAST 30 DAYS\n  BEFORE DEPARTURE OF EACH TRIP.\n  TICKETING FOR DEPARTURE OF EACH TRIP MUST BE COMPLETED\n  WITHIN 1 DAY AFTER RESERVATIONS ARE MADE OR AT LEAST 30\n  DAYS BEFORE DEPARTURE WHICHEVER IS EARLIER.\n"
+                    },
+                    {
+                        "Name": "FLIGHT APPLICATIONS",
+                        "Url": null,
+                        "_": " \n  THE FARE COMPONENT MUST BE ON\n      ONE OR MORE OF THE FOLLOWING\n        ANY DL FLIGHT.\n"
+                    },
+                    {
+                        "Name": "CHILDREN DISCOUNT",
+                        "Url": null,
+                        "_": " \n  1ST INFANT UNDER 2 WITHOUT A SEAT - NO CHARGE\n        TICKET DESIGNATOR - IN100.\n    MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME COMPARTMENT\n      AT THIS RULE BY ADULT\n  OR - INFANT UNDER 2 WITH A SEAT - CHARGE 100 PERCENT OF\n         THE FARE.\n         MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME\n           COMPARTMENT BY ADULT\n  OR - UNACCOMPANIED CHILD 5-14 - CHARGE 100 PERCENT OF THE\n         FARE.\n             TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT.\n         NOTE -\n          UNACCOMPANIED CHILDREN UNDER 5 YEARS OF AGE WILL\n          NOT BE ACCEPTED FOR CARRIAGE UNDER ANY CONDITIONS.\n          UNACCOMPANIED CHILDREN AGES 5 THROUGH 7 MAY TRAVEL\n          ON NON-STOP FLIGHTS ONLY AND MAY NOT CONNECT TO\n          OTHER AIRLINES.\n          CHILDREN AGES 8 THROUGH 14 MAY TRAVEL\n          UNACCOMPANIED ON DELTAS NON-STOP OR CONNECTING\n          FLIGHTS - BUT MAY NOT CONNECT TO OTHER AIRLINES\n          WITH THE EXCEPTION OF DELTA CONNECTION/KLM AND\n          AIR FRANCE.\n"
+                    },
+                    {
+                        "Name": "STOPOVERS",
+                        "Url": null,
+                        "_": " \n  NO STOPOVERS PERMITTED.\n"
+                    },
+                    {
+                        "Name": "TRANSFER",
+                        "Url": null,
+                        "_": " \n  2 TRANSFERS PERMITTED IN EACH DIRECTION\n    ONLINE ON THE PRIMARY CARRIER\n    FARE BREAK AND EMBEDDED SURFACE SECTORS NOT PERMITTED ON\n     THE FARE COMPONENT.\n"
+                    },
+                    {
+                        "Name": "SURCHARGE",
+                        "Url": null,
+                        "_": "FOR XAWNA0BC TYPE FARES\n \n  IF INFANT 0-1 WITHOUT A SEAT.\n    THERE IS NO CHARGE FOR TRAVEL PER FARE COMPONENT.\n \n  A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE ADDED\n  TO THE APPLICABLE FARE FOR TRAVEL ON 23DEC 23.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 26DEC 23.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 02JAN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 12JAN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 15JAN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        15FEB 24 THROUGH 16FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        19FEB 24 THROUGH 20FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 24FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 25FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        29FEB 24 THROUGH 01MAR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 23.25 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        02MAR 24 THROUGH 03MAR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 04MAR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON MON/THU\n        FROM 07MAR 24 THROUGH 15APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 32.56 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON FRI FROM\n        07MAR 24 THROUGH 15APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON SAT/SUN\n        FROM 07MAR 24 THROUGH 15APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        18APR 24 THROUGH 19APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 23.25 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        20APR 24 THROUGH 21APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 22APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        23MAY 24 THROUGH 24MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        27MAY 24 THROUGH 28MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 30MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 31MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 01JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 02JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 03JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 06JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 07JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 08JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 09JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 10JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 13JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 14JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 15JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 16JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 17JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 20JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 21JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 22JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 23JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 24JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 27JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 28JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 29JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 03JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 06JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 74.42 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 07JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 08JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 11JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 12JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 13JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 14JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 15JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 18JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 19JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 20JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 21JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 22JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 25JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 26JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 27JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 28JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 29JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 01AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 02AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 03AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 04AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 05AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 08AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 09AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 10AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 11AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 12AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n"
+                    },
+                    {
+                        "Name": "TICKET ENDORSEMENT",
+                        "Url": null,
+                        "_": " \n  THE ORIGINAL AND THE REISSUED TICKET MUST BE ANNOTATED -\n  NONREF - AND - NOPRE RSVDSEAT - IN THE ENDORSEMENT BOX.\n"
+                    },
+                    {
+                        "Name": "PENALTIES",
+                        "Url": null,
+                        "_": " \n  CANCELLATIONS\n \n    TICKET IS NON-REFUNDABLE IN CASE OF CANCEL.\n         NOTE -\n          TRAVEL AGENT REDEMPTION - REFER TO DELTA\n          PROFESSIONAL FOR ADDITIONAL INFORMATION.\n          WAIVER CODE REQUIRED.\n    TICKET IS NON-REFUNDABLE IN CASE OF NO-SHOW.\n         NOTE -\n          TICKET IS NON-REFUNDABLE AND HAS NO REMAINING\n          VALUE IN CASE OF NO-SHOW\n \n  CHANGES\n \n    ANY TIME\n      CHARGE USD 99.00/CAD 99.00 FOR REISSUE/REVALIDATION.\n      CHILD/INFANT DISCOUNTS APPLY.\n         NOTE -\n          TRAVEL AGENT REDEMPTION - REFER TO DELTA\n          PROFESSIONAL FOR ADDITIONAL INFORMATION.\n          WAIVER CODE REQUIRED.\n"
+                    },
+                    {
+                        "Name": "COMBINATIONS",
+                        "Url": null,
+                        "_": "FOR XAWNA0BC TYPE FARES\n   DOUBLE OPEN JAWS NOT PERMITTED.\n   APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN\n   MISCELLANEOUS PROVISIONS - CATEGORY 23.\n  END-ON-END\n    END-ON-END COMBINATIONS PERMITTED WITH DL  FARES.\n    VALIDATE ALL FARE COMPONENTS. SIDE TRIPS NOT PERMITTED.\n    ADJACENT LINE OF FLIGHT FARE BREAK POINTS MUST BE\n    STOPOVERS.\n   PROVIDED -\n     COMBINATIONS ARE WITH ANY ECONOMY OW UNBUNDLED/ECONOMY\n     RT UNBUNDLED-TYPE FARES.\n  OPEN JAWS/2-COMPONENT CIRCLE TRIPS/MULTI-COMPONENT CIRCLE\n  TRIPS\n    FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS WITH DL\n    FARES\n    -TO FORM SINGLE OPEN JAWS.\n     A MAXIMUM OF 2 FARE COMPONENTS PERMITTED.\n     MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN\n     MILEAGE OF THE SHORTEST FLOWN FARE COMPONENT.\n    -TO FORM 2-COMPONENT CIRCLE TRIPS\n    -TO FORM MULTI-COMPONENT CIRCLE TRIPS\n     A MAXIMUM OF 2 FARE BREAK POINTS PERMITTED.\n     FARE BREAK POINTS MUST BE STOPOVERS.\n   PROVIDED -\n     COMBINATIONS ARE WITH ANY ECONOMY OW UNBUNDLED/ECONOMY\n     RT UNBUNDLED-TYPE FARES IN ANY RULE AND TARIFF.\n NOTE - THE CITY PAIRS BELOW ARE CONSIDERED THE SAME POINT-\n        BWI-WAS  FLL-MIA  LAX-ONT  LAX-SNA  NYC-EWR  OAK-SFO\n        OAK-SJC  SFO-SJC  LAX-BUR\n"
+                    },
+                    {
+                        "Name": "REISSUE (VOLUNTARY CHANGES)",
+                        "Url": null,
+                        "_": " \n  THE PROVISIONS BELOW APPLY ONLY AS FOLLOWS -\n  SALE IS RESTRICTED TO SPECIFIC AGENTS.\n         NOTE -\n          CHANGES NOT PERMITTED.\n          USD 99.00/CAD 99.00 FOR CANCEL ONLY.\n          TRAVEL AGENT REDEMPTION - REFER TO DELTA\n          PROFESSIONAL FOR ADDITIONAL INFORMATION.\n          WAIVER CODE REQUIRED.\n  IN THE EVENT OF CHANGES TO TICKETED FLIGHTS\n   BEFORE DEPARTURE OF JOURNEY - APPLIES WITHIN TKT VALIDITY\n    CERTAIN DOMESTIC REISSUE PROVISIONS MAY BE OVERRIDDEN BY\n    THOSE OF DL  INTERNATIONAL FARES\n     CHARGE USD 99.00/CAD 99.00 FOR REISSUE OR HIGHEST FEE\n     OF ALL CHANGED FARE COMPONENTS -/CATEGORY 19 DISCOUNTS\n     APPLY - NO FEE FOR INFANTS W/O SEAT AND\n      REPRICE USING FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. DL  FARES ARE USED\n       2. ADV RES IS MEASURED FROM REISSUE DATE TO DEPARTURE\n       OF PRICING UNIT\n   WHEN CHANGE RESULTS IN LOWER FARE SUBTRACT RESIDUAL FROM\n   THE PENALTY THEN ADD-COLLECT/REFUND - REFUND VIA EMD\n   ENDORSEMENT BOX- HIGHER NON-REF AMT AND NEW ENDORSEMENTS.\n    OR -\n   AFTER DEPARTURE OF JOURNEY - APPLIES WITHIN TKT VALIDITY\n    CERTAIN DOMESTIC REISSUE PROVISIONS MAY BE OVERRIDDEN BY\n    THOSE OF DL  INTERNATIONAL FARES\n     CHARGE USD 99.00/CAD 99.00 FOR REISSUE OR HIGHEST FEE\n     OF ALL CHANGED FARE COMPONENTS -/CATEGORY 19 DISCOUNTS\n     APPLY - NO FEE FOR INFANTS W/O SEAT AND\n      REPRICE\n      A. FULLY FLOWN FARE COMPONENTS USE CURRENTLY TKTD FARE\n      B. ALL OTHERS USE FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. NO CHANGE TO 1ST FLIGHT COUPON/FARE BREAKS\n       2. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       3. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       4. DL  FARES ARE USED\n       5. ALL RULE AND BOOKING CODE PROVISIONS ARE MET\n       6. ADV RES IS MEASURED FROM NEW TKT ISSUE DATE IF\n       CURRENT FARES/FROM PREVIOUS TKT ISSUE DATE IF\n       HISTORICAL FARES TO DEPARTURE OF PRICING UNIT\n      OR -\n      REPRICE USING FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. NO CHANGE TO 1ST FARE COMPONENT\n       2. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       3. DL  FARES ARE USED\n       4. ADV RES IS MEASURED FROM REISSUE DATE TO DEPARTURE\n       OF PRICING UNIT\n   WHEN CHANGE RESULTS IN LOWER FARE SUBTRACT RESIDUAL FROM\n   THE PENALTY THEN ADD-COLLECT/REFUND - REFUND VIA EMD\n   ENDORSEMENT BOX- HIGHER NON-REF AMT AND NEW ENDORSEMENTS.\n \n \n  OTHERWISE\n   ANYTIME WITHIN TKT VALIDITY\n     CHANGES EXCEPT RBD NOT PERMITTED TO THE FARE COMPONENT-\n     CHARGE HIGHEST FEE OF ALL CHANGED FARE COMPONENTS.\n"
+                    },
+                    {
+                        "Name": "RULE APPLICATION",
+                        "Url": null,
+                        "_": "FOR ECONOMY OW UNBUNDLED FARES\nBASIC ECONOMY FARES\n APPLICATION\n   CLASS OF SERVICE\n     THESE FARES APPLY FOR ECONOMY CLASS SERVICE.\n CAPACITY LIMITATIONS\n   SEATS ARE LIMITED\n OTHER CONDITIONS\n   NON REFUNDABLE FARES\n   CHANGES ALLOWED FOR TICKETING ON/BEFORE 31MAY20\n   NO PRERESERVED SEATS\n   UNUSED COUPONS HAVE NO RESIDUAL VALUE\n"
+                    },
+                    {
+                        "Name": "MINIMUM STAY",
+                        "Url": null,
+                        "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                    },
+                    {
+                        "Name": "MAXIMUM STAY",
+                        "Url": null,
+                        "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                    },
+                    {
+                        "Name": "SALES RESTRICTIONS",
+                        "Url": null,
+                        "_": " \n  TICKETS MAY NOT BE SOLD IN VENEZUELA/ZIMBABWE/ANGOLA/\n  GABON/CAMEROON/CHAD/CONGO (BRAZZAVILLE)/NIGERIA/MALAWI/\n  MOZAMBIQUE/RUSSIA (EAST OF THE URALS)/RUSSIA.\n  TICKETS MAY ONLY BE SOLD IN AREA 1/AREA 2/AREA 3.\n"
+                    },
+                    {
+                        "Name": "TRAVEL RESTRICTIONS",
+                        "Url": null,
+                        "_": " \n  VALID FOR TRAVEL COMMENCING ON EACH TRIP ON/AFTER\n  09SEP 21.\n"
+                    },
+                    {
+                        "Name": "ADVANCE PURCHASE",
+                        "Url": null,
+                        "_": "FOR XAWNA0BC TYPE FARES\n \n  RESERVATIONS FOR ALL SECTORS ARE REQUIRED AT LEAST 30 DAYS\n  BEFORE DEPARTURE OF EACH TRIP.\n  TICKETING FOR DEPARTURE OF EACH TRIP MUST BE COMPLETED\n  WITHIN 1 DAY AFTER RESERVATIONS ARE MADE OR AT LEAST 30\n  DAYS BEFORE DEPARTURE WHICHEVER IS EARLIER.\n"
+                    },
+                    {
+                        "Name": "FLIGHT APPLICATIONS",
+                        "Url": null,
+                        "_": " \n  THE FARE COMPONENT MUST BE ON\n      ONE OR MORE OF THE FOLLOWING\n        ANY DL FLIGHT.\n"
+                    },
+                    {
+                        "Name": "CHILDREN DISCOUNT",
+                        "Url": null,
+                        "_": " \n  1ST INFANT UNDER 2 WITHOUT A SEAT - NO CHARGE\n        TICKET DESIGNATOR - IN100.\n    MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME COMPARTMENT\n      AT THIS RULE BY ADULT\n  OR - INFANT UNDER 2 WITH A SEAT - CHARGE 100 PERCENT OF\n         THE FARE.\n         MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME\n           COMPARTMENT BY ADULT\n  OR - UNACCOMPANIED CHILD 5-14 - CHARGE 100 PERCENT OF THE\n         FARE.\n             TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT.\n         NOTE -\n          UNACCOMPANIED CHILDREN UNDER 5 YEARS OF AGE WILL\n          NOT BE ACCEPTED FOR CARRIAGE UNDER ANY CONDITIONS.\n          UNACCOMPANIED CHILDREN AGES 5 THROUGH 7 MAY TRAVEL\n          ON NON-STOP FLIGHTS ONLY AND MAY NOT CONNECT TO\n          OTHER AIRLINES.\n          CHILDREN AGES 8 THROUGH 14 MAY TRAVEL\n          UNACCOMPANIED ON DELTAS NON-STOP OR CONNECTING\n          FLIGHTS - BUT MAY NOT CONNECT TO OTHER AIRLINES\n          WITH THE EXCEPTION OF DELTA CONNECTION/KLM AND\n          AIR FRANCE.\n"
+                    },
+                    {
+                        "Name": "STOPOVERS",
+                        "Url": null,
+                        "_": " \n  NO STOPOVERS PERMITTED.\n"
+                    },
+                    {
+                        "Name": "TRANSFER",
+                        "Url": null,
+                        "_": " \n  2 TRANSFERS PERMITTED IN EACH DIRECTION\n    ONLINE ON THE PRIMARY CARRIER\n    FARE BREAK AND EMBEDDED SURFACE SECTORS NOT PERMITTED ON\n     THE FARE COMPONENT.\n"
+                    },
+                    {
+                        "Name": "SURCHARGE",
+                        "Url": null,
+                        "_": "FOR XAWNA0BC TYPE FARES\n \n  IF INFANT 0-1 WITHOUT A SEAT.\n    THERE IS NO CHARGE FOR TRAVEL PER FARE COMPONENT.\n \n  A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE ADDED\n  TO THE APPLICABLE FARE FOR TRAVEL ON 23DEC 23.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 26DEC 23.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 02JAN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 12JAN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 15JAN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        15FEB 24 THROUGH 16FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        19FEB 24 THROUGH 20FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 24FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 25FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        29FEB 24 THROUGH 01MAR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 23.25 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        02MAR 24 THROUGH 03MAR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 04MAR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON MON/THU\n        FROM 07MAR 24 THROUGH 15APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 32.56 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON FRI FROM\n        07MAR 24 THROUGH 15APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON SAT/SUN\n        FROM 07MAR 24 THROUGH 15APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        18APR 24 THROUGH 19APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 23.25 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        20APR 24 THROUGH 21APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 22APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        23MAY 24 THROUGH 24MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        27MAY 24 THROUGH 28MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 30MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 31MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 01JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 02JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 03JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 06JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 07JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 08JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 09JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 10JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 13JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 14JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 15JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 16JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 17JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 20JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 21JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 22JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 23JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 24JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 27JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 28JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 29JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 03JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 06JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 74.42 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 07JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 08JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 11JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 12JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 13JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 14JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 15JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 18JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 19JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 20JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 21JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 22JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 25JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 26JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 27JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 28JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 29JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 01AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 02AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 03AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 04AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 05AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 08AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 09AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 10AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 11AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 12AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n"
+                    },
+                    {
+                        "Name": "TICKET ENDORSEMENT",
+                        "Url": null,
+                        "_": " \n  THE ORIGINAL AND THE REISSUED TICKET MUST BE ANNOTATED -\n  NONREF - AND - NOPRE RSVDSEAT - IN THE ENDORSEMENT BOX.\n"
+                    },
+                    {
+                        "Name": "PENALTIES",
+                        "Url": null,
+                        "_": " \n  CANCELLATIONS\n \n    TICKET IS NON-REFUNDABLE IN CASE OF CANCEL.\n         NOTE -\n          TRAVEL AGENT REDEMPTION - REFER TO DELTA\n          PROFESSIONAL FOR ADDITIONAL INFORMATION.\n          WAIVER CODE REQUIRED.\n    TICKET IS NON-REFUNDABLE IN CASE OF NO-SHOW.\n         NOTE -\n          TICKET IS NON-REFUNDABLE AND HAS NO REMAINING\n          VALUE IN CASE OF NO-SHOW\n \n  CHANGES\n \n    ANY TIME\n      CHARGE USD 99.00/CAD 99.00 FOR REISSUE/REVALIDATION.\n      CHILD/INFANT DISCOUNTS APPLY.\n         NOTE -\n          TRAVEL AGENT REDEMPTION - REFER TO DELTA\n          PROFESSIONAL FOR ADDITIONAL INFORMATION.\n          WAIVER CODE REQUIRED.\n"
+                    },
+                    {
+                        "Name": "COMBINATIONS",
+                        "Url": null,
+                        "_": "FOR XAWNA0BC TYPE FARES\n   DOUBLE OPEN JAWS NOT PERMITTED.\n   APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN\n   MISCELLANEOUS PROVISIONS - CATEGORY 23.\n  END-ON-END\n    END-ON-END COMBINATIONS PERMITTED WITH DL  FARES.\n    VALIDATE ALL FARE COMPONENTS. SIDE TRIPS NOT PERMITTED.\n    ADJACENT LINE OF FLIGHT FARE BREAK POINTS MUST BE\n    STOPOVERS.\n   PROVIDED -\n     COMBINATIONS ARE WITH ANY ECONOMY OW UNBUNDLED/ECONOMY\n     RT UNBUNDLED-TYPE FARES.\n  OPEN JAWS/2-COMPONENT CIRCLE TRIPS/MULTI-COMPONENT CIRCLE\n  TRIPS\n    FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS WITH DL\n    FARES\n    -TO FORM SINGLE OPEN JAWS.\n     A MAXIMUM OF 2 FARE COMPONENTS PERMITTED.\n     MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN\n     MILEAGE OF THE SHORTEST FLOWN FARE COMPONENT.\n    -TO FORM 2-COMPONENT CIRCLE TRIPS\n    -TO FORM MULTI-COMPONENT CIRCLE TRIPS\n     A MAXIMUM OF 2 FARE BREAK POINTS PERMITTED.\n     FARE BREAK POINTS MUST BE STOPOVERS.\n   PROVIDED -\n     COMBINATIONS ARE WITH ANY ECONOMY OW UNBUNDLED/ECONOMY\n     RT UNBUNDLED-TYPE FARES IN ANY RULE AND TARIFF.\n NOTE - THE CITY PAIRS BELOW ARE CONSIDERED THE SAME POINT-\n        BWI-WAS  FLL-MIA  LAX-ONT  LAX-SNA  NYC-EWR  OAK-SFO\n        OAK-SJC  SFO-SJC  LAX-BUR\n"
+                    },
+                    {
+                        "Name": "REISSUE (VOLUNTARY CHANGES)",
+                        "Url": null,
+                        "_": " \n  THE PROVISIONS BELOW APPLY ONLY AS FOLLOWS -\n  SALE IS RESTRICTED TO SPECIFIC AGENTS.\n         NOTE -\n          CHANGES NOT PERMITTED.\n          USD 99.00/CAD 99.00 FOR CANCEL ONLY.\n          TRAVEL AGENT REDEMPTION - REFER TO DELTA\n          PROFESSIONAL FOR ADDITIONAL INFORMATION.\n          WAIVER CODE REQUIRED.\n  IN THE EVENT OF CHANGES TO TICKETED FLIGHTS\n   BEFORE DEPARTURE OF JOURNEY - APPLIES WITHIN TKT VALIDITY\n    CERTAIN DOMESTIC REISSUE PROVISIONS MAY BE OVERRIDDEN BY\n    THOSE OF DL  INTERNATIONAL FARES\n     CHARGE USD 99.00/CAD 99.00 FOR REISSUE OR HIGHEST FEE\n     OF ALL CHANGED FARE COMPONENTS -/CATEGORY 19 DISCOUNTS\n     APPLY - NO FEE FOR INFANTS W/O SEAT AND\n      REPRICE USING FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. DL  FARES ARE USED\n       2. ADV RES IS MEASURED FROM REISSUE DATE TO DEPARTURE\n       OF PRICING UNIT\n   WHEN CHANGE RESULTS IN LOWER FARE SUBTRACT RESIDUAL FROM\n   THE PENALTY THEN ADD-COLLECT/REFUND - REFUND VIA EMD\n   ENDORSEMENT BOX- HIGHER NON-REF AMT AND NEW ENDORSEMENTS.\n    OR -\n   AFTER DEPARTURE OF JOURNEY - APPLIES WITHIN TKT VALIDITY\n    CERTAIN DOMESTIC REISSUE PROVISIONS MAY BE OVERRIDDEN BY\n    THOSE OF DL  INTERNATIONAL FARES\n     CHARGE USD 99.00/CAD 99.00 FOR REISSUE OR HIGHEST FEE\n     OF ALL CHANGED FARE COMPONENTS -/CATEGORY 19 DISCOUNTS\n     APPLY - NO FEE FOR INFANTS W/O SEAT AND\n      REPRICE\n      A. FULLY FLOWN FARE COMPONENTS USE CURRENTLY TKTD FARE\n      B. ALL OTHERS USE FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. NO CHANGE TO 1ST FLIGHT COUPON/FARE BREAKS\n       2. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       3. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       4. DL  FARES ARE USED\n       5. ALL RULE AND BOOKING CODE PROVISIONS ARE MET\n       6. ADV RES IS MEASURED FROM NEW TKT ISSUE DATE IF\n       CURRENT FARES/FROM PREVIOUS TKT ISSUE DATE IF\n       HISTORICAL FARES TO DEPARTURE OF PRICING UNIT\n      OR -\n      REPRICE USING FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. NO CHANGE TO 1ST FARE COMPONENT\n       2. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       3. DL  FARES ARE USED\n       4. ADV RES IS MEASURED FROM REISSUE DATE TO DEPARTURE\n       OF PRICING UNIT\n   WHEN CHANGE RESULTS IN LOWER FARE SUBTRACT RESIDUAL FROM\n   THE PENALTY THEN ADD-COLLECT/REFUND - REFUND VIA EMD\n   ENDORSEMENT BOX- HIGHER NON-REF AMT AND NEW ENDORSEMENTS.\n \n \n  OTHERWISE\n   ANYTIME WITHIN TKT VALIDITY\n     CHANGES EXCEPT RBD NOT PERMITTED TO THE FARE COMPONENT-\n     CHARGE HIGHEST FEE OF ALL CHANGED FARE COMPONENTS.\n"
+                    },
+                    {
+                        "Name": "RULE APPLICATION",
+                        "Url": null,
+                        "_": "FOR ECONOMY OW UNBUNDLED FARES\nBASIC ECONOMY FARES\n APPLICATION\n   CLASS OF SERVICE\n     THESE FARES APPLY FOR ECONOMY CLASS SERVICE.\n CAPACITY LIMITATIONS\n   SEATS ARE LIMITED\n OTHER CONDITIONS\n   NON REFUNDABLE FARES\n   CHANGES ALLOWED FOR TICKETING ON/BEFORE 31MAY20\n   NO PRERESERVED SEATS\n   UNUSED COUPONS HAVE NO RESIDUAL VALUE\n"
+                    },
+                    {
+                        "Name": "MINIMUM STAY",
+                        "Url": null,
+                        "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                    },
+                    {
+                        "Name": "MAXIMUM STAY",
+                        "Url": null,
+                        "_": "  NONE UNLESS OTHERWISE SPECIFIED\n"
+                    },
+                    {
+                        "Name": "SALES RESTRICTIONS",
+                        "Url": null,
+                        "_": " \n  TICKETS MAY NOT BE SOLD IN VENEZUELA/ZIMBABWE/ANGOLA/\n  GABON/CAMEROON/CHAD/CONGO (BRAZZAVILLE)/NIGERIA/MALAWI/\n  MOZAMBIQUE/RUSSIA (EAST OF THE URALS)/RUSSIA.\n  TICKETS MAY ONLY BE SOLD IN AREA 1/AREA 2/AREA 3.\n"
+                    },
+                    {
+                        "Name": "TRAVEL RESTRICTIONS",
+                        "Url": null,
+                        "_": " \n  VALID FOR TRAVEL COMMENCING ON EACH TRIP ON/AFTER\n  09SEP 21.\n"
+                    },
+                    {
+                        "Name": "ADVANCE PURCHASE",
+                        "Url": null,
+                        "_": "FOR XAWNA0BC TYPE FARES\n \n  RESERVATIONS FOR ALL SECTORS ARE REQUIRED AT LEAST 30 DAYS\n  BEFORE DEPARTURE OF EACH TRIP.\n  TICKETING FOR DEPARTURE OF EACH TRIP MUST BE COMPLETED\n  WITHIN 1 DAY AFTER RESERVATIONS ARE MADE OR AT LEAST 30\n  DAYS BEFORE DEPARTURE WHICHEVER IS EARLIER.\n"
+                    },
+                    {
+                        "Name": "FLIGHT APPLICATIONS",
+                        "Url": null,
+                        "_": " \n  THE FARE COMPONENT MUST BE ON\n      ONE OR MORE OF THE FOLLOWING\n        ANY DL FLIGHT.\n"
+                    },
+                    {
+                        "Name": "CHILDREN DISCOUNT",
+                        "Url": null,
+                        "_": " \n  1ST INFANT UNDER 2 WITHOUT A SEAT - NO CHARGE\n        TICKET DESIGNATOR - IN100.\n    MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME COMPARTMENT\n      AT THIS RULE BY ADULT\n  OR - INFANT UNDER 2 WITH A SEAT - CHARGE 100 PERCENT OF\n         THE FARE.\n         MUST BE ACCOMPANIED ON ALL FLIGHTS IN SAME\n           COMPARTMENT BY ADULT\n  OR - UNACCOMPANIED CHILD 5-14 - CHARGE 100 PERCENT OF THE\n         FARE.\n             TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT.\n         NOTE -\n          UNACCOMPANIED CHILDREN UNDER 5 YEARS OF AGE WILL\n          NOT BE ACCEPTED FOR CARRIAGE UNDER ANY CONDITIONS.\n          UNACCOMPANIED CHILDREN AGES 5 THROUGH 7 MAY TRAVEL\n          ON NON-STOP FLIGHTS ONLY AND MAY NOT CONNECT TO\n          OTHER AIRLINES.\n          CHILDREN AGES 8 THROUGH 14 MAY TRAVEL\n          UNACCOMPANIED ON DELTAS NON-STOP OR CONNECTING\n          FLIGHTS - BUT MAY NOT CONNECT TO OTHER AIRLINES\n          WITH THE EXCEPTION OF DELTA CONNECTION/KLM AND\n          AIR FRANCE.\n"
+                    },
+                    {
+                        "Name": "STOPOVERS",
+                        "Url": null,
+                        "_": " \n  NO STOPOVERS PERMITTED.\n"
+                    },
+                    {
+                        "Name": "TRANSFER",
+                        "Url": null,
+                        "_": " \n  2 TRANSFERS PERMITTED IN EACH DIRECTION\n    ONLINE ON THE PRIMARY CARRIER\n    FARE BREAK AND EMBEDDED SURFACE SECTORS NOT PERMITTED ON\n     THE FARE COMPONENT.\n"
+                    },
+                    {
+                        "Name": "SURCHARGE",
+                        "Url": null,
+                        "_": "FOR XAWNA0BC TYPE FARES\n \n  IF INFANT 0-1 WITHOUT A SEAT.\n    THERE IS NO CHARGE FOR TRAVEL PER FARE COMPONENT.\n \n  A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE ADDED\n  TO THE APPLICABLE FARE FOR TRAVEL ON 23DEC 23.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 26DEC 23.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 02JAN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 12JAN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 15JAN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        15FEB 24 THROUGH 16FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        19FEB 24 THROUGH 20FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 24FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 25FEB 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        29FEB 24 THROUGH 01MAR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 23.25 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        02MAR 24 THROUGH 03MAR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 04MAR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON MON/THU\n        FROM 07MAR 24 THROUGH 15APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 32.56 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON FRI FROM\n        07MAR 24 THROUGH 15APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON SAT/SUN\n        FROM 07MAR 24 THROUGH 15APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        18APR 24 THROUGH 19APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 23.25 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        20APR 24 THROUGH 21APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 22APR 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        23MAY 24 THROUGH 24MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 18.60 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL FROM\n        27MAY 24 THROUGH 28MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 30MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 31MAY 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 01JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 02JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 03JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 06JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 07JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 08JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 09JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 10JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 13JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 14JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 15JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 16JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 17JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 20JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 21JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 22JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 23JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 24JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 27JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 28JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 29JUN 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 03JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 06JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 74.42 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 07JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 55.81 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 08JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 11JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 12JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 13JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 14JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 15JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 18JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 19JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 20JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 21JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 22JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 25JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 26JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 27JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 28JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 29JUL 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 01AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 02AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 03AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 04AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 05AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 08AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 09AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 27.91 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 10AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 11AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n  AND - A SURCHARGE OF USD 37.21 PER FARE COMPONENT WILL BE\n        ADDED TO THE APPLICABLE FARE FOR TRAVEL ON 12AUG 24.\n         NOTE -\n          THIS PEAK TRAVEL SURCHARGE IS ASSESSED ON A FARE\n          COMPONENT BASIS.\n"
+                    },
+                    {
+                        "Name": "TICKET ENDORSEMENT",
+                        "Url": null,
+                        "_": " \n  THE ORIGINAL AND THE REISSUED TICKET MUST BE ANNOTATED -\n  NONREF - AND - NOPRE RSVDSEAT - IN THE ENDORSEMENT BOX.\n"
+                    },
+                    {
+                        "Name": "PENALTIES",
+                        "Url": null,
+                        "_": " \n  CANCELLATIONS\n \n    TICKET IS NON-REFUNDABLE IN CASE OF CANCEL.\n         NOTE -\n          TRAVEL AGENT REDEMPTION - REFER TO DELTA\n          PROFESSIONAL FOR ADDITIONAL INFORMATION.\n          WAIVER CODE REQUIRED.\n    TICKET IS NON-REFUNDABLE IN CASE OF NO-SHOW.\n         NOTE -\n          TICKET IS NON-REFUNDABLE AND HAS NO REMAINING\n          VALUE IN CASE OF NO-SHOW\n \n  CHANGES\n \n    ANY TIME\n      CHARGE USD 99.00/CAD 99.00 FOR REISSUE/REVALIDATION.\n      CHILD/INFANT DISCOUNTS APPLY.\n         NOTE -\n          TRAVEL AGENT REDEMPTION - REFER TO DELTA\n          PROFESSIONAL FOR ADDITIONAL INFORMATION.\n          WAIVER CODE REQUIRED.\n"
+                    },
+                    {
+                        "Name": "COMBINATIONS",
+                        "Url": null,
+                        "_": "FOR XAWNA0BC TYPE FARES\n   DOUBLE OPEN JAWS NOT PERMITTED.\n   APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN\n   MISCELLANEOUS PROVISIONS - CATEGORY 23.\n  END-ON-END\n    END-ON-END COMBINATIONS PERMITTED WITH DL  FARES.\n    VALIDATE ALL FARE COMPONENTS. SIDE TRIPS NOT PERMITTED.\n    ADJACENT LINE OF FLIGHT FARE BREAK POINTS MUST BE\n    STOPOVERS.\n   PROVIDED -\n     COMBINATIONS ARE WITH ANY ECONOMY OW UNBUNDLED/ECONOMY\n     RT UNBUNDLED-TYPE FARES.\n  OPEN JAWS/2-COMPONENT CIRCLE TRIPS/MULTI-COMPONENT CIRCLE\n  TRIPS\n    FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS WITH DL\n    FARES\n    -TO FORM SINGLE OPEN JAWS.\n     A MAXIMUM OF 2 FARE COMPONENTS PERMITTED.\n     MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN\n     MILEAGE OF THE SHORTEST FLOWN FARE COMPONENT.\n    -TO FORM 2-COMPONENT CIRCLE TRIPS\n    -TO FORM MULTI-COMPONENT CIRCLE TRIPS\n     A MAXIMUM OF 2 FARE BREAK POINTS PERMITTED.\n     FARE BREAK POINTS MUST BE STOPOVERS.\n   PROVIDED -\n     COMBINATIONS ARE WITH ANY ECONOMY OW UNBUNDLED/ECONOMY\n     RT UNBUNDLED-TYPE FARES IN ANY RULE AND TARIFF.\n NOTE - THE CITY PAIRS BELOW ARE CONSIDERED THE SAME POINT-\n        BWI-WAS  FLL-MIA  LAX-ONT  LAX-SNA  NYC-EWR  OAK-SFO\n        OAK-SJC  SFO-SJC  LAX-BUR\n"
+                    },
+                    {
+                        "Name": "REISSUE (VOLUNTARY CHANGES)",
+                        "Url": null,
+                        "_": " \n  THE PROVISIONS BELOW APPLY ONLY AS FOLLOWS -\n  SALE IS RESTRICTED TO SPECIFIC AGENTS.\n         NOTE -\n          CHANGES NOT PERMITTED.\n          USD 99.00/CAD 99.00 FOR CANCEL ONLY.\n          TRAVEL AGENT REDEMPTION - REFER TO DELTA\n          PROFESSIONAL FOR ADDITIONAL INFORMATION.\n          WAIVER CODE REQUIRED.\n  IN THE EVENT OF CHANGES TO TICKETED FLIGHTS\n   BEFORE DEPARTURE OF JOURNEY - APPLIES WITHIN TKT VALIDITY\n    CERTAIN DOMESTIC REISSUE PROVISIONS MAY BE OVERRIDDEN BY\n    THOSE OF DL  INTERNATIONAL FARES\n     CHARGE USD 99.00/CAD 99.00 FOR REISSUE OR HIGHEST FEE\n     OF ALL CHANGED FARE COMPONENTS -/CATEGORY 19 DISCOUNTS\n     APPLY - NO FEE FOR INFANTS W/O SEAT AND\n      REPRICE USING FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. DL  FARES ARE USED\n       2. ADV RES IS MEASURED FROM REISSUE DATE TO DEPARTURE\n       OF PRICING UNIT\n   WHEN CHANGE RESULTS IN LOWER FARE SUBTRACT RESIDUAL FROM\n   THE PENALTY THEN ADD-COLLECT/REFUND - REFUND VIA EMD\n   ENDORSEMENT BOX- HIGHER NON-REF AMT AND NEW ENDORSEMENTS.\n    OR -\n   AFTER DEPARTURE OF JOURNEY - APPLIES WITHIN TKT VALIDITY\n    CERTAIN DOMESTIC REISSUE PROVISIONS MAY BE OVERRIDDEN BY\n    THOSE OF DL  INTERNATIONAL FARES\n     CHARGE USD 99.00/CAD 99.00 FOR REISSUE OR HIGHEST FEE\n     OF ALL CHANGED FARE COMPONENTS -/CATEGORY 19 DISCOUNTS\n     APPLY - NO FEE FOR INFANTS W/O SEAT AND\n      REPRICE\n      A. FULLY FLOWN FARE COMPONENTS USE CURRENTLY TKTD FARE\n      B. ALL OTHERS USE FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. NO CHANGE TO 1ST FLIGHT COUPON/FARE BREAKS\n       2. WHEN NO INTL COUPONS REMAIN - ALL NEW TRAVEL MUST\n       BE DOMESTIC\n       3. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       4. DL  FARES ARE USED\n       5. ALL RULE AND BOOKING CODE PROVISIONS ARE MET\n       6. ADV RES IS MEASURED FROM NEW TKT ISSUE DATE IF\n       CURRENT FARES/FROM PREVIOUS TKT ISSUE DATE IF\n       HISTORICAL FARES TO DEPARTURE OF PRICING UNIT\n      OR -\n      REPRICE USING FARES IN EFFECT TODAY\n       PROVIDED ALL OF THE FOLLOWING CONDITIONS ARE MET-\n       1. NO CHANGE TO 1ST FARE COMPONENT\n       2. FULLY FLOWN FARE NOT REPRICED TO FURTHER POINT\n       3. DL  FARES ARE USED\n       4. ADV RES IS MEASURED FROM REISSUE DATE TO DEPARTURE\n       OF PRICING UNIT\n   WHEN CHANGE RESULTS IN LOWER FARE SUBTRACT RESIDUAL FROM\n   THE PENALTY THEN ADD-COLLECT/REFUND - REFUND VIA EMD\n   ENDORSEMENT BOX- HIGHER NON-REF AMT AND NEW ENDORSEMENTS.\n \n \n  OTHERWISE\n   ANYTIME WITHIN TKT VALIDITY\n     CHANGES EXCEPT RBD NOT PERMITTED TO THE FARE COMPONENT-\n     CHARGE HIGHEST FEE OF ALL CHANGED FARE COMPONENTS.\n"
+                    }
+                ]
+            }
+        ]
+    },
+    "FareDetails": {
+        "Currency": "EUR",
+        "BaseFare": "233",
+        "FullFare": "295.76",
+        "ServiceFee": "15",
+        "NonRefundable": null,
+        "PaxFare": [
+            {
+                "PTC": "ADT",
+                "Count": "1",
+                "Currency": "EUR",
+                "BaseFare": "233",
+                "FullFare": "295.76",
+                "ServiceFee": "15",
+                "FareBasis": "XAWNA0BC,XAWNA0BC,XAWNA0BC,XAWNA0BC",
+                "BaggageAllowance": [
+                    {
+                        "Baggage": {
+                            "Allowed": "0 PC",
+                            "CarryOn": null
+                        },
+                        "Segment": {
+                            "Origin": {
+                                "Date": "2023-11-16",
+                                "Time": null,
+                                "Terminal": null,
+                                "Airport": {
+                                    "City": "Omaha",
+                                    "CityId": null,
+                                    "_": "Eppley Airfield",
+                                    "Code": "OMA",
+                                    "CityCode": "OMA"
+                                }
+                            },
+                            "Destination": {
+                                "Date": "2023-11-16",
+                                "Time": null,
+                                "Terminal": null,
+                                "Airport": {
+                                    "City": "Salt Lake City",
+                                    "CityId": null,
+                                    "_": "Salt Lake City Intl Arpt",
+                                    "Code": "SLC",
+                                    "CityCode": "SLC"
+                                }
+                            },
+                            "Carrier": {
+                                "Marketing": {
+                                    "Code": "DL",
+                                    "_": "Delta Air Lines"
+                                },
+                                "Operating": null
+                            },
+                            "Flight": {
+                                "Number": "3896",
+                                "Class": null,
+                                "NumberOfSeats": null,
+                                "Meal": null,
+                                "StopTime": null,
+                                "Duration": null,
+                                "CabinType": null
+                            },
+                            "Aircraft": null,
+                            "Secured": "false",
+                            "TechnicalStop": null,
+                            "BaggageAllowance": null
+                        }
+                    },
+                    {
+                        "Baggage": {
+                            "Allowed": "0 PC",
+                            "CarryOn": null
+                        },
+                        "Segment": {
+                            "Origin": {
+                                "Date": "2023-11-16",
+                                "Time": null,
+                                "Terminal": null,
+                                "Airport": {
+                                    "City": "Salt Lake City",
+                                    "CityId": null,
+                                    "_": "Salt Lake City Intl Arpt",
+                                    "Code": "SLC",
+                                    "CityCode": "SLC"
+                                }
+                            },
+                            "Destination": {
+                                "Date": "2023-11-16",
+                                "Time": null,
+                                "Terminal": null,
+                                "Airport": {
+                                    "City": "Houston",
+                                    "CityId": null,
+                                    "_": "Houston George Bush Intercont Arpt",
+                                    "Code": "IAH",
+                                    "CityCode": "HOU"
+                                }
+                            },
+                            "Carrier": {
+                                "Marketing": {
+                                    "Code": "DL",
+                                    "_": "Delta Air Lines"
+                                },
+                                "Operating": null
+                            },
+                            "Flight": {
+                                "Number": "1533",
+                                "Class": null,
+                                "NumberOfSeats": null,
+                                "Meal": null,
+                                "StopTime": null,
+                                "Duration": null,
+                                "CabinType": null
+                            },
+                            "Aircraft": null,
+                            "Secured": "false",
+                            "TechnicalStop": null,
+                            "BaggageAllowance": null
+                        }
+                    },
+                    {
+                        "Baggage": {
+                            "Allowed": "0 PC",
+                            "CarryOn": null
+                        },
+                        "Segment": {
+                            "Origin": {
+                                "Date": "2023-11-18",
+                                "Time": null,
+                                "Terminal": null,
+                                "Airport": {
+                                    "City": "Houston",
+                                    "CityId": null,
+                                    "_": "Houston George Bush Intercont Arpt",
+                                    "Code": "IAH",
+                                    "CityCode": "HOU"
+                                }
+                            },
+                            "Destination": {
+                                "Date": "2023-11-18",
+                                "Time": null,
+                                "Terminal": null,
+                                "Airport": {
+                                    "City": "Minneapolis",
+                                    "CityId": null,
+                                    "_": "Minneapolis St Paul International Arpt",
+                                    "Code": "MSP",
+                                    "CityCode": "MSP"
+                                }
+                            },
+                            "Carrier": {
+                                "Marketing": {
+                                    "Code": "DL",
+                                    "_": "Delta Air Lines"
+                                },
+                                "Operating": null
+                            },
+                            "Flight": {
+                                "Number": "1050",
+                                "Class": null,
+                                "NumberOfSeats": null,
+                                "Meal": null,
+                                "StopTime": null,
+                                "Duration": null,
+                                "CabinType": null
+                            },
+                            "Aircraft": null,
+                            "Secured": "false",
+                            "TechnicalStop": null,
+                            "BaggageAllowance": null
+                        }
+                    },
+                    {
+                        "Baggage": {
+                            "Allowed": "0 PC",
+                            "CarryOn": null
+                        },
+                        "Segment": {
+                            "Origin": {
+                                "Date": "2023-11-18",
+                                "Time": null,
+                                "Terminal": null,
+                                "Airport": {
+                                    "City": "Minneapolis",
+                                    "CityId": null,
+                                    "_": "Minneapolis St Paul International Arpt",
+                                    "Code": "MSP",
+                                    "CityCode": "MSP"
+                                }
+                            },
+                            "Destination": {
+                                "Date": "2023-11-18",
+                                "Time": null,
+                                "Terminal": null,
+                                "Airport": {
+                                    "City": "Omaha",
+                                    "CityId": null,
+                                    "_": "Eppley Airfield",
+                                    "Code": "OMA",
+                                    "CityCode": "OMA"
+                                }
+                            },
+                            "Carrier": {
+                                "Marketing": {
+                                    "Code": "DL",
+                                    "_": "Delta Air Lines"
+                                },
+                                "Operating": null
+                            },
+                            "Flight": {
+                                "Number": "3838",
+                                "Class": null,
+                                "NumberOfSeats": null,
+                                "Meal": null,
+                                "StopTime": null,
+                                "Duration": null,
+                                "CabinType": null
+                            },
+                            "Aircraft": null,
+                            "Secured": "false",
+                            "TechnicalStop": null,
+                            "BaggageAllowance": null
+                        }
+                    }
+                ]
+            }
+        ],
+        "TimeLimit": {
+            "Date": "2023-09-18T23:59:00",
+            "_": "2023-09-19"
+        },
+        "ValidatingCarrier": {
+            "Code": "AF",
+            "_": "Air France"
+        },
+        "IsAutoTicketable": "false",
+        "BrandedFare": {
+            "BrandDetails": [
+                {
+                    "Name": "BASIC ECONOMY",
+                    "Code": "BASICECON",
+                    "From": "OMA",
+                    "To": "HOU",
+                    "Cabin": null,
+                    "FareType": null,
+                    "Description": null,
+                    "Services": {
+                        "Service": [
+                            {
+                                "Name": "CARRY ON UP TO 45 LI 115 LCM",
+                                "AtpcoGroup": "BG",
+                                "AtpcoSubGroup": "CY",
+                                "AtpcoCode": "0MU",
+                                "ChargeType": "included",
+                                "CategoryCode": "CY",
+                                "CategoryName": "carry on baggage"
+                            },
+                            {
+                                "Name": "LAST TO BOARD",
+                                "AtpcoGroup": "TS",
+                                "AtpcoSubGroup": "PR",
+                                "AtpcoCode": "BRD",
+                                "ChargeType": "included",
+                                "CategoryCode": "TS",
+                                "CategoryName": "travel services"
+                            },
+                            {
+                                "Name": "LIMITED OVERHEAD BIN SPACE",
+                                "AtpcoGroup": "TS",
+                                "AtpcoSubGroup": "PR",
+                                "AtpcoCode": "BIN",
+                                "ChargeType": "included",
+                                "CategoryCode": "TS",
+                                "CategoryName": "travel services"
+                            },
+                            {
+                                "Name": "SNACK",
+                                "AtpcoGroup": "ML",
+                                "AtpcoSubGroup": "SN",
+                                "AtpcoCode": "0AT",
+                                "ChargeType": "included",
+                                "CategoryCode": "ML",
+                                "CategoryName": "meal beverage"
+                            },
+                            {
+                                "Name": "INFLIGHT ENT",
+                                "AtpcoGroup": "IE",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "OEA",
+                                "ChargeType": "included",
+                                "CategoryCode": "IE",
+                                "CategoryName": "in flight entertainment"
+                            },
+                            {
+                                "Name": "FIRST BAG 23K 50LB 62LI 158LCM",
+                                "AtpcoGroup": "BG",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "BG1",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "BG",
+                                "CategoryName": "baggage"
+                            },
+                            {
+                                "Name": "SECOND BAG 23K50LB 62LI 158LCM",
+                                "AtpcoGroup": "BG",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "BG2",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "BG",
+                                "CategoryName": "baggage"
+                            },
+                            {
+                                "Name": "CANCELLATION TO ECREDIT",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": "VC",
+                                "AtpcoCode": "CXL",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "VC",
+                                "CategoryName": "voluntary change"
+                            },
+                            {
+                                "Name": "ALCOHOLIC DRINK",
+                                "AtpcoGroup": "ML",
+                                "AtpcoSubGroup": "DR",
+                                "AtpcoCode": "0AV",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "ML",
+                                "CategoryName": "meal beverage"
+                            },
+                            {
+                                "Name": "INTERNET ACCESS",
+                                "AtpcoGroup": "IE",
+                                "AtpcoSubGroup": "IT",
+                                "AtpcoCode": "0CL",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "IE",
+                                "CategoryName": "in flight entertainment"
+                            },
+                            {
+                                "Name": "UNACCOMPANIED MINOR",
+                                "AtpcoGroup": "UN",
+                                "AtpcoSubGroup": "MR",
+                                "AtpcoCode": "0BH",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            },
+                            {
+                                "Name": "PRE RESERVED SEAT ASSIGNMENT",
+                                "AtpcoGroup": "SA",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "0B5",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "SE",
+                                "CategoryName": "seat"
+                            },
+                            {
+                                "Name": "CHANGEABLE TICKET",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": "VC",
+                                "AtpcoCode": "059",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "VC",
+                                "CategoryName": "voluntary change"
+                            },
+                            {
+                                "Name": "REFUNDABLE TICKET",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": "RF",
+                                "AtpcoCode": "056",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            },
+                            {
+                                "Name": "MILEAGE ACCRUAL",
+                                "AtpcoGroup": "FF",
+                                "AtpcoSubGroup": "MG",
+                                "AtpcoCode": "0CM",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "FF",
+                                "CategoryName": "frequent flyer"
+                            },
+                            {
+                                "Name": "UPGRADE ELIGIBILITY",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": "UE",
+                                "AtpcoCode": "058",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            },
+                            {
+                                "Name": "SAME DAY CHANGE",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": "VC",
+                                "AtpcoCode": "08S",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "VC",
+                                "CategoryName": "voluntary change"
+                            },
+                            {
+                                "Name": "STANDBY",
+                                "AtpcoGroup": "SB",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "0BV",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            },
+                            {
+                                "Name": "STANDARD BOARDING",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "SBO",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            },
+                            {
+                                "Name": "PRIORITY BOARDING",
+                                "AtpcoGroup": "TS",
+                                "AtpcoSubGroup": "PR",
+                                "AtpcoCode": "0G6",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "TS",
+                                "CategoryName": "travel services"
+                            },
+                            {
+                                "Name": "PRIORITY CHECK IN",
+                                "AtpcoGroup": "TS",
+                                "AtpcoSubGroup": "PO",
+                                "AtpcoCode": "03P",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "TS",
+                                "CategoryName": "travel services"
+                            },
+                            {
+                                "Name": "STATUS ACCRUAL",
+                                "AtpcoGroup": "FF",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "MDL",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "FF",
+                                "CategoryName": "frequent flyer"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "BASIC ECONOMY",
+                    "Code": "BASICECON",
+                    "From": "HOU",
+                    "To": "OMA",
+                    "Cabin": null,
+                    "FareType": null,
+                    "Description": null,
+                    "Services": {
+                        "Service": [
+                            {
+                                "Name": "CARRY ON UP TO 45 LI 115 LCM",
+                                "AtpcoGroup": "BG",
+                                "AtpcoSubGroup": "CY",
+                                "AtpcoCode": "0MU",
+                                "ChargeType": "included",
+                                "CategoryCode": "CY",
+                                "CategoryName": "carry on baggage"
+                            },
+                            {
+                                "Name": "LAST TO BOARD",
+                                "AtpcoGroup": "TS",
+                                "AtpcoSubGroup": "PR",
+                                "AtpcoCode": "BRD",
+                                "ChargeType": "included",
+                                "CategoryCode": "TS",
+                                "CategoryName": "travel services"
+                            },
+                            {
+                                "Name": "LIMITED OVERHEAD BIN SPACE",
+                                "AtpcoGroup": "TS",
+                                "AtpcoSubGroup": "PR",
+                                "AtpcoCode": "BIN",
+                                "ChargeType": "included",
+                                "CategoryCode": "TS",
+                                "CategoryName": "travel services"
+                            },
+                            {
+                                "Name": "SNACK",
+                                "AtpcoGroup": "ML",
+                                "AtpcoSubGroup": "SN",
+                                "AtpcoCode": "0AT",
+                                "ChargeType": "included",
+                                "CategoryCode": "ML",
+                                "CategoryName": "meal beverage"
+                            },
+                            {
+                                "Name": "INFLIGHT ENT",
+                                "AtpcoGroup": "IE",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "OEA",
+                                "ChargeType": "included",
+                                "CategoryCode": "IE",
+                                "CategoryName": "in flight entertainment"
+                            },
+                            {
+                                "Name": "FIRST BAG 23K 50LB 62LI 158LCM",
+                                "AtpcoGroup": "BG",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "BG1",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "BG",
+                                "CategoryName": "baggage"
+                            },
+                            {
+                                "Name": "SECOND BAG 23K50LB 62LI 158LCM",
+                                "AtpcoGroup": "BG",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "BG2",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "BG",
+                                "CategoryName": "baggage"
+                            },
+                            {
+                                "Name": "CANCELLATION TO ECREDIT",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": "VC",
+                                "AtpcoCode": "CXL",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "VC",
+                                "CategoryName": "voluntary change"
+                            },
+                            {
+                                "Name": "ALCOHOLIC DRINK",
+                                "AtpcoGroup": "ML",
+                                "AtpcoSubGroup": "DR",
+                                "AtpcoCode": "0AV",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "ML",
+                                "CategoryName": "meal beverage"
+                            },
+                            {
+                                "Name": "INTERNET ACCESS",
+                                "AtpcoGroup": "IE",
+                                "AtpcoSubGroup": "IT",
+                                "AtpcoCode": "0CL",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "IE",
+                                "CategoryName": "in flight entertainment"
+                            },
+                            {
+                                "Name": "UNACCOMPANIED MINOR",
+                                "AtpcoGroup": "UN",
+                                "AtpcoSubGroup": "MR",
+                                "AtpcoCode": "0BH",
+                                "ChargeType": "chargeable",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            },
+                            {
+                                "Name": "PRE RESERVED SEAT ASSIGNMENT",
+                                "AtpcoGroup": "SA",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "0B5",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "SE",
+                                "CategoryName": "seat"
+                            },
+                            {
+                                "Name": "CHANGEABLE TICKET",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": "VC",
+                                "AtpcoCode": "059",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "VC",
+                                "CategoryName": "voluntary change"
+                            },
+                            {
+                                "Name": "REFUNDABLE TICKET",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": "RF",
+                                "AtpcoCode": "056",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            },
+                            {
+                                "Name": "MILEAGE ACCRUAL",
+                                "AtpcoGroup": "FF",
+                                "AtpcoSubGroup": "MG",
+                                "AtpcoCode": "0CM",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "FF",
+                                "CategoryName": "frequent flyer"
+                            },
+                            {
+                                "Name": "UPGRADE ELIGIBILITY",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": "UE",
+                                "AtpcoCode": "058",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            },
+                            {
+                                "Name": "SAME DAY CHANGE",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": "VC",
+                                "AtpcoCode": "08S",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "VC",
+                                "CategoryName": "voluntary change"
+                            },
+                            {
+                                "Name": "STANDBY",
+                                "AtpcoGroup": "SB",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "0BV",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            },
+                            {
+                                "Name": "STANDARD BOARDING",
+                                "AtpcoGroup": "BF",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "SBO",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "OTHER",
+                                "CategoryName": "OTHER"
+                            },
+                            {
+                                "Name": "PRIORITY BOARDING",
+                                "AtpcoGroup": "TS",
+                                "AtpcoSubGroup": "PR",
+                                "AtpcoCode": "0G6",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "TS",
+                                "CategoryName": "travel services"
+                            },
+                            {
+                                "Name": "PRIORITY CHECK IN",
+                                "AtpcoGroup": "TS",
+                                "AtpcoSubGroup": "PO",
+                                "AtpcoCode": "03P",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "TS",
+                                "CategoryName": "travel services"
+                            },
+                            {
+                                "Name": "STATUS ACCRUAL",
+                                "AtpcoGroup": "FF",
+                                "AtpcoSubGroup": null,
+                                "AtpcoCode": "MDL",
+                                "ChargeType": "notOffered",
+                                "CategoryCode": "FF",
+                                "CategoryName": "frequent flyer"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "CorporateFare": null
+    },
+    "OfferConfiguration": {
+        "ContactDetails": {
+            "Required": "false"
+        },
+        "IdentificationDocument": {
+            "Required": "true",
+            "IssueDate": {
+                "Required": "false"
+            }
+        },
+        "FrequentFlyerCard": {
+            "Required": "false",
+            "IssueDate": {
+                "Required": "false"
+            },
+            "ExpiryDate": {
+                "Required": "false"
+            }
+        },
+        "OSIRemarks": {
+            "Allowed": "false"
+        },
+        "Birthdate": {
+            "Required": "true",
+            "PTCList": {
+                "ADT": "true",
+                "YTH": "true",
+                "SEN": "true",
+                "CHD": "true",
+                "INF": "true",
+                "INS": "true"
+            }
+        }
+    },
+    "PaymentMethods": [
+        "credit",
+        "bank",
+        "cash"
+    ],
+    "PaymentBefore": 0,
+    "System": null,
+    "OptionalServices": {
+        "OptionalService": [
+            {
+                "BookingCode": "f75a38ba-53ce-5bb3-af41-96605c5710a6",
+                "Included": "true",
+                "Route": {
+                    "From": "OMA",
+                    "To": "OMA"
+                },
+                "Target": "ADT",
+                "PassengerIndex": "0",
+                "Service": {
+                    "Name": "CARRY ON UP TO 45 LI 115 LCM",
+                    "AtpcoGroup": "BG",
+                    "AtpcoSubGroup": "CY",
+                    "AtpcoCode": null,
+                    "ChargeType": null,
+                    "CategoryCode": "CY",
+                    "CategoryName": "carry on baggage"
+                },
+                "Options": null
+            },
+            {
+                "BookingCode": "a24b360e-5c66-559d-894f-5693554ea8b5",
+                "Included": "true",
+                "Route": {
+                    "From": "OMA",
+                    "To": "OMA"
+                },
+                "Target": "ADT",
+                "PassengerIndex": "0",
+                "Service": {
+                    "Name": "LAST TO BOARD",
+                    "AtpcoGroup": "TS",
+                    "AtpcoSubGroup": "PR",
+                    "AtpcoCode": null,
+                    "ChargeType": null,
+                    "CategoryCode": "TS",
+                    "CategoryName": "travel services"
+                },
+                "Options": null
+            },
+            {
+                "BookingCode": "593f1188-ee8c-5598-81aa-41cb3a0759a5",
+                "Included": "true",
+                "Route": {
+                    "From": "OMA",
+                    "To": "OMA"
+                },
+                "Target": "ADT",
+                "PassengerIndex": "0",
+                "Service": {
+                    "Name": "LIMITED OVERHEAD BIN SPACE",
+                    "AtpcoGroup": "TS",
+                    "AtpcoSubGroup": "PR",
+                    "AtpcoCode": null,
+                    "ChargeType": null,
+                    "CategoryCode": "TS",
+                    "CategoryName": "travel services"
+                },
+                "Options": null
+            },
+            {
+                "BookingCode": "b3f06fd9-bea8-582c-91b1-5cd3acfa2808",
+                "Included": "true",
+                "Route": {
+                    "From": "OMA",
+                    "To": "OMA"
+                },
+                "Target": "ADT",
+                "PassengerIndex": "0",
+                "Service": {
+                    "Name": "SNACK",
+                    "AtpcoGroup": "ML",
+                    "AtpcoSubGroup": "SN",
+                    "AtpcoCode": null,
+                    "ChargeType": null,
+                    "CategoryCode": "ML",
+                    "CategoryName": "meal beverage"
+                },
+                "Options": null
+            },
+            {
+                "BookingCode": "8eebc93c-d3a8-58c4-86e7-71cc4f245f44",
+                "Included": "true",
+                "Route": {
+                    "From": "OMA",
+                    "To": "OMA"
+                },
+                "Target": "ADT",
+                "PassengerIndex": "0",
+                "Service": {
+                    "Name": "INFLIGHT ENT",
+                    "AtpcoGroup": "IE",
+                    "AtpcoSubGroup": null,
+                    "AtpcoCode": null,
+                    "ChargeType": null,
+                    "CategoryCode": "IE",
+                    "CategoryName": "in flight entertainment"
+                },
+                "Options": null
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "https://89.47.228.69/rest/app/clients/online/public/api.php/v3/flights/AIR-WS-49594b982e0d57e3c15e990238fee93b/flight/4fda6aad87f7bb3aca7a876e779de985ca311d77:0"
+        }
+    }
+}

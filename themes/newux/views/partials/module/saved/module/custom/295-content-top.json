@@ -1,0 +1,45 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "button",
+                                        "mod_data": {
+                                            "props": {
+                                                "variant": "outlined",
+                                                "text": "Înapoi la BLOG",
+                                                "color": "",
+                                                "class": "v-btn--size-large",
+                                                "href": "/blog"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "section-title",
+                                        "text": "",
+                                        "status": true,
+                                        "mod_data": {
+                                            "title": "<h1>Pregătește-te de o doză de urban-cool-vibes în Oradea!</h1>",
+                                            "html": ""
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "style": "",
+                                    "cols": 12
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            }
+        ]
+    },
+    "name": "295-content-top"
+}

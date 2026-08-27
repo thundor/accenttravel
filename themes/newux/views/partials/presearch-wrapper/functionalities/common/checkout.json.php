@@ -1,0 +1,309 @@
+<?php
+$this->theme->set_theme('accent');
+$this->theme->set_layout('blank');
+$this->theme->set_sublayout('frontend/blank/index');
+
+$post_data = $this->input->post();
+$coupon_code = isset($post_data['coupon_code']) && !empty($post_data['coupon_code']) ? $post_data['coupon_code'] : NULL;
+$payment_method = isset($post_data['payment_method']) && !empty($post_data['payment_method']) ? $post_data['payment_method'] : 'free';
+$payment_gateway = isset($post_data['payment_gateway']) && !empty($post_data['payment_gateway']) ? $post_data['payment_gateway'] : NULL;
+$data = isset($post_data['data']) && !empty($post_data['data']) ? (array)$post_data['data'] : [];
+$billing_person = isset($post_data['billing_person']) && !empty($post_data['billing_person']) ? (array)$post_data['billing_person'] : [];
+$BillCompany = filter_var(isset($billing_person['BillCompany']) && !empty($billing_person['BillCompany']) ? $billing_person['BillCompany'] : NULL, FILTER_VALIDATE_BOOLEAN);
+
+$user_invoice = !$BillCompany ? 'pf' : 'pj';
+
+$Address = isset($billing_person['Address']) && !empty($billing_person['Address']) ? (array)$billing_person['Address'] : [];
+$AddressCountry = isset($Address['Country']) && !empty($Address['Country']) ? $Address['Country'] : 'RO';
+$AddressCity = isset($Address['City']) && !empty($Address['City']) ? $Address['City'] : '';
+$AddressAddress = isset($Address['Details']) && !empty($Address['Details']) ? $Address['Details'] : '';
+$AddressStreet = isset($Address['Street']) && !empty($Address['Street']) ? $Address['Street'] : '';
+$AddressStreetNo = isset($Address['StreetNo']) && !empty($Address['StreetNo']) ? $Address['StreetNo'] : '-';
+$AddressPostalCode = isset($Address['PostalCode']) && !empty($Address['PostalCode']) ? $Address['PostalCode'] : '';
+
+$Firstname = isset($billing_person['Firstname']) && !empty($billing_person['Firstname']) ? $billing_person['Firstname'] : '';
+$Name = isset($billing_person['Name']) && !empty($billing_person['Name']) ? $billing_person['Name'] : '';
+$Email = isset($billing_person['Email']) && !empty($billing_person['Email']) ? $billing_person['Email'] : '';
+$Phone = isset($billing_person['Phone']) && !empty($billing_person['Phone']) ? $billing_person['Phone'] : '';
+
+$Company = isset($billing_person['Company']) && !empty($billing_person['Company']) ? (array)$billing_person['Company'] : [];
+
+$CompanyName = isset($Company['Name']) && !empty($Company['Name']) ? $Company['Name'] : '';
+$CompanyCUI = isset($Company['TaxIdentificationNo']) && !empty($Company['TaxIdentificationNo']) ? $Company['TaxIdentificationNo'] : '';
+$CompanyONRC = isset($Company['RegistrationNo']) && !empty($Company['RegistrationNo']) ? $Company['RegistrationNo'] : '-';
+$CompanyBANK = isset($Company['Bank']) && !empty($Company['Bank']) ? $Company['Bank'] : '-';
+$CompanyIBAN = isset($Company['BankAccount']) && !empty($Company['BankAccount']) ? $Company['BankAccount'] : '-';
+
+$CompanyHeadOffice = isset($Company['HeadOffice']) && !empty($Company['HeadOffice']) ? $Company['HeadOffice'] : [];
+$CompanyHeadOfficeAddress = isset($CompanyHeadOffice['Details']) && !empty($CompanyHeadOffice['Details']) ? $CompanyHeadOffice['Details'] : '';
+
+// echo '<pre>';
+//var_dump($type);
+// print_r($_POST);
+// die;
+$post = $_POST;
+
+// array_walk_recursive($post, function(&$value){
+  // $value = urldecode($value);
+// });
+// echo htmlspecialchars(print_r($_POST,true));
+// die;
+$billing = $post['billing'] ?? array();
+$_POST = array();
+$_POST['expectedPrice'] = $post['expectedPrice'] ?? null; 
+$_POST['SearchId'] = $post['SearchId'] ?? null; 
+$_POST['OfferId'] = $post['OfferId'] ?? null; 
+$_POST['ProductCode'] = $post['ProductCode'] ?? null; 
+$_POST['search_data'] = $post['search_data'] ?? null; 
+$_POST['travellers'] = $post['travellers'] ?? null;
+$_POST['billing_person'] = $post['billing_person'] ?? null;
+$_POST['tos'] = $post['tos'] ?? 1; 
+$_POST['tpc'] = $post['tpc'] ?? 1; 
+$_POST['invoice'] = $user_invoice;
+$_POST['create_account'] = $billing['create_account'] ?? 0; // TODO
+$_POST['password'] = $billing['password'] ?? null; // TODO
+
+$_POST['contact_country'] = $AddressCountry;
+$_POST['contact_city'] = $AddressCity;
+$_POST['contact_phone'] = $Phone;
+$_POST['contact_phone_prefix'] = 'RO';
+$_POST['contact_email'] = $Email;
+$_POST['contact_firstname'] = $Firstname;
+$_POST['contact_lastname'] = $Name;
+$_POST['contact_street'] = $AddressAddress;
+$_POST['contact_street_no'] = $AddressStreetNo;
+$_POST['contact_postal_code'] = $AddressPostalCode;
+$_POST['contact_bank'] = $CompanyBANK;
+$_POST['contact_iban'] = $CompanyIBAN;
+$_POST['contact_cui'] = $CompanyCUI;
+$_POST['contact_company_name'] = $CompanyName;
+$_POST['contact_regcom'] = $CompanyONRC;
+// $_POST['contact_address'] = $billing['address'] ?? ''; // TODO
+
+if('online' == $payment_method){
+	$payment_gateway = $payment_gateway ?? 'payu';
+	$_POST['payu_payment_method'] = $post['payu_payment_method'] ?? ''; 
+} else {
+	$payment_gateway = '';
+}
+
+$_POST['payment_method'] = $payment_method ?? '';
+$_POST['payment_gateway'] = $payment_gateway;
+$_POST['gateway'] = $payment_gateway;
+
+
+// prd(json_encode($_POST, JSON_PRETTY_PRINT));
+
+$this->load->model('TripLog_model');
+$this->TripLog_model->saveLog([
+	'date_pay' => date('Y-m-d H:i:s'),
+	'order_data' => json_encode($_POST),
+]);
+$response = '[]';
+
+
+
+$type = 'travelfuse_' . $type;
+
+$this->load->model('TripCoupon_model');
+$this->session->set_userdata('trip/checkout/coupons', $this->TripCoupon_model->getValidCoupons($this->session->userdata('trip/checkout/coupons'), $type));
+
+$this->makeResponseGlobal();
+$this->load->library('form_validation');
+$response = modules :: run('Trip/checkout/Checkout/validate', $type);
+if(!$response){
+	$this->output('error');
+}
+
+$cdate = date('YmdHis');
+$response_dir_path = APPPATH.'logs/trip/travelfuse/' . $cdate . '/';
+if(!is_dir($response_dir_path)){
+	mkdir($response_dir_path,0777,true);
+}
+if (false === $this->form_validation->run()) {
+	$this->data['errors'] = $this->form_validation->error_array();
+	file_put_contents($response_dir_path . 'error_create_order.json', json_encode($this->data['errors'], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES), FILE_APPEND);
+	$this->outputTripError($this->form_validation->error_string());
+}
+// dd('good');
+$response = modules :: run('Trip/checkout/Checkout/service', $type, false);
+if(!$response){
+	$this->output('error');
+}
+// if(IS_LISAL_IP){
+    // dd('GOOD');
+// }
+// dump($type);
+// prd(json_encode($_POST));
+// dd('good');
+ob_start(); /* ?>
+<form action="https://accenttravel.ro/" target="_BLANK">
+	<button type="submit">Trimite</button>
+</form>
+<?php */
+// $this->output('success');
+// return;
+// dd($response);
+$response = modules :: run('Trip/checkout/Checkout/service', $type, true);
+$html = ob_get_clean();
+if('' === $html){
+	$html = get_instance()->output->get_output();
+}
+$this->data['html'] = trim($html);
+if(false === $response){
+	file_put_contents($response_dir_path . 'error_create_order.json', json_encode($this->Trip_model->get_api()->calls, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES), FILE_APPEND);
+	file_put_contents($response_dir_path . 'error_create_order.json', json_encode(array(
+	  'response' => $this->response,
+	  'message' => $this->message,
+	  'message_type' => $this->message_type,
+	  'messages' => $this->messages,
+	  'data' => $this->data,
+	), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES), FILE_APPEND);
+
+	$this->output('error');
+}
+// $this->outputError('Blocked temporary');
+$id = $_GET['order_id'];
+$this->load->model('TripOrder_model');
+$order = $this->TripOrder_model->getOrderById($id);
+
+$ReservationId = [];
+
+
+$this->load->library('encryption');
+$id_hashed = $this->encryption->encrypt($id);
+$id_hashed = preg_replace('/\//','$', $id_hashed);
+$reference = $order->provider . '_' . $id;
+$this->data['real_order_id'] = $_GET['order_id'];
+$this->data['order_link'] = site_url('newux/order_details/' . urlencode($id_hashed) . '?newux=1');
+$this->data['order_id'] = $id_hashed;
+$this->data['accent_id'] = $id;
+$this->data['reference'] = $reference;
+$this->data['ReservationId'] = implode(',',$ReservationId);
+$this->addMessage('Serviciul a fost validat.');
+$this->TripLog_model->saveLog(['order_id' => $id]);
+
+return $this->output();
+echo $response;
+
+
+// ini_set('display_errors', 1);
+$post_data = $this->input->post();
+prd(json_encode($post_data, JSON_PRETTY_PRINT));
+
+// echo json_encode($post_data);
+// return;
+
+$coupon_code = isset($post_data['coupon_code']) && !empty($post_data['coupon_code']) ? $post_data['coupon_code'] : NULL;
+$payment_method = isset($post_data['payment_method']) && !empty($post_data['payment_method']) ? $post_data['payment_method'] : NULL;
+$payment_gateway = isset($post_data['payment_gateway']) && !empty($post_data['payment_gateway']) ? $post_data['payment_gateway'] : NULL;
+$data = isset($post_data['data']) && !empty($post_data['data']) ? (array)$post_data['data'] : [];
+$billing_person = isset($post_data['billing_person']) && !empty($post_data['billing_person']) ? (array)$post_data['billing_person'] : [];
+$BillCompany = filter_var(isset($billing_person['BillCompany']) && !empty($billing_person['BillCompany']) ? $billing_person['BillCompany'] : NULL, FILTER_VALIDATE_BOOLEAN);
+
+$user_invoice = !$BillCompany ? 'pf' : 'pj';
+
+$Address = isset($billing_person['Address']) && !empty($billing_person['Address']) ? (array)$billing_person['Address'] : [];
+$AddressCity = isset($Address['City']) && !empty($Address['City']) ? $Address['City'] : '';
+$AddressAddress = isset($Address['Details']) && !empty($Address['Details']) ? $Address['Details'] : '';
+
+$Firstname = isset($billing_person['Firstname']) && !empty($billing_person['Firstname']) ? $billing_person['Firstname'] : '';
+$Name = isset($billing_person['Name']) && !empty($billing_person['Name']) ? $billing_person['Name'] : '';
+$Email = isset($billing_person['Email']) && !empty($billing_person['Email']) ? $billing_person['Email'] : '';
+$Phone = isset($billing_person['Phone']) && !empty($billing_person['Phone']) ? $billing_person['Phone'] : '';
+
+$Company = isset($billing_person['Company']) && !empty($billing_person['Company']) ? (array)$billing_person['Company'] : [];
+
+$CompanyName = isset($Company['Name']) && !empty($Company['Name']) ? $Company['Name'] : '';
+$CompanyCUI = isset($Company['TaxIdentificationNo']) && !empty($Company['TaxIdentificationNo']) ? $Company['TaxIdentificationNo'] : '';
+$CompanyONRC = isset($Company['RegistrationNo']) && !empty($Company['RegistrationNo']) ? $Company['RegistrationNo'] : '';
+$CompanyBANK = isset($Company['Bank']) && !empty($Company['Bank']) ? $Company['Bank'] : '';
+$CompanyIBAN = isset($Company['BankAccount']) && !empty($Company['BankAccount']) ? $Company['BankAccount'] : '';
+
+$CompanyHeadOffice = isset($Company['HeadOffice']) && !empty($Company['HeadOffice']) ? $Company['HeadOffice'] : [];
+$CompanyHeadOfficeAddress = isset($CompanyHeadOffice['Details']) && !empty($CompanyHeadOffice['Details']) ? $CompanyHeadOffice['Details'] : '';
+
+$ip = '';
+if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+	$ip = $_SERVER['HTTP_CLIENT_IP'];
+} elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+	$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+} else {
+	$ip = $_SERVER['REMOTE_ADDR'];
+}
+
+// BillCompany
+$save_data = [
+	'provider'=> '?',
+	'trip_order_id'=> '',
+	'status'=> '0',
+	'amount'=> '',
+	'service_discount'=> 0,
+	'total'=> '',
+	'currency'=> '',
+	'coupon_code'=> $coupon_code,
+	'coupon_amount'=> null,
+	'service_discounts'=> '[]',
+	'coupon_percentage'=> null,
+	'payment_method'=> $payment_method,
+	'payment_gateway'=> $payment_gateway,
+	'gateway_status'=> null,
+	'gateway_ref'=> null,
+	'gateway_data'=> null,
+	'user_id'=> '',
+	'type'=> '?',
+	'created_by'=> '',
+	'time_created'=> date('Y-m-d H:i:s'),
+	'modified_by'=> null,
+	'time_modified'=> null,
+	'user_invoice'=> $user_invoice,
+	'user_company_name'=> $CompanyName,
+	'user_cui'=> $CompanyCUI,
+	'user_iban'=> $CompanyIBAN,
+	'user_bank'=> $CompanyBANK,
+	'user_regcom'=> $CompanyONRC,
+	'user_title'=> 'mr',
+	'user_gender'=> 'm',
+	'user_birth_date'=> '0000-00-00',
+	'user_firstname'=> $Firstname,
+	'user_lastname'=> $Name,
+	'user_country'=> 'RO',
+	'user_city'=> $AddressCity,
+	'user_street'=> $AddressAddress,
+	'user_street_no'=> '-',
+	'user_phone_prefix'=> 'RO',
+	'user_phone'=> $Phone,
+	'user_email'=> $Email,
+	'user_address'=> '',
+	'user_postal_code'=> '',
+	'services'=> null,
+	'trip_services'=> NULL,
+	'services_hotel'=> NULL,
+	'services_flight'=> NULL,
+	'services_citybreak'=> NULL,
+	'services_package'=> NULL,
+	'message'=> 'Creat comanda TravelFuse intern',
+	'calls'=> NULL,
+	'ip'=> $ip,
+];
+
+$active_menu = isset($data['active_menu']) && !empty($data['active_menu']) ? $data['active_menu'] : '';
+if(!empty($active_menu)){
+	$last_active_menu = preg_replace('/.*\./', '', $active_menu);
+	include(__DIR__ . '/../' . $last_active_menu . '/checkout.include.php');
+}
+$save_data['services'] = serialize([$post_data]);
+
+if(!empty($allow_save)){
+	$this->load->model('TripOrder_model');
+	$post_data['order_id'] = $this->TripOrder_model->saveOrder($save_data);
+}
+
+$post_data['save_data'] = $save_data;
+
+if(!empty($post_data['order_id'])){
+	$post_data['success'] = 1;
+}
+
+
+echo json_encode($post_data);

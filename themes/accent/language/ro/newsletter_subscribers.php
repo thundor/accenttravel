@@ -1,0 +1,23 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+themeFunctions::debugFileLine('start');
+$L1['meta_title'] = 'Abonati newsletter' . lang('append_title');
+$L1['page_title/html'] = '<span>Abonati</span> <strong class="text-success">Newsletter</strong>';
+themeFunctions::loadLang('general/actions');
+themeFunctions::loadLang('general/options');
+$L1['action_add'] = 'Adaugare abonat';
+$L1['action_add/html'] = '<i class="fa fa-plus"></i> <span>' .$L1['action_add'] . '</span>';
+$L1['action_edit'] = 'Editare abonat';
+$L1['action_edit/html'] = '<i class="fa fa-pencil"></i> <span>' .$L1['action_edit'] . '</span>';
+$L1['subscribers_list/html'] = 'Listă <strong>abonati</strong>';
+$L1['newsletter_subscribers_permissions/html'] = '<i class="fa fa-check-square-o"></i> <span>Permisiuni în această zonă</span>';
+$L1['confirm_delete'] = 'Sunteți sigur că doriți ștergerea acestui abonat?';
+$L1['th_id'] = 'ID';
+$L1['th_email'] = 'Email';
+$L1['th_account'] = 'Cu cont';
+$L1['th_status'] = 'Status';
+$L1['th_date'] = 'Data';
+themeFunctions::loadLang('general/list');
+themeFunctions::loadLang('general/filter');
+themeFunctions::loadLang('general/sort');
+themeFunctions::debugFileLine('end');

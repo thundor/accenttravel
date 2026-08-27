@@ -1,0 +1,48 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "grid",
+                                        "mod_data": {
+                                            "title": "VList Module title",
+                                            "children": [
+                                                {
+                                                    "text": "Demo section",
+                                                    "status": 1,
+                                                    "children": [
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "mod_template": "section-title",
+                                                                            "mod_data": {
+                                                                                "title": "",
+                                                                                "html": ""
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "name": "51-content-bottom"
+}

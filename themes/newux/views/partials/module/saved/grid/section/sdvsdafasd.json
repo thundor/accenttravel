@@ -1,0 +1,98 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "image",
+                            "data": {
+                                "title": "Image title 2",
+                                "image": "/themes/newux/assets/images/placeholder.png"
+                            },
+                            "mod_data": {
+                                "title": "Image title 123",
+                                "image": "/themes/newux/assets/images/placeholder.png"
+                            }
+                        },
+                        {
+                            "children": [
+                                {}
+                            ],
+                            "mod_template": "base",
+                            "mod_data": {}
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {}
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {}
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {}
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {}
+                        }
+                    ]
+                }
+            ],
+            "text": "asdfasdf"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "grid",
+                            "data": {
+                                "title": "VList Module title",
+                                "children": [
+                                    {
+                                        "text": "Demo section",
+                                        "status": 1,
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {}
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "mod_data": {}
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "default_mod_template": "image",
+    "name": "sdvsdafasd",
+    "fluid": true,
+    "default_mod_data": {
+        "title": "Image title 212",
+        "image": "/themes/newux/assets/images/placeholder.png"
+    }
+}

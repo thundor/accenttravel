@@ -1,0 +1,26 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+themeFunctions::debugFileLine('start');
+$L1['meta_title'] = 'Discounturi' . lang('append_title');
+$L1['page_title/html'] = '<span>Lista</span> <strong class="text-success">Discounturi</strong>';
+themeFunctions::loadLang('general/actions');
+themeFunctions::loadLang('general/options');
+$L1['action_add'] = 'Adaugare discount';
+$L1['action_add/html'] = '<i class="fa fa-plus"></i> <span>' .$L1['action_add'] . '</span>';
+$L1['action_edit'] = 'Editare discount';
+$L1['action_edit/html'] = '<i class="fa fa-pencil"></i> <span>' .$L1['action_edit'] . '</span>';
+$L1['discounts_list/html'] = 'Listă <strong>discounturi</strong>';
+$L1['discounts_permissions/html'] = '<i class="fa fa-check-square-o"></i> <span>Permisiuni în această zonă</span>';
+$L1['confirm_delete'] = 'Sunteți sigur că doriți ștergerea acestui discount?';
+$L1['th_id'] = 'ID';
+$L1['th_type'] = 'Tip';
+$L1['th_type_id'] = 'ID Tip';
+$L1['th_name'] = 'Nume';
+$L1['th_status'] = 'Status';
+$L1['th_percentage'] = 'Procentaj';
+$L1['th_date_start'] = 'De la data';
+$L1['th_date_expire'] = 'Pana la data';
+themeFunctions::loadLang('general/list');
+themeFunctions::loadLang('general/filter');
+themeFunctions::loadLang('general/sort');
+themeFunctions::debugFileLine('end');

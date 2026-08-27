@@ -1,0 +1,596 @@
+{
+    "name": "grid-revelion-chartere",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {},
+                                        "title": "Revelion in Destinatii Exotice",
+                                        "html": "<p>Escapade in paradisuri tropicale. Pachete exclusive pentru iarna 2025 - 2026.</p>\n"
+                                    },
+                                    "mod_template": "section-title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/antalya_revelion_sejur1.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "antalya-vacante-charter",
+                                            "tag": "a"
+                                        },
+                                        "title": "Antalya"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/hurghada_revelion_sejur2.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hurghada-vacante-charter"
+                                        },
+                                        "title": "Hurghada"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/sharmelsheikh_revelion_sejur3.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "sharm-el-sheikh-vacante-charter"
+                                        },
+                                        "title": "Sharm el Sheikh"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/dubai_revelion_sejur4.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "vacanta-dubai-charter"
+                                        },
+                                        "title": "Dubai"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/abudhabi_sejur_revelion5.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "vacanta-dubai-charter"
+                                        },
+                                        "title": "Abu Dhabi"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/maldives_sejur_revelion6.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "vacanta-maldive-charter",
+                                            "tag": "a"
+                                        },
+                                        "title": "Maldive"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/mauritius_sejur_revelion7.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "vacante-mauritius-charter"
+                                        },
+                                        "title": "Mauritius"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/oman_sejur_revelion8 - Copy 1.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "vacante-charter-oman"
+                                        },
+                                        "title": "Oman"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/srilanka_sejur_revelion9.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "vacanta-charter-sri-lanka",
+                                            "tag": "a"
+                                        },
+                                        "title": "Sri Lanka"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/cipru_sejur_revelion10.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "vacante-larnaca-cipru"
+                                        },
+                                        "title": "Cipru"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/bali_sejur_revelion11.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "vacanta-bali-charter"
+                                        },
+                                        "title": "Bali"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/qatar_sejur_revelion12 - Copy 1.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "vacanta-charter-qatar"
+                                        },
+                                        "title": "Qatar"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": true
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/pexels_bradanton_15017454.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "vacante-sardinia-italia",
+                                            "tag": "a"
+                                        },
+                                        "title": "Sardinia - Italia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Nisipurile_de_aur_bulgaria_vacante.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/vacante-nisipurile-de-aur-bulgaria"
+                                        },
+                                        "title": "Nisipurile de Aur"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Sunny_Beach_vacante_bulgaria.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Sunny Beach "
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/halkidiki_beach - Copy 1.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-halkidiki-macedonia"
+                                        },
+                                        "title": "Halkidiki - Grecia"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": false
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Sharm_el_Sheikh_vacante_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/sharm-el-sheikh-vacante-charter"
+                                        },
+                                        "title": "Sharm El Sheikh"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Mallorca_vacante_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/mallorca-vacante-charter"
+                                        },
+                                        "title": "Mallorca - Spania"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Hurghada_vacante_charter.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hurghada-vacante-charter"
+                                        },
+                                        "title": "Hurghada"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Antalya_vacante_turcia.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/antalya-vacante-charter"
+                                        },
+                                        "title": "Antalya - Turcia"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": false
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Turcia_Antalya.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Rhodos, Grecia"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Dubai-vacante-charter.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Dubai, Emiratele Arabe Unite"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Italia_Coasta_Amalfitana.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Madeira - Portugalia"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Thailanda.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Thassos, Grecia"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": false
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Turcia_Antalya.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Creta - Heraklion"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Tunisia.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Maldive"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Italia_Coasta_Amalfitana.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Madeira - Portugalia"
+                                    }
+                                }
+                            ],
+                            "status": false
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Tema/Thailanda.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {},
+                                        "title": "Thassos, Grecia"
+                                    }
+                                }
+                            ],
+                            "status": false
+                        }
+                    ],
+                    "status": false
+                }
+            ],
+            "default_mod_template": "card-image-vertical",
+            "default_mod_data": {
+                "image": {
+                    "props": {
+                        "src": "/resources/images/balvanyos.jpg",
+                        "height": "250",
+                        "cover": true,
+                        "aspectRatio": "16/9",
+                        "rounded": "lg"
+                    }
+                },
+                "props": {
+                    "tag": "a",
+                    "href": "https://accenttravel.ro/hoteluri",
+                    "class": "text-decoration-none mx-auto",
+                    "maxWidth": "400",
+                    "rounded": "lg",
+                    "minWidth": "250"
+                },
+                "title": "Turcia - Antalya",
+                "subtitle": "",
+                "button_title": "Vezi ofertele",
+                "header_title": ""
+            },
+            "status": true,
+            "props": {
+                "class": "pt-10 pb-10"
+            }
+        }
+    ]
+}

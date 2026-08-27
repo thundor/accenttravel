@@ -1,0 +1,99 @@
+{
+    "name": "Avion-grid",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Facebook_Portrait_format.jpg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true
+                                            },
+                                            "a_props": {
+                                                "href": "https://www.klm.ro/search/advanced"
+                                            },
+                                            "chip_title": ""
+                                        },
+                                        "props": {
+                                            "rounded": "lg"
+                                        }
+                                    },
+                                    "mod_template": "card-image-vertical"
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_template": "card-image-vertical",
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/Blog/San_Jose.jpeg",
+                                                "rounded": "lg"
+                                            }
+                                        },
+                                        "props": {}
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_template": "card-image-vertical",
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/Blog/India.jpeg",
+                                                "rounded": "lg"
+                                            }
+                                        },
+                                        "props": {}
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "default_mod_template": "section-title",
+                    "default_mod_data": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "title": "Bilete de avion",
+                                        "html": "<p>cele mai tentante oferte de zboruri in acest weekend</p>\n"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "default_mod_template": "section-title",
+                    "default_mod_data": null
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {}
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "default_mod_template": "destinatii-avion",
+            "status": true
+        }
+    ]
+}

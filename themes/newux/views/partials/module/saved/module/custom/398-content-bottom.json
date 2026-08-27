@@ -1,0 +1,304 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "text": "Conectivitate globala fara granite cu xeSim",
+                                        "status": true,
+                                        "mod_template": "code",
+                                        "mod_data": {
+                                            "code": "<h1 class=\"text-center\">Conectivitate globala fara granite cu XeSim</h1>",
+                                            "props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "text": "conectivitate ",
+                                        "mod_data": {
+                                            "html": "<h5 class=\"text-center\">Internet oriunde calatoresti. Simplu. Rapid. Inteligent</h5>\n",
+                                            "props": {}
+                                        },
+                                        "status": true
+                                    },
+                                    {
+                                        "mod_template": "code",
+                                        "mod_data": {
+                                            "code": "<h5 class=\"text-center\"></h5>",
+                                            "props": {}
+                                        },
+                                        "status": true
+                                    },
+                                    {
+                                        "mod_template": "grid",
+                                        "mod_data": {
+                                            "title": "VList Module title",
+                                            "children": []
+                                        },
+                                        "status": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "text": "Ce este xeSIM?",
+                                        "status": true,
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/scaneaza_qr_ecran_mobil_xeSIM_02.png",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "lg"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "code",
+                                        "mod_data": {
+                                            "code": "<h5 class=\"text-center\">Pasul 1</h5>",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": null,
+                                    "class": "v-col-12 v-col-md-3"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/configureaza_serviciu_ecran_mobil_xeSIM_03.png",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "lg"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "code",
+                                        "mod_data": {
+                                            "code": "<h5 class=\"text-center\">Pasul 2</h5>",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": null,
+                                    "class": "v-col-12 v-col-md-3"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/activeaza_serviciue_ecran_mobil_xeSIM_04.png",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "lg"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "code",
+                                        "mod_data": {
+                                            "code": "<h5 class=\"text-center\">Pasul 3</h5>",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": null,
+                                    "class": "v-col-12 v-col-md-3"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/cumpara_date_mobile_ecran_mobil_xeSIM_05.png",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "lg"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "code",
+                                        "mod_data": {
+                                            "code": "<h5 class=\"text-center\">Pasul 4</h5>",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": null,
+                                    "class": "v-col-12 v-col-md-3"
+                                }
+                            }
+                        ],
+                        "props": {
+                            "noGutters": true
+                        }
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "dashed-divider"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "code",
+                                        "mod_data": {
+                                            "code": "<h1 class=\"text-center\">Cum functioneaza XeSIM?</h1>",
+                                            "props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "code",
+                                        "mod_data": {
+                                            "code": "<h5 class=\"text-center\">Scaneaza QR codul si urmeaza instructiunile de pe dispozitivul tau mobil!</h5>",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": null
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {}
+                                ],
+                                "props": {
+                                    "cols": 1
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/QR_code.png",
+                                                "aspectRatio": "16/9",
+                                                "cover": true
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "status": true
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 2,
+                                    "class": "v-col-12 v-col-sm-2"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "code"
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 1
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h2><span style=\"color:#000000;\">X</span><span style=\"color:#000000;\">eSIM este solutia ta de internet mobil in peste 200 de tari si destinatii, fara costuri de roaming si fara instalarea unei cartele SIM fizice.&nbsp;Totul se activează in cativa pasi simpli, din setarile dispozitivului mobil, prin scanarea unui simplu cod QR.</span></h2>\n\n<ul>\n\t<li>\n\t<h5><span style=\"color:#000000;\">Acceseazā link-ul care se afiseaza in ecranul dispozitivului dupa scanare. Vei primi un mesaj SMS de intampinare pe dispozitivul tau.</span></h5>\n\t</li>\n\t<li>\n\t<h5><span style=\"color:#000000;\">Urmeaza instructiunile de instalare si configurare primite in mesaj.</span></h5>\n\t</li>\n\t<li>\n\t<h5><span style=\"color:#000000;\">Activeaza serviciul in setarile telefonului mobil alegand&nbsp;optiunea “Travel eSIM”. Cand ajungi in destinatia ta de vacanta, activeaza noul tau eSIM, din setari,&nbsp;la optiunea“date mobile”.</span></h5>\n\t</li>\n</ul>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 7,
+                                    "class": "v-col-12 v-col-sm-7"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "dashed-divider"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "props": {
+                    "style": "",
+                    "fluid": true
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "\n\n<h2><span style=\"font-family: inherit;\"></span><span style=\"font-family: inherit; font-size: 1.75rem; letter-spacing: normal;\">Recomandat de Accent Travel &amp; Events</span></h2>\n\n<p>Spune adio tarifelor excesive de roaming! Cu xeSIM, calatoriile tale devin mai simple, mai smart si mai conectate ca niciodata. Creat de Euronet, un jucator global in servicii financiare digitale, xeSIM este solutia moderna pentru internet mobil in peste 200 de tari. Si da, functioneaza impecabil – deja peste 5.000 de calatori din Romania l-au folosit in vacante si business trips prin SUA, Turcia, China, Egipt, Dubai, Thailanda, Tunisia, Maroc si nu numai.</p>\n\n<div class=\"d-flex justify-space-between align-center\">\n<div><i class=\"fa fa-star text-primary\"></i> INCEARCA XESIM!</div>\n</div>",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            }
+        ]
+    },
+    "name": "398-content-bottom"
+}

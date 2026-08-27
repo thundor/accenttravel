@@ -1,0 +1,222 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {},
+                                            "title": "Sărbători de iarnă în România",
+                                            "html": "Rom&acirc;nia &icirc;n straie de sărbătoare: iarnă, tradiții și bucurii de neuitat"
+                                        },
+                                        "text": "Litoral pentru toti",
+                                        "mod_template": "section-title"
+                                    }
+                                ],
+                                "status": true
+                            }
+                        ],
+                        "status": true
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "a_props": {},
+                                                "props": {
+                                                    "src": "/resources/images/mamaia_litoralul_pentru_toti_mare_cazare_hotel_sejur.png"
+                                                }
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "/litoralul-pentru-toti-mamaia-2025"
+                                            },
+                                            "title": "Mamaia",
+                                            "subtitle": "De la 110  RON camera pe noapte"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "a_props": {},
+                                                "props": {
+                                                    "src": "/resources/images/eforie_litoralul_pentru_toti_mare_cazare_hotel_sejur.png"
+                                                }
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "/eforie-nord-litoralul-pentru-toti-2025"
+                                            },
+                                            "title": "Eforie Nord",
+                                            "subtitle": "De la 96 RON camera per noapte"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "a_props": {},
+                                                "props": {
+                                                    "src": "/resources/images/venus_litoralul_pentru_toti_mare_cazare_hotel_sejur.png"
+                                                }
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "venus-litoralul-pentru-toti-2025"
+                                            },
+                                            "title": "Venus",
+                                            "subtitle": "De la 133 RON camera pe noapte"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "a_props": {},
+                                                "props": {
+                                                    "src": "/resources/images/jupiter_litoralul_pentru_toti_mare_cazare_hotel_sejur.png"
+                                                }
+                                            },
+                                            "props": {
+                                                "tag": "a",
+                                                "href": "jupiter-litoralul-pentru-toti-2025"
+                                            },
+                                            "title": "Jupiter",
+                                            "subtitle": "De la 172 RON camera pe noapte"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "status": true,
+                        "props": {
+                            "noGutters": false
+                        }
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {}
+                                        },
+                                        "mod_template": "dashed-divider"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {},
+                                            "title": "Oferte Litoral România",
+                                            "html": "<p>Soare tradițional și autentic românesc. Valuri numai bune de infruntat. Oferte și mai bune.</p>\n"
+                                        },
+                                        "mod_template": "section-title"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "default_mod_template": "card-image-vertical",
+                "default_mod_data": {
+                    "image": {
+                        "props": {
+                            "src": "/resources/images/balvanyos.jpg",
+                            "height": "250",
+                            "cover": true,
+                            "aspectRatio": "16/9",
+                            "rounded": "lg"
+                        }
+                    },
+                    "props": {
+                        "tag": "a",
+                        "href": "https://accenttravel.ro/hoteluri",
+                        "class": "text-decoration-none mx-auto",
+                        "maxWidth": "400",
+                        "rounded": "lg",
+                        "minWidth": "250"
+                    },
+                    "title": "Turcia - Antalya",
+                    "subtitle": "",
+                    "button_title": "Vezi ofertele",
+                    "header_title": ""
+                },
+                "status": true,
+                "props": {
+                    "class": "pt-10 pb-10"
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h6 style=\"text-align: left;\" class=\"text-left\"><strong><span style=\"color:#3498db;\">Litoralul Românesc nu e doar o destinație — este startul unei veri care merită trăită cu totul.</span></strong> Fiecare răsărit peste Marea Neagră e o invitație la relaxare. Fiecare val, un \"reminder\"&nbsp;că e momentul tău să iei o pauză binemeritată. Iar acum, cu ofertele de sejururi de la Accent Travel &amp; Events, care literalmente îți pregătesc bagajele pentru vacanță, vara începe exact așa cum trebuie: cu un *click* inspirat.</h6>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p style=\"text-align: left;\" class=\"text-left\">Indiferent dacă visezi la un resort all-inclusive în Mamaia, un hotel de familie în Eforie sau o escapadă boemă în Vama Veche, litoralul te așteaptă cu oferte care îmbină confortul, vibe-ul de vacanță și prețurile smart. Nu vorbim doar de un loc de dormit. Vorbim de o experiență completă, creată să-ți încarce bateriile și să-ți aducă zâmbetul înapoi.Hotelurile și resorturile de pe litoral se întrec vara asta în oferte: reduceri pentru rezervări timpurii, pachete cu spa sau facilități pentru copii—totul ca tu să alegi ușor, rapid și fără stres.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p style=\"text-align: left;\" class=\"text-left\">Imaginează-ți: tu, la piscină, cu un cocktail rece, știind că ai prins cea mai bună ofertă înainte ca vara să explodeze. Asta înseamnă vacanță planificată cu cap. Noi, consultanții Accent Travel &amp; Events știm prea bine cât contează momentul potrivit, emoția sinceră și oferta care spune exact ce ai nevoie să auzi. Iar Litoralul Românesc le are pe toate. Așa că pune-ți vara în agendă. Rezervă-ți locul la soare.</p>\n\n<p>Vacanța începe acum și aici!</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            }
+        ]
+    },
+    "name": "411-content-bottom"
+}

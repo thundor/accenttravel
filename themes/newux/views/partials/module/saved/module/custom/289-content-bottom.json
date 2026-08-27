@@ -1,0 +1,987 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h2 style=\"text-align: center;\">Insulele Grecești: Ghidul tău fun &amp; Info pentru o vacanță de vis (cu tzatziki incluși!)</h2>\n\n<p style=\"text-align: center;\">Hei, amice! Pregătește-te să intri într-o lume unde soarele pupă marea, nisipul îți gâdilă tălpile (fie el fin-fin sau vulcanic!), iar istoria șușotește din fiecare piatră veche! Insulele grecești sunt genul de destinație care te prinde în mrejele ei de la primul pas și nu-ți mai dă drumul. Gândește-te la plaje nesfârșite (pentru lenevit sau explorat în tihnă), la ape cristaline de te hipnotizează și la povești cu zei și eroi din timpuri demult apuse.</p>\n\n<p style=\"text-align: center;\">Și ca să fie tacâmul complet, adaugă în peisaj tavernele alea autentice de lângă port, unde mirosul de tzatziki proaspăt și koukoumavlos (dacă știi, știi!) se amestecă perfect cu briza mării. O salată grecească alături de un pahar de ouzo? Da, te rog!</p>\n\n<p style=\"text-align: center;\">Fiecare insulă are personalitatea ei, îți spun povești unice și te teleportează într-o călătorie prin timp, cu peisaje de-ți taie răsuflarea. Hai să vedem câteva dintre ele!</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Intro",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Insule Grecești de neratat: <br>Clasice, rebelii și surprizele!</h2>",
+                                            "html": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Insule Grecești de Neratat: Clasice, Rebelii și Surprizele!",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Santorini_grecia_vacanta.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Santorini (aka Thira): Nu doar pentru Instagrameri Îndrăgostiți!"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Santorini (aka Thira): Nu doar pentru instagrameri îndrăgostiț</strong><strong>i!</strong></h3>\n\n<p>Serios acum, dacă vezi o poză iconică din Grecia cu case albe cocoțate pe dealuri și acoperișuri albastre care contrastează perfect cu marea, cel mai probabil e din Santorini. Insula asta e renumită ca destinație pentru cupluri, dar e faină și pentru familii sau pur și simplu ca să te bucuri de tihnă.</p>\n\n<p>Cum ajungi? Simplu, cu avionul, fiindcă e în partea de sud a Arhipelagului Ciclade din Marea Egee. Din București sunt cam 1500 km.</p>\n\n<p>Plaje? Diferite de ce știi tu! Aici nisipul e... vulcanic! Gândește-te la Red Beach cu nisip roșiatic sau Kolumbo Beach cu nisip negru ca tăciunele. Dar nu te speria, sunt amenajate și arată spectaculos. Mai ai White Beach, Perissa și Kamari, fiecare cu vibe-ul ei.</p>\n\n<p>Ce faci pe insulă? Plimbă-te prin stațiunile celebre: Fira, Oia (pentru apusuri de neuitat!) sau Imerovigli. Admiră arhitectura, oprește-te la taverne, magazine de suveniruri sau muzee. Vrei să sapi mai adânc în istorie? Vizitează situl arheologic Akrotiri sau mergi la vulcan. Poți explora și insulițe din apropiere, ca Thirassia, chiar și călare pe măgăruș (dacă te ține!) sau cu telecabina. Fanii sporturilor acvatice găsesc tot ce vor aici, iar excursiile cu barca sunt o idee genială pentru a explora insulele vecine sau epavele. Albumul tău de vacanță o să-ți mulțumească!</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "santorini",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Rhodos2.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Rhodos: călătorie în timpul cavalerilor (și 300 de zile cu soare!)"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Rhodos: c</strong><strong>ălă</strong><strong>torie&nbsp;</strong><strong>în timpul cavalerilor (și 300 de zile cu soare!)</strong></h3>\n\n<p>Rhodos e genul de insulă care te cucerește dacă iubești istoria. E la granița dintre Marea Egee și Mediterana și te teleportează direct în Evul Mediu, dar cu un touch modern. E cea mai mare insulă din Arhipelagul Dodecanez.</p>\n\n<p>Cum ajungi? E mai aproape de Turcia decât de Grecia continentală, deci pregătește-te pentru un zbor cu escală din București (tot cam 1500 km).</p>\n\n<p>Plaje? Cu 300 de zile însorite pe an, e clar că plajele sunt de top! Faliraki, Pallas sau Ixia sunt variante bune. Dar spotul cu adevărat inedit e plaja Prasonisi, unde poți face baie în... ambele mări, Mediterana și Egee!</p>\n\n<p>Ce explorezi? Orașul Medieval Rhodos e Patrimoniu UNESCO și e plin de povești. Mergi pe Strada Cavalerilor, admiră portul Mandraki, oprește-te în Piața Hipocrate. Ai Acropolele din Lindos, ruinele Colosului din Rhodos, anticul Kamiros și o mulțime de muzee. Aventură-te pe șosele ca să vezi Mânăstirea Filerimos, Valea Fluturilor, izvoarele din Kallithea și castele (Kritinia arată superb!).</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Rhodos",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Kefalonia2.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Kefalonia: Relaxare în stil ionian (și țestoase drăguțe!)"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Kefalonia: Relaxare în stil ionian (și țestoase drăguț</strong><strong>e!)</strong></h3>\n\n<p>Cea mai mare insulă din Marea Ionică, Kefalonia, nu impresionează doar prin dimensiuni, ci prin șarmul ei aparte. Are munți, lacuri, plaje exotice și o gastronomie specială. E perfectă pentru familii și pentru cei care caută relaxare, fiind mai puțin aglomerată în ultima vreme.</p>\n\n<p>Cum ajungi? E la sud de Lefkada. Poți merge cu mașina din București și apoi iei ferryboat-ul din Vassiliki până în Fiskardo. Sau poți găsi zboruri charter.</p>\n\n<p>Plaje? Faimoasă și datorită filmului \"Captain Corelli's Mandolin\", Kefalonia are plaje spectaculoase! Plaja Myrtos e wow, cu nisip alb, apă turcoaz și stânci înalte. Mai ai Antisamos, Makris Gialos, Skala sau Lourdas.</p>\n\n<p>Ce faci pe insulă? Pe lângă lenevitul la soare, poți descoperi țestoasele Loggerhead din golful Argostoli, să vezi lacul subteran Melissani (senzațional!) sau peșterile Drogarati. Plimbă-te prin Fiskardo (numit și St. Tropez-ul Greciei), vizitează satele Assos și Sami sau Castelul Sf. Gheorghe.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Kefalonia",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Insulele Grecești aproape de România: </br>Escapade rapide și faine!</h2>",
+                                            "html": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Insulele Grecești Aproape de România: Escapade Rapide și Faine!",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Corfu.jpg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Corfu (\"Insula de Smarald\"): Unde te simți ca acasă (cu un Aer Mediteranean!)"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Corfu (\"Insula de Smarald\"): Unde te sim</strong><strong>ți ca acasă (cu un Aer Mediteranean!)</strong></h3>\n\n<p>Corfu e preferata multor români și e ușor de înțeles de ce! E în nordul Mării Ionice și te face să te simți ca acasă, dar într-un cadru de vis. Are păduri de chiparoși, plaje cu nisip fin și apă cristalină – de-aia i se zice \"Insula de Smarald\".</p>\n\n<p>Cum ajungi? E la doar 1000 km de București, deci poți merge și cu mașina. Altfel, găsești charter sau zboruri directe din Atena.</p>\n\n<p>Plaje? Normale, adică spectaculoase! Agia Varvara cu nisip roșiatic, Glyfada, Paleokastritsa, Canal d'amour (super romantic!), Kassiopi Beach sau Roda Beach.</p>\n\n<p>Ce vizitezi? Arhitectura din Centrul Vechi e un mix cool de influențe franceze, venețiene și britanice. Plimbă-te prin Piața Spianada, admiră clădirile baroc și renascentiste. Vezi Palatul Achilion, castele (Angelokastro, Gardiki), Paleokastritsa, Fortul Vechi și Biserica Sf. Spiridon. Dacă ai chef de distracție pe apă, Aqualand e perfect pentru familii. Și bineînțeles, o sesiune de scufundări e mereu o idee bună! Seara, relaxează-te la o tavernă cu preparate tradiționale.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "corfu",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Skyathos2.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Skiathos (\"Umbra lui Athos\"): Plaje, plaje și iară plaje!"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Skiathos (\"Umbra lui Athos\"): Plaje, plaje și iară plaje!</strong></h3>\n\n<p>Skiathos e destul de aproape de continent și e cunoscută mai ales pentru... numărul uriaș de plaje – peste 60!</p>\n\n<p>Cum ajungi? E la 950 km de București. Cu mașina trebuie să iei ferryboat-ul din Volos, ceea ce poate fi costisitor. Charterele sunt o variantă mai comodă.</p>\n\n<p>Plaje? Adevăratul atu al insulei! Sunt peste 60 și majoritatea sunt superbe, mai ales în sud. Plaja Koukounaries e printre cele mai frumoase din Mediterana (serios!). Are nisip auriu, apă turcoaz și e înconjurată de păduri de pin – un tablou perfect!</p>\n\n<p>Ce faci pe insulă? E genul de vacanță relaxantă. Dar te poți plimba prin orașul vechi Kastro, admira portul din Skiathos Town, vizita castelul medieval, casa scriitorului Papadiamantis, peninsula Bourtzi, mânăstirea Evangelistria sau peșterile marine.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Skiathos ",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Thassos2.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Thassos: Prietenoasă cu familiile (și cu mașina!)"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Thassos: Prietenoas</strong><strong>ă cu familiile (și cu maș</strong><strong>ina!)</strong></h3>\n\n<p>Thassos e preferata celor care merg prima dată în Grecia sau cu copiii mici, dar și a celor care preferă să meargă cu mașina.</p>\n\n<p>Cum ajungi? Super accesibilă cu mașina, la doar 8-9 ore de București. Cu avionul e mai complicat, implică escală și apoi ferryboat din Kavala. Poți merge chiar și cu trenul din Atena sau Salonic dacă vrei o experiență atipică.</p>\n\n<p>Plaje? De toate felurile! De la nisip fin la pietricele albe, de la întinderi lungi la golfuri mici. Golden Beach, Paradise Beach, Alyki, Makriamos, Glykadi sunt faine. Dar cea mai mare atracție e Giola, o piscină naturală în stâncă, perfectă pentru poze spectaculoase.</p>\n\n<p>Ce explorezi? Nu te plictisești în Thassos! Vizitează satele tradiționale ca Kazaviti, Panagia sau Theologos. Kastro e un sat semi-părăsit cu priveliști demențiale. Fă o drumeție pe munte, descoperă Antica Agora (vestigiile vechiului oraș Thassos) sau mânăstirea Arhanghelului Mihail. Și dacă ai chef de adrenalină, poți face plimbări cu ATV-ul, cu barca sau sporturi nautice (snorkeling, sailing, yachting).</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Thassos",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Insule Grecești pentru tineri (și nu numai!): <br>Unde petrecerea e în floare!</h2>",
+                                            "html": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Insule Grecești pentru Tineri (și Nu Numai!): Unde Petrecerea e în Floare!",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Mykonos.jpg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Mykonos: Raiul petrecăreților (cu un strop de romantism!)"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Mykonos: Raiul&nbsp;petrecăreților (cu un strop de&nbsp;romantism!)</strong></h3>\n\n<p>Mykonos e faimoasă pentru viața de noapte și petrecerile non-stop! E destinația pentru amatorii de exotic și adrenalină. Poate fi cam scumpă, dar e cu adevărat fermecătoare. Arhitectura aia clasică alb-albastru, relieful... e grecească autentică și o iubești numaidecât.</p>\n\n<p>Cum ajungi? Cel mai simplu, cu avionul, la cam 1400 km de București.</p>\n\n<p>Plaje? Diverse și atractive pentru toate gusturile. Paranga, Agios Ioannis, Fokos, Kalo Livadi te așteaptă cu nisip fierbinte și apă cristalină.</p>\n\n<p>Ce explorezi? Mykonos e plină de energie, dar poate fi și romantică. Plimbă-te pe străduțele din capitala Chora, admiră răsăritul din Mica Veneție (super spot!). Pelicanul Peter (simbolul insulei!) te îndeamnă să vezi morile de vânt, biserica Paraportiani, să faci o excursie pe insula Delos (sit arheologic nelocuit) sau să vizitezi Castelul Gyzi.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Mykonos",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Kos2.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Kos: Insula lui Hipocrate (și cu o viață de noapte vibrantă!)"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Kos: Insula lui Hipocrate (și cu o&nbsp;viață de&nbsp;noapte&nbsp;vibrantă</strong><strong>!)</strong></h3>\n\n<p>Kos e în Arhipelagul Dodecanez și e cunoscută ca \"insula lui Hipocrate\", părintele medicinei. Aici găsești și Platanul lui Hipocrate, cel mai mare copac din Europa. E super populară printre tineri, perfectă pentru vacanțe pline de energie.</p>\n\n<p>Cum ajungi? E la o distanță destul de mare de București (1400 km), deci avionul e cea mai bună variantă. E foarte aproape de coasta Turciei, la câteva minute cu ferryboat-ul de Bodrum.</p>\n\n<p>Plaje? Când vrei o pauză de la petreceri, mergi la plaja Thermes, renumită pentru izvoarele termale care încălzesc apa și pentru nisipul negru. Ai și plaje cu nisip auriu ca Mastichari, Kefalos, Paradise, Marmari.</p>\n\n<p>Ce explorezi? Kos are o arhitectură interesantă, cu influențe venețiene și otomane. Vizitează Centrul istoric, Sanctuarul lui Asclepeion, Muzeul Arheologic și Castelul Cavalerilor Neratzia. Și dacă apa mării nu-ți ajunge, Lido Waterpark e unul dintre cele mai mari parcuri acvatice din Grecia. Copiii (și nu numai!) o să fie super încântați!</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Kos",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Samos2.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Samos: Insula lui Pitagora (și a vinului muscat!)"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Samos: Insula lui Pitagora (și a&nbsp;vinului muscat!)</strong></h3>\n\n<p>Samos e o insulă magică pentru cei care vor mai mult decât plajă! E locul de naștere al lui Pitagora și al Herei (soția lui Zeus!). Și cum vinul Muscat de Samos e la discreție, o să te simți plin de euforie!</p>\n\n<p>Cum ajungi? E în estul Mării Egee și e ușor accesibilă din Turcia, cu ferryboat-ul din Kusadasi. Sau poți zbura din Atena (doar 45 de minute).</p>\n\n<p>Plaje? Chiar dacă nu sunt punctul forte al insulei, sunt speciale! Tsamadou, Agio Konstantinos, Potoiaki, Lemonakia sunt printre cele mai frumoase. Unele sunt aproape pustii, perfecte pentru un moment de libertate. Dar Mavra Voilia e cu adevărat remarcabilă cu nisipul negru vulcanic, apa albastră și pietrele galbene – un contrast uimitor!</p>\n\n<p>Ce explorezi? Musai să vizitezi Templul Herei (Patrimoniu UNESCO) și Tunelul lui Eupalinus. Descoperă mânăstirea Panagia Spiliani și fă drumeții pe muntele Kerkis sau Ambelos, unde poți vedea păsări de pradă, pelicani sau chiar flamingo roz. Nu rata satul medieval Mesta, construit ca un labirint fortificat, sau orașul fantomă Anatavos, cu o poveste tragică din timpul Războiului de Independență. Explorează regiunea Mastichochoria, cu satele sale cu străduțe înguste și fațade impresionante, decorate în alb-negru.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Samos",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Paros2.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Paros: Perla cicladelor (și un spot pentru surferi!)"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Paros: Perla&nbsp;cicladelor (și&nbsp;un spot pentru surferi!)</strong></h3>\n\n<p>Paros e considerată \"perla Mării Egee\" și e populară printre cei care merg și în Santorini. E faină pentru tineri, cupluri și familii.</p>\n\n<p>Cum ajungi? Super accesibilă! Cu avionul sau mașina până în Atena, apoi cu ferryboat-ul din Pireu (cam 5 ore) sau cu bărci de viteză (3 ore). E conectată și cu alte insule (Naxos, Samos, Ios, Rhodos). Are și aeroport (lângă Parikia), deci poți zbura direct din Atena.</p>\n\n<p>Plaje? Tinerii surferi o să iubească Golden Beach și New Golden Beach din sud-est. Cei mai curajoși pot încerca plajele pentru nudiști din apropiere, pe insula Antiparos. Sau poți descoperi golfuri mai sălbatice unde poți face baie fără costum.</p>\n\n<p>Ce explorezi? Descoperă satele tradiționale ca Naoussa, Parikia (principalul) și Lefkes, cu case albe și biserici cu turle albastre. Vizitează mânăstirea Eketontapyliani (\"mânăstirea cu o sute de uși\") sau Castelul Parikia din capitală. Adrenalina te așteaptă în sud, unde vântul Cicladic e perfect pentru kite surf.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Paros",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Insule Grecești mai puțin cunoscute: <br> Pentru cei ce caută liniștea!</h2>",
+                                            "html": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Insule Grecești Mai Puțin Cunoscute: Pentru Cei Ce Caută Liniștea!",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Monemvasia.jpg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Monemvasia: O cetate ascunsă unde timpul stă în loc!"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Monemvasia: O&nbsp;cetate&nbsp;ascunsă unde&nbsp;timpul&nbsp;stă î</strong><strong>n&nbsp;loc!</strong></h3>\n\n<p>Dacă vrei să eviți aglomerația și să descoperi un colț de rai mai liniștit, Monemvasia e alegerea perfectă. E o cetate superbă, cu străduțe înguste și o atmosferă autentică.</p>\n\n<p>Cum ajungi? E la cam 1400 km de București. Poți merge cu mașina sau cu avionul până în Atena și apoi mașină închiriată.</p>\n\n<p>Plaje? Mai puțin amenajate, mai mult autentice. Plaja Pori e perfectă pentru a admira peisajul stâncos. Mai ai Mandraki Beach (lângă port) sau Xifias Beach.</p>\n\n<p>Ce explorezi? Orășelul Molaoi e atracția principală, cu cetatea, biserici bizantine și o priveliște superbă spre mare. Vizitează fortăreața, Biserica Agia Sophia și Piața Christos Elkomenos. Fă excursii la Gerakas și Kiparissi și nu uita de snorkeling!</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Monemvasia",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Chios.jpg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Chios: Insula labirinturilor și a poveștilor tragice!"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Chios: Insula&nbsp;labirinturilor ș</strong><strong>i a&nbsp;pove</strong><strong>știlor&nbsp;tragice!</strong></h3>\n\n<p>Chios e o insulă magică, cunoscută pentru satul medieval Mesta, construit ca un labirint fortificat – trebuie să ai grijă să nu te pierzi prin tuneluri!</p>\n\n<p>Cum ajungi? Poți zbura din Atena sau Creta, sau poți lua ferryboat-ul de la Samos sau de pe continent (Pireas, Kavala).</p>\n\n<p>Plaje? Nu sunt punctul forte al insulei, dar Mavra Voilia e specială prin contrastul dintre nisipul negru vulcanic, apa albastră și pietrele galbene.</p>\n\n<p>Ce explorezi? Pe lângă Mesta, ai orașul fantomă Anatavos, cocoțat pe dealuri, cu o poveste tragică legată de masacrul din 1822. E monument național și câțiva localnici vând bunuri și mezedes (mâncare mică) acolo. Explorează și regiunea Mastichochoria cu satele sale cu fațade impresionante alb-negru.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Chios",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Tilos.jpg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Tilos: O bijuterie mică și prietenoasă!"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Tilos: O&nbsp;bijuterie mică și prietenoasă</strong><strong>!</strong></h3>\n\n<p>Tilos e o insuliță mică în Arhipelagul Dodecanez (doar 63 km pătrați!), dar super șarmantă și cu localnici prietenoși.</p>\n\n<p>Cum ajungi? E la doar 65 km de Rhodos, deci poți ajunge ușor cu ferryboat-ul de acolo.</p>\n\n<p>Plaje? Nu excelează la plaje amenajate, dar majoritatea sunt liniștite și sălbatice. Eristos și Plaka sunt faine pentru relaxare. Livadia, lângă port, e cea mai cunoscută.</p>\n\n<p>Ce explorezi? Tilos e pentru cei ce caută relaxare și calm. Admiră vegetația sălbatică de pe dealuri, plimbă-te prin portul animat cu cafenele și taverne sau vizitează castelul bizantin de lângă capitală.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Tilos",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Insule Grecești ieftine: <br>Vacanță fără găuri în buget!</h2>",
+                                            "html": ""
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p style=\"text-align: center;\">Grecia poate fi o destinație accesibilă, depinde cum te organizezi.<br>\nZborurile spre Atena pot fi destul de ieftine (cam 100 euro în iunie dacă iei bilet din timp).<br>\nCazarea începe de la 20-25 euro pe noapte. Iar mâncarea la taverne e super accesibilă: souvlaki, tzatziki, gyros, fructe de mare... un prânz te poate costa cam 20 euro.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Insule Grecești Ieftine: Vacanță Fără Găuri în Buget!",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/creta_plaja.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Creta: Gigantul frumos și ieftin!"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Creta: Gigantul&nbsp;frumos și&nbsp;ieftin!</strong></h3>\n\n<p>Cea mai mare insulă grecească și a cincea din Mediterana. Creta e un amalgam de frumusețe naturală, cultură și istorie. Are munți, plaje endless, situri antice, defilee, palate minoice, orașe venețiene, castele medievale... ai de toate!</p>\n\n<p>Cum ajungi? E la 1500 km de București și destul de departe de continent, deci avionul e cea mai simplă variantă. Găsești charter sau curse interne din Atena către cele două aeroporturi de pe insulă: Chania și Heraklion.</p>\n\n<p>Plaje? Cu peste 1000 km de coastă, Creta are peste 100 de plaje excepționale! Balos arată ca în Caraibe, Elafonissi are nisip roz, Preveli are o pădure de curmali lângă. Mai ai Vai, Matala, Falassarna.</p>\n\n<p>Ce explorezi? Creta e o comoară! Începe cu ruinele Civilizației Minoice, Muzeul Arheologic Heraklion (cu artefacte minoice vechi de mii de ani!). Vezi Castelele Venețiene, Palatul Knossos, Mânăstirea Arkadi. Descoperă defilee sălbatice (Defileul Zakaros), platouri (Lasithi), peșteri (Melidoni, Sfendoni). E un paradis pentru amatorii de alpinism și trekking în chei. Iar dacă vrei party, Malia e \"Ibiza\" Cretei! Seara, bucură-te de aromele cretane la o tavernă și admiră apusul romantic.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Creta",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Zakynthos_vacanta_grecia.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Zakynthos: Faimoasă pentru epavă (și țestoase Caretta-Caretta!)"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Zakynthos: Faimoasă pentru&nbsp;epavă (și ț</strong><strong>estoase Caretta-Caretta!)</strong></h3>\n\n<p>Zakynthos e insula aia pe care o recunoști instant după poza cu epava de pe plaja Navaggio. E iubită de turiști și pentru țestoasele Caretta-Caretta care vin să-și depună ouăle pe plajele din sud. Are nisip fin, stânci albe, apă azurie și o atmosferă care merge bine și cu familia, și cu prietenii, și în doi.</p>\n\n<p>Cum ajungi? E la 1200 km de București. Poți merge cu avionul cu escală sau cu autocar charter. Cu mașina e un drum lung și obositor, vreo 22 de ore.</p>\n\n<p>Plaje? Plaja Navaggio e superstarul, dar mai ai o grămadă de plaje faine: Vassilikos, Gerakas, Spiantza, Porto Zoro, Agios Nikolaos, Kalamaki. Nu rata Peșterile Albastre, sunt superbe!</p>\n\n<p>Ce explorezi? Pe lângă plajă, plimbă-te prin capitala Zakynthos Town, vizitează insulița Marathonisi (în golful Laganas). Vezi mânăstirea Anafonitria, podul venețian din Argassi, Parcul Marin Național, Muzeul Bizantin. Dacă vrei adrenalină, ai sporturi nautice (ski, jet ski, flyboard) sau sesiuni de scufundări.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Zakynthos",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Lefkada2.jpeg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "height": "400",
+                                                "rounded": "xl",
+                                                "alt": "Lefkada: Caraibe de Ionia (și legată de continent!)"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Lefkada: Caraibe de Ionia (ș</strong><strong>i&nbsp;legat</strong><strong>ă&nbsp;</strong><strong>de&nbsp;continent!)</strong></h3>\n\n<p>Lefkada e super populară printre români și arată ca în Caraibe! Golfuri azurii, nisip alb, stânci impresionante – un peisaj montan și marin în același timp.</p>\n\n<p>Cum ajungi? E la cam 1050 km de București și e cea mai simplă insulă de ajuns, fiindcă e legată de continent printr-un pod plutitor! Nu-ți trebuie ferryboat! Nu are aeroport, dar poți zbura la Preveza, de unde iei autobuzul până pe insulă.</p>\n\n<p>Plaje? Spectaculoase, mai ales în vest! Porto Katsiki e faimoasă mondial pentru frumusețea ei. Mai ai Egremni (parțial distrusă de un cutremur, dar încă superbă) și Kathsima. Ai plaje pentru toate gusturile, de la retrase la aglomerate.</p>\n\n<p>Ce explorezi? Pe lângă peisajele memorabile, explorează capitala, satele pescărești, cascadele, peșterile. Vezi bisericile Agios Dimitrios, Agios Minas și cetatea Santa Maura. Dacă ești fan sporturi nautice, ai de unde alege. Iar croazierele pe mare îți arată colțuri ascunse ale insulei.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Lefkada",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "section-title",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Fun Facts & Sfaturi Utile</h2>",
+                                            "html": ""
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<ul>\n\t<li><strong>Cele mai vizitate insule:</strong>&nbsp;Thassos, Corfu, Zakynthos, Santorini, Creta.</li>\n\t<li><strong>Insule&nbsp;</strong><strong>în Marea Egee (Est/Sud-Est):</strong>&nbsp;Santorini, Rhodos, Thassos, Mykonos, Kos, Samos, Paros, Skiathos, Monemvasia, Chios, Tilos, Creta.</li>\n\t<li><strong>Insule la Marea Ionică&nbsp;</strong><strong>(Vest/Sud-Vest):</strong>&nbsp;Lefkada, Kefalonia, Zakynthos.</li>\n\t<li><strong>Insule cu aeroport (poți zbura direct/intern):</strong>&nbsp;Corfu, Kefalonia, Creta, Kos, Mykonos, Paros, Rhodos, Samos, Santorini, Zakynthos, Naxos, Lefkada. Aeroportul din Atena e un hub important pentru zboruri interne spre insule.</li>\n\t<li><strong>Cea mai mare insulă din Grecia:</strong>&nbsp;Creta! Și a cincea ca mărime din Mediterana. Capitala e Heraklion.</li>\n\t<li><strong>Cea mai scumpă insulă:</strong>&nbsp;Santorini! Peisajele sunt uluitoare, dar pregătește-ți bugetul! Dar merită măcar o dată în viață!</li>\n</ul>\n\n<p>Insulele grecești sunt pur și simplu speciale, diferite și te prind în vraja lor. O să-ți rămână în amintiri ca locuri de vis unde să-ți petreci vacanța!</p>\n\n<p>Sper că ți-a plăcut turul ăsta virtual! Unde te vezi lenevind la soare sau explorând ruine? 😊</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "text": "Fun Facts & Sfaturi Utile",
+                "props": {
+                    "fluid": true,
+                    "style": "",
+                    "class": ""
+                }
+            }
+        ]
+    },
+    "name": "289-content-bottom"
+}

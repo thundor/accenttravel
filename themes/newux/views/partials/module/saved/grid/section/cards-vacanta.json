@@ -1,0 +1,202 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "grid",
+                            "mod_data": {
+                                "title": "VList Module title",
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "mod_template": "grid",
+                                                                "mod_data": {
+                                                                    "title": "VList Module title",
+                                                                    "children": [
+                                                                        {
+                                                                            "text": "Demo section",
+                                                                            "status": 1,
+                                                                            "children": [
+                                                                                {
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "mod_template": "html",
+                                                                                                    "mod_data": {
+                                                                                                        "html": "<h2>Daruieste o vacanta!</h2>\n\n<div class=\"w-lg-75 w-100\">\n<p>Un cadou pe care îl poți dărui celor dragi, cu orice ocazie, în orice moment. Travel Gift Card este un produs Accent Travel &amp; Events și &nbsp;poate fi achizițioanat din rețeaua de Centre Comerciale Carrefour din toată țara sau îl poți comanda aici:</p>\n\n<div style=\"gap:10px;\" class=\"d-inline-flex align-center pt-5 mt-5\"><a style=\"background-color: #02A0FF; padding:13px 30px; border:1px solid #02A0FF\" href=\"/gift-card\" class=\"btn text-white rounded-lg butoane-daruieste\">Cumpara Gift Card</a> <a style=\"background-color: transparent; color:#000 !important; padding:13px 30px; border:1px solid #02A0FF\" href=\"/giftcard\" class=\"btn text-white rounded-lg butoane-daruieste\">Afla mai mult</a></div>\n</div>\n",
+                                                                                                        "props": {
+                                                                                                            "class": "d-flex flex-column pa-10 pb-0 pl-0 pr-0 flex-fill  justify-content-center"
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "children": [
+                                                                                {
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "mod_data": {
+                                                                                                        "props": {
+                                                                                                            "class": "pb-0"
+                                                                                                        },
+                                                                                                        "html": "<p><strong><span style=\"color:#3498db;\">Parteneri:</span></strong></p>\n"
+                                                                                                    },
+                                                                                                    "mod_template": "html"
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ],
+                                                                                    "status": true
+                                                                                },
+                                                                                {
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "mod_data": {
+                                                                                                        "props": {
+                                                                                                            "src": "/resources/images/epay_a_euronet_worldwide_company_seeklogo.png",
+                                                                                                            "aspectRatio": "16/9",
+                                                                                                            "cover": true
+                                                                                                        },
+                                                                                                        "a_props": {}
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "mod_data": {
+                                                                                                        "props": {
+                                                                                                            "src": "/resources/images/logo_xeSIM_01.png",
+                                                                                                            "aspectRatio": "16/9",
+                                                                                                            "cover": true
+                                                                                                        },
+                                                                                                        "a_props": {}
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "mod_data": {
+                                                                                                        "props": {
+                                                                                                            "src": "/resources/images/logo_Accent_DMC.png",
+                                                                                                            "aspectRatio": "16/9",
+                                                                                                            "cover": true
+                                                                                                        },
+                                                                                                        "a_props": {}
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ],
+                                                                                    "props": {
+                                                                                        "class": "w-50 mt-0 pt-0"
+                                                                                    }
+                                                                                }
+                                                                            ],
+                                                                            "default_mod_template": "image",
+                                                                            "default_mod_data": null,
+                                                                            "status": true,
+                                                                            "props": {
+                                                                                "class": ""
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ],
+                                                        "props": {
+                                                            "class": "v-col-12 v-col-md-6 d-flex flex-column euro-weekend-g-r-col1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "mod_template": "image",
+                                                                "mod_data": {
+                                                                    "props": {
+                                                                        "src": "/resources/images/Tema/daruieste_o_vacanta.png",
+                                                                        "aspectRatio": "16/9",
+                                                                        "cover": true,
+                                                                        "width": "600"
+                                                                    },
+                                                                    "a_props": {}
+                                                                }
+                                                            }
+                                                        ],
+                                                        "props": {
+                                                            "class": " d-flex justify-center align-center"
+                                                        }
+                                                    }
+                                                ],
+                                                "props": {
+                                                    "class": "euro-weekend-g-r"
+                                                }
+                                            }
+                                        ],
+                                        "status": true,
+                                        "props": {
+                                            "class": "px-md-16 euro-weekend-g"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "default_mod_template": "card-image-vertical",
+    "default_mod_data": {
+        "image": {
+            "props": {
+                "src": "/resources/images/balvanyos.jpg",
+                "height": "250",
+                "cover": true,
+                "aspectRatio": "16/9",
+                "rounded": "lg"
+            }
+        },
+        "props": {
+            "tag": "a",
+            "href": "https://accenttravel.ro/hoteluri",
+            "class": "text-decoration-none mx-auto",
+            "maxWidth": "400",
+            "rounded": "lg",
+            "minWidth": "250"
+        },
+        "title": "Turcia - Antalya",
+        "subtitle": "",
+        "button_title": "Vezi ofertele",
+        "header_title": ""
+    },
+    "status": false,
+    "name": "cards-vacanta",
+    "props": {
+        "fluid": true,
+        "style": "background: transparent linear-gradient(117deg, #FFE0E9 0%, #D8F0FF 100%) 0% 0% no-repeat padding-box;\nmargin-bottom:30px;",
+        "class": "euro-weekend"
+    },
+    "carousel": false,
+    "text": "Euro weekend"
+}

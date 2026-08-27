@@ -1,0 +1,71 @@
+<?php defined('ENVIRONMENT') OR die('Invalid access'); ?>
+<?php themeFunctions::loadAddons(__FILE__); ?>
+<?php themeFunctions::debugFileLine('start'); ?>
+<style type="text/css">
+.selected_date_end,
+.selected_date_start {
+  text-transform: capitalize;
+}
+#modalMapH{
+  position:fixed !important;
+  height:523px;
+}
+.hotel-image{
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  padding-bottom: 50%;
+  overflow: hidden;
+}
+.show-rest{
+  padding-left: 4px;
+}
+.show-rest::before{
+  content:'...';
+  color: #999;
+}
+#packages-loading-screen{
+  position:fixed;
+  width:100vw;
+  height:100vh;
+  top:0;
+  left:0;
+  display:table;
+  background-color: rgba(255,255,255,0.2);
+  z-index: 9999;
+  opacity:1;
+}
+#packages-loading-screen > div{
+  text-align:center;
+  vertical-align:middle;
+  display: table-cell;
+  font-size:50px;
+  line-height:50px;
+}
+#packages-loading-screen.inactive{
+  pointer-events:none;
+  opacity:0;
+}
+li.hotelshowmore.closed>a:last-child{
+  display:none;
+}
+li.hotelshowmore:not(.closed)>a:first-child{
+  display:none;
+}
+li.hotelshowmore.closed~li{
+  display:none;
+}
+.custom-spinner-wrapper{
+  display: inline-block;
+  background: #fff;
+  padding: 23px;
+  position: relative;
+  pointer-events: none;
+  border: 1px solid #0275d8;
+}
+#package > .nav-tabs .nav-link{
+  border: 1px solid transparent;
+  border-color: #ddd #ddd #fff;
+}
+</style>
+<?php themeFunctions::debugFileLine('end'); ?>

@@ -1,0 +1,67 @@
+- v1.0.0
+   - Released initial version.
+
+- v1.0.1
+   - before updating the input, added check for null variables
+
+- v1.1.0
+   - added `ondraw` event
+   - added `disableDays` function to disable custom days
+   - fixed `startOnMonday` if moment.js locale already starts at Monday
+   - fixed deprecated `jQuery.size()` warnings
+   - added `autoCloseOnSelect` option to close when a date/range is selected
+   - added Show & Hide methods (`showDropdown`/`hideDropdown`)
+   - changed all locale aware weekdays to act constant in every locale (0-Sunday and 6-Saturday)
+   - added `oninit` event
+
+- v1.1.1
+   - added event handler checks before event.stopPropagation occurances
+   - seperated click & tap events on mobile and desktop
+   - checked jQuery UI tap event exist before loading hammer.js
+
+- v1.1.2
+   - fixed range click locale bug (which causes wrong start date output)
+
+- v1.1.3
+   - fixed apply button click event on mobile screens
+   - added `disabledRanges` option to specify schedule like selections
+   - added `countinuous` option to only allow continuous range selection
+
+- v1.2.0
+   - added direction parameter to `onbeforemonthchange` event
+   - added quick year and month switching feature
+   - added multiple calendar support for mobile
+
+- v1.2.1
+   - fixed IE10 compatibility on JS and CSS
+   - made some optimizations
+
+- v1.2.2
+   - fixed uninitialized startDateBackup variable bug
+   - added browserSync support
+
+- v1.2.3
+   - fixed event duplication on document click
+   - fixed outside triggers closing dropdown
+   - fixed target element confusion when different target option is specified
+   - added startEmpty option
+   - fixed multiple instance closing issues
+   - added missing event parameters to hideDropdown method
+
+- v.1.3.0
+   - fixed autoCloseOnSelect on singleDate version / mobile views
+   - changed code to make clicking on disabled days select start/end date
+   - added some transition delays to make it smoother
+   - added keyboard navigation (`enableKeyboard` option)
+       up: previous week
+       down: next week
+       left: previous day
+       right: next day
+       space: select day
+       pageup: previous month
+       pagedown next month
+       shift + pageup: previous year
+       shift + pagedown: next year
+    - added easy year switch buttons on year list
+    - fixed startEmpty cell selected classes
+    - added destroy method and some extra tests

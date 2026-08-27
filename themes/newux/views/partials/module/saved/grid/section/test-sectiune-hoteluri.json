@@ -1,0 +1,289 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {},
+                                "title": "Orase de poveste, hoteluri de neuitat",
+                                "html": "<p>Descopera&nbsp;orasele preferate de milioane de turisti</p>\n"
+                            },
+                            "mod_template": "section-title"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/tailanda.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-bangkok-thailanda"
+                                },
+                                "title": "Bangkok, Thailanda"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/londra.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-londra-marea-britanie"
+                                },
+                                "title": "Londra, Marea Britanie"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/hoteluri_paris.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "hoteluri-paris-franta"
+                                },
+                                "title": "Paris, Franta"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/dubai - Copy 1.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-dubai"
+                                },
+                                "title": "Dubai, Emiratele Arabe Unite"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/new_york.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-new-york-city-sua"
+                                },
+                                "title": "New York City, SUA"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/singapore.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-singapore"
+                                },
+                                "title": "Singapore, SINGAPORE"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/tokyo.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-tokyo-japonia"
+                                },
+                                "title": "Tokyo, Japonia"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/istanbul.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-istanbul-turcia"
+                                },
+                                "title": "Istanbul, Turcia"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/roma.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-roma-italia"
+                                },
+                                "title": "Roma, Italia"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/barcelona - Copy 1.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-barcelona-spania"
+                                },
+                                "title": "Barcelona, Spania"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/Las_Vegas.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-las-vegas-sua"
+                                },
+                                "title": "Las Vegas, SUA"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/Kuala_Lumpur.jpg"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/hoteluri-kuala-lumpur-malaezia"
+                                },
+                                "title": "Kuala Lumpur, Malaezia"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "default_mod_template": "card-image-vertical",
+    "default_mod_data": {
+        "image": {
+            "props": {
+                "src": "/resources/images/balvanyos.jpg",
+                "height": "250",
+                "cover": true,
+                "aspectRatio": "16/9",
+                "rounded": "lg"
+            }
+        },
+        "props": {
+            "tag": "a",
+            "href": "https://accenttravel.ro/hoteluri",
+            "class": "text-decoration-none mx-auto",
+            "maxWidth": "400",
+            "rounded": "lg",
+            "minWidth": "250"
+        },
+        "title": "Turcia - Antalya",
+        "subtitle": "",
+        "button_title": "Vezi ofertele",
+        "header_title": ""
+    },
+    "status": true,
+    "props": {
+        "class": "pt-10 pb-10"
+    },
+    "name": "test-sectiune-hoteluri"
+}

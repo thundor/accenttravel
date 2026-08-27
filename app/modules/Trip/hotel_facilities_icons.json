@@ -1,0 +1,505 @@
+{
+    "8977648": {
+        "i": "fa fa-fire",
+        "Name": "Central heating"
+    },
+    "34267970": {
+        "i": "fa fa-th",
+        "Name": "Number of pools"
+    },
+    "76171405": {
+        "i": "fa fa-user-plus",
+        "Name": "Reception area"
+    },
+    "79435876": {
+        "i": "fa fa-volume-up",
+        "Name": "HiFi stereo system"
+    },
+    "113347087": {
+        "i": "fa fa-star",
+        "Name": "Outdoor pool"
+    },
+    "121966264": {
+        "i": "fa fa-coffee",
+        "Name": "Cafe"
+    },
+    "135196246": {
+        "i": "fa fa-newspaper-o",
+        "Name": "Newspaper stand"
+    },
+    "171114279": {
+        "i": "fa fa-podcast",
+        "Name": "Public Internet"
+    },
+    "195303018": {
+        "i": "fa fa-cutlery",
+        "Name": "Kitchen"
+    },
+    "204968329": {
+        "i": "fa fa-sun-o",
+        "Name": "Sun loungers"
+    },
+    "223315319": {
+        "i": "fa fa-bath",
+        "Name": "Bathroom"
+    },
+    "231948603": {
+        "i": "fa fa-tv",
+        "Name": "TV room"
+    },
+    "290670989": {
+        "i": "fa fa-star",
+        "Name": "Indoor pool"
+    },
+    "304501235": {
+        "i": "fa fa-circle-o-notch fa-spin",
+        "Name": "Launderette"
+    },
+    "360391316": {
+        "i": "fa fa-ban fa-stack-1x text-danger | fa fa-fire fa-stack-1x",
+        "Name": "Restaurant - non-smoking area"
+    },
+    "442472120": {
+        "i": "fa fa-map-marker",
+        "Name": "Located on a main street"
+    },
+    "495625182": {
+        "i": "fa fa-coffee",
+        "Name": "Tea \/ Coffee"
+    },
+    "532279991": {
+        "i": "fa fa-wheelchair",
+        "Name": "Wheelchair accessible"
+    },
+    "535990730": {
+        "i": "fa fa-pie-chart",
+        "Name": "Conference room"
+    },
+    "551270426": {
+        "i": "fa fa-fire",
+        "Name": "Heated pool"
+    },
+    "594709228": {
+        "i": "fa fa-spoon",
+        "Name": "Kitchenette"
+    },
+    "611997820": {
+        "i": "fa fa-spoon",
+        "Name": "Breakfast room"
+    },
+    "632484785": {
+        "i": "fa fa-snowflake-o",
+        "Name": "Central air-conditioned"
+    },
+    "634983343": {
+        "i": "fa fa-wheelchair",
+        "Name": "Disabled bathroom"
+    },
+    "677972953": {
+        "i": "fa fa-bicycle",
+        "Name": "Bicycle rental"
+    },
+    "698644030": {
+        "i": "fa fa-volume-up",
+        "Name": "Radio"
+    },
+    "709497574": {
+        "i": "fa fa-slideshare",
+        "Name": "Lift-s"
+    },
+    "744918302": {
+        "i": "fa fa-beer",
+        "Name": "Pub-s"
+    },
+    "754809453": {
+        "i": "fa fa-spinner fa-spin",
+        "Name": "Washing machine"
+    },
+    "756617572": {
+        "i": "fa fa-gamepad",
+        "Name": "Game room"
+    },
+    "783356237": {
+        "i": "fa fa-phone",
+        "Name": "Direct dial telephone"
+    },
+    "784562615": {
+        "i": "fa fa-cog fa-spin",
+        "Name": "Laundry service"
+    },
+    "862321155": {
+        "i": "fa fa-wifi",
+        "Name": "WLAN access point"
+    },
+    "870317076": {
+        "i": "fa fa-beer",
+        "Name": "Minibar"
+    },
+    "888234722": {
+        "i": "fa fa-television",
+        "Name": "TV"
+    },
+    "890670717": {
+        "i": "fa fa-star",
+        "Name": "Iron and board"
+    },
+    "914445284": {
+        "i": "fa fa-cart-plus",
+        "Name": "Supermarket"
+    },
+    "915827222": {
+        "i": "fa fa-tint",
+        "Name": "Fresh water pool"
+    },
+    "940242599": {
+        "i": "fa fa-mobile",
+        "Name": "Mobile phone network"
+    },
+    "962801421": {
+        "i": "fa fa-object-ungroup",
+        "Name": "Carpeted"
+    },
+    "972548563": {
+        "i": "fa fa-trello",
+        "Name": "Balcony"
+    },
+    "985381567": {
+        "i": "fa fa-cutlery",
+        "Name": "Dining room"
+    },
+    "1009293000": {
+        "i": "fa fa-rebel",
+        "Name": "Hairdresser"
+    },
+    "1013172292": {
+        "i": "fa fa-cutlery",
+        "Name": "Oven"
+    },
+    "1035290764": {
+        "i": "fa fa-glass",
+        "Name": "Lounge"
+    },
+    "1062029159": {
+        "i": "fa fa-umbrella",
+        "Name": "Parasols"
+    },
+    "1067861557": {
+        "i": "fa fa-leaf",
+        "Name": "Garden"
+    },
+    "1070858445": {
+        "i": "fa fa-glass",
+        "Name": "Terrace"
+    },
+    "1130014994": {
+        "i": "fa fa-bullhorn",
+        "Name": "Hairdryer"
+    },
+    "1197655404": {
+        "i": "fa fa-smile-o",
+        "Name": "Special SPA packages"
+    },
+    "1222716867": {
+        "i": "fa fa-glass",
+        "Name": "Mini club"
+    },
+    "1267829274": {
+        "i": "fa fa-cutlery",
+        "Name": "Restaurant -s"
+    },
+    "1316428595": {
+        "i": "fa fa-fire",
+        "Name": "Individual heating"
+    },
+    "1354572135": {
+        "i": "fa fa-snowflake-o",
+        "Name": "Air-conditioned in common areas"
+    },
+    "1371873224": {
+        "i": "fa fa-tv",
+        "Name": "Satellite \/ cable TV"
+    },
+    "1415754051": {
+        "i": "fa fa-shield",
+        "Name": "Safe"
+    },
+    "1428727407": {
+        "i": "fa fa-snowflake-o",
+        "Name": "Individual air-conditioned"
+    },
+    "1429837174": {
+        "i": "fa fa-bed",
+        "Name": "Double bed"
+    },
+    "1437821254": {
+        "i": "fa fa-podcast",
+        "Name": "Microwave"
+    },
+    "1439192772": {
+        "i": "fa fa-credit-card",
+        "Name": "Maestro"
+    },
+    "1452184804": {
+        "i": "fa fa-asterisk fa-spin",
+        "Name": "Disco \/ Club"
+    },
+    "1475848381": {
+        "i": "fa fa-shopping-cart",
+        "Name": "Shop-s"
+    },
+    "1489690870": {
+        "i": "fa fa-bath",
+        "Name": "Bath"
+    },
+    "1490027961": {
+        "i": "fa fa-video-camera",
+        "Name": "Theatre"
+    },
+    "1492590702": {
+        "i": "fa fa-tint",
+        "Name": "Salt water pool"
+    },
+    "1502976625": {
+        "src": "fitness.png",
+        "Name": "Gym"
+    },
+    "1504369724": {
+        "i": "fa fa-medkit",
+        "Name": "Medical Service"
+    },
+    "1518242505": {
+        "i": "fa fa-snowflake-o",
+        "Name": "Fridge"
+    },
+    "1535241916": {
+        "i": "fa fa-spinner fa-spin",
+        "Name": "Whirlpool"
+    },
+    "1552481343": {
+        "i": "fa fa-sun-o",
+        "Name": "Tanning studio"
+    },
+    "1585262088": {
+        "i": "fa fa-sun-o",
+        "Name": "Sunbathing Terrace"
+    },
+    "1622617933": {
+        "i": "fa fa-beer",
+        "Name": "Snack \/ pool bar"
+    },
+    "1622800823": {
+        "i": "fa fa-mixcloud",
+        "Name": "Steam bath"
+    },
+    "1640120154": {
+        "i": "fa fa-podcast",
+        "Name": "Internet access"
+    },
+    "1671229026": {
+        "i": "fa fa-cc-visa",
+        "Name": "Visa Electron"
+    },
+    "1683492853": {
+        "i": "fa fa-snowflake-o",
+        "Name": "Restaurant - Air-conditioned"
+    },
+    "1695783615": {
+        "i": "fa fa-quote-left",
+        "Name": "Cloakroom"
+    },
+    "1702462786": {
+        "i": "fa fa-ge",
+        "Name": "Mini fridge"
+    },
+    "1737004415": {
+        "i": "fa fa-soccer-ball-o",
+        "Name": "Playground"
+    },
+    "1780590546": {
+        "i": "fa fa-money",
+        "Name": "Money Exchange"
+    },
+    "1782217826": {
+        "i": "fa fa-child",
+        "Name": "Children&amp;#039;s pool"
+    },
+    "1794278945": {
+        "i": "fa fa-fire",
+        "Name": "Restaurant -smoking area"
+    },
+    "1808119560": {
+        "i": "fa fa-bed",
+        "Name": "King size bed"
+    },
+    "1832940025": {
+        "i": "fa fa-shower",
+        "Name": "Shower"
+    },
+    "1883184055": {
+        "i": "fa fa-star",
+        "Name": "High chairs"
+    },
+    "1917712252": {
+        "i": "fa fa-user-plus",
+        "Name": "24h check-in"
+    },
+    "1999924846": {
+        "i": "fa fa-beer",
+        "Name": "Bar-s"
+    },
+    "2002401143": {
+        "i": "fa fa-star",
+        "Name": "24h. Reception"
+    },
+    "2010036544": {
+        "i": "fa fa-automobile",
+        "Name": "Garage"
+    },
+    "2014157646": {
+        "i": "fa fa-key",
+        "Name": "Room service"
+    },
+    "2017033139": {
+        "i": "fa fa-bicycle",
+        "Name": "Bicycle storage"
+    },
+    "2077997955": {
+        "i": "fa fa-automobile",
+        "Name": "Car park"
+    },
+    "2083064699": {
+        "i": "fa fa-hand-paper-o",
+        "Name": "Massage"
+    },
+    "2097290875": {
+        "i": "fa fa-connectdevelop",
+        "Name": "Sauna"
+    },
+    "2139793129": {
+        "i": "fa fa-building",
+        "Name": "Annex buildings"
+    },
+    "249856120": {
+        "i": "fa fa-star"
+    },
+    "248453360": {
+        "i": "fa fa-star"
+    },
+    "372594801": {
+        "i": "fa fa-star"
+    },
+    "1166101455": {
+        "i": "fa fa-star"
+    },
+    "87964184": {
+        "i": "fa fa-star"
+    },
+    "1538207986": {
+        "i": "fa fa-star"
+    },
+    "833551708": {
+        "i": "fa fa-star"
+    },
+    "892941428": {
+        "i": "fa fa-star"
+    },
+    "1925036069": {
+        "i": "fa fa-star"
+    },
+    "1170631458": {
+        "i": "fa fa-star"
+    },
+    "1841470126": {
+        "i": "fa fa-star"
+    },
+    "257248914": {
+        "i": "fa fa-star"
+    },
+    "1420735736": {
+        "i": "fa fa-star"
+    },
+    "1290433307": {
+        "i": "fa fa-star"
+    },
+    "1117555061": {
+        "i": "fa fa-star"
+    },
+    "231644439": {
+        "i": "fa fa-star"
+    },
+    "1753385100": {
+        "i": "fa fa-star"
+    },
+    "1408044761": {
+        "i": "fa fa-star"
+    },
+    "564841422": {
+        "i": "fa fa-star"
+    },
+    "1377099419": {
+        "i": "fa fa-star"
+    },
+    "94874641": {
+        "i": "fa fa-star"
+    },
+    "531578470": {
+        "i": "fa fa-star"
+    },
+    "1296935030": {
+        "i": "fa fa-star"
+    },
+    "366624554": {
+        "i": "fa fa-star"
+    },
+    "381037206": {
+        "i": "fa fa-star"
+    },
+    "1036058927": {
+        "i": "fa fa-star"
+    },
+    "1387152565": {
+        "i": "fa fa-star"
+    },
+    "1427455839": {
+        "i": "fa fa-star"
+    },
+    "1971462890": {
+        "i": "fa fa-star"
+    },
+    "2083040116": {
+        "i": "fa fa-star"
+    },
+    "1096335607": {
+        "i": "fa fa-star"
+    },
+    "344746733": {
+        "i": "fa fa-star"
+    },
+    "1143097728": {
+        "i": "fa fa-star"
+    },
+    "1918624804": {
+        "i": "fa fa-star"
+    },
+    "1773933746": {
+        "i": "fa fa-star"
+    },
+    "1093580844": {
+        "i": "fa fa-star"
+    },
+    "1631314637": {
+        "i": "fa fa-star"
+    },
+    "480569864": {
+        "i": "fa fa-star"
+    },
+    "195719018": {
+        "i": "fa fa-star"
+    },
+    "1497385221": {
+        "i": "fa fa-star"
+    },
+    "282599465": {
+        "i": "fa fa-star"
+    }
+}

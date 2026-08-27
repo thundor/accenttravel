@@ -1,0 +1,26 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "mod_template": "image",
+                    "status": true
+                }
+            ],
+            "status": true
+        },
+        {
+            "children": [
+                {}
+            ]
+        },
+        {
+            "children": [
+                {}
+            ]
+        }
+    ],
+    "status": true,
+    "default_mod_template": "image",
+    "name": "sablon-rand"
+}

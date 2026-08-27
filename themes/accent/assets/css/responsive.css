@@ -1,0 +1,1488 @@
+@charset "utf-8";
+
+/* CSS Responsive */
+
+@media (min-width: 320px) and (max-width:374px) {
+    /*top area : meniu, logo, login si call center*/
+    .logoTop1 {
+        text-align: center !important;
+    }
+    .socialTop1 {
+        text-align: center !important;
+        width: 50%;
+    }
+    .socialTop1 p {
+        margin-right: 0px !important;
+    }
+    .loginArea1 {
+        text-align: center !important;
+    }
+    /* .bilete {margin-left:15px; padding-left:15px;} */
+    #utileVacanta {
+        position: absolute;
+        z-index: 9999;
+        top: 80px;
+        width: 300px;
+        right: 1%;
+    }
+    .dataPL {
+        text-align: center;
+        margin-bottom: 15px;
+        border-bottom: 1px dashed #DDD;
+    }
+    .infoEscale {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        background: #0275d8;
+        border: 1px solid #0275d8;
+        min-height: 80px;
+        display: none;
+        min-height: 175px;
+        width: 100%;
+    }
+    .infoPE,
+    .infoSE {
+        width: 100%;
+        float: left;
+        color: #FFF;
+        padding: 15px;
+        position: relative;
+        background: #0275d8;
+        min-height: 80px;
+        margin-right: 0px;
+    }
+    .durataZbor {
+        position: absolute;
+        z-index: 1;
+        top: 28px;
+        left: 220px;
+        padding: 9px 12px;
+        color: #0275d8;
+        text-align: center;
+        opacity: 1 !important;
+        width: 95px;
+    }
+    .durataZbor img.conector {
+        display: none;
+    }
+    .timeEsc1 {
+        width: 70%;
+        float: left;
+        padding: 15px 15px 4px;
+        text-align: center;
+        border-right: 1px solid #999;
+        position: relative;
+        background: #FFFFFF !important;
+        opacity: 1 !important;
+    }
+    .detEscale {
+        width: 80px;
+        margin: auto !important;
+        border: none;
+    }
+    #logoAccent1 {
+        padding: 15px 0px 10px 20px;
+        width: 180px;
+        margin: auto;
+        margin-left: -20px;
+    }
+    .pl-1 {
+        padding-left: 1.1rem !important;
+    }
+    #contulMeu {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .topHeader .text-right {
+        text-align: center !important;
+    }
+    .topHeader .float-right {
+        float: none !important;
+        text-align: center;
+    }
+    .searchMenuHotel button.bg-primary {
+        width: 90%;
+        margin: auto;
+    }
+    #utileVacanta img {
+        position: absolute;
+        top: -10px;
+        right: 160px;
+        width: 10px;
+    }
+    #loginWindow,
+    #regWindow {
+        box-sizing: border-box;
+        z-index: 9999;
+        position: absolute;
+        top: 24%;
+        right: 10px;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+    #contOpt {
+        right: 30%
+    }
+    #utileVacanta ul {
+        float: left;
+        margin: 18px 15px;
+        text-align: left;
+        line-height: 2rem;
+    }
+    .searchMenu1 {
+        background: #FFF;
+        margin-bottom: 20px;
+        min-height: 200px;
+        margin-left: 10px;
+        width: 95%;
+        float: left;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 999;
+        padding: 10px 10px 0px;
+    }
+    #mainCarousel {
+        display: none;
+    }
+    .searchMenu1 .nav-tabs li {
+        margin-right: 0px;
+        margin-top: 0px;
+        width: 100% !important;
+        box-sizing: border-box;
+        border-bottom: 1px solid #132B4F;
+        border-top: 1px solid #FFF;
+    }
+    #companiiAir .nav-link img {
+        max-width: 40px;
+        padding-top: 5px;
+    }
+    #companiiAir .nav-link {
+        display: block;
+        padding: .2em 1em;
+        font-size: 0.7rem;
+    }
+    .searchMenu1 ul.nav li {
+        border-bottom: 1px solid #132B4F;
+        border-top: 1px solid #FFF;
+    }
+    .searchMenu1 ul.nav {
+        min-width: 20%;
+        max-width: 100%;
+    }
+    .borderTitle {
+        display: none;
+    }
+    #rezOnline {
+        font-size: 1rem;
+    }
+    .hoteluriWeek {
+        padding: 0px 0px 10px 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px dashed #CCC;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .hoteluriWeek h4,
+    .hoteluriWeek .pretWeek {
+        margin-top: 10px;
+    }
+    .hoteluriWeek .btn {
+        float: none !important;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .titleBilete {
+        font-size: 1.1rem;
+        padding: 8px;
+        margin-top: 20px;
+    }
+    .bileteHome h5 span {
+        font-size: 0.8rem;
+    }
+    .picExp img {
+        margin-left: 0px;
+    }
+    .textExp,
+    .textExp ul {
+        font-size: 1.1rem;
+    }
+    .textExp h2 {
+        text-align: center;
+    }
+    .oferta .promo {
+        top: -30%;
+        right: -30%;
+        font-size: 1.1rem;
+        padding-top: 40px;
+    }
+    .oferta h3 {
+        width: 90%;
+    }
+    .ofWeek,
+    #plecariHotWeekend {
+        margin-left: 10px !important;
+    }
+    #plecariHotWeekend {
+        width: 97%;
+    }
+    .footer h5 {
+        margin-top: 20px !important;
+    }
+    .underFoot {
+        text-align: center;
+    }
+    .underFoot img {
+        float: none;
+    }
+    .homePageC {
+        display: none;
+    }
+    .filterTitle {
+        cursor: pointer;
+    }
+    .filterTitle i {
+        color: #0275d8;
+    }
+    .filterTitle i.fa-plus-square-o,
+    .filterTitle i.fa-minus-square-o {
+        display: inline-block;
+        float: right;
+        cursor: pointer;
+    }
+    .hiddenFilt {
+        display: none;
+    }
+    #modalMapCity {
+        width: 97% !important;
+        left: 1.5%;
+        top: 20%;
+    }
+    #modalMapCity,
+    #modalMapH {
+        width: 90%;
+        left: 5%;
+    }
+    #modalMapCity ul,
+    #modalMapCity h4 {
+        text-align: center !important;
+    }
+    #myCarousel .carousel-item img {
+        width: 100%;
+        max-height: 300px;
+    }
+    .roomShow .thUp h3 {
+        display: block;
+    }
+    .roomShow .thUp:last-child h3 {
+        display: none;
+    }
+    .roomShow .thUp:last-child p {
+        text-align: center;
+    }
+    .blD {
+        border-left: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width:479px) {
+    #modalMapCity {
+        width: 97% !important;
+        left: 1.5%;
+        top: 20%;
+    }
+    /*top area : meniu, logo, login si call center*/
+    .logoTop1 {
+        text-align: center !important;
+    }
+    #logoAccent1 {
+        margin-left: 20px;
+    }
+    .socialTop1 {
+        text-align: center !important;
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .socialTop1 p {
+        margin-right: 0px !important;
+    }
+    .loginArea1 {
+        text-align: center !important;
+    }
+    #utileVacanta {
+        position: absolute;
+        z-index: 9999;
+        top: 105px;
+        width: 300px;
+        right: 30px;
+    }
+    #plati .nav-item {
+        width: 33.333%;
+    }
+    .bilete {
+        margin-left: 5px;
+    }
+    .subTitleFilter {
+        text-align: center;
+    }
+    .paraPad {
+        height: 115px;
+    }
+    .insuranceTBL .bbB:first-child {
+        border-right: none;
+    }
+    #servUtile {
+        padding-bottom: 10px;
+    }
+    #contulMeu {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .topHeader .text-right {
+        text-align: center !important;
+    }
+    .topHeader .float-right {
+        float: none !important;
+        text-align: center;
+    }
+    #utileVacanta img {
+        position: absolute;
+        top: -10px;
+        right: 160px;
+        width: 10px;
+    }
+    #loginWindow,
+    #regWindow {
+        box-sizing: border-box;
+        z-index: 9999;
+        position: absolute;
+        top: 24%;
+        right: 10px;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+    .searchMenuHotel {
+        margin-left: 5%;
+    }
+    .searchMenuHotel button.bg-primary {
+        width: 90%;
+        margin: auto;
+    }
+    .filterTitle {
+        cursor: pointer;
+    }
+    .filterTitle i {
+        color: #0275d8;
+    }
+    .filterTitle i.fa-plus-square-o,
+    .filterTitle i.fa-minus-square-o {
+        display: inline-block;
+        float: right;
+        cursor: pointer;
+    }
+    #companiiAir .nav-link img {
+        max-width: 40px;
+        padding-top: 5px;
+    }
+    #companiiAir .nav-link {
+        display: block;
+        padding: .2em 1em;
+        font-size: 0.7rem;
+    }
+    #contOpt {
+        right: 30%;
+        top: 62%;
+    }
+    .searchMenu1 {
+        background: #FFF;
+        margin-bottom: 20px;
+        min-height: 200px;
+        margin-left: 10px;
+        width: 95%;
+        float: left;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 999;
+        padding: 10px 10px 0px;
+    }
+    #mainCarousel {
+        display: none;
+    }
+    .searchMenu1 ul.nav {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .searchMenu1 .nav-tabs li {
+        margin-right: 0px;
+        margin-top: 0px;
+        width: 100% !important;
+        box-sizing: border-box;
+        border-bottom: 1px solid #132B4F;
+        border-top: 1px solid #FFF;
+        font-size: 0.9rem;
+    }
+    .borderTitle {
+        display: none;
+    }
+    #rezOnline {
+        font-size: 1rem;
+    }
+    .hoteluriWeek {
+        padding: 0px 0px 10px 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px dashed #CCC;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .hoteluriWeek h4,
+    .hoteluriWeek .pretWeek {
+        margin-top: 10px;
+    }
+    .hoteluriWeek .btn {
+        float: none !important;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .titleBilete {
+        font-size: 1.1rem;
+    }
+    .bileteHome h5 span {
+        font-size: 0.8rem;
+    }
+    #oferteWeekend>li a {
+        font-size: 1rem;
+    }
+    .textExp,
+    .textExp ul {
+        font-size: 1.1rem;
+    }
+    .textExp h2 {
+        text-align: center;
+    }
+    .oferta .promo {
+        top: -22%;
+        right: -28%;
+        font-size: 1.2rem;
+        padding-top: 35px;
+    }
+    .oferta h3 {
+        width: 90%;
+    }
+    .ofWeek,
+    #plecariHotWeekend {
+        margin-left: 10px !important;
+    }
+    #plecariHotWeekend {
+        width: 97%;
+    }
+    .underFoot,
+    .underFoot p {
+        text-align: center;
+    }
+    .underFoot img {
+        float: none;
+    }
+    .homePageC {
+        display: none;
+    }
+    .hiddenFilt {
+        display: none;
+    }
+    #modalMapCity,
+    #modalMapH {
+        width: 90%;
+        left: 5%;
+    }
+    #modalMapCity ul,
+    #modalMapCity h4 {
+        text-align: center !important;
+    }
+    #myCarousel .carousel-item img {
+        width: 100%;
+        max-height: 300px;
+    }
+    .roomShow .thUp h3 {
+        display: block;
+    }
+    .roomShow .thUp:last-child h3 {
+        display: none;
+    }
+    .roomShow .thUp:last-child p {
+        text-align: center;
+    }
+    .dataPL {
+        text-align: center;
+        margin-bottom: 15px;
+        border-bottom: 1px dashed #DDD;
+    }
+    .infoEscale {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        background: #0275d8;
+        border: 1px solid #0275d8;
+        min-height: 80px;
+        display: none;
+        min-height: 175px;
+        width: 100%;
+    }
+    .infoPE,
+    .infoSE {
+        width: 100%;
+        float: left;
+        color: #FFF;
+        padding: 15px;
+        position: relative;
+        background: #0275d8;
+        min-height: 80px;
+        margin-right: 0px;
+    }
+    .durataZbor {
+        position: absolute;
+        z-index: 1;
+        top: 28px;
+        left: 250px;
+        padding: 9px 12px;
+        color: #0275d8;
+        text-align: center;
+        opacity: 1 !important;
+        width: 95px;
+    }
+    .durataZbor img.conector {
+        display: none;
+    }
+    .timeEsc1 {
+        width: 70%;
+        float: left;
+        padding: 15px 15px 4px;
+        text-align: center;
+        border-right: 1px solid #999;
+        position: relative;
+        background: #FFFFFF !important;
+        opacity: 1 !important;
+    }
+    .detEscale {
+        width: 80px;
+        margin: auto !important;
+        border: none;
+    }
+    .blD {
+        border-left: none;
+    }
+}
+
+@media (min-width: 480px) and (max-width:575px) {
+    /*top area : meniu, logo, login si call center*/
+    .logoTop1 {
+        text-align: center !important;
+    }
+    .socialTop1 {
+        text-align: center !important;
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .socialTop1 p {
+        margin-right: 0px !important;
+    }
+    #logoAccent1 {
+        margin-left: 20px;
+    }
+    .loginArea1 {
+        text-align: center !important;
+    }
+    #utileVacanta {
+        position: absolute;
+        z-index: 9999;
+        top: 105px;
+        width: 300px;
+        right: 30px;
+    }
+    #servUtile {
+        padding-bottom: 10px;
+    }
+    .filterTitle {
+        cursor: pointer;
+    }
+    .filterTitle i {
+        color: #0275d8;
+    }
+    .filterTitle i.fa-plus-square-o,
+    .filterTitle i.fa-minus-square-o {
+        display: inline-block;
+        float: right;
+        cursor: pointer;
+    }
+    #contulMeu {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .topHeader .text-right {
+        text-align: center !important;
+    }
+    .topHeader .float-right {
+        float: none !important;
+        text-align: center;
+    }
+    #utileVacanta img {
+        position: absolute;
+        top: -10px;
+        right: 160px;
+        width: 10px;
+    }
+    #loginWindow,
+    #regWindow {
+        box-sizing: border-box;
+        z-index: 9999;
+        position: absolute;
+        top: 24%;
+        right: -150px;
+        margin-bottom: 30px;
+        width: 90%;
+    }
+    .searchMenuHotel button.bg-primary {
+        width: 60%;
+        margin: auto;
+    }
+    #contOpt {
+        right: 40%;
+        top: 64%;
+    }
+    #loginWindow {
+        top: 34%;
+        right: 5%;
+        margin-bottom: 30px;
+    }
+    #regWindow {
+        top: 34%;
+        right: 5%;
+        margin-bottom: 30px;
+    }
+    .searchMenu1 {
+        background: #FFF;
+        margin-bottom: 20px;
+        min-height: 200px;
+        margin-left: 10px;
+        width: 95%;
+        float: left;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 999;
+        padding: 10px 10px 0px;
+    }
+    #mainCarousel {
+        display: none;
+    }
+    .searchMenu1 ul.nav {
+        min-width: 20%;
+        max-width: 100%;
+    }
+    .searchMenu1 ul.nav li {
+        border-bottom: 1px solid #132B4F;
+        border-top: 1px solid #FFF;
+    }
+    .searchMenu1 .nav-tabs li.nav-item {
+        margin-right: 0px;
+        margin-top: 0px;
+        width: 100% !important;
+        box-sizing: border-box;
+        border-bottom: 1px solid #132B4F;
+        border-top: 1px solid #FFF;
+    }
+    .borderTitle {
+        display: none;
+    }
+    .hoteluriWeek {
+        padding: 0px 0px 10px 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px dashed #CCC;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .hoteluriWeek h4,
+    .hoteluriWeek .pretWeek {
+        margin-top: 10px;
+    }
+    #oferteWeekend .nav-item {
+        font-size: 1rem;
+        float: left;
+    }
+    .titleBilete {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+    .bileteHome h5 span {
+        font-size: 0.8rem;
+    }
+    .picExp img {
+        margin-left: 0px;
+    }
+    .textExp,
+    .textExp ul {
+        font-size: 1.1rem;
+    }
+    .textExp h2 {
+        text-align: center;
+    }
+    .oferta .promo {
+        top: -30%;
+        right: -30%;
+        font-size: 1.1rem;
+        padding-top: 40px;
+    }
+    .homePageC {
+        display: none;
+    }
+    .hiddenFilt {
+        display: none;
+    }
+    #modalMapCity,
+    #modalMapH {
+        width: 90%;
+        left: 5%;
+    }
+    #modalMapCity ul,
+    #modalMapCity h4 {
+        text-align: center !important;
+    }
+    .roomShow .thUp h3 {
+        display: block;
+    }
+    .roomShow .thUp:last-child h3 {
+        display: none;
+    }
+    .roomShow .thUp:last-child p {
+        text-align: center;
+    }
+    .dataPL {
+        text-align: center;
+        margin-bottom: 15px;
+        border-bottom: 1px dashed #DDD;
+    }
+    .infoEscale {
+        width: 100%;
+    }
+    .infoPE,
+    .infoSE {
+        width: 40%;
+    }
+    .sortTicket,
+    .sortTicket p {
+        text-align: center;
+    }
+    .durataZbor {
+        display: none;
+    }
+    .durataZbor img.conector {
+        display: none;
+    }
+    .timeEsc1 {
+        width: 55%;
+    }
+    .timeEsc1+.timeEsc1 {
+        clear: left;
+    }
+    .blD {
+        border-left: none;
+    }
+    .underFoot,
+    .underFoot p {
+        text-align: center;
+    }
+    .underFoot img {
+        float: none;
+    }
+    #plati .nav-item {
+        width: 33.333%;
+    }
+    .bilete {
+        margin-left: 5px;
+    }
+    .subTitleFilter {
+        text-align: center;
+    }
+    .paraPad {
+        height: 115px;
+    }
+    .insuranceTBL .bbB:first-child {
+        border-right: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width:639px) {
+    .logoTop1 {
+        text-align: center !important;
+    }
+    .paraPad {
+        height: 80px;
+    }
+    .socialTop1 {
+        text-align: center !important;
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .socialTop1 p {
+        margin-right: 0px !important;
+    }
+    #logoAccent1 {
+        margin-left: 20px;
+    }
+    .loginArea1 {
+        text-align: center !important;
+    }
+    #utileVacanta {
+        position: absolute;
+        z-index: 9999;
+        top: 90px;
+        width: 300px;
+        right: 30px;
+    }
+    #servUtile {
+        padding-bottom: 10px;
+    }
+    .filterTitle {
+        cursor: pointer;
+    }
+    .filterTitle i {
+        color: #0275d8;
+    }
+    .filterTitle i.fa-plus-square-o,
+    .filterTitle i.fa-minus-square-o {
+        display: inline-block;
+        float: right;
+        cursor: pointer;
+    }
+    #contulMeu {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .topHeader .text-right {
+        text-align: center !important;
+    }
+    .topHeader .float-right {
+        float: none !important;
+        text-align: center;
+    }
+    #utileVacanta {
+        top: 110px;
+    }
+    #utileVacanta img {
+        position: absolute;
+        top: -10px;
+        right: 160px;
+        width: 10px;
+    }
+    #loginWindow,
+    #regWindow {
+        box-sizing: border-box;
+        z-index: 9999;
+        position: absolute;
+        top: 24%;
+        right: -150px;
+        margin-bottom: 30px;
+        width: 90%;
+    }
+    .underFoot,
+    .underFoot p {
+        text-align: center;
+    }
+    .underFoot img {
+        float: none;
+    }
+    #modalMapCity,
+    #modalMapH {
+        width: 90%;
+        left: 5%;
+    }
+    #modalMapCity ul,
+    #modalMapCity h4 {
+        text-align: center !important;
+    }
+    #contOpt {
+        right: 40%;
+        top: 64%;
+    }
+    #loginWindow {
+        top: 34%;
+        right: 5%;
+        margin-bottom: 30px;
+    }
+    #regWindow {
+        top: 34%;
+        right: 5%;
+        margin-bottom: 30px;
+    }
+    .searchMenuHotel button.bg-primary {
+        margin: auto;
+    }
+    .searchMenu1 {
+        background: #FFF;
+        margin-bottom: 20px;
+        min-height: 200px;
+        margin-left: 10px;
+        width: 95%;
+        float: left;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 999;
+        padding: 10px 10px 0px;
+    }
+    .searchMenu1 ul.nav {
+        min-width: 20%;
+        max-width: 100%;
+    }
+    .searchMenu1 ul.nav li {
+        border-bottom: 1px solid #132B4F;
+        border-top: 1px solid #FFF;
+    }
+    .searchMenu1 .nav-tabs li {
+        margin-right: 0px;
+        margin-top: 0px;
+        width: 100% !important;
+        box-sizing: border-box;
+        border-bottom: 1px solid #132B4F;
+        border-top: 1px solid #FFF;
+    }
+    #mainCarousel {
+        display: none;
+    }
+    .borderTitle {
+        display: none;
+    }
+    .hoteluriWeek {
+        padding: 0px 0px 10px 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px dashed #CCC;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .hoteluriWeek h4,
+    .hoteluriWeek .pretWeek {
+        margin-top: 10px;
+    }
+    .titleBilete {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+    .bileteHome h5 span {
+        font-size: 0.8rem;
+    }
+    .picExp img {
+        margin-left: 0px;
+    }
+    .textExp,
+    .textExp ul {
+        font-size: 1.1rem;
+    }
+    .textExp h2 {
+        text-align: center;
+    }
+    .oferta .promo {
+        top: -30%;
+        right: -30%;
+        font-size: 1.1rem;
+        padding-top: 40px;
+    }
+    .homePageC {
+        display: none;
+    }
+    .hiddenFilt {
+        display: none;
+    }
+    .roomShow .thUp h3 {
+        display: block;
+    }
+    .roomShow .thUp:last-child h3 {
+        display: none;
+    }
+    .roomShow .thUp:last-child p {
+        text-align: center;
+    }
+    .sortTicket,
+    .sortTicket p {
+        text-align: center;
+    }
+    .infoEscale {
+        width: 100%;
+    }
+    .infoPE,
+    .infoSE {
+        width: 40%;
+    }
+    .sortTicket,
+    .sortTicket p {
+        text-align: center;
+    }
+    .durataZbor {
+        display: none;
+    }
+    .durataZbor img.conector {
+        display: none;
+    }
+    .timeEsc1 {
+        width: 55%;
+    }
+    .timeEsc1+.timeEsc1 {
+        clear: left;
+    }
+    .rezCount p {
+        font-size: 0.8rem;
+    }
+    .blD {
+        border-left: none;
+    }
+}
+
+@media (min-width: 640px) and (max-width:767px) {
+    /*top area : meniu, logo, login si call center*/
+    .logoTop1 {
+        text-align: center !important;
+    }
+    .socialTop1 {
+        text-align: center !important;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .socialTop1 p {
+        margin-right: 0px !important;
+    }
+    #logoAccent1 {
+        margin-left: 20px;
+    }
+    .loginArea1 {
+        text-align: center !important;
+    }
+    #contulMeu {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .topHeader .text-right {
+        text-align: center !important;
+    }
+    .topHeader .float-right {
+        float: none !important;
+        text-align: center;
+    }
+    .pl-1 {
+        padding-left: 25px !important;
+    }
+    .titleBilete {
+        font-size: 1.6rem;
+        margin-top: 20px;
+    }
+    #utileVacanta {
+        top: 90px;
+        width: 300px;
+        right: 110px !important;
+    }
+    .filterTitle {
+        cursor: pointer;
+    }
+    .filterTitle i {
+        color: #0275d8;
+    }
+    .filterTitle i.fa-plus-square-o,
+    .filterTitle i.fa-minus-square-o {
+        display: inline-block;
+        float: right;
+        cursor: pointer;
+    }
+    #utileVacanta ul {
+        float: left;
+        margin: 18px 16px;
+        text-align: left;
+        line-height: 2rem;
+    }
+    #utileVacanta img {
+        position: absolute;
+        top: -10px;
+        right: 180px;
+        width: 10px;
+    }
+    .searchMenu1 .nav-tabs li {
+        margin-right: 0px;
+        margin-top: 0px;
+        width: 100% !important;
+        box-sizing: border-box;
+        border-bottom: 1px solid #132B4F;
+        border-top: 1px solid #FFF;
+    }
+    .searchMenu1 ul.nav {
+        min-width: 20%;
+        max-width: 100%;
+    }
+    #addCam2,
+    #remCam2,
+    #addCam3,
+    #remCam3,
+    #addCam2CB,
+    #addCam3CB,
+    #remCam3CB,
+    #remCam2CB,
+    #addCam2Pax,
+    #addCam3Pax,
+    #remCam2Pax,
+    #remCam3Pax,
+    #addCam2Pax1,
+    #addCam3Pax1,
+    #remCam2Pax1,
+    #remCam3Pax1 {
+        cursor: pointer;
+        line-height: 1.2rem;
+    }
+    #modalMapCity,
+    #modalMapH {
+        width: 90%;
+        left: 5%;
+    }
+    #modalMapCity ul,
+    #modalMapCity h4 {
+        text-align: center !important;
+    }
+    #contOpt {
+        right: 40%
+    }
+    #loginWindow {
+        top: 24%;
+        right: 20%;
+        margin-bottom: 30px;
+    }
+    #regWindow {
+        top: 24%;
+        right: 10%;
+        margin-bottom: 30px;
+    }
+    .underFoot,
+    .underFoot p {
+        text-align: center;
+    }
+    .underFoot img {
+        float: none;
+    }
+    .searchMenu1 {
+        background: #FFF;
+        margin-bottom: 20px;
+        min-height: 200px;
+        margin-left: 10px;
+        width: 95%;
+        float: left;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 999;
+        padding: 10px 10px 0px;
+    }
+    .searchMenuHotel button.bg-primary {
+        margin: auto;
+    }
+    #mainCarousel {
+        display: none;
+    }
+    .borderTitle {
+        display: none;
+    }
+    .homePageC {
+        display: none;
+    }
+    .roomShow .thUp h3 {
+        display: block;
+    }
+    .roomShow .thUp:last-child h3 {
+        display: none;
+    }
+    .roomShow .thUp:last-child p {
+        text-align: center;
+    }
+    .infoEscale {
+        width: 100%;
+    }
+    .infoPE,
+    .infoSE {
+        width: 40%;
+    }
+    .sortTicket,
+    .sortTicket p {
+        text-align: center;
+    }
+    .durataZbor {
+        display: none;
+    }
+    .durataZbor img.conector {
+        display: none;
+    }
+    .timeEsc1 {
+        width: 55%;
+    }
+    .timeEsc1+.timeEsc1 {
+        clear: left;
+    }
+    .rezCount p {
+        font-size: 0.9rem;
+    }
+    .blD {
+        border-left: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    /*top area : meniu, logo, login si call center*/
+    .logoTop {
+        width: 30% !important;
+        box-sizing: border-box !important;
+        float: left;
+    }
+    .socialTop {
+        width: 30% !important;
+        box-sizing: border-box !important;
+        float: left;
+    }
+    .loginArea {
+        width: 25% !important;
+        box-sizing: border-box !important;
+        float: left;
+    }
+    .hoteluriWeek .btn {
+        margin-top: 5px;
+        width: 100%;
+    }
+    #addCam2,
+    #remCam2,
+    #addCam3,
+    #remCam3,
+    #addCam2CB,
+    #addCam3CB,
+    #remCam3CB,
+    #remCam2CB,
+    #addCam2Pax,
+    #addCam3Pax,
+    #remCam2Pax,
+    #remCam3Pax,
+    #addCam2Pax1,
+    #addCam3Pax1,
+    #remCam2Pax1,
+    #remCam3Pax1 {
+        cursor: pointer;
+        line-height: 1.2rem;
+        text-align: center;
+    }
+    .rezCount p {
+        font-size: 0.9rem;
+    }
+    #contOpt {
+        top: 60%;
+    }
+    .varsteCopii div:first-child {
+        margin-right: 5px;
+        width: 49%;
+    }
+    .varsteCopii div:last-child {
+        width: 49%;
+    }
+    .varsteCopii div select {
+        float: left;
+        max-width: 35%;
+    }
+    .varsteCopii div:first-child select {
+        width: 100% !important;
+        font-size: 0.9rem;
+    }
+    .varsteCopii div:last-child select {
+        width: 100% !important;
+        font-size: 0.9rem;
+    }
+    .searchMenu1 {
+        background: #FFF;
+        margin-bottom: 20px;
+        min-height: 200px;
+        margin-left: -10px;
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 999;
+        padding: 10px 10px 0px;
+    }
+    #servUtile {
+        padding-bottom: 10px;
+        font-size: 0.9rem;
+    }
+    .searchMenu1 ul.nav {
+        min-width: 20%;
+        max-width: 75%;
+    }
+    .titleBilete {
+        font-size: 1.2rem;
+    }
+    #companiiAir li {
+        text-align: center !important;
+    }
+    #companiiAir .nav-link img {
+        width: 40px;
+    }
+    #mainCarousel {
+        width: 48% !important;
+        margin-bottom: 20px;
+        foat: left;
+        box-sizing: border-box;
+        min-height: 270px;
+        overflow: hidden;
+        padding-top: 90px;
+        padding-left: 50px;
+    }
+    .searchMenu1 .nav-tabs .nav-link {
+        padding: 10px 5px !important;
+    }
+    .homePageC {
+        width: 115%;
+        max-height: 280px;
+        background: rgba(0, 0, 0, 0.6);
+        min-height: 353px;
+        position: relative;
+        margin-top: 16px;
+        margin-left: -20px;
+    }
+    .homePageC .carousel-inner {
+        min-height: 353px;
+    }
+    #modalMapCity,
+    #modalMapH {
+        width: 90%;
+        left: 5%;
+    }
+    #modalMapCity ul,
+    #modalMapCity h4 {
+        text-align: center !important;
+    }
+    .roomShow .thUp h3 {
+        display: block;
+    }
+    .roomShow .thUp:last-child h3 {
+        display: none;
+    }
+    .roomShow .thUp:last-child p {
+        text-align: center;
+    }
+    .radioWrapper label,
+    .checkWrapper label {
+        float: left;
+        line-height: 13px;
+        margin-bottom: 8px;
+        width: 73.5%;
+        font-size: 0.8rem;
+    }
+    .radioWrapper input[type=radio],
+    .checkWrapper input[type=checkbox] {
+        margin: 0px 5px 10px 10px;
+    }
+    .blD {
+        border-left: none;
+    }
+    #utileVacanta {
+        top: 105px;
+    }
+    #contulMeu i {
+        display: none;
+    }
+    .socialTop1 {
+        margin-left: 23px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    /*top area : meniu, logo, login si call center*/
+    #loginWindow {
+        width: 345px !important;
+        max-width: 400px !important;
+    }
+    .searchMenu1 {
+        background: #FFF;
+        margin-bottom: 20px;
+        min-height: 200px;
+        margin-left: -10px;
+        width: 105%;
+        float: left;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 999;
+        padding: 10px 10px 0px;
+    }
+    #mainCarousel {
+        width: 48% !important;
+        margin-bottom: 20px;
+        float: left;
+        box-sizing: border-box;
+        min-height: 270px;
+        overflow: hidden;
+        padding-top: 90px;
+        padding-left: 50px;
+    }
+    .searchMenu1 .nav-tabs .nav-link {
+        padding: 10px 5px !important;
+    }
+    .homePageC {
+        width: 100%;
+        max-height: 280px;
+        background: rgba(0, 0, 0, 0.6);
+        min-height: 305px;
+        position: relative;
+        margin-top: 22px;
+    }
+    #servUtile {
+        padding-bottom: 10px;
+    }
+    #utileVacanta {
+        top: 95px;
+    }
+    #contulMeu {
+        font-size: 0.9rem;
+    }
+    .homePageC .carousel-inner {
+        min-height: 305px;
+    }
+    .roomShow .thUp:last-child p {
+        margin-top: 35px;
+    }
+    .boxHotel a img {
+        min-height: 181px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*top area : meniu, logo, login si call center*/
+    .mainNav {
+        margin-left: -15px;
+    }
+    //.roomShow .thUp:last-child p {margin-top:35px;}
+    .boxHotel a img {
+        min-height: 181px;
+    }
+    .hoteluriWeek img {
+        max-height: 120px;
+    }
+}
+
+@media (max-width:991px) {
+    .sort-title p {
+        line-height: 1.3;
+        font-size: 12px;
+    }
+    .filterTitle {
+        font-size: 13px;
+    }
+    .searchMenu1 ul.nav,
+    .searchMenu1 .nav-tabs {
+        display: -webkit-inline-box;
+    }
+    .searchMenu1 .nav-tabs li {
+        width: auto !important;
+        display: inline-block;
+    }
+    .searchMenu1 .nav-tabs {
+        font-size: inherit;
+    }
+    .searchMenu1 .tab-content>.active {
+        padding: 10px 10px 5px;
+    }
+    .varsteCopii div {
+        width: -webkit-fill-available;
+    }
+    .varsteCopii div:first-child {
+        width: inherit;
+    }
+}

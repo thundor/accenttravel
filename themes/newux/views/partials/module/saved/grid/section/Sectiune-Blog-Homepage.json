@@ -1,0 +1,54 @@
+{
+    "name": "Sectiune-Blog-Homepage",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "dashed-divider"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "section-title",
+                            "mod_data": {
+                                "title": "Inspiratia vine odata cu dorul de duca",
+                                "html": "Vezi noutatile de pe blogul nostru si inspira-te pentru urmatoarea ta evadare urbana"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "status": true,
+    "default_mod_template": "blog-items",
+    "default_mod_data": null,
+    "props": {
+        "fluid": true,
+        "style": "",
+        "class": ""
+    },
+    "carousel": false,
+    "text": "Articole Blog"
+}

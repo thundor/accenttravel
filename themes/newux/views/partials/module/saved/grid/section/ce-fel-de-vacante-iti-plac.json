@@ -1,0 +1,133 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/revelion_anul_nou_poza_accent.png"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/oferte-litoral-romania"
+                                },
+                                "subtitle": "Fie că-l petreci sub palmieri sau într-un oraș nou, lasă-te purtată de vibe-ul locului și bucură-te de clipa prezentă. Anul nou merită început cu liniște și soare.",
+                                "title": "Un nou an, o nouă destinație!",
+                                "button_title": "Vezi ofertele",
+                                "header_color": "#24E9E6",
+                                "header_title": "REVELION 2026"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "cover": true,
+                                        "src": "/resources/images/ski_accent_card_iarna.png"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/oferte-munte"
+                                },
+                                "title": "Zăpadă, aer curat și aventură!",
+                                "subtitle": "Fie că alegi Alpii sau stațiunile din Bulgaria, bucură-te de pârtii, cabane și momente de relaxare alături de cei dragi.",
+                                "header_title": "MUNTE & SCHI",
+                                "button_title": "Vezi ofertele",
+                                "header_color": "#007DFD"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/city_london_card_iarna - Copy 1.png"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/oferte-city-break"
+                                },
+                                "title": "Capitale și orașe în care să evadezi și să te distrezi",
+                                "subtitle": "Descoperă capitale vibrante și orașe pline de viață, perfecte pentru evadări scurte, aventuri urbane și distracție fără limite!",
+                                "button_title": "Vezi ofertele",
+                                "header_title": "CITY BREAKS",
+                                "header_color": "#FD9600"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "mod_data": {
+                                "image": {
+                                    "props": {
+                                        "src": "/resources/images/spa_wellness_card_winter_cozy.png"
+                                    },
+                                    "a_props": {}
+                                },
+                                "props": {
+                                    "tag": "a",
+                                    "href": "/oferte-spa-balneo"
+                                },
+                                "title": "Relaxare, răsfăț la SPA și revitalizare",
+                                "subtitle": "Destinații perfecte pentru relaxare, răsfăț la SPA și revitalizare. Lasă stresul în urmă și bucură-te de momente de liniște și echilibru.",
+                                "button_title": "Vezi ofertele",
+                                "header_title": "SPA & WELLNESS THERAPY",
+                                "header_color": "#AC6AB0"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "props": {
+                "class": "ce-fel-de-vacante-iti-plac-rand"
+            },
+            "status": true
+        }
+    ],
+    "default_mod_template": "card-image-horizontal",
+    "default_mod_data": {
+        "image": {
+            "props": {
+                "src": "/resources/images/antalya.jpg",
+                "cover": true,
+                "width": "298",
+                "height": "196",
+                "rounded": "lg"
+            }
+        },
+        "props": {
+            "rounded": "lg",
+            "minHeight": ""
+        },
+        "title": "In Roma, cate poduri tot atatea dorinte iplinite",
+        "subtitle": "Etiam vel pellentesque velit, ut feugiat nisi. Nullam augue purus, facilisis et varius non, dignissim dapibus orci. Maecenas quis vulputate ligula,",
+        "header_title": "Destinatii de plaja",
+        "button_title": "Citeste si inspira-te"
+    },
+    "status": true,
+    "name": "ce-fel-de-vacante-iti-plac",
+    "props": {
+        "class": "ce-fel-de-vacante-iti-plac",
+        "style": ""
+    },
+    "carousel": true,
+    "text": "Ce fel de vacante iti plac? "
+}

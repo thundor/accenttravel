@@ -1,0 +1,6 @@
+<Files "upload.php">
+    AuthType Basic
+    AuthName "Restricted Area"
+    AuthUserFile /data/www/www_accenttravel_ro/beneficii_clienti_corporate/.htpasswd
+    Require valid-user
+</Files>

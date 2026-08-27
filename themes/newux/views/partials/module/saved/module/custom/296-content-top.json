@@ -1,0 +1,50 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "button",
+                                        "mod_data": {
+                                            "props": {
+                                                "variant": "outlined",
+                                                "text": "Înapoi la BLOG",
+                                                "class": "v-btn--size-large",
+                                                "prependIcon": "",
+                                                "href": "/blog"
+                                            },
+                                            "prepend": null,
+                                            "append": null
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "section-title",
+                                        "text": "",
+                                        "status": true,
+                                        "mod_data": {
+                                            "title": "<h1>Corfu, unde distracția se întâlnește cu istoria (și apusurile spectaculoase!)</h1>",
+                                            "html": ""
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p style=\"text-align: center;\">Imaginează-ți o insulă unde frumusețea te lovește la fiecare pas, de peste 2800 de ani! Asta e Corfu, o bijuterie a Mediteranei care știe cum să te surprindă. Punctul ei forte? Diversitatea!<br>\nAi de unde alege: peste 30 de stațiuni gata să te cazeze, fie că vrei să lenevești la soare, fie că ai chef de petrecere până dimineața. Și peste toate astea, munții plini de verdeață stau de strajă mării cristaline. Ah, și să nu uităm de istoria aia veche de când lumea și de legendele care plutesc în aer... o să te prindă numaidecât !</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            }
+        ]
+    },
+    "name": "296-content-top"
+}

@@ -1,0 +1,58 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Hero_banner_UPD.png",
+                                                "aspectRatio": "16/9",
+                                                "cover": false,
+                                                "rounded": "lg",
+                                                "minHeight": "",
+                                                "maxHeight": "",
+                                                "maxWidth": "",
+                                                "position": "central"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "class": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "dashed-divider",
+                                        "status": true
+                                    }
+                                ],
+                                "default_mod_template": "code"
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            }
+        ]
+    },
+    "name": "398-content-top"
+}

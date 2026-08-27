@@ -1,0 +1,423 @@
+{
+    "name": "Spa-Balneo-grid",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {},
+                                        "title": "Centre Balneo - Spa & Wellness",
+                                        "html": "<p>Stare de bine - Răsfăț - Relaxare - Revitalizare</p>\n"
+                                    },
+                                    "mod_template": "section-title"
+                                }
+                            ]
+                        }
+                    ],
+                    "status": true
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Baile_Felix_Spa_Wellness_Balneo_2.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "href": "/hoteluri-baile-felix",
+                                            "tag": "a"
+                                        },
+                                        "title": "Baile Felix"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Baile_Govora_Spa_Balneo.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-baile-govora"
+                                        },
+                                        "title": "Baile Govora"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/herculane_cazare_romania_iarna_2025.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-baile-herculane"
+                                        },
+                                        "title": "Baile Herculane"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/baile_olanesti_wellness_spa.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-baile-olanesti"
+                                        },
+                                        "title": "Baile Olanesti"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Baile-Tusna-Wellness-Spa.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-baile-tusnad"
+                                        },
+                                        "title": "Baile Tusnad"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Balvanyos_Spa_Wellness_Grand_Resort.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-balvanyos"
+                                        },
+                                        "title": "Balvanyos"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/calimanesti_caciulata_baleo_iarna_2025.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-calimanesti-caciulata"
+                                        },
+                                        "title": "Calimanesti Caciulata"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/hotel_clermont_covasna_29_1280x797.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-covasna"
+                                        },
+                                        "title": "Covasna"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Ocna_Sugatag_Spa_Wellness.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-ocna-sugatag"
+                                        },
+                                        "title": "Ocna Sugatag"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/praid_balneo_spa_iarna_card_2025.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-praid"
+                                        },
+                                        "title": "Praid"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/sangeorgiu_de_mures_balneo_spa_2025.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-sangeorgiu-de-mures"
+                                        },
+                                        "title": "Sangeorgiu de Mures"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Slanic_Moldova_Spa_Wellness.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-slanic-moldova"
+                                        },
+                                        "title": "Slanic Moldova"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Sovata_4.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-sovata"
+                                        },
+                                        "title": "Sovata"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/stana-de-vale.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-stana-de-vale"
+                                        },
+                                        "title": "Stana de Vale"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Vatra_Dornei_Statiune_Balneo_copy.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-vatra-dornei"
+                                        },
+                                        "title": "Vatra Dornei"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Salina_Turda.jpg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-turda"
+                                        },
+                                        "title": "Turda"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        }
+                    ]
+                }
+            ],
+            "default_mod_template": "card-image-vertical",
+            "default_mod_data": {
+                "image": {
+                    "props": {
+                        "src": "/resources/images/balvanyos.jpg",
+                        "height": "250",
+                        "cover": true,
+                        "aspectRatio": "16/9",
+                        "rounded": "lg"
+                    }
+                },
+                "props": {
+                    "tag": "a",
+                    "href": "https://accenttravel.ro/hoteluri",
+                    "class": "text-decoration-none mx-auto",
+                    "maxWidth": "400",
+                    "rounded": "lg",
+                    "minWidth": "250"
+                },
+                "title": "Turcia - Antalya",
+                "subtitle": "",
+                "button_title": "Vezi ofertele",
+                "header_title": ""
+            },
+            "status": true,
+            "props": {
+                "class": "pt-10 pb-10"
+            }
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_template": "html",
+                                    "mod_data": {
+                                        "html": "<p>&nbsp;</p>\n\n<p><span style=\"font-size:14px;\"><strong><span style=\"color:#3498db;\">Câ</span></strong></span><span style=\"font-size:16px;\"><strong><span style=\"color:#3498db;\">nd ai nevoie de o pauză care să-ți relaxeze nu doar corpul, ci și mintea</span></strong>, stațiunile balneo și spa din România devin destinația perfectă. Și trebuie să admitem că nu e vorba doar despre ape termale sau masaje de lux, ci mai ales despre starea de bine pe care o meriți, fără compromisuri.</span></p>\n",
+                                        "props": {}
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_template": "html",
+                                    "mod_data": {
+                                        "html": "<p>Și vestea cea&nbsp;bună? Acum, cu ofertele de cazare active pe care le găsești&nbsp;în noul site Accent Travel &amp; Events, e mai ușor ca niciodată să-ți rezervi vacanța pe care ți-o dorești. Băile Felix, Sovata, Călimănești-Căciulata, Băile Herculane—fiecare cu povestea sa, fiecare cu tratamente naturale și peisaje care te obligă să încetinești ritmul. De la hoteluri moderne cu centre spa complet echipate până la resorturi care combină medicina tradițională cu wellness contemporan, ai tot ce-ți trebuie pentru o reconectare cu tine. Sezonul acesta, stațiunile balneo investesc în starea ta de bine: pachete cu acces nelimitat la piscine termale, oferte pentru sejururi prelungite, terapii incluse și reduceri speciale pentru rezervările din timp.</p>\n",
+                                        "props": {}
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_template": "html",
+                                    "mod_data": {
+                                        "html": "<p>E momentul să-ți tratezi corpul ca pe un VIP, fie că vii pentru relaxare, prevenție sau refacere. Dar o ofertă bună nu se vinde doar prin preț—ci prin promisiunea unei experiențe memorabile. Iar România are un patrimoniu balnear care nu doar că vindecă, ci și inspiră. Lasă rutina în urmă, închide telefonul și deschide ușa spre o vacanță care chiar contează.Sănătatea ta merită un check-in. Iar stațiunile balneo și spa din România sunt pregătite să-ți ofere exact ce cauți: relaxare pură, într-un cadru natural, cu grijă pentru fiecare detaliu.</p>\n\n<p>Rezervă azi. Răsfață-te cât încă e timp!</p>\n",
+                                        "props": {}
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "status": true
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "mod_template": "html",
+                            "mod_data": {
+                                "html": "<h2>EuroWeekend și esti gata de zbor!</h2>\n\n<h3 style=\"font-size: 1.75rem; line-height: 2.25rem; margin: 20px 0;\">Descoperă cele mai frumoase orașe ale Europei! Alege un CityBreak!</h3>\n\n<p>Transformă-ți weekendul într-o aventură de neuitat cu ofertele <strong data-start=\"203\" data-end=\"217\">City Break </strong> de la Accent Travel &amp; Events!&nbsp;<strong data-start=\"219\" data-end=\"227\">Zbor</strong>&nbsp;și&nbsp;<strong data-start=\"231\" data-is-only-node=\"\" data-end=\"241\">cazare</strong>&nbsp;incluse, destinații pline de viață te așteaptă.&nbsp;<strong data-start=\"290\" data-end=\"306\">Rezervă acum</strong>&nbsp;și trăiește orașele altfel!</p>\n\n<div class=\"d-flex justify-space-between align-center\">\n<div><i class=\"fa fa-star text-primary\"></i> CAPITALE EUROPENE</div>\n<a href=\"/oferte-city-break\" class=\"btn btn-primary bg-primary text-white rounded-lg\">Vezi ofertele</a></div>\n",
+                                "props": {
+                                    "class": "d-flex flex-column justify-space-between pa-10 flex-fill euroweek-modul"
+                                }
+                            }
+                        }
+                    ],
+                    "props": {
+                        "class": "v-col-12 v-col-md-6 d-flex flex-column"
+                    }
+                },
+                {
+                    "children": [
+                        {
+                            "mod_template": "grid",
+                            "mod_data": {
+                                "title": "VList Module title",
+                                "children": [
+                                    {
+                                        "text": "",
+                                        "status": true,
+                                        "children": [
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "mod_data": {
+                                                                    "props": {
+                                                                        "src": "/resources/images/Tema/Atena.png",
+                                                                        "alt": "Atena",
+                                                                        "cover": true
+                                                                    },
+                                                                    "chip_title": "Atena",
+                                                                    "a_props": {
+                                                                        "href": "/city-break-atena"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "props": {
+                                                            "cols": null,
+                                                            "class": "v-col-md-6"
+                                                        }
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "mod_data": {
+                                                                    "props": {
+                                                                        "src": "/resources/images/Tema/Budapesta.png",
+                                                                        "alt": "Budapesta"
+                                                                    },
+                                                                    "chip_title": "Budapesta",
+                                                                    "a_props": {
+                                                                        "href": "/city-break-budapesta"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "props": {
+                                                            "cols": null,
+                                                            "class": "v-col-md-6"
+                                                        }
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "mod_data": {
+                                                                    "props": {
+                                                                        "src": "/resources/images/Tema/Roma.png",
+                                                                        "alt": "Roma"
+                                                                    },
+                                                                    "chip_title": "Roma",
+                                                                    "a_props": {
+                                                                        "href": "/city-break-roma"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "props": {
+                                                            "cols": null,
+                                                            "class": "v-col-md-6"
+                                                        }
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "mod_data": {
+                                                                    "props": {
+                                                                        "src": "/resources/images/Tema/Praga.png",
+                                                                        "alt": "Praga"
+                                                                    },
+                                                                    "chip_title": "Praga",
+                                                                    "a_props": {
+                                                                        "href": "/city-break-praga"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "props": {
+                                                            "cols": null,
+                                                            "class": "v-col-md-6"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "default_mod_template": "image",
+                                        "default_mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/city-break-berlin.jpg",
+                                                "aspectRatio": "1.52",
+                                                "cover": true,
+                                                "minWidth": "250",
+                                                "rounded": "lg",
+                                                "minHeight": "",
+                                                "maxHeight": "160",
+                                                "maxWidth": "",
+                                                "class": "mx-auto"
+                                            },
+                                            "chip_title": "Barcelona"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "props": {
+                        "class": " d-flex justify-center align-center"
+                    }
+                }
+            ]
+        }
+    ],
+    "status": true,
+    "props": {
+        "class": "px-md-16"
+    },
+    "name": "euroweekend-interior"
+}

@@ -1,0 +1,44 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "title": "Bilete de avion",
+                                            "html": "<p>cele mai tentante oferte de zboruri in acest weekend</p>\n"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "default_mod_template": "section-title",
+                "default_mod_data": null,
+                "carousel": false,
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {}
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "default_mod_template": "destinatii-avion",
+                "status": true
+            }
+        ]
+    },
+    "name": "42-content-bottom"
+}

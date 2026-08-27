@@ -1,0 +1,365 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h2 style=\"text-align: center;\">Oradea: unde Art Nouveau-ul dă tonul și orașul trăiește pe fast forward</h2>\n",
+                                            "props": {}
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p>Oradea? Gândește-te la ea ca la un punct neașteptat de cool de pe harta Europei. E genul de oraș care știe să îmbine perfect istoria cu arhitectura aia Art Nouveau care-ți fură privirea și un mix cultural de te simți ca într-un mashup de influențe românești, maghiare, austriece, evreiești și germane. Orașul ăsta de pe Crișul Repede nu stă pe loc, e într-o continuă transformare, își scoate în față monumentele istorice și atrage tot mai mulți turiști. Și le iese! În ultimii ani, numărul vizitatorilor s-a dublat și a depășit populația orașului. Asta înseamnă că e pe val!</p>\n\n<p>De ce să-ți pui Oradea pe listă? Palatele renovate arată demențial, ai o tonă de monumente istorice de descoperit, iar aproape sunt locuri cunoscute ca Băile Felix – genul de stațiune unde te duci să te relaxezi serios. Adaugă vibe-ul tradițional local, natura aia din Munții Bihorului și parcurile naturale, și ai un mix care te ține engaged.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h3><strong>Flashback Istoric: De la Cetate la... Phoenix Urban</strong></h3>\n\n<p>Povestea Oradei începe demult, pe la 1113. Cetatea? Prima mențiune e prin 1241, când se punea la punct pentru un atac de pește. Se zice că regele Ladislau I a dat startul construcției. Prin secolul XIV, cetatea a prins contur serios.</p>\n\n<p>Orașul a văzut de toate: ocupație turcească scurtă, o perioadă de boom economic în secolul XVIII cu meșteșuguri și comerț. A trecut printr-un incendiu major, revoluții eșuate care au aprins scânteia unirii (realizată în 1918!). Apoi, perioade tulburi, cu schimbări de administrație, război, persecuții dure (povestea evreilor din Oradea e tragică, cu mii de oameni deportați).</p>\n\n<p>După război, s-a reconstruit sub un alt regim, s-a dezvoltat industrial și balnear. După '89, și-a redescoperit latura academică și a devenit un centru universitar important. Oradea e genul de oraș care a căzut și s-a ridicat, mai puternic și mai cool de fiecare dată.</p>\n\n<h3><strong>Sezonul Perfect pentru un Insta-Story din Oradea?</strong></h3>\n\n<p>Oradea e on duty 24/7, adică 365 de zile pe an, gata să te primească. Iarna, vibe-ul de sărbătoare e real, cu târg de Crăciun și pârtii aproape (Stâna de Vale, Vârtop). Vara? Poate fi cam hot, genul ăla de căldură care te trimite direct la umbră.</p>\n\n<p>Verdictul pentru cel mai bun moment? Primăvara târzie sau toamna devreme. Natura își schimbă outfit-ul, clădirile arată și mai bine în lumina aia, iar temperatura e perfectă pentru a te plimba relaxat și a explora orașul și împrejurimile. E momentul ăla când totul arată și se simte #perfectmatch.</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "class": "v-col-md-6 mx-auto",
+                                    "cols": 12
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Oradea/Oradea_city_break_1_.jpg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true,
+                                                "rounded": "xl"
+                                            },
+                                            "a_props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-6 mx-auto"
+                                }
+                            }
+                        ],
+                        "props": {
+                            "style": "    justify-content: center;\n    align-items: center;"
+                        }
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Cum Ajungi în Epicentrul Art Nouveau?</h2>",
+                                            "html": "<p>Ai câteva rute către Oradea</p>\n"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "default_mod_template": "section-title"
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "a_props": {},
+                                                "props": {
+                                                    "height": "100",
+                                                    "width": "",
+                                                    "src": "/resources/images/Blog/Oradea/transport.png",
+                                                    "cover": false,
+                                                    "maxWidth": "100",
+                                                    "minWidth": ""
+                                                }
+                                            },
+                                            "props": {
+                                                "width": "",
+                                                "height": "",
+                                                "minHeight": "260",
+                                                "minWidth": "",
+                                                "tag": "a",
+                                                "href": "/trip/hotelsasync?city_name=ORADEA-RO&sdate=friday&edate=monday&o[0][ADT]=2&n=1"
+                                            },
+                                            "subtitle": "E super conectată la rețeaua rutieră, mai ales în Transilvania. Din Cluj, Arad sau Timișoara faci cam 3 ore cu mașina. Din Budapesta e un pic mai mult, dar tot do-able. Chiar și din Viena sau Belgrad ajungi în câteva ore. Cu autocarul e o variantă constantă, chiar dacă s-ar putea să schimbi o dată.",
+                                            "title": "Pe Roți (Mașină sau Autocar)",
+                                            "button_title": "",
+                                            "header_title": ""
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-4 mx-auto"
+                                }
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "a_props": {},
+                                                "props": {
+                                                    "src": "/resources/images/Blog/Oradea/toy_train_2880159.png",
+                                                    "height": "100",
+                                                    "width": "",
+                                                    "maxHeight": "",
+                                                    "maxWidth": "100",
+                                                    "minHeight": "",
+                                                    "cover": false
+                                                }
+                                            },
+                                            "props": {
+                                                "height": "",
+                                                "minHeight": "260",
+                                                "minWidth": "",
+                                                "tag": "a",
+                                                "href": "/trip/hotelsasync?city_name=ORADEA-RO&sdate=friday&edate=monday&o[0][ADT]=2&n=1"
+                                            },
+                                            "subtitle": "Conexiunea feroviară e ok, dar pregătește-te pentru drumuri lungi dacă vii de departe (gen 14-16 ore din București). Din Cluj-Napoca e mult mai rapid, doar 2-3 ore.",
+                                            "title": "Pe Șine (Tren)",
+                                            "button_title": "",
+                                            "header_title": ""
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-4 mx-auto"
+                                },
+                                "status": true
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "image": {
+                                                "a_props": {},
+                                                "props": {
+                                                    "src": "/resources/images/Blog/Oradea/aircraft.png",
+                                                    "height": "100",
+                                                    "width": "",
+                                                    "minHeight": "",
+                                                    "maxWidth": "100",
+                                                    "cover": false
+                                                }
+                                            },
+                                            "props": {
+                                                "height": "",
+                                                "minHeight": "260",
+                                                "tag": "a",
+                                                "href": "/trip/flights?destination=Oradea%20Airport-RO&origin=BUCHAREST-RO&sdate=friday&edate=monday&a=2&n=1"
+                                            },
+                                            "title": "Pe Aripi (Avion)",
+                                            "subtitle": "Aeroportul din Oradea e internațional, dar momentan poți zbura direct doar spre și dinspre București (zborul durează cam 1h 25min cu TAROM).",
+                                            "button_title": "",
+                                            "header_title": ""
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-4 mx-auto"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": true,
+                "default_mod_template": "card-image-horizontal",
+                "default_mod_data": {
+                    "image": {
+                        "props": {
+                            "src": "/resources/images/baile-olanesti.jpg",
+                            "cover": true,
+                            "minWidth": "",
+                            "aspectRatio": "1.52",
+                            "rounded": "lg"
+                        }
+                    },
+                    "props": {
+                        "tag": "a",
+                        "href": "https://google.ro",
+                        "rounded": "lg"
+                    },
+                    "title": "vacante asdasd",
+                    "subtitle": "lorem",
+                    "button_title": "vezi ofe",
+                    "header_title": "destinatii de plaja",
+                    "header_color": "cyan"
+                }
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size: 26px; text-align: center;\">Spot-uri de bifat &icirc;n Oradea<br /> De la clasice la Hidden Gems</h2>",
+                                            "html": ""
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<p>Oradea e un teren de joacă pentru iubitorii de frumos și istorie. Pune pe listă:</p>\n\n<ul>\n\t<li><strong>Sinagoga Ortodox</strong><strong>ă&nbsp;</strong><strong>Zion:</strong>&nbsp;O clădire cu o arhitectură eclectic-maură de te lasă paf. A fost renovată și arată E o mărturie a istoriei comunității evreiești din oraș. Găsești și un Memorial al Holocaustului acolo. Adresa: Strada Mihai Viteazul Nr. 4.</li>\n\t<li><strong>Palatul Vulturul Negru:</strong>&nbsp;Simbolul orașului! Un palat în stil secession care aduce aminte de creațiile lui Gaudi. E un hub de activitate, cu cluburi, cafenele și restaurante. Pasajul vitrat e iconic – caută vulturul negru. E deschis non-stop pe Strada Independenței Nr. 5.</li>\n\t<li><strong>Cetatea Oradea:</strong>&nbsp;O fortăreață cu o poveste epică, cu ziduri solide și bastioane. A fost distrusă și reconstruită de mai multe ori. Legenda spune că regele Ladislau I a visat că trebuie să construiască o mănăstire aici. Azi e sediul Facultății de Arte. O poți vizita de marți până duminică.</li>\n\t<li><strong>Palatul Moskovits:</strong>&nbsp;Un alt exemplu superb de arhitectură secession. A fost printre primele clădiri care a folosit prefabricate din beton. Chiar dacă nu poți intra, fațada e o operă de artă, cu linii unduitoare. Îl găsești pe Bulevardul Republicii.</li>\n\t<li><strong>Șirul Canonicilor:</strong>&nbsp;Spotul ăla perfect pentru o poză de pus pe Instagram! Un coridor baroc lung, cu arcade. Arată spectaculos. E pe Strada Șirul Canonicilor.</li>\n\t<li><strong>Turnul Primăriei:</strong>&nbsp;Vrei panorama aia #cityview? Urcă în Turnul Primăriei. Sunt 250 de trepte, dar vederea de 360° merită efortul. Biletul îți dă acces și la alte locuri faine. Clădirea Primăriei în sine e o bijuterie neoclasică. E în Piața Unirii Nr. 1.</li>\n</ul>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-9 mx-auto",
+                                    "style": ""
+                                }
+                            }
+                        ],
+                        "default_mod_template": "section-title"
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "text": "",
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Experiențe care-ți dau un boost de energie <br>(și Like-uri)</h2>",
+                                            "html": ""
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<ul>\n\t<li><strong>Rezervaț</strong><strong>ia Natural</strong><strong>ă Pârâul Peța:</strong>&nbsp;Un hidden gem natural lângă Băile 1 Mai. Aici crește nufărul termal alb, o specie super rară. Apa e caldă, așa că broaștele își văd de treabă și iarna.</li>\n\t<li><strong>Trip la B</strong><strong>ă</strong><strong>ile Felix:</strong>&nbsp;Famous pentru apele termale cu super puteri curative. Poți face baie afară în orice anotimp! Ai și lacuri cu nuferi, testoase și pești exotici. Ștrandul Apollo e legendar.</li>\n\t<li><strong>Chill pe Dealul Ciupercă:</strong>&nbsp;Cunoscut și ca Belvedere. E locul perfect să scapi de agitație fără să ieși din oraș. Priveliștea asupra orașului e chill, genul care te face să te oprești și să gândești. Ia-ți o cafea, un snack și bucură-te de moment. E amenajat super fain, cu zone de relaxare și puncte de panoramă. Perfect pentru apusuri #nofilterneeded.</li>\n\t<li><strong>Explorează orașul pe Bicicletă:</strong>&nbsp;Oradea e friendly cu bicicliștii, are piste și trasee. Poți pedala pe malul Crișului sau prin cartiere, trecând pe lângă obiective turistice. Terenul e blând, deci nu-ți trebuie antrenament de performanță.</li>\n</ul>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "style": "",
+                                    "class": "v-col-md-9 mx-auto"
+                                }
+                            }
+                        ],
+                        "default_mod_template": "section-title"
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Food, Drink & Party Hard: <br>Gustă vibe-ul local!</h2>",
+                                            "html": ""
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<ul>\n\t<li><strong>La Hanul cu Noroc:</strong>&nbsp;Mâncare românească autentică, \"ca la mama acasă\". Pregătește-te pentru o porție serioasă de bunătăți tradiționale: vrăbioară, mititei, sarmale, tocăniță... și musai papanași la final! E pe Strada Mihail Kogălniceanu Nr. 7.</li>\n\t<li><strong>Butoiul de Aur:</strong>&nbsp;Intră într-o capsulă a timpului și simte atmosfera de Belle Epoque. Decorul e wow, cu detalii aurite și candelabre. Mâncarea e gustoasă și accesibilă. E pe Strada Iosif Vulcan Nr. 1.</li>\n\t<li><strong>Moszkva Cafe:</strong>&nbsp;Barul ăla cool pentru iubitorii de muzică și filme. Găsești concerte live, mai ales în weekend, cu artiști faini. E la etajul doi al unui palat, ceea ce-i dă un vibe intim. E pe Strada Moscovei Nr. 8.</li>\n\t<li><strong>Lord's Pub:</strong>&nbsp;Un landmark al vieții de noapte din Oradea. E genul de pub cu istorie, unde atmosfera e mereu vibrantă, mai ales de când cluburile s-au mai împuținat. Găsești o varietate de beri și cocktailuri, dar cel mai important, poți să socializezi cu localnici faini. E în Piața Unirii, în pasajul Palatului Vulturul Negru.</li>\n</ul>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-9 mx-auto",
+                                    "style": ""
+                                }
+                            }
+                        ],
+                        "default_mod_template": "section-title"
+                    }
+                ],
+                "status": true
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_data": {
+                                            "title": "<h2 style=\"font-size:26px\">Get Around: <br>Navighează prin oraș</h2>",
+                                            "html": ""
+                                        }
+                                    },
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<ul>\n\t<li><strong>Transport public:</strong>&nbsp;Tramvaie și autobuze moderne acoperă mare parte din oraș. Un bilet de două călătorii costă 5 lei.</li>\n\t<li><strong>Taxi:</strong>&nbsp;Dacă te grăbești, taxiurile sunt o variantă rapidă, accesibilă și safe.</li>\n</ul>\n\n<p>Oradea e gata să te surprindă! E un mix de istorie, artă, natură și un vibe super cool. Sper că versiunea asta ți-a dat chef să-ți faci planuri de o vizită! Ce zici, ne vedem pe străzile ei?</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 12,
+                                    "class": "v-col-md-9 mx-auto",
+                                    "style": ""
+                                }
+                            }
+                        ],
+                        "default_mod_template": "section-title"
+                    }
+                ],
+                "status": true
+            }
+        ]
+    },
+    "name": "295-content-bottom"
+}

@@ -1,0 +1,382 @@
+{
+    "name": "Litoral-New-2026",
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {},
+                                        "title": "Oferte Litoral Romania - 2026",
+                                        "html": "<p>Vara asta are gust de mare și chef de evadare</p>\n"
+                                    },
+                                    "mod_template": "section-title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/cap_aurora_litoral_romania.jpeg"
+                                            },
+                                            "a_props": {},
+                                            "chip_title": ""
+                                        },
+                                        "props": {
+                                            "href": "/hoteluri-cap-aurora",
+                                            "tag": "a"
+                                        },
+                                        "title": "Hoteluri Cap Aurora"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Costinesti_Litoral_Romania.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-costinesti"
+                                        },
+                                        "title": "Hoteluri Costinesti"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Eforie_Nord_Litoral_Romania.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-eforie-nord"
+                                        },
+                                        "title": "Hoteluri Eforie Nord"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Navodari_Litoral_Romania_copy.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-eforie-sud"
+                                        },
+                                        "title": "Hoteluri Eforie Sud"
+                                    },
+                                    "status": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/plaja_Jupiter_Litoral_Romania_copy.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-jupiter"
+                                        },
+                                        "title": "Hoteluri Jupiter"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Mamaia_Litoral_Romania.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-mamaia"
+                                        },
+                                        "title": "Hoteluri Mamaia"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/Mangalia_Litoral_Romania.jpeg"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-mangalia"
+                                        },
+                                        "title": "Hoteluri Mangalia"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "props": {
+                                                "src": "/resources/images/vacante_navodari_hotel_cazare_romania.png"
+                                            },
+                                            "a_props": {}
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-navodari"
+                                        },
+                                        "title": "Hoteluri Navodari"
+                                    }
+                                }
+                            ],
+                            "status": true
+                        }
+                    ],
+                    "status": true
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/Neptun_Litoral_Romania2.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-neptun"
+                                        },
+                                        "title": "Hoteluri Neptun"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/Olimp_Litoral_Romania_copy.jpg"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-olimp"
+                                        },
+                                        "title": "Hoteluri Olimp"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/Saturn_Litoral_Romania.jpeg"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-saturn"
+                                        },
+                                        "title": "Hoteluri Saturn"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/Venus_Litoral_Romania_copy.jpeg"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-venus"
+                                        },
+                                        "title": "Hoteluri Venus"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": true
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/hoteluri-paltinis.jpg"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-paltinis"
+                                        },
+                                        "title": "Păltiniș"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/gura_homurlui_munte_cazare_hotel.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-gura-humorului"
+                                        },
+                                        "title": "Gura Humorului"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/natura2_munte_cazare_hotel_1_.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "/hoteluri-stana-de-vale"
+                                        },
+                                        "title": "Stâna de Vale"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "mod_data": {
+                                        "image": {
+                                            "a_props": {},
+                                            "props": {
+                                                "src": "/resources/images/vacanta_munte_cazare_hotel_natura.png"
+                                            }
+                                        },
+                                        "props": {
+                                            "tag": "a",
+                                            "href": "hoteluri-fundata"
+                                        },
+                                        "title": "Fundata"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "status": false
+                }
+            ],
+            "default_mod_template": "card-image-vertical",
+            "default_mod_data": {
+                "image": {
+                    "props": {
+                        "src": "/resources/images/balvanyos.jpg",
+                        "height": "250",
+                        "cover": true,
+                        "aspectRatio": "16/9",
+                        "rounded": "lg"
+                    }
+                },
+                "props": {
+                    "tag": "a",
+                    "href": "https://accenttravel.ro/hoteluri",
+                    "class": "text-decoration-none mx-auto",
+                    "maxWidth": "400",
+                    "rounded": "lg",
+                    "minWidth": "250"
+                },
+                "title": "Turcia - Antalya",
+                "subtitle": "",
+                "button_title": "Vezi ofertele",
+                "header_title": ""
+            },
+            "status": true,
+            "props": {
+                "class": "pt-10 pb-10"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "module": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "html",
+                                        "mod_data": {
+                                            "html": "<h1>Cum sa nu te rătăcești în labirintul Insulelor Grecești</h1>\n\n<p>Okay, okay, insulele grecești, here we come! Gata cu plictiseala, hai să facem o scufundare în lumea aia turcoaz și plină de povești, dar cu un strop de fun și mult info util!</p>\n\n<h2>Insulele Grecești: Ghidul Tău Fun &amp; Info pentru o Vacanță De Vis (cu Tzatziki Incluși!)</h2>\n\n<p>Hei, amice! Pregătește-te să intri într-o lume unde soarele pupă marea, nisipul îți gâdilă tălpile (fie el fin-fin sau vulcanic!), iar istoria șușotește din fiecare piatră veche! Insulele grecești sunt genul de destinație care te prinde în mrejele ei de la primul pas și nu-ți mai dă drumul. Gândește-te la plaje nesfârșite (pentru lenevit sau explorat în tihnă), la ape cristaline de te hipnotizează și la povești cu zei și eroi din timpuri demult apuse.</p>\n\n<p>Și ca să fie tacâmul complet, adaugă în peisaj tavernele alea autentice de lângă port, unde mirosul de tzatziki proaspăt și koukoumavlos (dacă știi, știi!) se amestecă perfect cu briza mării. O salată grecească alături de un pahar de ouzo? Da, te rog!</p>\n\n<p>Fiecare insulă are personalitatea ei, îți spun povești unice și te teleportează într-o călătorie prin timp, cu peisaje de-ți taie răsuflarea. Hai să vedem câteva dintre ele!</p>\n",
+                                            "props": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "mod_template": "image",
+                                        "mod_data": {
+                                            "props": {
+                                                "src": "/resources/images/Blog/Cum_sa_nu_te_ratacesti/Cum_sa_nu_re_ratacesti.jpg",
+                                                "aspectRatio": "16/9",
+                                                "cover": true
+                                            },
+                                            "a_props": {}
+                                        }
+                                    }
+                                ],
+                                "props": {
+                                    "cols": 3
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": true
+            }
+        ]
+    },
+    "name": "289-tudor"
+}
