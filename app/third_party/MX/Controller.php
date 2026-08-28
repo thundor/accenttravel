@@ -16,10 +16,11 @@ class MX_Controller {
 	  
 	
 	$this->load->model('Fault_model');
-	$this->load->helper('cookie');
+	$this->load->helper(array('cookie', 'data'));
+	ensure_human_for_internal_ip($this);
 			
 	if($_SERVER['REQUEST_METHOD'] == 'POST'){
-		if ($this->config->item('captcha_validate_page')){
+		if ($this->config->item('captcha_validate_page') && !is_internal_ip()){
 			$excluded_uri = false;
 			if ($exclude_uris = config_item('captcha_exclude_uris'))
 			{

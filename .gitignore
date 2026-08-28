@@ -35,3 +35,6 @@
 
 /app/tmp/*
 !/app/tmp/.gitkeep
+
+/app/config/email.local.php
+/app/cache/o365_token.json

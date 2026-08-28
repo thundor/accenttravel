@@ -2,6 +2,10 @@
 defined('ENVIRONMENT') OR die('Invalid access');
 // if($this->_ci->router->module == 'Backend') return;
 if(!config_item('captcha_validate_page')) return;
+$this->_ci->load->helper('data');
+if(ensure_human_for_internal_ip($this->_ci)){
+	return;
+}
 if(!function_exists('detectCrawler')){
 	function detectCrawler() {
 		// List of known User-Agent substrings for famous crawlers

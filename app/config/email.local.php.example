@@ -1,0 +1,32 @@
+<?php
+if (!defined('BASEPATH')) {
+  exit('No direct script access allowed');
+}
+
+/*
+| Copiază ca app/config/email.local.php și completează valorile.
+| Preferabil: configurează din backend → Setări → Email / Office 365.
+| Fișierul email.local.php este gitignored.
+*/
+
+/* === A) Microsoft Graph (OAuth2) === */
+// $config['email_driver'] = 'o365';
+// $config['o365_tenant_id'] = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx';
+// $config['o365_client_id'] = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx';
+// $config['o365_client_secret'] = 'your-client-secret-here';
+
+/* === B1) SMTP autenticat Office 365 === */
+// $config['email_driver'] = 'smtp';
+// $config['smtp_host'] = 'smtp.office365.com';
+// $config['smtp_port'] = 587;
+// $config['smtp_crypto'] = 'tls';
+// $config['smtp_user'] = 'vanzari@accenttravel.ro';
+// $config['smtp_pass'] = 'parola-sau-app-password';
+
+/* === B2) SMTP relay / Direct send (fără autentificare) === */
+// $config['email_driver'] = 'smtp';
+// $config['smtp_host'] = 'accenttravel-ro.mail.protection.outlook.com';
+// $config['smtp_port'] = 25;
+// $config['smtp_crypto'] = 'none';
+// $config['smtp_user'] = '';
+// $config['smtp_pass'] = '';

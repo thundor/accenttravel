@@ -349,6 +349,12 @@ $menus = array(
           'icon' => '<i class="fa fa-cogs"></i>',
           'allow' => $user->can('backend-config-access'),
         ),
+        'email_settings' => array(
+          'route' => 'backend/general/email',
+          'title' => 'Email / Office 365',
+          'icon' => '<i class="fa fa-envelope"></i>',
+          'allow' => $user->can('backend-config-access'),
+        ),
       ),
     ),
     'users' => array(

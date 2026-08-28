@@ -494,110 +494,65 @@ class Mailer extends MX_Controller {
 		$this->theme->set_theme('accent');
 		$set_theme_default = true;
 	}
-    $this->load->helper('email');
-    $this->load->library('email');
     $this->load->helper('url');
-    
-    $config = array();
-    $config['mailtype'] = 'html';
-    $config['useragent'] = 'Accent Travel & Events - PHP Sendmail';
-	
-	
-    $this->setData('from_email', 'vanzari@accenttravel.ro');
-    $this->setData('from_name', 'Accent Travel & Events');
+    $this->load->library('o365_mailer');
+    $email_config = $this->o365_mailer->get_config();
+
+    if(!$this->getData('from_email')){
+      $this->setData('from_email', !empty($email_config['email_default_from']) ? $email_config['email_default_from'] : 'vanzari@accenttravel.ro');
+    }
+    if(!$this->getData('from_name')){
+      $this->setData('from_name', !empty($email_config['email_default_from_name']) ? $email_config['email_default_from_name'] : 'Accent Travel & Events');
+    }
+
     if(ENVIRONMENT == 'production'){
-      $config['protocol'] = 'smtp';
-      $config['smtp_host'] = 'mail4.rodax.ro';
-	  
-      $default_bcc = array(
-        'alexandra.oprea@lisal.ro',
-        // 'suport@lisal.ro',
-      );
-	  if($this->getData('from_email') == '24pay@accenttravel.ro'){
-		  $config['smtp_user'] = '24pay@accenttravel.ro';
-		  $config['smtp_pass'] = 'Ate*24p1122';
-		  $this->setData('to', '24pay@accenttravel.ro');
-		  $default_bcc[] = '24pay@accenttravel.ro';
-	  } elseif($this->getData('from_email') == 'marketing@accenttravel.ro'){
-		  $config['smtp_user'] = 'marketing@accenttravel.ro';
-		  $config['smtp_pass'] = 'HKn8CasvQ352';
-		  $this->setData('to', 'marketing@accenttravel.ro');
-		  $default_bcc[] = 'marketing@accenttravel.ro';
-	  } else {
-		  $config['smtp_user'] = 'vanzari@accenttravel.ro';
-		  $config['smtp_pass'] = 'pJFrY7CrW5EQ';
-		  $this->setData('to', 'vanzari@accenttravel.ro');
-		  $default_bcc[] = 'vanzari@accenttravel.ro';
-	  }
-      
-	  // if(config_item('trip_24_pay')){
-		// $default_bcc = array(
-		  // 'tudor.chirvasa@lisal.ro',
-		// );
-	  // }
+      $default_bcc = !empty($email_config['email_default_bcc']) ? (array)$email_config['email_default_bcc'] : array();
+      $from_email = $this->getData('from_email');
+      if($from_email == '24pay@accenttravel.ro'){
+        $this->setData('to', '24pay@accenttravel.ro');
+        $default_bcc[] = '24pay@accenttravel.ro';
+      } elseif($from_email == 'marketing@accenttravel.ro'){
+        $this->setData('to', 'marketing@accenttravel.ro');
+        $default_bcc[] = 'marketing@accenttravel.ro';
+      } else {
+        $this->setData('to', 'vanzari@accenttravel.ro');
+        $default_bcc[] = 'vanzari@accenttravel.ro';
+      }
       $this->setData('bcc', $default_bcc);
     } else {
-      $this->setData('to', 'tudor.chirvasa@lisal.ro');
+      $this->setData('to', !empty($email_config['email_dev_to']) ? $email_config['email_dev_to'] : 'tudor.chirvasa@lisal.ro');
       $this->setData('bcc', array());
-      // $config['mailpath'] = '/usr/sbin/sendmail';
-      $config['protocol'] = 'sendmail';
     }
-    
-    $this->setData('config', $config);
-    $config = $this->getData('config');
-    
-    $this->email->initialize($config);
-    $this->email->from($this->getData('from_email'), $this->getData('from_name'));
-    
-    $this->email->to($this->getData('to'));
-    $bcc = $this->getData('bcc');
-    if(!empty($bcc)){
-      $this->email->bcc($bcc);
-    }
-    
-    $this->email->subject($this->getData('subject'));
-    
+
     $attachments = array();
     $this->setData('attachments', $attachments);
     $attachments = $this->getData('attachments');
-    
-    foreach($attachments as $attachment){
-      $file_path = $attachment;
-      $file_name = null;
-      if(is_array($attachment)){
-        if(!isset($attachment['path'])){
-          continue;
-        }
-        $file_path = $attachment['path'];
-        if(isset($attachment['name'])){
-          $file_name = $attachment['name'];
-        }
-      }
-      $this->email->attach($file_path,'',$file_name);
-    }
+
     $view = $this->getData('view');
-    
     $output = $this->output->get_output();
     if($view){
       $this->common();
-		
-		$this->theme->view($view, $this->data, $this);
-		// if(!empty($_GET['test'])){
-			// var_dump($this->theme); die;
-		// }
-	  
+      $this->theme->view($view, $this->data, $this);
     }
-    
-    $this->email->message($this->output->get_output());
-    
+    $html_message = $this->output->get_output();
+
     $sent = true;
     $no_email = $this->getData('prevent_send_email');
     if(!$no_email){
-      $sent = $this->email->send();
+      $sent = $this->dispatch_email($email_config, array(
+        'from_email' => $this->getData('from_email'),
+        'from_name' => $this->getData('from_name'),
+        'to' => $this->getData('to'),
+        'bcc' => $this->getData('bcc'),
+        'subject' => $this->getData('subject'),
+        'html' => $html_message,
+        'attachments' => $attachments,
+      ));
     }
+
     $output_html = $this->getData('output_html');
     if($output_html){
-      echo $this->output->get_output();
+      echo $html_message;
       die;
     }
     foreach($attachments as $attachment){
@@ -609,18 +564,114 @@ class Mailer extends MX_Controller {
       }
     }
     $this->output->set_output($output);
-	
+
 	if($set_theme_default){
 	  $this->theme->set_theme($theme);
 	}
 	if(!empty($_GET['testmail'])){
 		echo '<pre>';
-		print_r($this->email);
+    if(!empty($this->o365_mailer)){
+      print_r($this->o365_mailer);
+    } else {
+      print_r($this->email);
+    }
 		die;
 	}
 	$this->data = [];
-	$this->email->clear(true);
+    if(!empty($this->email)){
+      $this->email->clear(true);
+    }
     return $sent;
+  }
+  protected function dispatch_email($email_config, $mail) {
+    $driver = !empty($email_config['email_driver']) ? $email_config['email_driver'] : 'o365';
+
+    if(ENVIRONMENT != 'production'){
+      log_message('info', 'Mailer dev redirect to ' . json_encode($mail['to']));
+      return true;
+    }
+
+    if($driver === 'o365'){
+      if(empty($this->o365_mailer)){
+        $this->load->library('o365_mailer');
+      }
+      if($this->o365_mailer->is_configured()){
+        return $this->o365_mailer->send($mail);
+      }
+      log_message('error', 'Mailer: Office365 neconfigurat — ' . $this->o365_mailer->get_last_error());
+      if(!empty($email_config['smtp_accounts'][$mail['from_email']])){
+        return $this->dispatch_smtp_email($email_config, $mail);
+      }
+      return false;
+    }
+
+    if($driver === 'smtp'){
+      return $this->dispatch_smtp_email($email_config, $mail);
+    }
+
+    log_message('error', 'Mailer: driver email necunoscut — ' . $driver);
+    return false;
+  }
+  protected function dispatch_smtp_email($email_config, $mail) {
+    $this->load->helper('email');
+    $this->load->library('email');
+
+    $from_email = $mail['from_email'];
+    $user = '';
+    $pass = '';
+    $smtp_accounts = !empty($email_config['smtp_accounts']) ? $email_config['smtp_accounts'] : array();
+    if(!empty($smtp_accounts[$from_email]['user'])){
+      $user = $smtp_accounts[$from_email]['user'];
+      $pass = isset($smtp_accounts[$from_email]['pass']) ? $smtp_accounts[$from_email]['pass'] : '';
+    } elseif(!empty($email_config['smtp_user'])){
+      $user = $email_config['smtp_user'];
+      $pass = isset($email_config['smtp_pass']) ? $email_config['smtp_pass'] : '';
+    }
+
+    $crypto = isset($email_config['smtp_crypto']) ? $email_config['smtp_crypto'] : 'tls';
+    if($crypto === 'none'){
+      $crypto = '';
+    }
+
+    $config = array(
+      'protocol' => 'smtp',
+      'mailtype' => 'html',
+      'charset' => 'utf-8',
+      'newline' => "\r\n",
+      'crlf' => "\r\n",
+      'useragent' => 'Accent Travel & Events',
+      'smtp_host' => !empty($email_config['smtp_host']) ? $email_config['smtp_host'] : 'mail4.rodax.ro',
+      'smtp_port' => !empty($email_config['smtp_port']) ? (int)$email_config['smtp_port'] : 587,
+      'smtp_crypto' => $crypto,
+      'smtp_user' => $user,
+      'smtp_pass' => $pass,
+    );
+
+    $this->email->initialize($config);
+    $this->email->from($mail['from_email'], $mail['from_name']);
+    $this->email->to($mail['to']);
+    if(!empty($mail['bcc'])){
+      $this->email->bcc($mail['bcc']);
+    }
+    $this->email->subject($mail['subject']);
+
+    foreach((array) $mail['attachments'] as $attachment){
+      $file_path = $attachment;
+      $file_name = null;
+      if(is_array($attachment)){
+        if(!isset($attachment['path'])){
+          continue;
+        }
+        $file_path = $attachment['path'];
+        if(isset($attachment['name'])){
+          $file_name = $attachment['name'];
+        }
+      }
+      $this->email->attach($file_path, '', $file_name);
+    }
+
+    $this->email->message($mail['html']);
+    return $this->email->send();
   }
   function __call($method, $args){
     if($this->router->class == get_class($this)){

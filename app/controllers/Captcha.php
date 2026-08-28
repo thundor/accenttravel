@@ -4,7 +4,11 @@ if (!defined('BASEPATH'))
 
 class Captcha extends MX_Controller {
 	public function validate() {
-		$this->load->helper('cookie');
+		$this->load->helper(array('cookie', 'data'));
+		if (ensure_human_for_internal_ip($this)) {
+			echo 1;
+			exit;
+		}
 		$this->session->unset_userdata('is_human');
 		// delete_cookie('is_human');
 		

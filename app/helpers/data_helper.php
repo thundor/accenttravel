@@ -62,6 +62,50 @@ if ( ! function_exists('dd')) {
 	}
 }
 
+if ( ! function_exists('is_internal_ip')) {
+  /**
+   * True for private / reserved ranges (LAN, localhost, link-local).
+   * Uses ONLY REMOTE_ADDR by default — never X-Forwarded-For / Client-IP (spoofable).
+   */
+  function is_internal_ip($ip = '') {
+    if ($ip === '' || $ip === null) {
+      $ip = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '';
+    }
+    $ip = trim((string) $ip);
+    if ($ip === '' || !filter_var($ip, FILTER_VALIDATE_IP)) {
+      return false;
+    }
+    return !filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE);
+  }
+}
+
+if ( ! function_exists('ensure_human_for_internal_ip')) {
+  /**
+   * For LAN / localhost: set is_human session + cookie so captcha gate passes.
+   * @return bool true if internal IP was handled
+   */
+  function ensure_human_for_internal_ip($CI = null) {
+    if (!is_internal_ip()) {
+      return false;
+    }
+    if (!$CI) {
+      $CI =& get_instance();
+    }
+    $CI->load->helper(array('cookie', 'string'));
+    $existing = $CI->session->userdata('is_human');
+    $cookie = get_cookie('is_human');
+    if ($existing && $cookie && $existing === $cookie) {
+      return true;
+    }
+    $human_token = $existing ?: random_string();
+    $CI->session->set_userdata('is_human', $human_token);
+    set_cookie('is_human', $human_token, 86400);
+    // Available on current request (set_cookie only affects the response header)
+    $_COOKIE['is_human'] = $human_token;
+    return true;
+  }
+}
+
 if ( ! function_exists('gzCompressFile')) {
 function gzCompressFile($source, $level = 9, $destfolder=null){
     $dest = $source . '.gz'; 
